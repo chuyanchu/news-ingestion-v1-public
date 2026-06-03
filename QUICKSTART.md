@@ -1,6 +1,6 @@
-# 成员快速开始
+# 快速开始
 
-这份说明给项目成员使用。目标是：从 GitHub clone 后，在自己电脑上独立抓取财经新闻，并导出 Excel/CSV/JSONL。
+这份说明用于快速跑通项目：从 GitHub clone 后，在本地抓取财经新闻，并导出 Excel/CSV/JSONL。
 
 ## 你需要准备
 
@@ -19,11 +19,6 @@ cd news-ingestion-v1
 ```
 
 不要在 `C:\windows\system32` 里 clone。看到 PowerShell 提示符是 `PS C:\windows\system32>` 时，先切到桌面或自己的工作目录。
-
-如果仓库是私有仓库，成员必须先满足其中一个条件：
-
-- 组长已经在 GitHub 把该成员加为 collaborator。
-- 成员自己的 GitHub 账号已经登录，并且有该仓库访问权限。
 
 如果 clone 成功，才继续执行后面的 `cd`、`doctor.ps1` 和 `run.ps1`。
 
@@ -68,7 +63,7 @@ data/daily/YYYYMMDD/
 - `crawl_report_YYYYMMDD.md`
 - `run_metadata_YYYYMMDD.jsonl`
 
-## 5. 导出给自己使用
+## 5. 导出数据
 
 启动本地 API：
 
@@ -178,11 +173,11 @@ data/samples/
 
 这些数据不会提交到 GitHub，因为 `.gitignore` 已经排除。
 
-## 7. 给组长提交问题
+## 7. 排查信息
 
-如果抓取失败，把这些信息发给组长：
+如果抓取失败，先保留这些信息，方便定位问题：
 
 - 运行的命令。
 - `data/daily/YYYYMMDD/crawl_report_YYYYMMDD.md`。
 - 报错截图或终端输出。
-- 你的系统版本和 Python 版本。
+- 系统版本和 Python 版本。

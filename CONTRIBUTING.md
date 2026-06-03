@@ -1,15 +1,15 @@
 # 协作说明
 
-欢迎成员基于本仓库改进财经新闻采集器。
+欢迎基于本仓库改进财经新闻采集器。
 
-## 分工建议
+## 改动入口
 
-| 模块 | 主要文件 | 适合负责的人 |
+| 模块 | 主要文件 | 改动重点 |
 | --- | --- | --- |
-| 数据源适配 | `src/news_ingestion/fetchers.py`、`config/source_registry.v1.json` | 爬虫/数据同学 |
-| 数据质量 | `src/news_ingestion/quality.py`、`config/quality_rules.v1.json` | 数据治理同学 |
-| API 与导出 | `src/news_ingestion/api_server.py` | 后端/API 同学 |
-| 文档与交付 | `README.md`、`MEMBER_QUICKSTART.md`、`DEPLOY.md` | 组长/产品同学 |
+| 数据源适配 | `src/news_ingestion/fetchers.py`、`config/source_registry.v1.json` | 源站入口、列表解析、正文抽取 |
+| 数据质量 | `src/news_ingestion/quality.py`、`config/quality_rules.v1.json` | 质量分、复核规则、拒收规则 |
+| API 与导出 | `src/news_ingestion/api_server.py` | 查询接口、热点接口、CSV/XLSX/ZIP 导出 |
+| 文档与说明 | `README.md`、`QUICKSTART.md`、`DEPLOY.md` | 使用流程、部署流程、维护说明 |
 
 ## 提交前必须做
 

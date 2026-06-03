@@ -30,7 +30,7 @@
 | flag | count | 处理建议 |
 | --- | --- | --- |
 
-## 今日可交付文件
+## 今日输出文件
 
 - `articles_YYYYMMDD.jsonl`
 - `rejected_YYYYMMDD.jsonl`

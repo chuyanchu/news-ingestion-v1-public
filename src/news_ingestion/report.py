@@ -119,7 +119,7 @@ def build_report(
     else:
         lines.append("| - | 0 | 今日无明显质量问题。 |")
     lines.append("")
-    lines.append("## 今日可交付文件")
+    lines.append("## 今日输出文件")
     lines.append("")
     lines.append(f"- `articles_{report_date.replace('-', '')}.jsonl`")
     lines.append(f"- `rejected_{report_date.replace('-', '')}.jsonl`")

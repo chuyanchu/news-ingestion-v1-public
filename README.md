@@ -4,26 +4,26 @@ type: product
 tags:
   - 财经新闻数据Agent
   - 数据抓取
-  - V1交付
+  - V1
 ---
 
 # News Ingestion V1
 
-这是财经新闻数据 Agent 的第一版采集产品包。它的目标不是一次性抓完所有新闻源，而是先建立一套稳定、可追溯、可校验、可结构化交付的数据入口。
+这是财经新闻数据 Agent 的第一版采集产品包。它的目标不是一次性抓完所有新闻源，而是先建立一套稳定、可追溯、可校验、可结构化输出的数据入口。
 
-给成员使用时，先读：
+第一次使用建议先读：
 
-- `MEMBER_QUICKSTART.md`
-- `SOURCE_HANDOFF.md`
+- `QUICKSTART.md`
+- `SOURCE_GUIDE.md`
 - `CONTRIBUTING.md`
 
-## 交付物
+## 项目内容
 
 - `config/source_registry.v1.json`：数据源注册表。
 - `schemas/article_record.schema.json`：标准新闻记录 Schema。
 - `templates/crawl_report_template.md`：每日采集健康报告模板。
 - `src/news_ingestion/`：本地可运行的校验、质量门和报告生成工具。
-- `run_api.ps1`：团队实时 API 启动脚本。
+- `run_api.ps1`：本地实时 API 启动脚本。
 - `Dockerfile`：公网容器部署入口。
 - `render.yaml`：Render Blueprint 部署配置。
 - `railway.json`：Railway 部署配置。
@@ -85,7 +85,7 @@ powershell -ExecutionPolicy Bypass -File .\run.ps1 daily
 
 每日采集会读取 `data/inbox/` 下的当天输入，并输出到 `data/daily/YYYYMMDD/`。
 
-启动团队实时 API：
+启动实时 API：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 0.0.0.0 -Port 8080 -RefreshIntervalMinutes 10
@@ -115,7 +115,7 @@ POST /api/v1/refresh?date=20260603
 
 公网部署时设置 `NEWS_API_TOKEN`，保护刷新接口。
 
-成员最方便使用：
+常用导出方式：
 
 - Excel/WPS/飞书表格：下载 `.xlsx` 或 `.csv`。
 - Python/Agent：下载 `.jsonl`。
@@ -133,9 +133,9 @@ POST /api/v1/refresh?date=20260603
 
 关键要求：给服务挂载持久化磁盘到 `/app/data`，否则重启后历史采集数据可能丢失。
 
-## 源码分发
+## 源码使用
 
-这份源码可以给成员使用。推荐把本目录作为单独 GitHub 仓库分发，或者运行：
+推荐把本目录作为单独 GitHub 仓库使用，或者运行：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\package_source.ps1
@@ -147,7 +147,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\package_source.ps1
 dist/news-ingestion-v1-source.zip
 ```
 
-源码分发说明见 `SOURCE_HANDOFF.md`。不要把 `.env`、`data/daily/`、`data/realtest/`、`data/multisource_test/` 一起发给成员。
+源码使用说明见 `SOURCE_GUIDE.md`。不要把 `.env`、`data/daily/`、`data/realtest/`、`data/multisource_test/` 一起提交或打包。
 
 推 GitHub 前请读 `GITHUB_PUBLISH_CHECKLIST.md`。
 
@@ -191,12 +191,4 @@ comment_count=30/90
 - 互动指标必须区分真实 0 和缺失 `null`。
 - 无法进入下游的数据进入 `rejected_YYYYMMDD.jsonl`。
 - 每日生成 `crawl_report_YYYYMMDD.md`。
-- 所有数据保留发布时间和抓取时间，支持 [[时点一致性与前视偏差]]。
-
-## 关联笔记
-
-- [[财经新闻采集器V1最终交付]]
-- [[ArticleRecord数据标准]]
-- [[热点特征与互动指标标准]]
-- [[数据质量门V1]]
-- [[数据源分层与源注册表V1]]
+- 所有数据保留发布时间和抓取时间，便于检查时点一致性与前视偏差。

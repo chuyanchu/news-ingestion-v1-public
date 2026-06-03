@@ -18,7 +18,7 @@
 
 ## Render 快速部署
 
-1. 把 `70_Product/NewsIngestionV1` 作为一个单独仓库推到 GitHub。
+1. 把本项目根目录作为一个单独仓库推到 GitHub。
 2. 打开 Render，选择 `New` -> `Blueprint`。
 3. 连接这个 GitHub 仓库。
 4. Render 会读取 `render.yaml`。
@@ -42,7 +42,7 @@ Render 的 persistent disk 必须保留，否则服务重启后历史 `data/dail
 
 ## Railway 快速部署
 
-1. 把 `70_Product/NewsIngestionV1` 作为一个单独仓库推到 GitHub。
+1. 把本项目根目录作为一个单独仓库推到 GitHub。
 2. 打开 Railway，选择从 GitHub 部署。
 3. Railway 会读取 `railway.json` 并用 Dockerfile 构建。
 4. 在 Variables 里设置：
@@ -66,7 +66,7 @@ NEWS_API_TOKEN=自己生成的长随机字符串
 https://你的域名/health
 ```
 
-## 成员下载地址
+## 下载地址
 
 部署完成后，把 `{BASE_URL}` 换成你的公网地址：
 

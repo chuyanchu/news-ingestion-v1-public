@@ -801,7 +801,7 @@ def main() -> None:
     state.data_root.mkdir(parents=True, exist_ok=True)
     state.inbox_dir.mkdir(parents=True, exist_ok=True)
 
-    # Load registry at startup to fail fast when the source configuration is broken.
+    # Check the registry before serving traffic so configuration errors surface early.
     load_registry(args.registry)
 
     server = ThreadingHTTPServer((args.host, args.port), NewsApiHandler)

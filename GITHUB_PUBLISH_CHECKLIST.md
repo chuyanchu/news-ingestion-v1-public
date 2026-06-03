@@ -1,13 +1,13 @@
 # GitHub 发布清单
 
-这份清单给组长使用。目标是把本项目推到 GitHub，让成员 clone 后能自己抓取数据。
+这份清单用于维护公开 GitHub 仓库，确保源码、配置和文档可以被直接 clone 和运行。
 
 ## 1. 发布前检查
 
 在项目目录运行：
 
 ```powershell
-cd C:\Users\cmpux\Desktop\活动\量化交易\Agent\70_Product\NewsIngestionV1
+cd C:\path\to\news-ingestion-v1
 powershell -ExecutionPolicy Bypass -File .\scripts\doctor.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\package_source.ps1
 ```
@@ -20,7 +20,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\package_source.ps1
 
 ## 2. 建议仓库结构
 
-GitHub 仓库根目录就是 `NewsIngestionV1` 里的内容，不要把整个 Obsidian 仓库都推上去。
+GitHub 仓库根目录就是本项目目录里的内容，不要把上级工作区、笔记库或本地数据目录一起推上去。
 
 应该推：
 
@@ -36,9 +36,9 @@ templates/
 DEPLOY.md
 Dockerfile
 GITHUB_PUBLISH_CHECKLIST.md
-MEMBER_QUICKSTART.md
+QUICKSTART.md
 README.md
-SOURCE_HANDOFF.md
+SOURCE_GUIDE.md
 requirements.txt
 run.ps1
 run_api.ps1
@@ -73,15 +73,15 @@ git push -u origin main
 
 `git status` 时要特别确认没有 `.env` 和 `data/daily/`。
 
-## 4. 成员使用说明
+## 4. 使用入口
 
-发给成员：
+建议先读：
 
 ```text
-先读 README.md，再读 MEMBER_QUICKSTART.md。
+先读 README.md，再读 QUICKSTART.md。
 ```
 
-成员最常用命令：
+常用命令：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\doctor.ps1
@@ -91,21 +91,21 @@ powershell -ExecutionPolicy Bypass -File .\run.ps1 daily
 
 ## 5. 协作规则
 
-成员改新闻源适配器时，优先改：
+改新闻源适配器时，优先改：
 
 ```text
 src/news_ingestion/fetchers.py
 config/source_registry.v1.json
 ```
 
-成员改质量门时，优先改：
+改质量门时，优先改：
 
 ```text
 src/news_ingestion/quality.py
 config/quality_rules.v1.json
 ```
 
-成员不要提交自己的：
+不要提交本地生成内容：
 
 ```text
 data/
@@ -115,7 +115,7 @@ dist/
 
 ## 6. 发布后验收
 
-找一名成员 clone 仓库，独立运行：
+在新的工作目录 clone 仓库，独立运行：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\doctor.ps1
@@ -123,11 +123,11 @@ powershell -ExecutionPolicy Bypass -File .\run.ps1 sample
 powershell -ExecutionPolicy Bypass -File .\run.ps1 daily
 ```
 
-如果成员机器能生成：
+如果能生成：
 
 ```text
 data/daily/YYYYMMDD/articles_YYYYMMDD.jsonl
 data/daily/YYYYMMDD/crawl_report_YYYYMMDD.md
 ```
 
-就说明 GitHub 分发成功。
+就说明 GitHub 仓库可以正常使用。
