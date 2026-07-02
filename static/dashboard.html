@@ -417,10 +417,60 @@ const dateVal = () => $('dateSelect').value;
 const dateQ = () => { const v = dateVal(); return v ? `date=${encodeURIComponent(v)}&` : ''; };
 
 async function api(url, opts) {
+  if (isStaticMode() && (!opts || !opts.method || opts.method.toUpperCase() === 'GET')) {
+    return staticApi(url);
+  }
+  if (isStaticMode()) {
+    throw new Error('静态公网看板由 GitHub Actions 定时更新，不能在页面内手动刷新采集。');
+  }
   const r = await fetch(url, opts);
   const j = await r.json();
   if (!j.ok) throw new Error(j.error?.message || '请求失败');
   return j;
+}
+
+function isStaticMode() {
+  return window.NEWS_STATIC_MODE === true || location.hostname.endsWith('github.io');
+}
+
+function staticDateFrom(urlObj) {
+  return urlObj.searchParams.get('date') || dateVal();
+}
+
+function staticFile(name) {
+  return `static-data/${name}`;
+}
+
+async function staticFetch(name) {
+  const r = await fetch(staticFile(name), { cache: 'no-store' });
+  if (!r.ok) throw new Error(`静态数据不存在：${name}`);
+  return await r.json();
+}
+
+async function staticApi(url) {
+  const u = new URL(url, location.origin);
+  const path = u.pathname.replace(/^\/+/, '');
+  if (path.endsWith('api/v1/status')) return staticFetch('status.json');
+  if (path.endsWith('api/v1/dates')) return staticFetch('dates.json');
+  if (path.endsWith('api/v1/gpt/status')) return staticFetch('gpt_status.json');
+  if (path.endsWith('api/v1/sector-suggestions')) return staticFetch('sector_suggestions.json');
+  if (path.endsWith('api/v1/backtest')) return staticFetch('backtest.json');
+  const date = staticDateFrom(u);
+  if (path.endsWith('api/v1/gpt/analysis')) return staticFetch(`gpt_analysis_${date}.json`);
+  if (path.endsWith('api/v1/heatmap')) return staticFetch(`heatmap_${date}.json`);
+  if (path.endsWith('api/v1/realtime')) return staticFetch(`realtime_${date}.json`);
+  if (path.endsWith('api/v1/source-health')) return staticFetch(`source_health_${date}.json`);
+  if (path.endsWith('api/v1/events')) return staticFetch(`events_${date}.json`);
+  if (path.endsWith('api/v1/stocks')) return staticFetch(`stocks_${date}.json`);
+  if (path.endsWith('api/v1/trade-pool')) {
+    const days = u.searchParams.get('days') || '3';
+    return staticFetch(`trade_pool_${date}_${days}.json`);
+  }
+  const sectorMatch = decodeURIComponent(path).match(/api\/v1\/sector\/(.+)\/news$/);
+  if (sectorMatch) {
+    return staticFetch(`sector_news_${date}_${encodeURIComponent(sectorMatch[1])}.json`);
+  }
+  throw new Error(`静态模式暂不支持：${url}`);
 }
 
 // ── date picker ──
