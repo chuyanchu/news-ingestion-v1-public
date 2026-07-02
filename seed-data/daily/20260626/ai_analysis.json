@@ -1,0 +1,41 @@
+{
+  "32f9684891deb7a4904bc359": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "八部委发布金融产品网络营销新规，财经大V需持证上岗，挂靠渠道收紧。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "reason": "新规限制无资质博主营销，影响券商及代销平台业务，但长期利好合规机构。",
+    "catalyst": "监管趋严，金融产品网络营销门槛提高。"
+  },
+  "a59ebb97f74c1426c22fea9a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家银行收紧个人贵金属业务，停办代理、上调保证金，管控力度升级。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "reason": "银行收紧业务反映风险防控，对银行板块影响中性偏负面，但非核心催化。",
+    "catalyst": "银行防控风险，保护投资者，落实监管要求。"
+  },
+  "884806212eb0a21b8f1900df": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "厄尔尼诺致高温提前，但家电销售承压，行业告别靠天吃饭，转向结构优化。",
+    "impact": "negative",
+    "importance": 65,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "reason": "家电行业整体承压，价格战加剧利润下滑，短期气候红利有限。",
+    "catalyst": "厄尔尼诺高温未有效刺激需求，行业排产下滑，价格战压缩利润。"
+  }
+}

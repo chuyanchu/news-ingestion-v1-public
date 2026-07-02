@@ -1,0 +1,386 @@
+{
+  "3c7a8ad63574dbb4e3d7a141": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "保险业前5月保费增超4%，总资产突破43万亿元，人身险增速放缓，财产险转正。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "保险"
+    ],
+    "reason": "行业总资产和保费稳健增长，政策支持商业健康险，利好保险板块。",
+    "catalyst": "保险业总资产创新高，保费持续增长，政策推动商业健康险发展。"
+  },
+  "b4f06dbe911a5ce376501575": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美团股东会王兴回应股价低迷，复盘两大战略失误，计划回购并处置投资，战略转向减亏修复。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "消费"
+    ],
+    "reason": "美团战略转向减亏、回购和投资变现，利好股价修复，但补贴竞争是否结束待验证。",
+    "catalyst": "美团计划股票回购并处置投资，释放积极信号。"
+  },
+  "39bb55b0dd2ddcf68cd02249": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "庆祝中国共产党成立105周年大会将于7月1日举行，习近平将颁授“七一勋章”并发表重要讲话。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "reason": "政治性事件，对A股市场无直接交易影响。",
+    "catalyst": "政治纪念活动，非经济催化。"
+  },
+  "21a09537d7d53cf1d549f1e0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "银行AIC上半年投资超58只项目，加速涌入硬科技，覆盖半导体、新能源等领域。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "龙佰集团",
+        "code": "002601"
+      },
+      {
+        "name": "华友钴业",
+        "code": "600516"
+      }
+    ],
+    "reason": "银行AIC加速投资硬科技，利好半导体、新能源板块及被投公司。",
+    "catalyst": "AIC试点扩围，长期资本涌入硬科技，产业龙头获增资。"
+  },
+  "bca0c30942d1f00cab36643b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "*ST亚振、*ST大晟、*ST艾艾撤销退市风险警示，7月1日复牌。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "亚振家居",
+        "code": "603389"
+      },
+      {
+        "name": "*ST大晟",
+        "code": "600892"
+      },
+      {
+        "name": "*ST艾艾",
+        "code": "603580"
+      }
+    ],
+    "reason": "撤销退市风险警示，基本面改善，短期有交易机会。",
+    "catalyst": "撤销风险警示，恢复正常交易，涨跌幅放宽至10%。"
+  },
+  "6fbbc541d2bd7b4b6060bc5a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "盛达资源预计上半年净利增399%-471%，因产能释放和贵金属价格上涨。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "有色金属",
+    "stocks": [
+      {
+        "name": "盛达资源",
+        "code": "000603"
+      }
+    ],
+    "reason": "业绩大幅预增，白银龙头受益于量价齐升，且铜金矿布局打开成长空间。",
+    "catalyst": "产能释放叠加贵金属价格上涨，业绩高增长确定性强。"
+  },
+  "740f3473b6ac7c91b161a6b4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国常会部署人工智能、外贸、碳达峰、健康中国等工作，强调AI创新突破和规模化应用。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策明确支持人工智能发展，利好AI算力板块，但未点名具体个股。",
+    "catalyst": "国常会强调加快AI关键技术攻关和智算集群建设。"
+  },
+  "70d0660dc91d82c3faa522fa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院印发《教育发展“十五五”规划》，部署23项重点任务和15个重大项目，目标2030年建成高质量教育体系。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "教育",
+    "stocks": [],
+    "reason": "教育板块政策利好，但未点名具体上市公司，暂不进入交易池。",
+    "catalyst": "教育强国建设政策催化，关注教育信息化及职业教育龙头。"
+  },
+  "fcb73f2acf2e6fe878b5dbfd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日元兑美元跌至近40年低点，日本干预预期升温，日元走弱提振出口和股市。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "外汇",
+    "stocks": [],
+    "reason": "新闻主要涉及外汇市场，未直接关联A股板块或个股，不进入交易池。",
+    "catalyst": "日元贬值预期及日本潜在干预"
+  },
+  "574b9b7ba92b91ccdd562e9d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日科化学筹划收购亘元新材控制权，亘元新材为锂电电解液添加剂龙头，宁德时代是其二股东。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "日科化学",
+        "code": "300214"
+      }
+    ],
+    "reason": "涉及新能源产业链关键材料，且宁德时代参股，具有战略价值。",
+    "catalyst": "收购锂电电解液添加剂龙头，切入新能源上游材料领域。"
+  },
+  "278a60110f853910c735dd2d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Perfect Moment 2026财年亏损大幅收窄，营收增长，毛利率显著提升。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "非A股公司，不直接影响A股市场。",
+    "catalyst": "业绩改善，但非A股标的，无直接催化。"
+  },
+  "61c117f06db8103f14d9aa41": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国最高法院允许各州对选举日后送达的邮寄选票计票，影响2024年大选。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及美国选举法律，与A股市场无直接关联，不进入交易池。",
+    "catalyst": "美国大选计票规则变化，对A股无直接影响。"
+  },
+  "a9a25fa51883eb0b5897fbad": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股午后拉升，医药板块爆发，半导体板块走强，兆易创新成交额居首。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "神工股份",
+        "code": "688233"
+      },
+      {
+        "name": "有研硅",
+        "code": "688432"
+      },
+      {
+        "name": "华海清科",
+        "code": "688120"
+      },
+      {
+        "name": "广钢气体",
+        "code": "688548"
+      },
+      {
+        "name": "昊华科技",
+        "code": "600378"
+      },
+      {
+        "name": "雅克科技",
+        "code": "002409"
+      },
+      {
+        "name": "巨星农牧",
+        "code": "603477"
+      }
+    ],
+    "reason": "医药和半导体板块爆发，政策与行业催化明确，市场情绪积极。",
+    "catalyst": "医保目录初审及三星巨额投资半导体，行业景气度提升。"
+  },
+  "f4f58d6a8dcb4b0831072d58": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "德意志银行预计6月底养老金和指数买盘将使美债收益率曲线趋平，历史数据显示季末前曲线走平约0.5个基点。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "债券",
+    "stocks": [],
+    "reason": "新闻主要涉及美国国债市场，与A股关联度低，不进入交易池。",
+    "catalyst": "季末养老金和指数基金买盘推动美债曲线走平。"
+  },
+  "f8781d7c2d38b4045f8cd68f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中闽能源拟投资73.35亿元建设长乐外海集中统一送出工程项目，预计提供稳定利润贡献。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中闽能源",
+        "code": "600163"
+      }
+    ],
+    "reason": "重大投资利好，项目获核准，预计贡献稳定利润，提升公司影响力。",
+    "catalyst": "投资73亿建设海上风电送出工程，获发改委核准，预计2026年开工。"
+  },
+  "88b77fef60e6834f4d189a05": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部副部长凌激表示深化与中亚区域经济合作，推动贸易投资自由化便利化。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "一带一路",
+    "stocks": [],
+    "reason": "政策利好一带一路及外贸相关板块，但未直接点名具体公司。",
+    "catalyst": "深化与中亚合作，推动贸易投资自由化便利化。"
+  },
+  "7aa368ee13980ead2fbbd5c5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "ServiceNow与埃森哲推出AI风险服务，帮助企业迁移遗留平台，应对网络攻击和合规挑战。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "AI应用",
+    "stocks": [],
+    "reason": "新闻涉及AI风险服务，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "AI驱动风险管理和遗留系统迁移需求增长。"
+  },
+  "9b2ba54b46e2fec54b1e110d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "知名基金经理二季度调仓，减仓奥飞娱乐、伟明环保等，增持通策医疗、泰格医药等医疗股。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "奥飞娱乐",
+        "code": "002292"
+      },
+      {
+        "name": "伟明环保",
+        "code": "603568"
+      },
+      {
+        "name": "中荣股份",
+        "code": "301223"
+      },
+      {
+        "name": "通策医疗",
+        "code": "600763"
+      },
+      {
+        "name": "泰格医药",
+        "code": "300347"
+      },
+      {
+        "name": "佰仁医疗",
+        "code": "688198"
+      }
+    ],
+    "reason": "知名基金经理调仓动向反映机构对医药板块的看好，具有参考价值。",
+    "catalyst": "基金经理增持医疗股，显示对医药研发服务等赛道长期看好。"
+  },
+  "aa5c4fc22fcc2c917fe56bf9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股医药生物板块爆发涨停潮，港股大幅反弹，美团、百度、阿里等大涨。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "舒泰神",
+        "code": ""
+      },
+      {
+        "name": "广生堂",
+        "code": ""
+      },
+      {
+        "name": "三生国健",
+        "code": ""
+      },
+      {
+        "name": "万邦医药",
+        "code": ""
+      },
+      {
+        "name": "佰仁医疗",
+        "code": ""
+      },
+      {
+        "name": "荣昌生物",
+        "code": ""
+      },
+      {
+        "name": "百奥赛图",
+        "code": ""
+      },
+      {
+        "name": "金石亚药",
+        "code": ""
+      }
+    ],
+    "reason": "医药生物板块强势爆发，多股涨停，市场情绪积极，可关注后续持续性。",
+    "catalyst": "医药板块超跌反弹，资金涌入，港股医药股联动上涨。"
+  },
+  "f3c2574aebe616fc6cfcb92e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "CBRE集团将于7月29日发布2026年第二季度财报，市场预期每股收益约1.50美元，公司此前上调全年指引。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "房地产服务",
+    "stocks": [],
+    "reason": "新闻涉及美股公司，与A股无直接关联，不进入交易池。",
+    "catalyst": "财报发布及业绩指引，但非A股标的。"
+  }
+}

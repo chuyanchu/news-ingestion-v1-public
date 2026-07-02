@@ -1,0 +1,3 @@
+{"source": "新浪财经", "source_id": "sina_finance", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-01/doc-inifinus2902665.shtml", "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>", "crawled_at": "2026-07-01T23:45:09.335898+08:00"}
+{"source": "央视财经", "source_id": "cctv_finance", "url": "https://finance.cctv.com/2026/06/26/ARTIHIYTkIPiXPU1J63Oq5ld260626.shtml", "error": "The read operation timed out", "crawled_at": "2026-07-01T23:49:40.818166+08:00"}
+{"source": "央视财经", "source_id": "cctv_finance", "url": "https://finance.cctv.com/2026/06/25/ARTIF0iHWzHiOGsuNvXLQ5p3260625.shtml", "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>", "crawled_at": "2026-07-01T23:49:40.818166+08:00"}
