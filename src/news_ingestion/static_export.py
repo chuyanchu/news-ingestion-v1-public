@@ -162,9 +162,16 @@ def export_static_site(data_root: Path, out_dir: Path, max_dates: int = 10) -> N
         "running_refresh": False,
     }))
     write_json(out_data / "dates.json", api_payload(build_dates(data_root, dates), {"count": len(dates)}))
-    info = provider_info()
-    info["enabled"] = False
-    info["note"] = "Static GitHub Pages view; AI analysis is precomputed when available."
+    has_precomputed_ai = False
+    for tag in dates:
+        if any(item.get("enabled") for item in load_ai_analysis(data_root, tag).values()):
+            has_precomputed_ai = True
+            break
+    info = {
+        "provider": "precomputed",
+        "enabled": has_precomputed_ai,
+        "note": "Static GitHub Pages view; browser cannot call AI directly. AI analysis is precomputed by GitHub Actions when secrets are configured.",
+    }
     write_json(out_data / "gpt_status.json", api_payload(info))
 
     dated_records = [(tag, load_articles(data_root, tag)) for tag in dates]

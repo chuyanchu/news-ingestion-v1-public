@@ -498,7 +498,8 @@ async function checkAi() {
     const pill = $('aiPill');
     if (j.data.enabled) {
       pill.className = 'ai-pill on';
-      pill.innerHTML = `<span class="dot"></span>AI · ${j.data.provider === 'deepseek' ? 'DeepSeek' : 'GPT'}`;
+      const label = j.data.provider === 'precomputed' ? '已预计算' : (j.data.provider === 'deepseek' ? 'DeepSeek' : 'GPT');
+      pill.innerHTML = `<span class="dot"></span>AI · ${label}`;
     }
   } catch (_) {}
 }
@@ -509,6 +510,11 @@ async function checkRuntime() {
     if (j.data.refresh_requires_token) {
       $('refreshBtn').style.display = 'none';
       $('refreshNote').style.display = 'inline';
+    }
+    if (isStaticMode()) {
+      $('aiBtn').disabled = true;
+      $('aiBtn').textContent = '✦ AI 预计算';
+      $('aiBtn').title = '静态公网模式不在浏览器内调用 AI；AI 结果由 GitHub Actions 使用 Secret 预计算后展示。';
     }
   } catch (_) {}
 }
@@ -847,9 +853,14 @@ async function loadPersistedAi() {
     const j = await api(`/api/v1/gpt/analysis?${dateQ()}`);
     state.aiMap = {};
     j.data.forEach(d => { if (d.article_id) state.aiMap[d.article_id] = d; });
-    if (j.data.length) {
+    const enabled = j.data.filter(d => d.enabled);
+    if (enabled.length) {
+      $('aiPill').className = 'ai-pill on';
+      $('aiPill').innerHTML = `<span class="dot"></span>AI · 已预计算`;
       $('aiPanel').style.display = 'block';
-      $('aiMeta').textContent = `已缓存 ${j.data.length} 条 · 点「AI 分析」更新`;
+      $('aiMeta').textContent = isStaticMode()
+        ? `静态预计算 ${enabled.length} 条 · 随 GitHub Actions 更新`
+        : `已缓存 ${enabled.length} 条 · 点「AI 分析」更新`;
       renderAiCards(j.data);
       if (state.articleList.length) renderNews(state.articleList);
     }
@@ -857,6 +868,11 @@ async function loadPersistedAi() {
 }
 
 async function runAi() {
+  if (isStaticMode()) {
+    $('aiPanel').style.display = 'block';
+    $('aiBody').innerHTML = '<div class="empty">静态公网模式不能直接调用 AI。请在 GitHub 仓库配置 DEEPSEEK_API_KEY 或 OPENAI_API_KEY Secret，然后手动运行 Pages workflow。</div>';
+    return;
+  }
   const btn = $('aiBtn'); btn.disabled = true; btn.textContent = '✦ 分析中…';
   $('aiPanel').style.display = 'block';
   $('aiBody').innerHTML = `<div class="empty">正在调用 AI 逐条分析… <span class="shimmer"></span></div>`;
