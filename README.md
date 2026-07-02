@@ -9,7 +9,7 @@ tags:
 
 # News Ingestion V1
 
-这是财经新闻数据 Agent 的第一版采集产品包。它的目标不是一次性抓完所有新闻源，而是先建立一套稳定、可追溯、可校验、可结构化输出的数据入口。
+这是财经新闻数据 Agent 的第一版采集产品包。重构后的主线是“消息驱动的板块热度看板”：保留原有新闻抓取与质量校验能力，在此基础上展示每日板块热力图、实时消息和交易池。
 
 第一次使用建议先读：
 
@@ -20,16 +20,31 @@ tags:
 ## 项目内容
 
 - `config/source_registry.v1.json`：数据源注册表。
+- `config/sector_keywords.v1.json`：板块关键词词典，用于把新闻映射到股票板块。
 - `schemas/article_record.schema.json`：标准新闻记录 Schema。
 - `templates/crawl_report_template.md`：每日采集健康报告模板。
 - `src/news_ingestion/`：本地可运行的校验、质量门和报告生成工具。
+- `static/dashboard.html`：每日热力图、实时消息和交易池看板。
 - `run_api.ps1`：本地实时 API 启动脚本。
 - `Dockerfile`：公网容器部署入口。
 - `render.yaml`：Render Blueprint 部署配置。
 - `railway.json`：Railway 部署配置。
 - `data/`：运行样例后生成的标准化新闻、拒收新闻和日报。
 
-## 第一版定位
+## 重构后模块定位
+
+老师反馈后，本模块先聚焦核心功能，避免继续做复杂的数据平台：
+
+- 消息驱动：从新浪财经、东方财富、证券时报、央视财经等源抓取新闻。
+- 板块热力图：按板块关键词聚合新闻热度，展示热度分、相关新闻数和重要新闻数。
+- 点击看资讯：点击板块后查看该板块相关新闻、来源、时间、摘要、影响方向和重要性。
+- 实时推送：API 后台可按间隔刷新，前端每分钟自动重载实时消息。
+- GPT 增强：配置 `OPENAI_API_KEY` 后可对单篇新闻做摘要、影响方向和重要性分析。
+- 交易池：可按过去 1/3/5/10 天筛选持续有消息催化的板块。
+
+第一阶段不引入 BERTopic 等重模型，先用可解释的“板块词典 + 新闻热度 + 来源权重 + 重要词”完成 MVP。
+
+## 原始采集定位
 
 V1 负责把外部新闻源转成统一的 `ArticleRecord 2.0`。后续的去重、热点聚类、事件抽取、情绪分析和热度排序都应该从这个标准格式开始。
 
@@ -97,13 +112,26 @@ powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 0.0.0.0 -Port 8
 powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19080 -RefreshIntervalMinutes 0 -NoRefreshOnStart
 ```
 
+浏览器打开看板：
+
+```text
+http://127.0.0.1:19080/
+```
+
 常用接口：
 
 ```text
 GET /health
+GET /
 GET /api/v1/dates
 GET /api/v1/articles?date=20260603&limit=50
 GET /api/v1/hot?date=20260603&limit=30
+GET /api/v1/realtime?date=20260603&limit=20
+GET /api/v1/heatmap?date=20260603&limit=30
+GET /api/v1/sector/AI算力/news?date=20260603
+GET /api/v1/trade-pool?days=3&limit=20
+GET /api/v1/gpt/status
+GET /api/v1/gpt/analyze?date=20260603&article_id=ARTICLE_ID
 GET /api/v1/sources?date=20260603
 GET /api/v1/export/articles.csv?date=20260603
 GET /api/v1/export/articles.xlsx?date=20260603

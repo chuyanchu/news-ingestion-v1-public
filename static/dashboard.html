@@ -1,0 +1,875 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>财经新闻 · 板块消息热力图</title>
+  <style>
+    :root {
+      --bg: #f4f5f7;
+      --panel: #ffffff;
+      --panel-2: #fafbfc;
+      --border: #e5e7eb;
+      --border-2: #eef0f3;
+      --text: #1f2329;
+      --text-2: #4e5969;
+      --text-3: #86909c;
+      --red: #e8443c;        /* A股惯例：涨/热=红 */
+      --red-bg: #fef2f1;
+      --green: #00a870;      /* 跌=绿 */
+      --green-bg: #eafaf4;
+      --amber: #f0883a;
+      --amber-bg: #fff5eb;
+      --blue: #2d5cf6;
+      --blue-bg: #eef2ff;
+      --shadow: 0 1px 3px rgba(0,0,0,.04), 0 1px 2px rgba(0,0,0,.06);
+      --shadow-lg: 0 4px 16px rgba(0,0,0,.08);
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg); color: var(--text); font-size: 13px; line-height: 1.5;
+    }
+    a { color: inherit; }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--panel); border-bottom: 1px solid var(--border);
+    }
+    .topbar {
+      max-width: 1480px; margin: 0 auto; padding: 0 20px; height: 56px;
+      display: flex; align-items: center; gap: 20px;
+    }
+    .brand { display: flex; align-items: center; gap: 9px; font-size: 16px; font-weight: 700; white-space: nowrap; }
+    .brand-mark {
+      width: 30px; height: 30px; border-radius: 7px; color: #fff; font-size: 15px;
+      background: linear-gradient(135deg, #e8443c, #f0883a);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .brand small { font-size: 11px; font-weight: 500; color: var(--text-3); margin-left: 2px; }
+
+    .header-spacer { flex: 1; }
+
+    /* date picker group */
+    .field { display: flex; align-items: center; gap: 7px; }
+    .field-label { font-size: 12px; color: var(--text-3); white-space: nowrap; }
+    select, .btn {
+      height: 34px; border-radius: 7px; font-size: 13px; cursor: pointer;
+      border: 1px solid var(--border); background: var(--panel); color: var(--text);
+      transition: all .15s;
+    }
+    select { padding: 0 28px 0 10px; appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2386909c' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 10px center; }
+    select:hover { border-color: var(--text-3); }
+    .btn { padding: 0 14px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
+    .btn:hover { border-color: var(--text-3); }
+    .btn-primary { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .btn-primary:hover { background: #2450e0; border-color: #2450e0; }
+    .btn-ai { background: linear-gradient(135deg,#2d5cf6,#7c3aed); border: none; color: #fff; }
+    .btn-ai:hover { opacity: .9; }
+    .btn:disabled { opacity: .5; cursor: not-allowed; }
+    .btn .sub { font-weight: 400; font-size: 11px; opacity: .8; }
+
+    .ai-pill {
+      display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 11px;
+      border-radius: 999px; font-size: 12px; font-weight: 600;
+      background: var(--blue-bg); color: var(--blue); border: 1px solid #d6e0ff;
+    }
+    .ai-pill.off { background: #f2f3f5; color: var(--text-3); border-color: var(--border); }
+    .ai-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+    .ai-pill.on .dot { animation: pulse 2s infinite; }
+    .cloud-note { font-size: 12px; color: var(--text-3); white-space: nowrap; display: none; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+    /* ── LAYOUT ── */
+    main { max-width: 1480px; margin: 0 auto; padding: 16px 20px; }
+    .grid { display: grid; grid-template-columns: minmax(0,1.55fr) minmax(330px,.82fr); gap: 16px; }
+    .col { display: flex; flex-direction: column; gap: 16px; }
+
+    /* ── CARD ── */
+    .card { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+    .card-head { padding: 13px 16px; display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; border-bottom: 1px solid var(--border-2); }
+    .card-title { font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 7px; }
+    .card-sub { font-size: 11px; color: var(--text-3); margin-top: 2px; font-weight: 400; }
+    .card-meta { font-size: 11px; color: var(--text-3); white-space: nowrap; }
+    .head-left { min-width: 0; }
+
+    /* ── STATS ── */
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px,1fr)); }
+    .stat { padding: 12px 16px; border-right: 1px solid var(--border-2); }
+    .stat:last-child { border-right: none; }
+    .stat-val { font-size: 22px; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+    .stat-lbl { font-size: 11px; color: var(--text-3); margin-top: 3px; }
+    .c-red { color: var(--red); } .c-green { color: var(--green); } .c-blue { color: var(--blue); } .c-amber { color: var(--amber); }
+    .live { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; color: var(--green); }
+    .live .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: pulse 1.6s infinite; }
+
+    /* ── HEATMAP (treemap) ── */
+    .treemap { position: relative; margin: 12px; height: 380px; }
+    .tmtile {
+      position: absolute; border-radius: 6px; cursor: pointer; overflow: hidden;
+      border: 2px solid var(--panel); color: #fff; padding: 8px 9px;
+      transition: filter .12s, outline .12s; display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .tmtile:hover { filter: brightness(1.08); z-index: 5; }
+    .tmtile.active { outline: 2px solid #fff; outline-offset: -4px; box-shadow: 0 0 0 2px var(--blue); }
+    .tm-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 6px; }
+    .tm-name { font-weight: 700; line-height: 1.15; text-shadow: 0 1px 2px rgba(0,0,0,.25); }
+    .tm-rank { font-size: 10px; opacity: .85; font-weight: 700; }
+    .tm-score { font-weight: 800; font-variant-numeric: tabular-nums; text-shadow: 0 1px 2px rgba(0,0,0,.3); }
+    .tm-bot { display: flex; align-items: center; gap: 6px; font-size: 10px; opacity: .92; }
+    .tm-senti { display: inline-flex; height: 4px; border-radius: 2px; overflow: hidden; flex: 1; background: rgba(255,255,255,.3); min-width: 20px; }
+    .tm-senti > i { display: block; height: 100%; }
+    .tm-senti .up { background: #ffd9d6; }
+    .tm-senti .down { background: #b9f0d8; }
+    .tm-legend { display: flex; align-items: center; gap: 6px; padding: 0 14px 12px; font-size: 11px; color: var(--text-3); }
+    .tm-legend .bar { height: 8px; width: 120px; border-radius: 4px; background: linear-gradient(90deg,#fde2e0,#f5a199,#e8443c,#a01410); }
+
+    /* ── SOURCE HEALTH ── */
+    .sh-body { padding: 10px 12px; max-height: 280px; }
+    .sh-row { display: flex; align-items: center; gap: 8px; padding: 5px 2px; font-size: 12px; }
+    .sh-name { width: 88px; flex-shrink: 0; color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .sh-bar { flex: 1; height: 7px; background: var(--border-2); border-radius: 4px; overflow: hidden; }
+    .sh-bar > i { display: block; height: 100%; background: linear-gradient(90deg,#7aa2ff,var(--blue)); border-radius: 4px; }
+    .sh-num { width: 56px; text-align: right; font-variant-numeric: tabular-nums; color: var(--text-3); flex-shrink: 0; }
+    .sh-num b { color: var(--text); }
+    .sh-errs { margin: 8px 2px 2px; padding: 8px 10px; background: var(--red-bg); border: 1px solid #f8cfcc; border-radius: 6px; font-size: 11px; color: var(--red); line-height: 1.5; }
+    .sh-ok { margin: 8px 2px 2px; font-size: 11px; color: var(--green); }
+
+    /* ── HOT EVENTS ── */
+    .ev { max-height: 360px; padding: 4px 12px 12px; }
+    .ev-item { padding: 11px 0; border-bottom: 1px solid var(--border-2); }
+    .ev-item:last-child { border-bottom: none; }
+    .ev-head { display: flex; gap: 9px; align-items: baseline; }
+    .ev-rank { font-size: 12px; font-weight: 800; color: var(--red); flex-shrink: 0; width: 20px; }
+    .ev-title { font-size: 13px; font-weight: 680; line-height: 1.45; }
+    .ev-meta { margin: 5px 0 0 29px; display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+    .ev-badge { font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--red-bg); color: var(--red); border: 1px solid #f8cfcc; font-weight: 600; }
+    .ev-src { font-size: 11px; color: var(--text-3); }
+    .ev-stock { font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--blue-bg); color: var(--blue); border: 1px solid #c9d6ff; }
+
+    /* ── STOCK RANK ── */
+    .st { max-height: 340px; padding: 6px 8px; }
+    .st-row { display: flex; align-items: center; gap: 10px; padding: 8px 8px; border-radius: 6px; cursor: pointer; border-bottom: 1px solid var(--border-2); }
+    .st-row:hover, .st-row.active { background: var(--blue-bg); }
+    .st-rank { width: 22px; font-size: 12px; font-weight: 700; color: var(--text-3); text-align: center; flex-shrink: 0; }
+    .st-rank.top { color: var(--red); }
+    .st-main { min-width: 0; flex: 1; }
+    .st-name { font-size: 14px; font-weight: 700; }
+    .st-code { font-size: 11px; color: var(--text-3); font-variant-numeric: tabular-nums; margin-left: 5px; font-weight: 400; }
+    .st-sub { font-size: 11px; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }
+    .st-cnt { flex-shrink: 0; text-align: right; }
+    .st-cnt b { font-size: 16px; color: var(--red); font-variant-numeric: tabular-nums; }
+    .st-cnt span { font-size: 10px; color: var(--text-3); display: block; }
+
+    /* ── SECTOR SUGGESTIONS ── */
+    .ss-body { padding: 10px 12px; max-height: 240px; }
+    .ss-item { padding: 8px 0; border-bottom: 1px solid var(--border-2); }
+    .ss-item:last-child { border-bottom: none; }
+    .ss-top { display: flex; align-items: center; gap: 8px; margin-bottom: 3px; }
+    .ss-name { font-size: 13px; font-weight: 700; }
+    .ss-cnt { font-size: 11px; color: var(--blue); background: var(--blue-bg); border: 1px solid #c9d6ff; border-radius: 999px; padding: 1px 7px; }
+    .ss-sample { font-size: 11px; color: var(--text-3); line-height: 1.4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+    /* ── TABS ── */
+    .tabs { display: flex; gap: 2px; padding: 0 16px; border-bottom: 1px solid var(--border-2); }
+    .tab { padding: 11px 4px; margin-right: 18px; font-size: 13px; font-weight: 600; color: var(--text-3); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+    .tab.active { color: var(--blue); border-bottom-color: var(--blue); }
+    .tab-body { display: none; }
+    .tab-body.active { display: block; }
+
+    /* ── NEWS ── */
+    .scroll { overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+    .scroll::-webkit-scrollbar { width: 5px; } .scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    .news { max-height: 600px; }
+    .news-item { padding: 12px 16px; border-bottom: 1px solid var(--border-2); }
+    .news-item:last-child { border-bottom: none; }
+    .news-item:hover { background: var(--panel-2); }
+    .n-row1 { display: flex; align-items: baseline; gap: 8px; margin-bottom: 5px; }
+    .n-time { font-size: 11px; color: var(--text-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .n-title { font-size: 13px; font-weight: 600; line-height: 1.45; }
+    .n-title a { text-decoration: none; } .n-title a:hover { color: var(--blue); }
+    .n-summary { font-size: 12px; color: var(--text-2); line-height: 1.5; margin: 4px 0 6px; }
+    .n-catalyst { font-size: 12px; color: #b45309; background: var(--amber-bg); border-left: 2px solid var(--amber); padding: 4px 8px; border-radius: 0 4px 4px 0; margin-bottom: 7px; line-height: 1.45; }
+    .tags { display: flex; gap: 5px; flex-wrap: wrap; }
+    .tag { font-size: 11px; padding: 1px 7px; border-radius: 4px; border: 1px solid var(--border); color: var(--text-2); }
+    .tag-src { background: var(--panel-2); }
+    .tag-up { color: var(--red); border-color: #f8cfcc; background: var(--red-bg); }
+    .tag-down { color: var(--green); border-color: #b6ead7; background: var(--green-bg); }
+    .tag-neu { color: var(--amber); border-color: #fad9bd; background: var(--amber-bg); }
+    .tag-imp { color: var(--blue); border-color: #c9d6ff; background: var(--blue-bg); }
+    .tag-sec { color: var(--text-2); background: var(--panel-2); }
+
+    /* ── TRADE POOL ── */
+    .pool { padding: 12px; display: flex; flex-direction: column; gap: 9px; max-height: 420px; }
+    .pool-item { border: 1px solid var(--border); border-radius: 7px; padding: 11px 12px; background: var(--panel-2); }
+    .pool-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+    .pool-name { font-size: 14px; font-weight: 700; }
+    .pool-name .rk { color: var(--text-3); font-size: 12px; margin-right: 5px; }
+    .pool-score { font-size: 18px; font-weight: 800; color: var(--amber); font-variant-numeric: tabular-nums; }
+    .pool-bar { height: 4px; background: var(--border-2); border-radius: 2px; margin-bottom: 8px; overflow: hidden; }
+    .pool-bar > i { display: block; height: 100%; background: linear-gradient(90deg,var(--amber),var(--red)); border-radius: 2px; }
+    .pool-reason { font-size: 12px; color: var(--text-2); margin-bottom: 7px; line-height: 1.45; }
+
+    /* ── AI ── */
+    .ai-body { padding: 12px; display: flex; flex-direction: column; gap: 9px; max-height: 380px; }
+    .ai-card { border: 1px solid var(--border); border-radius: 7px; padding: 11px 12px; background: var(--panel-2); }
+    .ai-card-body { font-size: 12px; color: var(--text-2); line-height: 1.5; margin-bottom: 6px; }
+    .ai-card-cat { font-size: 12px; color: #b45309; background: var(--amber-bg); border-left: 2px solid var(--amber); padding: 4px 8px; border-radius: 0 4px 4px 0; margin-bottom: 7px; }
+
+    /* ── TIMELINE ── */
+    .tl { padding: 10px 16px; max-height: 300px; }
+    .tl-item { display: flex; gap: 11px; padding: 7px 0; border-bottom: 1px solid var(--border-2); }
+    .tl-item:last-child { border-bottom: none; }
+    .tl-time { font-size: 11px; color: var(--text-3); min-width: 36px; font-variant-numeric: tabular-nums; margin-top: 2px; }
+    .tl-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
+    .tl-dot.hot { background: var(--red); } .tl-dot.mid { background: var(--amber); } .tl-dot.low { background: var(--text-3); }
+    .tl-text { font-size: 12px; color: var(--text-2); line-height: 1.45; }
+    .tl-text b { color: var(--text); font-weight: 600; }
+
+    /* ── BACKTEST ── */
+    .bt { padding: 14px 16px; }
+    .bt-summary { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-bottom: 14px; }
+    .bt-metric { border: 1px solid var(--border); border-radius: 7px; padding: 11px 12px; background: var(--panel-2); }
+    .bt-metric .v { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; }
+    .bt-metric .l { font-size: 11px; color: var(--text-3); margin-top: 3px; }
+    .bt-metric .h { font-size: 10px; color: var(--text-3); margin-top: 4px; line-height: 1.4; }
+    .bt-note { font-size: 11px; color: var(--text-3); background: var(--panel-2); border: 1px solid var(--border-2); border-radius: 6px; padding: 8px 10px; margin-bottom: 14px; line-height: 1.5; }
+    .bt-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .bt-table th { text-align: left; padding: 7px 8px; color: var(--text-3); font-weight: 600; border-bottom: 1px solid var(--border); font-size: 11px; }
+    .bt-table td { padding: 7px 8px; border-bottom: 1px solid var(--border-2); font-variant-numeric: tabular-nums; }
+    .bt-table tr:hover td { background: var(--panel-2); }
+    .bt-sub { font-size: 12px; font-weight: 700; margin: 14px 0 8px; color: var(--text-2); }
+
+    .empty { padding: 18px 16px; color: var(--text-3); font-size: 12px; text-align: center; }
+    .err { padding: 14px 16px; color: var(--red); font-size: 12px; }
+    .shimmer { display: inline-block; width: 90px; height: 11px; border-radius: 4px; background: linear-gradient(90deg,#eee 25%,#f5f5f5 50%,#eee 75%); background-size: 200% 100%; animation: sh 1.2s infinite; vertical-align: middle; }
+    @keyframes sh { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+    @media (max-width: 980px) {
+      .grid { grid-template-columns: 1fr; }
+      .topbar { flex-wrap: wrap; height: auto; padding: 10px 14px; gap: 10px; }
+      main { padding: 12px 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="brand">
+      <span class="brand-mark">📊</span>
+      板块消息热力图
+      <small>财经新闻数据 Agent</small>
+    </div>
+    <div class="header-spacer"></div>
+    <div class="field">
+      <span class="field-label">数据日期</span>
+      <select id="dateSelect" title="选择要查看的交易日数据"></select>
+    </div>
+    <span class="ai-pill off" id="aiPill"><span class="dot"></span>AI 未配置</span>
+    <button class="btn btn-ai" id="aiBtn" title="调用 AI 对当日重点新闻批量提炼摘要、利好利空与催化逻辑">✦ AI 分析</button>
+    <button class="btn btn-primary" id="refreshBtn" title="立即重新抓取各信息源的最新新闻并刷新看板">↻ 刷新采集</button>
+    <span class="cloud-note" id="refreshNote">云端定时刷新</span>
+  </div>
+</header>
+
+<main>
+  <div class="grid">
+    <!-- LEFT -->
+    <div class="col">
+
+      <!-- stats -->
+      <div class="card">
+        <div class="stats">
+          <div class="stat"><div class="stat-val c-red" id="s-sectors">—</div><div class="stat-lbl">活跃板块</div></div>
+          <div class="stat"><div class="stat-val c-blue" id="s-news">—</div><div class="stat-lbl">相关新闻</div></div>
+          <div class="stat"><div class="stat-val c-amber" id="s-hot">—</div><div class="stat-lbl">最高热度</div></div>
+          <div class="stat"><div class="stat-val c-green" id="s-imp">—</div><div class="stat-lbl">重要新闻</div></div>
+          <div class="stat">
+            <div class="live"><span class="dot"></span>实时</div>
+            <div class="stat-lbl" id="s-updated">—</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- heatmap -->
+      <div class="card">
+        <div class="card-head">
+          <div class="head-left">
+            <div class="card-title">🔥 每日板块热力图</div>
+            <div class="card-sub">方块越大越热 · 颜色越深越热 · 点击查看相关资讯</div>
+          </div>
+          <span class="card-meta" id="heatMeta">加载中…</span>
+        </div>
+        <div class="treemap" id="heatGrid"></div>
+        <div class="tm-legend"><span>冷</span><span class="bar"></span><span>热</span><span style="margin-left:auto">方块大小/颜色＝板块热度 · 大方块底部标注新闻数与利好/利空</span></div>
+      </div>
+
+      <!-- AI panel -->
+      <div class="card" id="aiPanel" style="display:none;">
+        <div class="card-head">
+          <div class="head-left">
+            <div class="card-title">✦ AI 深度分析</div>
+            <div class="card-sub">逐条提炼摘要 / 利好利空 / 催化逻辑</div>
+          </div>
+          <span class="card-meta" id="aiMeta"></span>
+        </div>
+        <div class="ai-body scroll" id="aiBody"></div>
+      </div>
+
+      <!-- tabs: timeline / backtest -->
+      <div class="card">
+        <div class="tabs">
+          <div class="tab active" data-tab="ev">🔥 热点事件</div>
+          <div class="tab" data-tab="st">🏷️ 个股榜</div>
+          <div class="tab" data-tab="tl">📅 时间线</div>
+          <div class="tab" data-tab="bt">📈 回测</div>
+        </div>
+        <div class="tab-body active" id="tab-ev">
+          <div class="ev scroll" id="evBody"><div class="empty">加载中…</div></div>
+        </div>
+        <div class="tab-body" id="tab-st">
+          <div class="st scroll" id="stBody"><div class="empty">加载中…</div></div>
+        </div>
+        <div class="tab-body" id="tab-tl">
+          <div class="tl scroll" id="tlBody"><div class="empty">加载中…</div></div>
+        </div>
+        <div class="tab-body" id="tab-bt">
+          <div class="bt" id="btBody"><div class="empty">点上方标签加载回测…</div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="col">
+
+      <!-- news -->
+      <div class="card">
+        <div class="card-head">
+          <div class="head-left">
+            <div class="card-title" id="newsTitle">📨 实时消息</div>
+            <div class="card-sub" id="newsSub">每 60 秒自动刷新最新消息</div>
+          </div>
+          <span class="card-meta" id="newsMeta"></span>
+        </div>
+        <div class="news scroll" id="newsBody"><div class="empty">加载中…</div></div>
+      </div>
+
+      <!-- trade pool -->
+      <div class="card">
+        <div class="card-head">
+          <div class="head-left">
+            <div class="card-title">💼 交易池</div>
+            <div class="card-sub" id="poolSub">持续有消息催化的板块（可选回看天数）</div>
+          </div>
+          <div class="field">
+            <span class="field-label">回看</span>
+            <select id="poolDays" title="统计过去多少天内持续有消息催化的板块">
+              <option value="1">近 1 天</option>
+              <option value="3" selected>近 3 天</option>
+              <option value="5">近 5 天</option>
+              <option value="10">近 10 天</option>
+            </select>
+          </div>
+        </div>
+        <div class="pool scroll" id="poolBody"><div class="empty">加载中…</div></div>
+      </div>
+
+      <!-- source health -->
+      <div class="card">
+        <div class="card-head">
+          <div class="head-left">
+            <div class="card-title">🩺 数据源健康</div>
+            <div class="card-sub" id="shSub">各信息源今日抓取量 / 报错</div>
+          </div>
+          <span class="card-meta" id="shMeta"></span>
+        </div>
+        <div class="sh-body scroll" id="shBody"><div class="empty">加载中…</div></div>
+      </div>
+
+      <!-- AI-suggested new sectors (off the 14-class list) -->
+      <div class="card" id="ssCard" style="display:none;">
+        <div class="card-head">
+          <div class="head-left">
+            <div class="card-title">🔎 AI 发现的新主题</div>
+            <div class="card-sub">不在14类板块里、AI 反复提到的主题，可考虑扩进词典</div>
+          </div>
+          <span class="card-meta" id="ssMeta"></span>
+        </div>
+        <div class="ss-body scroll" id="ssBody"></div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const state = { heatmap: [], selectedSector: '', aiMap: {}, articleList: [], btLoaded: false };
+const impCN = v => v === 'positive' ? '利好' : v === 'negative' ? '利空' : '中性';
+const impCls = v => v === 'positive' ? 'tag-up' : v === 'negative' ? 'tag-down' : 'tag-neu';
+const dateVal = () => $('dateSelect').value;
+const dateQ = () => { const v = dateVal(); return v ? `date=${encodeURIComponent(v)}&` : ''; };
+
+async function api(url, opts) {
+  const r = await fetch(url, opts);
+  const j = await r.json();
+  if (!j.ok) throw new Error(j.error?.message || '请求失败');
+  return j;
+}
+
+// ── date picker ──
+async function loadDates() {
+  try {
+    const j = await api('/api/v1/dates');
+    const sel = $('dateSelect');
+    if (j.data.length) {
+      sel.innerHTML = j.data.map(d =>
+        `<option value="${d.date}">${d.date_iso}（${d.article_count}条）</option>`
+      ).join('');
+      sel.value = j.data[0].date; // 最新在前
+    } else {
+      sel.innerHTML = '<option value="">暂无数据</option>';
+    }
+  } catch (_) {
+    $('dateSelect').innerHTML = '<option value="">最新</option>';
+  }
+}
+
+// ── AI status ──
+async function checkAi() {
+  try {
+    const j = await api('/api/v1/gpt/status');
+    const pill = $('aiPill');
+    if (j.data.enabled) {
+      pill.className = 'ai-pill on';
+      pill.innerHTML = `<span class="dot"></span>AI · ${j.data.provider === 'deepseek' ? 'DeepSeek' : 'GPT'}`;
+    }
+  } catch (_) {}
+}
+
+async function checkRuntime() {
+  try {
+    const j = await api('/api/v1/status');
+    if (j.data.refresh_requires_token) {
+      $('refreshBtn').style.display = 'none';
+      $('refreshNote').style.display = 'inline';
+    }
+  } catch (_) {}
+}
+
+// ── stats ──
+function setStats(heat, newsCount) {
+  $('s-sectors').textContent = heat.length;
+  $('s-news').textContent = newsCount;
+  $('s-hot').textContent = Math.round(Math.max(...heat.map(d => d.heat_score || 0), 0));
+  $('s-imp').textContent = heat.reduce((s, d) => s + (d.important_count || 0), 0);
+  $('s-updated').textContent = new Date().toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+}
+
+// ── heatmap (squarified treemap) ──
+function worstRatio(row, side) {
+  const sum = row.reduce((s, n) => s + n.area, 0);
+  const mx = Math.max(...row.map(n => n.area)), mn = Math.min(...row.map(n => n.area));
+  return Math.max((side * side * mx) / (sum * sum), (sum * sum) / (side * side * mn));
+}
+function squarify(items, W, H) {
+  const nodes = items.filter(i => i.area > 0).map(i => ({ ...i }));
+  if (!nodes.length) return [];
+  const out = []; let rect = { x: 0, y: 0, w: W, h: H }; let i = 0;
+  while (i < nodes.length) {
+    const side = Math.min(rect.w, rect.h);
+    let row = [nodes[i]], best = worstRatio(row, side), j = i + 1;
+    while (j < nodes.length) {
+      const test = row.concat(nodes[j]), w2 = worstRatio(test, side);
+      if (w2 > best) break;
+      row = test; best = w2; j++;
+    }
+    const rowArea = row.reduce((s, n) => s + n.area, 0);
+    if (rect.w <= rect.h) {
+      const rh = rowArea / rect.w; let x = rect.x;
+      for (const n of row) { const cw = n.area / rh; out.push({ ...n, x, y: rect.y, w: cw, h: rh }); x += cw; }
+      rect.y += rh; rect.h -= rh;
+    } else {
+      const rw = rowArea / rect.h; let y = rect.y;
+      for (const n of row) { const ch = n.area / rw; out.push({ ...n, x: rect.x, y, w: rw, h: ch }); y += ch; }
+      rect.x += rw; rect.w -= rw;
+    }
+    i = j;
+  }
+  return out;
+}
+function renderTreemap() {
+  const box = $('heatGrid');
+  const data = state.heatmap;
+  if (!data.length) { box.innerHTML = '<div class="empty">暂无板块数据，请点右上「刷新采集」</div>'; return; }
+  const W = box.clientWidth || 700, H = box.clientHeight || 380;
+  const maxScore = Math.max(...data.map(d => d.heat_score || 0), 1);
+  // 面积用热度的 0.7 次幂压缩，避免小板块小到看不见；颜色仍按真实热度
+  const items = data.map(d => ({ ...d, area: Math.pow(d.heat_score || 1, 0.7) }));
+  const totalArea = items.reduce((s, n) => s + n.area, 0);
+  const scale = (W * H) / totalArea;
+  items.forEach(n => n.area *= scale);
+  const laid = squarify(items, W, H);
+  box.innerHTML = laid.map(n => {
+    const t = Math.min(1, (n.heat_score || 0) / maxScore);
+    // 红色梯度：浅(#fde2e0)→深(#9e1209)
+    const r = Math.round(253 - t * 95), g = Math.round(226 - t * 208), b = Math.round(224 - t * 215);
+    const dark = t > 0.42;                       // 深底用白字，浅底用深红字，保证可读
+    const txt = dark ? '#ffffff' : '#7a1d12';
+    const sub = dark ? 'rgba(255,255,255,.88)' : 'rgba(122,29,18,.72)';
+    const big = n.w > 92 && n.h > 64, mid = n.w > 60 && n.h > 40;
+    const pos = n.positive_count || 0, neg = n.negative_count || 0;
+    // 明确文字，避免把情绪条误读成"利空N条"
+    const senti = big ? `<div class="tm-bot" style="color:${sub}">共 ${n.news_count} 条新闻 · 利好${pos}/利空${neg}</div>` : '';
+    const fs = n.w > 130 ? 16 : n.w > 90 ? 14 : 12;
+    const ss = n.w > 130 ? 22 : n.w > 90 ? 18 : 14;
+    const active = state.selectedSector === n.sector ? 'active' : '';
+    return `<div class="tmtile ${active}" data-sector="${n.sector}" title="${n.sector} · 板块热度${Math.round(n.heat_score)} · 共${n.news_count}条新闻 · 利好${pos}/利空${neg} · 重要${n.important_count}"
+      style="left:${n.x}px;top:${n.y}px;width:${n.w}px;height:${n.h}px;background:rgb(${r},${g},${b});color:${txt}">
+      <div class="tm-top"><span class="tm-name" style="font-size:${fs}px">${mid ? n.sector : ''}</span><span class="tm-rank" style="color:${sub}">${big ? 'No.' + n.rank : ''}</span></div>
+      <div><div class="tm-score" style="font-size:${ss}px;color:${txt}">${mid ? Math.round(n.heat_score) : (n.w > 30 ? n.sector.slice(0,2) : '')}</div>${senti}</div>
+    </div>`;
+  }).join('');
+  box.querySelectorAll('.tmtile').forEach(el => el.addEventListener('click', () => loadSector(el.dataset.sector)));
+}
+async function loadHeatmap() {
+  const j = await api(`/api/v1/heatmap?${dateQ()}limit=30`);
+  state.heatmap = j.data;
+  $('heatMeta').textContent = `${j.meta.date} · ${j.meta.count} 个板块`;
+  renderTreemap();
+  if (!state.selectedSector && j.data.length) loadSector(j.data[0].sector);
+  return j.data;
+}
+
+// ── news render ──
+function newsHtml(item) {
+  const ai = state.aiMap[item.article_id];
+  const impact = ai?.impact ?? item.impact ?? 'neutral';
+  const summary = ai?.summary || item.summary || '';
+  const catalyst = ai?.catalyst || '';
+  const importance = ai ? ai.importance : (item.importance_score || 0);
+  const time = item.published_at ? item.published_at.slice(11, 16) : '';
+  return `<div class="news-item">
+    <div class="n-row1">
+      ${time ? `<span class="n-time">${time}</span>` : ''}
+      <div class="n-title"><a href="${item.url || '#'}" target="_blank" rel="noopener">${item.title || '未命名'}</a></div>
+    </div>
+    ${summary ? `<div class="n-summary">${summary}</div>` : ''}
+    ${catalyst ? `<div class="n-catalyst">📌 ${catalyst}</div>` : ''}
+    <div class="tags">
+      <span class="tag tag-src">${item.source || '未知'}</span>
+      <span class="tag ${impCls(impact)}">${impCN(impact)}</span>
+      ${importance > 0 ? `<span class="tag tag-imp">热度 ${Math.round(importance)}</span>` : ''}
+      ${(item.sectors || []).map(s => `<span class="tag tag-sec">${s}</span>`).join('')}
+    </div>
+  </div>`;
+}
+function renderNews(rows) {
+  $('newsBody').innerHTML = rows.length ? rows.map(newsHtml).join('') : '<div class="empty">暂无匹配新闻</div>';
+}
+
+async function loadRealtime() {
+  const j = await api(`/api/v1/realtime?${dateQ()}limit=30`);
+  state.articleList = j.data; state.selectedSector = '';
+  $('newsTitle').textContent = '📨 实时消息';
+  $('newsSub').textContent = '每 60 秒自动刷新最新消息';
+  $('newsMeta').textContent = `${j.meta.count} 条`;
+  renderNews(j.data);
+  return j.data;
+}
+
+async function loadSector(sector) {
+  state.selectedSector = sector;
+  document.querySelectorAll('.tmtile').forEach(el => el.classList.toggle('active', el.dataset.sector === sector));
+  const j = await api(`/api/v1/sector/${encodeURIComponent(sector)}/news?${dateQ()}limit=60`);
+  state.articleList = j.data;
+  $('newsTitle').textContent = `📁 ${sector}`;
+  $('newsSub').textContent = '该板块相关资讯（点其他板块切换 / 刷新回到实时）';
+  $('newsMeta').textContent = `${j.meta.count} 条`;
+  renderNews(j.data);
+}
+
+// ── trade pool ──
+async function loadPool() {
+  const days = $('poolDays').value;
+  const j = await api(`/api/v1/trade-pool?${dateQ()}days=${days}&limit=20`);
+  const cover = j.meta.dates || [];
+  $('poolSub').textContent = cover.length
+    ? `统计区间：${cover[0].slice(4)} ~ ${cover[cover.length-1].slice(4)}（共${cover.length}天）`
+    : '持续有消息催化的板块';
+  const max = Math.max(...j.data.map(d => d.pool_score || 0), 1);
+  $('poolBody').innerHTML = j.data.map(item => `
+    <div class="pool-item">
+      <div class="pool-top">
+        <span class="pool-name"><span class="rk">No.${item.rank}</span>${item.sector}</span>
+        <span class="pool-score">${Math.round(item.pool_score)}</span>
+      </div>
+      <div class="pool-bar"><i style="width:${Math.round(item.pool_score/max*100)}%"></i></div>
+      <div class="pool-reason">${item.reason}</div>
+      <div class="tags">
+        <span class="tag tag-up">${item.active_days} 天活跃</span>
+        <span class="tag tag-src">${item.total_news_count} 条新闻</span>
+        <span class="tag tag-neu">重要 ${item.important_count}</span>
+      </div>
+    </div>`).join('') || '<div class="empty">暂无候选板块</div>';
+}
+
+// ── hot events ──
+async function loadEvents() {
+  $('evBody').innerHTML = '<div class="empty">加载中…</div>';
+  try {
+    const j = await api(`/api/v1/events?${dateQ()}limit=15`);
+    if (!j.data.length) { $('evBody').innerHTML = '<div class="empty">暂无事件</div>'; return; }
+    state.events = {};
+    $('evBody').innerHTML = j.data.map(e => {
+      state.events[e.rank] = e;
+      const multi = e.report_count > 1;
+      return `<div class="ev-item" data-ev="${e.rank}" style="cursor:pointer">
+        <div class="ev-head"><span class="ev-rank">${e.rank}</span><span class="ev-title">${e.title}</span></div>
+        <div class="ev-meta">
+          ${multi ? `<span class="ev-badge">${e.report_count}篇/${e.source_count}源</span>` : '<span class="ev-src">单条</span>'}
+          <span class="tag ${impCls(e.impact)}">${impCN(e.impact)}</span>
+          ${e.sectors.slice(0,2).map(s => `<span class="ev-src">${s}</span>`).join('')}
+          ${e.stocks.slice(0,3).map(s => `<span class="ev-stock">${s}</span>`).join('')}
+        </div>
+      </div>`;
+    }).join('');
+    $('evBody').querySelectorAll('.ev-item').forEach(el =>
+      el.addEventListener('click', () => showEventNews(el.dataset.ev)));
+  } catch (err) { $('evBody').innerHTML = `<div class="err">${err.message}</div>`; }
+}
+function showEventNews(rank) {
+  const e = state.events[rank];
+  if (!e) return;
+  state.selectedSector = '';
+  $('newsTitle').textContent = `🔥 ${e.title.slice(0, 20)}`;
+  $('newsSub').textContent = `该事件的 ${e.articles.length} 篇报道`;
+  $('newsMeta').textContent = `${e.articles.length} 条`;
+  renderNews(e.articles.map(a => ({ ...a, sectors: e.sectors })));
+}
+
+// ── stock rank ──
+async function loadStocks() {
+  $('stBody').innerHTML = '<div class="empty">加载中…</div>';
+  try {
+    const j = await api(`/api/v1/stocks?${dateQ()}limit=40`);
+    if (!j.data.length) {
+      $('stBody').innerHTML = `<div class="empty">暂无个股数据${j.meta.ai_analyzed ? '' : '（需先点「✦ AI 分析」，AI 才会抽取个股）'}</div>`;
+      return;
+    }
+    state.stocks = {};
+    $('stBody').innerHTML = j.data.map(s => {
+      state.stocks[s.name] = s;
+      return `<div class="st-row" data-stock="${s.name}">
+        <div class="st-rank ${s.rank <= 3 ? 'top' : ''}">${s.rank}</div>
+        <div class="st-main">
+          <div class="st-name">${s.name}${s.code ? `<span class="st-code">${s.code}</span>` : ''}</div>
+          <div class="st-sub">${s.sectors.join('、') || '—'}</div>
+        </div>
+        <div class="st-cnt"><b>${s.count}</b><span>次提及</span></div>
+      </div>`;
+    }).join('');
+    $('stBody').querySelectorAll('.st-row').forEach(el =>
+      el.addEventListener('click', () => showStockNews(el.dataset.stock)));
+  } catch (err) { $('stBody').innerHTML = `<div class="err">${err.message}</div>`; }
+}
+function showStockNews(name) {
+  const s = state.stocks[name];
+  if (!s) return;
+  $('stBody').querySelectorAll('.st-row').forEach(el => el.classList.toggle('active', el.dataset.stock === name));
+  state.selectedSector = ''; // 切到个股视图，停掉板块高亮
+  $('newsTitle').textContent = `🏷️ ${name}${s.code ? ' ' + s.code : ''}`;
+  $('newsSub').textContent = `提及该股的新闻（${s.count} 条）· 点热力图板块切回`;
+  $('newsMeta').textContent = `${s.news.length} 条`;
+  renderNews(s.news);
+}
+
+// ── source health ──
+async function loadSourceHealth() {
+  try {
+    const j = await api(`/api/v1/source-health?${dateQ()}`);
+    const { sources, errors } = j.data;
+    const m = j.meta;
+    $('shMeta').textContent = `${m.source_count} 源 · ${m.recent_articles} 条近期`;
+    const max = Math.max(...sources.map(s => s.recent), 1);
+    let html = sources.slice(0, 12).map(s => `
+      <div class="sh-row">
+        <span class="sh-name" title="${s.source}">${s.source}</span>
+        <span class="sh-bar"><i style="width:${Math.round(s.recent / max * 100)}%"></i></span>
+        <span class="sh-num"><b>${s.recent}</b>/${s.total}</span>
+      </div>`).join('');
+    if (errors.length) {
+      html += `<div class="sh-errs">⚠️ ${errors.length} 个源抓取报错：${errors.slice(0,3).map(e => e.source || e.url).join('、')}</div>`;
+    } else {
+      html += `<div class="sh-ok">✓ 本次采集无报错</div>`;
+    }
+    $('shBody').innerHTML = html || '<div class="empty">暂无数据</div>';
+  } catch (_) { $('shBody').innerHTML = '<div class="empty">加载失败</div>'; }
+}
+
+// ── AI-suggested new sectors ──
+async function loadSectorSuggestions() {
+  try {
+    const j = await api('/api/v1/sector-suggestions?days=7');
+    if (!j.data.length) { $('ssCard').style.display = 'none'; return; }
+    $('ssCard').style.display = '';
+    $('ssMeta').textContent = `近7天 ${j.data.length} 个`;
+    $('ssBody').innerHTML = j.data.map(s => `
+      <div class="ss-item">
+        <div class="ss-top"><span class="ss-name">${s.name}</span><span class="ss-cnt">${s.count} 次</span></div>
+        ${s.samples.length ? `<div class="ss-sample">例：${s.samples[0]}</div>` : ''}
+      </div>`).join('');
+  } catch (_) { $('ssCard').style.display = 'none'; }
+}
+
+// ── timeline ──
+async function loadTimeline() {
+  try {
+    const j = await api(`/api/v1/realtime?${dateQ()}limit=60`);
+    const items = [...j.data].sort((a, b) => (a.published_at || '') > (b.published_at || '') ? -1 : 1);
+    $('tlBody').innerHTML = items.slice(0, 40).map(item => {
+      const t = item.published_at ? item.published_at.slice(11, 16) : '--:--';
+      const imp = item.importance_score || 0;
+      const cls = imp > 60 ? 'hot' : imp > 30 ? 'mid' : 'low';
+      return `<div class="tl-item">
+        <span class="tl-time">${t}</span><div class="tl-dot ${cls}"></div>
+        <div class="tl-text"><b>${item.title || ''}</b> <span style="color:var(--text-3)">· ${item.source || ''}</span></div>
+      </div>`;
+    }).join('') || '<div class="empty">暂无数据</div>';
+  } catch (_) {}
+}
+
+// ── backtest ──
+async function loadBacktest() {
+  $('btBody').innerHTML = `<div class="empty">回测计算中… <span class="shimmer"></span></div>`;
+  try {
+    const j = await api('/api/v1/backtest?top_n=5&pool_days=3');
+    const s = j.data.summary;
+    const pct = v => v == null ? '—' : (v * 100).toFixed(0) + '%';
+    const rows = j.data.sector_table.map(r => `
+      <tr><td><b>${r.sector}</b></td><td>${r.active_days} 天</td><td>${r.avg_rank}</td><td>No.${r.best_rank}</td></tr>`).join('');
+    const trans = j.data.transitions.map(t => `
+      <tr><td>${t.from_date.slice(4)}→${t.to_date.slice(4)}</td>
+      <td style="color:var(--red);font-weight:600">${pct(t.persistence_rate)}</td>
+      <td>${t.survived.join('、') || '—'}</td></tr>`).join('');
+    $('btBody').innerHTML = `
+      <div class="bt-summary">
+        <div class="bt-metric"><div class="v c-red">${pct(s.avg_persistence_rate)}</div><div class="l">热度持续率</div><div class="h">今日前5热门板块，次日仍在前5的比例</div></div>
+        <div class="bt-metric"><div class="v c-blue">${s.avg_rank_stability ?? '—'}</div><div class="l">排名波动</div><div class="h">同板块跨日平均排名变化（越小越稳）</div></div>
+        <div class="bt-metric"><div class="v c-amber">${pct(s.avg_pool_hit_rate)}</div><div class="l">交易池命中率</div><div class="h">交易池板块次日仍在热榜前5的比例</div></div>
+      </div>
+      <div class="bt-note">📋 覆盖 ${s.days_covered} 个交易日（${s.date_range.join(' ~ ')}）。${s.note}</div>
+      <div class="bt-sub">板块持续性排行</div>
+      <table class="bt-table"><thead><tr><th>板块</th><th>活跃天数</th><th>平均排名</th><th>最佳</th></tr></thead><tbody>${rows || ''}</tbody></table>
+      <div class="bt-sub">逐日热度延续</div>
+      <table class="bt-table"><thead><tr><th>日期</th><th>持续率</th><th>延续板块</th></tr></thead><tbody>${trans || '<tr><td colspan=3 style="color:var(--text-3)">数据不足</td></tr>'}</tbody></table>
+    `;
+    state.btLoaded = true;
+  } catch (err) {
+    $('btBody').innerHTML = `<div class="err">回测失败：${err.message}</div>`;
+  }
+}
+
+// ── AI ──
+function renderAiCards(list) {
+  const cards = list.filter(d => d.enabled).map(d => `
+    <div class="ai-card">
+      ${d.summary ? `<div class="ai-card-body">${d.summary}</div>` : ''}
+      ${d.catalyst ? `<div class="ai-card-cat">📌 ${d.catalyst}</div>` : ''}
+      <div class="tags">
+        <span class="tag ${impCls(d.impact)}">${impCN(d.impact)}</span>
+        <span class="tag tag-imp">重要性 ${d.importance}</span>
+        ${(d.sectors || []).map(s => `<span class="tag tag-sec">${s}</span>`).join('')}
+      </div>
+    </div>`);
+  $('aiBody').innerHTML = cards.length ? cards.join('') : '<div class="empty">AI 未返回有效结果</div>';
+}
+
+// 启动时加载已持久化的 AI 分析（不触发新调用）
+async function loadPersistedAi() {
+  try {
+    const j = await api(`/api/v1/gpt/analysis?${dateQ()}`);
+    state.aiMap = {};
+    j.data.forEach(d => { if (d.article_id) state.aiMap[d.article_id] = d; });
+    if (j.data.length) {
+      $('aiPanel').style.display = 'block';
+      $('aiMeta').textContent = `已缓存 ${j.data.length} 条 · 点「AI 分析」更新`;
+      renderAiCards(j.data);
+      if (state.articleList.length) renderNews(state.articleList);
+    }
+  } catch (_) {}
+}
+
+async function runAi() {
+  const btn = $('aiBtn'); btn.disabled = true; btn.textContent = '✦ 分析中…';
+  $('aiPanel').style.display = 'block';
+  $('aiBody').innerHTML = `<div class="empty">正在调用 AI 逐条分析… <span class="shimmer"></span></div>`;
+  try {
+    const j = await api(`/api/v1/gpt/batch-analyze?${dateQ()}limit=20`);
+    if (!j.ok) throw new Error('AI 未启用');
+    state.aiMap = {};
+    j.data.forEach(d => { if (d.article_id) state.aiMap[d.article_id] = d; });
+    const prov = j.meta.provider === 'deepseek' ? 'DeepSeek' : 'GPT';
+    $('aiMeta').textContent = `${prov} · ${j.meta.count} 条（新增 ${j.meta.newly_analyzed}）· ${j.meta.errors} 错误`;
+    renderAiCards(j.data);
+    if (state.articleList.length) renderNews(state.articleList);
+    loadHeatmap().then(h => setStats(h, state.articleList.length));  // 刷新热力图情绪
+    loadStocks();   // 刷新个股榜（AI 抽取的个股）
+    loadEvents();   // 刷新热点事件（依赖 AI 个股聚类）
+  } catch (err) {
+    $('aiBody').innerHTML = `<div class="err">AI 分析失败：${err.message}</div>`;
+  } finally { btn.disabled = false; btn.textContent = '✦ AI 分析'; }
+}
+
+// ── boot ──
+async function boot() {
+  try {
+    await loadPersistedAi();  // 先拿到 AI 缓存，热力图/新闻渲染时即可带上 AI 情绪
+    const [heat, news] = await Promise.all([loadHeatmap(), loadRealtime()]);
+    await Promise.all([loadPool(), loadTimeline(), loadSourceHealth(), loadSectorSuggestions(), loadStocks(), loadEvents()]);
+    setStats(heat, news.length);
+    state.btLoaded = false;
+  } catch (err) {
+    $('heatGrid').innerHTML = `<div class="err">${err.message}</div>`;
+  }
+}
+
+// 窗口尺寸变化时重排树状图
+let _resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(_resizeTimer);
+  _resizeTimer = setTimeout(() => { if (state.heatmap.length) renderTreemap(); }, 200);
+});
+
+// ── events ──
+$('dateSelect').addEventListener('change', () => { state.selectedSector = ''; state.aiMap = {}; $('aiPanel').style.display='none'; boot(); });
+$('poolDays').addEventListener('change', loadPool);
+$('aiBtn').addEventListener('click', runAi);
+$('refreshBtn').addEventListener('click', async () => {
+  const btn = $('refreshBtn'); btn.disabled = true; btn.innerHTML = '↻ 采集中…';
+  try { await api(`/api/v1/refresh?${dateQ()}`, { method: 'POST' }); state.selectedSector=''; state.aiMap={}; await loadDates(); await boot(); }
+  catch (err) { alert(err.message); }
+  finally { btn.disabled = false; btn.innerHTML = '↻ 刷新采集'; }
+});
+document.querySelectorAll('.tab').forEach(tab => tab.addEventListener('click', () => {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-body').forEach(b => b.classList.remove('active'));
+  tab.classList.add('active');
+  $('tab-' + tab.dataset.tab).classList.add('active');
+  if (tab.dataset.tab === 'bt' && !state.btLoaded) loadBacktest();
+}));
+
+setInterval(() => {
+  if (!state.selectedSector) loadRealtime().then(d => loadHeatmap().then(h => setStats(h, d.length))).catch(() => {});
+}, 60000);
+
+(async () => { await loadDates(); checkRuntime(); checkAi(); boot(); })();
+</script>
+</body>
+</html>

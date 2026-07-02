@@ -76,17 +76,25 @@
       "tier": "T1",
       "role": "fast_news",
       "priority": 4,
-      "enabled_for_v1": false,
-      "implementation_status": "needs_adapter_probe",
+      "enabled_for_v1": true,
+      "implementation_status": "implemented_via_eastmoney_api",
       "entrypoints": [
         {
-          "type": "homepage",
-          "url": "https://www.cls.cn/"
+          "type": "eastmoney_api",
+          "url": "https://np-listapi.eastmoney.com/comm/web/getNewsByColumns?client=web&biz=web_news_col&column=293&page_size=30&page_index=1&req_trace=1",
+          "max_items": 30,
+          "label": "财联社电报"
+        },
+        {
+          "type": "eastmoney_api",
+          "url": "https://np-listapi.eastmoney.com/comm/web/getNewsByColumns?client=web&biz=web_news_col&column=294&page_size=20&page_index=1&req_trace=1",
+          "max_items": 20,
+          "label": "财联社新闻"
         }
       ],
       "expected_fields": ["title", "url", "published_at", "content"],
       "quality_weight": 0.95,
-      "notes": "快讯价值高。第一版先作为重点适配目标，正式抓取前需要确认页面结构、访问规则和稳定入口。"
+      "notes": "财联社电报和新闻，通过东方财富 API 代理采集（column 293=电报, 294=新闻），实时性高。"
     },
     {
       "source_id": "eastmoney",

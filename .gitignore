@@ -16,11 +16,13 @@ data/inbox/*
 data/multisource_test/
 data/realtest/
 data/samples/
+data/samples_py39/
 data/doctor_sample/
 data/doctor_sample*/
 data/validated/
 data/tmp_*.html
 data/*.log
+logs/
 
 # Build/export artifacts
 dist/
@@ -33,3 +35,4 @@ dist/
 Thumbs.db
 .vscode/
 .idea/
+.claude/

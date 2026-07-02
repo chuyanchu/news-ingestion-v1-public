@@ -19,12 +19,37 @@ from xml.sax.saxutils import escape as xml_escape
 from zoneinfo import ZoneInfo
 
 from .cli import DEFAULT_REGISTRY, DEFAULT_RULES_PATH, PRODUCT_ROOT, daily_collect, date_tags, load_registry
+from .gpt_analyzer import (
+    ai_enabled,
+    analyze_article_with_gpt,
+    batch_analyze_for_date,
+    gpt_enabled,
+    load_ai_analysis,
+    provider_info,
+    save_ai_analysis,
+)
 from .io_utils import read_jsonl
+from .sector_heat import (
+    build_sector_heatmap,
+    build_trade_pool,
+    dedup_articles,
+    _alias_index,
+    filter_recent,
+    filter_sector_articles,
+    load_sector_dictionary,
+    match_sectors,
+    public_heat_article,
+    resolve_sectors,
+)
+from .backtest import run_backtest
+from .events import build_events
 
 
 CN_TZ = ZoneInfo("Asia/Shanghai")
 DEFAULT_DATA_ROOT = PRODUCT_ROOT / "data" / "daily"
 DEFAULT_INBOX_DIR = PRODUCT_ROOT / "data" / "inbox"
+DEFAULT_SECTOR_KEYWORDS = PRODUCT_ROOT / "config" / "sector_keywords.v1.json"
+DEFAULT_DASHBOARD = PRODUCT_ROOT / "static" / "dashboard.html"
 API_VERSION = "v1"
 EXPORT_METRIC_FIELDS = ["read_count", "view_count", "comment_count", "like_count", "favorite_count", "share_count", "repost_count"]
 EXPORT_FIELDNAMES = [
@@ -121,6 +146,26 @@ def load_articles(data_root: Path, date_tag: str) -> list[dict[str, Any]]:
         if candidate.exists():
             return read_jsonl(candidate)
     return []
+
+
+def load_dashboard_html() -> str:
+    if DEFAULT_DASHBOARD.exists():
+        return DEFAULT_DASHBOARD.read_text(encoding="utf-8")
+    return "<!doctype html><title>News Dashboard</title><p>dashboard.html not found</p>"
+
+
+def load_sector_config() -> list[dict[str, Any]]:
+    return load_sector_dictionary(DEFAULT_SECTOR_KEYWORDS)
+
+
+def available_date_tags(data_root: Path) -> list[str]:
+    if not data_root.exists():
+        return []
+    return sorted(
+        item.name
+        for item in data_root.iterdir()
+        if item.is_dir() and len(item.name) == 8 and item.name.isdigit()
+    )
 
 
 def load_report(data_root: Path, date_tag: str) -> str:
@@ -448,6 +493,7 @@ class ApiState:
         self.last_refresh_error: str | None = None
         self.refresh_count = 0
         self.running_refresh = False
+        self.last_ai_stats: dict[str, Any] | None = None
         self.stop_event = threading.Event()
 
     def start_background_refresh(self) -> None:
@@ -479,9 +525,16 @@ class ApiState:
                 )
                 self.refresh_count += 1
                 self.last_refresh_completed_at = now_iso()
+                resolved_date = date_tags(date)[0] if date else date_tags(None)[0]
+                # 采集完成后，后台异步对当天命中板块的新闻跑 AI（不阻塞本次刷新返回）
+                if ai_enabled():
+                    threading.Thread(
+                        target=self._analyze_in_background, args=(resolved_date,),
+                        name="news-api-ai", daemon=True,
+                    ).start()
                 return {
                     "reason": reason,
-                    "date": date_tags(date)[0] if date else date_tags(None)[0],
+                    "date": resolved_date,
                     "completed_at": self.last_refresh_completed_at,
                     "refresh_count": self.refresh_count,
                 }
@@ -490,6 +543,16 @@ class ApiState:
                 raise
             finally:
                 self.running_refresh = False
+
+    def _analyze_in_background(self, date_tag: str) -> None:
+        """后台线程：对某日全部命中板块的新闻跑 AI（增量+缓存）。"""
+        try:
+            sector_dict = load_sector_config()
+            records = load_articles(self.data_root, date_tag)
+            stats = batch_analyze_for_date(records, sector_dict, self.data_root, date_tag)
+            self.last_ai_stats = {"date": date_tag, "at": now_iso(), **stats}
+        except Exception as exc:  # noqa: BLE001
+            self.last_ai_stats = {"date": date_tag, "at": now_iso(), "error": str(exc)}
 
     def status(self) -> dict[str, Any]:
         with self.lock:
@@ -500,11 +563,13 @@ class ApiState:
                 "latest_date": latest_date_tag(self.data_root),
                 "refresh_interval_minutes": self.refresh_interval_minutes,
                 "refresh_on_start": self.refresh_on_start,
+                "refresh_requires_token": bool(os.environ.get("NEWS_API_TOKEN")),
                 "running_refresh": self.running_refresh,
                 "last_refresh_started_at": self.last_refresh_started_at,
                 "last_refresh_completed_at": self.last_refresh_completed_at,
                 "last_refresh_error": self.last_refresh_error,
                 "refresh_count": self.refresh_count,
+                "last_ai_stats": self.last_ai_stats,
             }
 
 
@@ -531,7 +596,9 @@ class NewsApiHandler(BaseHTTPRequestHandler):
         path = parsed.path.rstrip("/") or "/"
         params = parse_qs(parsed.query)
         try:
-            if path == "/health":
+            if path in {"/", "/dashboard"}:
+                self.respond_text(load_dashboard_html(), "text/html; charset=utf-8")
+            elif path == "/health":
                 self.respond_json({"ok": True, "data": self.state.status()})
             elif path == "/api/v1/status":
                 self.respond_json({"ok": True, "data": self.state.status()})
@@ -546,6 +613,33 @@ class NewsApiHandler(BaseHTTPRequestHandler):
                 self.handle_article(article_id, params)
             elif path == "/api/v1/hot":
                 self.handle_hot(params)
+            elif path == "/api/v1/realtime":
+                self.handle_realtime(params)
+            elif path == "/api/v1/heatmap":
+                self.handle_heatmap(params)
+            elif path.startswith("/api/v1/sector/") and path.endswith("/news"):
+                sector_name = unquote(path.removeprefix("/api/v1/sector/").removesuffix("/news")).strip("/")
+                self.handle_sector_news(sector_name, params)
+            elif path == "/api/v1/trade-pool":
+                self.handle_trade_pool(params)
+            elif path == "/api/v1/backtest":
+                self.handle_backtest(params)
+            elif path == "/api/v1/gpt/status":
+                self.handle_gpt_status()
+            elif path == "/api/v1/gpt/analyze":
+                self.handle_gpt_analyze(params)
+            elif path == "/api/v1/gpt/batch-analyze":
+                self.handle_gpt_batch_analyze(params)
+            elif path == "/api/v1/gpt/analysis":
+                self.handle_gpt_analysis(params)
+            elif path == "/api/v1/source-health":
+                self.handle_source_health(params)
+            elif path == "/api/v1/sector-suggestions":
+                self.handle_sector_suggestions(params)
+            elif path == "/api/v1/stocks":
+                self.handle_stocks(params)
+            elif path == "/api/v1/events":
+                self.handle_events(params)
             elif path == "/api/v1/report":
                 self.handle_report(params)
             elif path.startswith("/api/v1/export/"):
@@ -660,6 +754,328 @@ class NewsApiHandler(BaseHTTPRequestHandler):
         params["sort"] = ["hot"]
         params.setdefault("status", ["valid"])
         self.handle_articles(params)
+
+    def handle_realtime(self, params: dict[str, list[str]]) -> None:
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        limit = parse_int(first_param(params, "limit"), 20, minimum=1, maximum=100)
+        sector_dict = load_sector_config()
+        ai_map = load_ai_analysis(self.state.data_root, date_tag)
+        records = filter_recent(load_articles(self.state.data_root, date_tag), date_tag)  # 过滤旧闻
+        records = sort_records(records, "newest")
+        records = dedup_articles(records)  # 已按最新排序，去重后保留最新一条
+        data: list[dict[str, Any]] = []
+        for record in records:
+            matches = resolve_sectors(record, sector_dict, ai_map)
+            if not matches:
+                continue
+            keywords: list[str] = []
+            sectors: list[str] = []
+            for match in matches:
+                sectors.append(match["sector"])
+                keywords.extend(match["matched_keywords"])
+            item = public_heat_article(record, sorted(set(keywords)), ai_map)
+            item["sectors"] = sectors
+            data.append(item)
+            if len(data) >= limit:
+                break
+        self.respond_json(
+            {
+                "ok": True,
+                "data": data,
+                "meta": {"date": date_tag, "date_iso": date_iso, "count": len(data), "limit": limit},
+            }
+        )
+
+    def handle_heatmap(self, params: dict[str, list[str]]) -> None:
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        limit = parse_int(first_param(params, "limit"), 30, minimum=1, maximum=100)
+        sector_dict = load_sector_config()
+        ai_map = load_ai_analysis(self.state.data_root, date_tag)
+        data = build_sector_heatmap(
+            load_articles(self.state.data_root, date_tag), sector_dict,
+            limit=limit, as_of_date=date_tag, ai_map=ai_map,
+        )
+        max_heat = max((float(item.get("heat_score") or 0) for item in data), default=0.0)
+        self.respond_json(
+            {
+                "ok": True,
+                "data": data,
+                "meta": {
+                    "date": date_tag,
+                    "date_iso": date_iso,
+                    "count": len(data),
+                    "max_heat_score": round(max_heat, 2),
+                    "sector_dictionary": str(DEFAULT_SECTOR_KEYWORDS),
+                },
+            }
+        )
+
+    def handle_sector_news(self, sector_name: str, params: dict[str, list[str]]) -> None:
+        if not sector_name:
+            self.respond_error(400, "missing_sector", "Sector name is required.")
+            return
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        limit = parse_int(first_param(params, "limit"), 100, minimum=1, maximum=300)
+        sector_dict = load_sector_config()
+        ai_map = load_ai_analysis(self.state.data_root, date_tag)
+        data = filter_sector_articles(
+            load_articles(self.state.data_root, date_tag),
+            sector_dict,
+            sector_name,
+            limit=limit,
+            as_of_date=date_tag,
+            ai_map=ai_map,
+        )
+        for item in data:
+            item["sectors"] = [sector_name]
+        self.respond_json(
+            {
+                "ok": True,
+                "data": data,
+                "meta": {"date": date_tag, "date_iso": date_iso, "sector": sector_name, "count": len(data)},
+            }
+        )
+
+    def handle_trade_pool(self, params: dict[str, list[str]]) -> None:
+        days = parse_int(first_param(params, "days"), 3, minimum=1, maximum=30)
+        limit = parse_int(first_param(params, "limit"), 20, minimum=1, maximum=100)
+        sector_dict = load_sector_config()
+        date_tags_all = available_date_tags(self.state.data_root)  # ascending
+        # "以选中日期为基准往前看 N 天"：只取 <= 选中日期的日期，再取最后 N 个
+        as_of = first_param(params, "date")
+        if as_of:
+            as_of_tag, _ = normalize_date(as_of, self.state.data_root)
+            eligible = [d for d in date_tags_all if d <= as_of_tag]
+        else:
+            eligible = date_tags_all
+        selected_dates = eligible[-days:]
+        dated_records = [(date_tag, load_articles(self.state.data_root, date_tag)) for date_tag in selected_dates]
+        data = build_trade_pool(dated_records, sector_dict, days=days, limit=limit)
+        self.respond_json(
+            {
+                "ok": True,
+                "data": data,
+                "meta": {"days": days, "dates": selected_dates, "count": len(data), "limit": limit},
+            }
+        )
+
+    def handle_source_health(self, params: dict[str, list[str]]) -> None:
+        """各信息源当日抓取情况 + 报错，用于前端"数据源健康"面板。"""
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        records = load_articles(self.state.data_root, date_tag)
+        recent = filter_recent(records, date_tag)
+        recent_ids = {id(r) for r in recent}
+        groups: dict[str, dict[str, Any]] = {}
+        for record in records:
+            name = str(record.get("source") or "未知来源")
+            g = groups.setdefault(name, {"source": name, "total": 0, "recent": 0})
+            g["total"] += 1
+            if id(record) in recent_ids:
+                g["recent"] += 1
+        sources = sorted(groups.values(), key=lambda x: x["recent"], reverse=True)
+
+        # 抓取错误
+        errors: list[dict[str, Any]] = []
+        err_path = self.state.data_root / date_tag / f"fetch_errors_{date_tag}.jsonl"
+        if err_path.exists():
+            for line in read_jsonl(err_path):
+                errors.append({"source": line.get("source"), "url": line.get("url"), "error": line.get("error")})
+
+        self.respond_json({
+            "ok": True,
+            "data": {"sources": sources, "errors": errors},
+            "meta": {
+                "date": date_tag, "date_iso": date_iso,
+                "source_count": len(sources), "error_count": len(errors),
+                "total_articles": len(records), "recent_articles": len(recent),
+            },
+        })
+
+    def handle_events(self, params: dict[str, list[str]]) -> None:
+        """今日热点事件：把讲同一件事的多源新闻聚成一个事件。"""
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        limit = parse_int(first_param(params, "limit"), 15, minimum=1, maximum=50)
+        sector_dict = load_sector_config()
+        ai_map = load_ai_analysis(self.state.data_root, date_tag)
+        records = dedup_articles(filter_recent(load_articles(self.state.data_root, date_tag), date_tag))
+        events = build_events(records, ai_map, sector_dict, limit=limit)
+        self.respond_json({
+            "ok": True, "data": events,
+            "meta": {"date": date_tag, "date_iso": date_iso, "count": len(events)},
+        })
+
+    def handle_stocks(self, params: dict[str, list[str]]) -> None:
+        """今日个股提及榜：从 AI 抽取的 stocks 字段聚合，按被提及次数排名。"""
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        limit = parse_int(first_param(params, "limit"), 30, minimum=1, maximum=100)
+        ai_map = load_ai_analysis(self.state.data_root, date_tag)
+        records = dedup_articles(filter_recent(load_articles(self.state.data_root, date_tag), date_tag))
+        by_id = {str(r.get("article_id") or ""): r for r in records}
+
+        stocks: dict[str, dict[str, Any]] = {}
+        for aid, entry in ai_map.items():
+            if not entry.get("enabled") or aid not in by_id:
+                continue
+            record = by_id[aid]
+            for stock in entry.get("stocks") or []:
+                name = str(stock.get("name") or "").strip()
+                if not name:
+                    continue
+                group = stocks.setdefault(name, {
+                    "name": name, "code": stock.get("code") or "",
+                    "count": 0, "importance": 0, "sectors": set(), "news": [],
+                })
+                if not group["code"] and stock.get("code"):
+                    group["code"] = stock["code"]
+                group["count"] += 1
+                group["importance"] += float(entry.get("importance") or 0)
+                for s in entry.get("sectors") or []:
+                    group["sectors"].add(s)
+                if len(group["news"]) < 10:
+                    group["news"].append({
+                        "title": compact_text(record.get("title")),
+                        "url": record.get("url"),
+                        "source": (record.get("source_info") or {}).get("name") or record.get("source"),
+                        "published_at": (record.get("time_info") or {}).get("published_at") or record.get("published_at"),
+                        "impact": entry.get("impact") or "neutral",
+                        "summary": entry.get("summary") or "",
+                    })
+
+        ranked = sorted(stocks.values(), key=lambda x: (x["count"], x["importance"]), reverse=True)
+        data = []
+        for idx, g in enumerate(ranked[:limit], 1):
+            data.append({
+                "rank": idx, "name": g["name"], "code": g["code"],
+                "count": g["count"], "importance": round(g["importance"] / g["count"], 1) if g["count"] else 0,
+                "sectors": sorted(g["sectors"]), "news": g["news"],
+            })
+        self.respond_json({
+            "ok": True, "data": data,
+            "meta": {"date": date_tag, "date_iso": date_iso, "count": len(data),
+                     "ai_analyzed": sum(1 for e in ai_map.values() if e.get("enabled"))},
+        })
+
+    def handle_sector_suggestions(self, params: dict[str, list[str]]) -> None:
+        """汇总 AI 提出的、不在14类里的新板块建议（按频次），供人工决定是否扩进词典。"""
+        days = parse_int(first_param(params, "days"), 7, minimum=1, maximum=30)
+        dates = available_date_tags(self.state.data_root)[-days:]
+        sector_dict = load_sector_config()
+        idx = _alias_index(sector_dict)
+        counts: dict[str, int] = {}
+        samples: dict[str, list[str]] = {}
+        for date_tag in dates:
+            ai_map = load_ai_analysis(self.state.data_root, date_tag)
+            if not ai_map:
+                continue
+            id2title = {
+                str(r.get("article_id") or ""): str(r.get("title") or "")
+                for r in load_articles(self.state.data_root, date_tag)
+            }
+            for aid, entry in ai_map.items():
+                if not entry.get("enabled"):
+                    continue
+                names: set[str] = set()
+                suggested = str(entry.get("suggested_sector") or "").strip()
+                if suggested and not idx.get(suggested.lower()):
+                    names.add(suggested)
+                for raw in entry.get("sectors") or []:  # 兜底：万一界外名混进了 sectors
+                    name = str(raw).strip()
+                    if name and not idx.get(name.lower()):
+                        names.add(name)
+                for name in names:
+                    counts[name] = counts.get(name, 0) + 1
+                    title = id2title.get(str(aid))
+                    if title and len(samples.setdefault(name, [])) < 3:
+                        samples[name].append(title)
+        data = [
+            {"name": name, "count": count, "samples": samples.get(name, [])}
+            for name, count in sorted(counts.items(), key=lambda kv: kv[1], reverse=True)
+        ]
+        self.respond_json({
+            "ok": True,
+            "data": data,
+            "meta": {"days": days, "dates": dates, "count": len(data)},
+        })
+
+    def handle_backtest(self, params: dict[str, list[str]]) -> None:
+        top_n = parse_int(first_param(params, "top_n"), 5, minimum=1, maximum=20)
+        pool_days = parse_int(first_param(params, "pool_days"), 3, minimum=1, maximum=10)
+        sector_dict = load_sector_config()
+        date_tags_all = available_date_tags(self.state.data_root)
+        dated_records = [(d, load_articles(self.state.data_root, d)) for d in date_tags_all]
+        result = run_backtest(dated_records, sector_dict, top_n=top_n, pool_days=pool_days)
+        self.respond_json({"ok": True, "data": result, "meta": {"dates": date_tags_all, "top_n": top_n}})
+
+    def handle_gpt_status(self) -> None:
+        self.respond_json({"ok": True, "data": provider_info()})
+
+    def handle_gpt_analyze(self, params: dict[str, list[str]]) -> None:
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        article_id = first_param(params, "article_id")
+        if not article_id:
+            self.respond_error(400, "missing_article_id", "article_id is required.")
+            return
+        sector_dict = load_sector_config()
+        sector_names = [str(item.get("name")) for item in sector_dict if item.get("name")]
+        for record in load_articles(self.state.data_root, date_tag):
+            if str(record.get("article_id") or "") != article_id:
+                continue
+            result = analyze_article_with_gpt(
+                str(record.get("title") or ""),
+                str(record.get("content") or ""),
+                sector_names,
+            )
+            self.respond_json(
+                {
+                    "ok": True,
+                    "data": result,
+                    "meta": {"date": date_tag, "date_iso": date_iso, "article_id": article_id},
+                }
+            )
+            return
+        self.respond_error(404, "article_not_found", f"Article not found: {article_id}")
+
+    def handle_gpt_batch_analyze(self, params: dict[str, list[str]]) -> None:
+        """Analyze top-N articles for a date and return AI enrichment in bulk.
+
+        Used by the dashboard to decorate the heatmap and news list with
+        AI-generated summaries, impact labels, and catalyst notes.
+        """
+        if not ai_enabled():
+            self.respond_json({
+                "ok": False,
+                "error": {"code": "ai_disabled", "message": "No AI API key configured."},
+                "data": [],
+            })
+            return
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        limit = parse_int(first_param(params, "limit"), 200, minimum=1, maximum=400)
+        sector_dict = load_sector_config()
+        records = load_articles(self.state.data_root, date_tag)
+        stats = batch_analyze_for_date(records, sector_dict, self.state.data_root, date_tag, max_articles=limit)
+        cached = load_ai_analysis(self.state.data_root, date_tag)
+        results = [{"article_id": aid, **payload} for aid, payload in cached.items()]
+        self.respond_json({
+            "ok": True,
+            "data": results,
+            "meta": {
+                "date": date_tag, "date_iso": date_iso,
+                "count": len(results), "newly_analyzed": stats.get("analyzed", 0),
+                "errors": stats.get("errors", 0), "matched": stats.get("matched", 0),
+                **provider_info(),
+            },
+        })
+
+    def handle_gpt_analysis(self, params: dict[str, list[str]]) -> None:
+        """返回某日已持久化的 AI 分析（不触发新的 AI 调用），供前端启动时直接渲染。"""
+        date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)
+        cached = load_ai_analysis(self.state.data_root, date_tag)
+        results = [{"article_id": aid, **payload} for aid, payload in cached.items()]
+        self.respond_json({
+            "ok": True,
+            "data": results,
+            "meta": {"date": date_tag, "date_iso": date_iso, "count": len(results)},
+        })
 
     def handle_report(self, params: dict[str, list[str]]) -> None:
         date_tag, date_iso = normalize_date(first_param(params, "date"), self.state.data_root)

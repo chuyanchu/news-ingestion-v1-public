@@ -90,6 +90,7 @@ def daily_collect(
     date: str | None = None,
     fetch_rss: bool = True,
     fetch_html: bool = True,
+    analyze: bool = False,
 ) -> None:
     registry = load_registry(registry_path)
     rules = load_rules(rules_path)
@@ -124,6 +125,15 @@ def daily_collect(
     if fetch_errors:
         write_jsonl(out_dir / f"fetch_errors_{date_tag}.jsonl", fetch_errors)
     accepted, rejected = validate_loaded_records(records, out_dir, registry, rules, date_tag, report_date)
+
+    # 按真实发布日期重新归档：把抓到的跨多天新闻分配到各自的日期文件夹。
+    # 先把运行当天文件夹收敛成"只含当天发布"（含无日期的兜底放当天），再分发全部 accepted。
+    from .rebucket import article_date_tag, rebucket_by_date
+
+    today_only = [r for r in accepted if (article_date_tag(r) or date_tag) == date_tag]
+    write_jsonl(out_dir / f"articles_{date_tag}.jsonl", today_only)
+    bucketed = rebucket_by_date(accepted, out_root, as_of_tag=date_tag)
+
     metadata = {
         "date": report_date,
         "date_tag": date_tag,
@@ -133,10 +143,23 @@ def daily_collect(
         "input_records": len(records),
         "accepted_records": len(accepted),
         "rejected_records": len(rejected),
+        "bucketed_dates": bucketed,
         "output_dir": str(out_dir),
     }
     write_jsonl(out_dir / f"run_metadata_{date_tag}.jsonl", [metadata])
     print(f"daily_date={date_tag} input={len(records)} valid_or_review={len(accepted)} rejected={len(rejected)}")
+    print(f"rebucketed_dates={bucketed}")
+
+    if analyze:
+        from .gpt_analyzer import ai_enabled, batch_analyze_for_date
+        from .sector_heat import load_sector_dictionary
+        if ai_enabled():
+            sector_dict = load_sector_dictionary(PRODUCT_ROOT / "config" / "sector_keywords.v1.json")
+            stats = batch_analyze_for_date(today_only, sector_dict, out_root, date_tag)
+            print(f"ai_analyze={stats}")
+        else:
+            print("ai_analyze=skipped (no API key)")
+
     print(f"out_dir={out_dir}")
 
 
@@ -171,6 +194,7 @@ def build_parser() -> argparse.ArgumentParser:
     daily.add_argument("--date", type=str, default=None)
     daily.add_argument("--no-rss", action="store_true", help="Skip RSS entrypoints in source registry")
     daily.add_argument("--no-html", action="store_true", help="Skip HTML entrypoints in source registry")
+    daily.add_argument("--analyze", action="store_true", help="采集后对命中板块的新闻自动跑 AI 分析（需配置 API key）")
 
     report = subparsers.add_parser("report", help="Generate crawl health report")
     report.add_argument("--articles", type=Path, required=True)
@@ -196,6 +220,7 @@ def main() -> None:
             args.date,
             fetch_rss=not args.no_rss,
             fetch_html=not args.no_html,
+            analyze=args.analyze,
         )
     elif args.command == "report":
         create_report(args.articles, args.rejected, args.out, args.registry)

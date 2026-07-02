@@ -86,6 +86,19 @@ powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port
 http://127.0.0.1:19080/health
 ```
 
+打开重构后的板块热力图看板：
+
+```text
+http://127.0.0.1:19080/
+```
+
+看板包含：
+
+- 每日板块热力图：点击板块查看相关新闻。
+- 实时消息：按刷新间隔采集后，页面每分钟更新。
+- 交易池：可选择过去 1/3/5/10 天。
+- GPT 状态：配置 `OPENAI_API_KEY` 后可调用单篇新闻分析接口。
+
 下载当天全套数据包：
 
 ```text

@@ -480,17 +480,20 @@ def fetch_eastmoney_api(source: dict[str, Any], entrypoint: dict[str, Any], time
                 for key in ("commentCount", "readCount", "likeCount", "shareCount", "collectCount")
                 if item.get(key) is not None
             }
+            # Use the real publisher name from the API response when available
+            real_media = str(item.get("mediaName") or "").strip()
+            display_source = real_media if real_media else (source.get("name") or "东方财富")
             records.append(
                 {
-                    "source": source.get("name") or "东方财富",
+                    "source": display_source,
                     "source_id": source.get("source_id") or "eastmoney",
                     "title": item.get("title") or "",
                     "content": item.get("summary") or item.get("title") or "",
                     "url": item.get("uniqueUrl") or item.get("url") or "",
                     "published_at": parse_local_datetime(item.get("showTime")),
                     "crawled_at": crawled_at,
-                    "author": item.get("mediaName"),
-                    "section": "新闻API",
+                    "author": real_media,
+                    "section": entrypoint.get("label") or "新闻API",
                     "keywords": [],
                     "raw_html_path": None,
                     "fetch_entrypoint": url,
@@ -667,6 +670,84 @@ def fetch_cctv_finance(source: dict[str, Any], entrypoint: dict[str, Any], timeo
     return records, errors
 
 
+def fetch_cls_telegraph(source: dict[str, Any], entrypoint: dict[str, Any], timeout: int) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """财联社电报快讯采集器。
+
+    财联社提供公开的 nodeapi 接口，返回 JSON，无需登录。
+    入口 type=cls_telegraph。
+    """
+    base_url = entrypoint.get("url", "https://www.cls.cn/nodeapi/updateTelegraphList")
+    max_items = int(entrypoint.get("max_items", 30))
+    crawled_at = now_cn().isoformat()
+    records: list[dict[str, Any]] = []
+    errors: list[dict[str, Any]] = []
+
+    params = {
+        "app": "CLS.PC",
+        "os": "web",
+        "sv": "7.7.5",
+        "rn": str(max_items),
+        "lastTime": "0",
+        "category": "",
+        "_": str(int(datetime.now().timestamp() * 1000)),
+    }
+    url = base_url + "?" + urllib.parse.urlencode(params)
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                "Referer": "https://www.cls.cn/",
+                "Accept": "application/json, text/plain, */*",
+            },
+        )
+        payload = urllib.request.urlopen(req, timeout=timeout).read()
+        obj = json.loads(payload.decode("utf-8", errors="replace"))
+        items = (obj.get("data", {}).get("roll_data") or [])[:max_items]
+        list_size = len(items)
+        for list_rank, item in enumerate(items, 1):
+            title = str(item.get("title") or item.get("brief") or "").strip()
+            content = str(item.get("content") or item.get("brief") or title).strip()
+            content = re.sub(r"<[^>]+>", " ", content)  # strip inline HTML
+            content = re.sub(r"\s+", " ", content).strip()
+            ts = item.get("ctime") or item.get("modified_time")
+            published_at = None
+            if ts:
+                try:
+                    published_at = datetime.fromtimestamp(int(ts), tz=CN_TZ).isoformat()
+                except Exception:  # noqa: BLE001
+                    pass
+            article_id = str(item.get("id") or "")
+            art_url = f"https://www.cls.cn/detail/{article_id}" if article_id else "https://www.cls.cn/"
+            records.append({
+                "source": source.get("name") or "财联社",
+                "source_id": source.get("source_id") or "cls",
+                "title": title,
+                "content": content,
+                "url": art_url,
+                "published_at": published_at,
+                "crawled_at": crawled_at,
+                "author": item.get("author") or "",
+                "section": "电报",
+                "keywords": [],
+                "raw_html_path": None,
+                "fetch_entrypoint": base_url,
+                "hot_features": build_hot_features(
+                    source, base_url, crawled_at, list_rank, list_size,
+                    extract_engagement_metrics(None, crawled_at, "cls_api", None),
+                ),
+            })
+    except Exception as exc:  # noqa: BLE001
+        errors.append({
+            "source": source.get("name") or source.get("source_id") or "财联社",
+            "source_id": source.get("source_id"),
+            "url": url,
+            "error": str(exc),
+            "crawled_at": crawled_at,
+        })
+    return records, errors
+
+
 def fetch_registry_rss(registry: dict[str, Any], enabled_only: bool = True) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     records: list[dict[str, Any]] = []
     errors: list[dict[str, Any]] = []
@@ -709,7 +790,7 @@ def fetch_registry_html(registry: dict[str, Any], enabled_only: bool = True) -> 
             continue
         for entrypoint in source.get("entrypoints", []):
             entry_type = entrypoint.get("type")
-            supported_types = {"html_roll_list", "eastmoney_api", "stcn_article_list", "cctv_finance_home"}
+            supported_types = {"html_roll_list", "eastmoney_api", "stcn_article_list", "cctv_finance_home", "cls_telegraph"}
             if entry_type not in supported_types:
                 continue
             try:
@@ -727,6 +808,10 @@ def fetch_registry_html(registry: dict[str, Any], enabled_only: bool = True) -> 
                     errors.extend(source_errors)
                 elif entry_type == "cctv_finance_home":
                     source_records, source_errors = fetch_cctv_finance(source, entrypoint, timeout)
+                    records.extend(source_records)
+                    errors.extend(source_errors)
+                elif entry_type == "cls_telegraph":
+                    source_records, source_errors = fetch_cls_telegraph(source, entrypoint, timeout)
                     records.extend(source_records)
                     errors.extend(source_errors)
                 else:

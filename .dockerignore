@@ -5,12 +5,17 @@ data/daily/
 data/empty_inbox/
 data/inbox/*
 data/samples/
+data/samples_py39/
 data/doctor_sample/
+data/doctor_sample*/
 data/validated/
 data/multisource_test/
 data/realtest/
 data/tmp_*.html
+data/*.log
+logs/
 dist/
 .env
 .env.*
+.claude/
 .git/
