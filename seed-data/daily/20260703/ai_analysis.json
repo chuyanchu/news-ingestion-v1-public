@@ -1,0 +1,1263 @@
+{
+  "0c1680a579605c9c39309e28": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "动力源实控人筹划股份转让，或致控制权变更，股票7月6日起停牌。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "动力源",
+        "code": "600405"
+      }
+    ],
+    "reason": "控制权变更存在不确定性，但可能带来新资源，需关注后续进展。",
+    "catalyst": "实控人筹划股份转让，可能引发控制权变更。"
+  },
+  "5c879008b13a52e534da68c0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中央军委晋升上将军衔，习近平颁发命令状。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为军事人事变动，对A股无直接影响。",
+    "catalyst": "军队高层人事调整，无具体政策或订单催化。"
+  },
+  "b2886858cdf17cfca50477b7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "低利率下居民存款向理财、保险等多元资产分流，但大规模入市尚未出现。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "存款搬家趋势延续但非单边入市，对银行负债端有压力但整体影响中性。",
+    "catalyst": "低利率环境推动居民资产再配置，理财和保险产品受益。"
+  },
+  "4299d022b64e87ceb2d68352": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "英国长端国债因财政疑虑和养老基金需求减少而承压，短期国债受青睐。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "债券市场",
+    "stocks": [],
+    "reason": "新闻聚焦英国债市，未涉及A股相关板块或个股。",
+    "catalyst": "英国财政政策不确定性及收益率曲线陡峭化。"
+  },
+  "a91ae2fc7452c9a4ef0f8836": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院印发美丽中国建设十五五规划，明确2030年目标及七大重点任务。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好环保、新能源及绿色产业，但未点名具体个股，整体影响正面。",
+    "catalyst": "国家层面长期规划，推动绿色转型和污染防治。"
+  },
+  "5d99ead463adfbb59c38a116": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "下半年AI投资仍是焦点，但需警惕金融市场波动风险。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI投资持续火热，但市场波动风险增加，需谨慎参与。",
+    "catalyst": "AI技术发展及主权投资者加大AI部署。"
+  },
+  "d7395946cf2ec234e187a621": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "腾讯QClaw产品经理张舒昱离职，公司暂无回应。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及个人离职，未提及公司业务或行业影响，不进入交易池。",
+    "catalyst": "无明确催化逻辑。"
+  },
+  "b8e4954df6bc73b46e5310e9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家银行关停代理上金所个人贵金属交易业务，上调保证金比例，防范杠杆交易风险。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行收紧贵金属业务，短期利空相关业务收入，但长期降低风险，影响中性偏负面。",
+    "catalyst": "银行主动风险管理，压缩高风险投机业务，防范极端行情违约风险。"
+  },
+  "1b992ea74adf5b2f7e3f98e8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股反弹，人形机器人概念爆发，军工拉升，半导体走低。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "机器人",
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "丰光精密",
+        "code": ""
+      },
+      {
+        "name": "埃斯顿",
+        "code": ""
+      },
+      {
+        "name": "绿的谐波",
+        "code": "688017"
+      },
+      {
+        "name": "航发科技",
+        "code": ""
+      },
+      {
+        "name": "铖昌科技",
+        "code": ""
+      },
+      {
+        "name": "热景生物",
+        "code": ""
+      },
+      {
+        "name": "凯莱英",
+        "code": ""
+      },
+      {
+        "name": "金宏气体",
+        "code": ""
+      }
+    ],
+    "reason": "人形机器人量产预期和军工订单确定性提升，板块催化明确。",
+    "catalyst": "特斯拉Optimus量产在即，宇树科技IPO获批。"
+  },
+  "dfa17a4b5dc818806809ee23": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商业航天板块爆发，铖昌科技涨停，受多重利好催化。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "商业航天",
+    "stocks": [
+      {
+        "name": "铖昌科技",
+        "code": "001270"
+      }
+    ],
+    "reason": "商业航天板块受多重利好催化，资金流入明显，龙头股涨停。",
+    "catalyst": "太空算力中心揭牌、火箭试飞预期、卫星发射成功"
+  },
+  "f0e47d97b381fcbf3bf92ca9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家头部金融机构上线专属辟谣平台，治理金融网络谣言，重塑信任体系。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好银行板块声誉风险管理，提升行业信任度。",
+    "catalyst": "金融机构主动辟谣，常态化治理金融谣言。"
+  },
+  "04167319b4e14b0b30e0741a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "杭电股份预计上半年净利同比增长852%-958%，受益光纤光缆市场回暖及AI基建需求。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "杭电股份",
+        "code": "603618"
+      }
+    ],
+    "reason": "业绩大幅预增，叠加AI基建催化，股价已涨超5倍，短期追高风险较大。",
+    "catalyst": "光纤光缆量价齐升，AI算力基建拉动需求。"
+  },
+  "952335215e3102b7e2575da2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "下周一A股交易规则调整，主板ST股涨跌幅改为10%，盘后固定价格交易扩展至全A股。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "交易规则",
+    "stocks": [],
+    "reason": "规则调整影响广泛但偏制度性，短期对市场整体影响中性。",
+    "catalyst": "交易规则修订正式实施，提升市场效率与流动性。"
+  },
+  "496bf10ab30ad3a00d15b862": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三部门调整节能汽车、新能源汽车车船税优惠政策，央行开展万亿逆回购，油价三连降，美丽中国规划发布。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新能源车税收优惠延续，利好行业需求；央行释放流动性；油价下降降低用车成本；美丽中国规划利好环保相关。",
+    "catalyst": "税收优惠延续及流动性宽松提振新能源车产业链"
+  },
+  "b5471de858f43087b31d3a15": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "远洋物流中标台州路桥区冷链物流中心招商运营项目，提供多温区运营服务。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "物流",
+    "stocks": [],
+    "reason": "远洋物流非A股上市公司，但项目体现冷链物流行业景气度提升。",
+    "catalyst": "冷链物流项目中标，轻资产运营模式获认可。"
+  },
+  "aa732de9ffd26dd07d8ac8cb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "联想提出Token经济三大定律，强调企业级Token成本效率与价值效益，推动AI价值交付。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "联想作为AI算力重要参与者，其Token经济观点可能推动行业关注AI价值交付，利好AI算力板块。",
+    "catalyst": "联想提出Token经济三大定律，强调AI价值交付，催化AI算力板块关注。"
+  },
+  "83f0fc470796918cd2f1dfb1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三星计划Q3 DRAM涨价20%，AI芯片大单密集落地，存储芯片需求强劲。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "存储芯片涨价利好半导体板块，但未点名A股个股，板块整体受益。",
+    "catalyst": "三星DRAM涨价及AI存储需求旺盛"
+  },
+  "198d2b15f34f689add438f51": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "LV诉茉莉奶白商标侵权，一审判决赔偿1030万元，茉莉奶白将上诉。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "消费",
+    "stocks": [],
+    "reason": "茉莉奶白非上市公司，但事件影响消费品牌商标合规意识。",
+    "catalyst": "商标侵权高额赔偿，警示品牌视觉风险。"
+  },
+  "03a828831f7e2d758e45d347": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股震荡整固，高拥挤成长方向回调，低位资产修复，中报业绩成定价锚。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "医药生物",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场结构切换，高位科技回调但主线未结束，低位资产修复，需等待业绩验证。",
+    "catalyst": "中报业绩验证期，资金从高拥挤成长转向低位有业绩支撑方向。"
+  },
+  "f7edbc83e6e3b14027b6d4bb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "远洋物流中标台州冷链物流中心运营，投资近5亿元，助力冷链产业升级。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "冷链物流",
+    "stocks": [],
+    "reason": "新闻涉及物流行业，但未点名具体A股公司，且板块不在候选列表中。",
+    "catalyst": "远洋物流中标冷链项目，提升运营能力。"
+  },
+  "ac3dfecfa5e6a87e40e668cb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国对53个非洲建交国实施零关税满两月，上海关区进口享惠超12亿元，税款减让1.2亿元。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "外贸",
+    "stocks": [],
+    "reason": "利好中非贸易，但未直接点名A股公司，影响偏宏观。",
+    "catalyst": "零关税政策促进非洲农产品进口，降低企业成本。"
+  },
+  "50150ebca7c3158c03fbc725": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股全线飘红，贵金属和人形机器人板块大涨，多股涨停。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "贵金属",
+    "stocks": [
+      {
+        "name": "招金黄金",
+        "code": ""
+      },
+      {
+        "name": "赤峰黄金",
+        "code": ""
+      },
+      {
+        "name": "四川黄金",
+        "code": ""
+      },
+      {
+        "name": "西部黄金",
+        "code": ""
+      },
+      {
+        "name": "山金国际",
+        "code": ""
+      },
+      {
+        "name": "凯龙高科",
+        "code": ""
+      },
+      {
+        "name": "雷赛智能",
+        "code": ""
+      },
+      {
+        "name": "日发精机",
+        "code": ""
+      }
+    ],
+    "reason": "贵金属受美国经济数据疲软和央行增持推动，人形机器人订单超预期，板块景气度高。",
+    "catalyst": "美国经济数据疲软降息预期升温，优必选人形机器人订单大增。"
+  },
+  "7a4a70681f534dbe84a7f8b3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "农业农村部推进农产品品质提升，强调安全、标准、分选分级及品牌建设。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好农业及食品消费板块，但未点名具体公司，影响偏长期。",
+    "catalyst": "农产品品质提升政策推动行业升级，利好品牌化龙头企业。"
+  },
+  "d920eedf8dd0ce14f82aaf19": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三部门公告自2027年起取消节能汽车和新能源汽车车船税优惠政策。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策取消对新能源车板块构成利空，但执行时间较远，短期影响有限。",
+    "catalyst": "车船税优惠取消，增加新能源车持有成本。"
+  },
+  "45f2bf051adfeceea7971884": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "第10号台风“美莎克”登陆海南，为今年首个登陆我国的台风。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "气象新闻，对A股市场无直接影响，不进入交易池。",
+    "catalyst": ""
+  },
+  "079713a538d26a67c066bb83": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "维嘉科技科创板IPO拟募资26.62亿元，但存在关键器件进口依赖、研发率低、现金流差等问题。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要分析公司IPO风险，未提及明确交易机会，暂不进入交易池。",
+    "catalyst": "科创板IPO审核进展及公司基本面改善情况。"
+  },
+  "bdead3655cbf7b6098832ad2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "养老信托在沪京两地创新试点，上海降低门槛普惠化，北京为监护缺失提供兜底服务。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "养老信托",
+    "stocks": [],
+    "reason": "养老信托新模式利好金融创新，但未点名具体上市公司。",
+    "catalyst": "养老金融政策支持与信托业务转型需求。"
+  },
+  "81da848e465116d5bb4792b1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "双良节能光伏业务拖累业绩，高杠杆下财务承压，信披违规被罚，转型氢能面临挑战。",
+    "impact": "negative",
+    "importance": 65,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "双良节能",
+        "code": "600481"
+      }
+    ],
+    "reason": "公司基本面恶化，高杠杆风险大，信披违规，短期回避。",
+    "catalyst": "光伏行业下行，公司业绩承压，信披违规暴露治理问题。"
+  },
+  "298389294bacb0094438d726": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "紫天科技退市后曝出超15亿元财务造假，审计机构被罚，经营风险持续。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "互联网广告",
+    "stocks": [],
+    "reason": "紫天科技已退市，但财务造假和治理问题警示市场，影响投资者信心。",
+    "catalyst": "财务造假曝光，审计机构受罚，退市后风险持续发酵。"
+  },
+  "cbf94a99724bb2fffede436b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三部门拟对金融等重要行业的关键信息基础设施实行重点保护，并公开征求意见。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好金融行业网络安全建设，提升行业安全标准，相关板块受益。",
+    "catalyst": "关键信息基础设施重点保护，金融网络安全需求增加。"
+  },
+  "aab971bedafc390d2eeb403f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "行云科技四个月签近百亿算力订单，股价涨超400%，但营收仅1.45亿，履约能力存疑。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "行云科技",
+        "code": "300209"
+      }
+    ],
+    "reason": "公司转型AI算力，订单爆发，但基本面薄弱，需关注履约风险。",
+    "catalyst": "连续签订巨额算力服务协议，AI算力需求旺盛。"
+  },
+  "f1e63bb8df5bb5b56eb369f1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "巨力索具因在互动易平台误导性陈述商业航天业务，被罚950万元。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "军工",
+    "stocks": [
+      {
+        "name": "巨力索具",
+        "code": "002342"
+      }
+    ],
+    "reason": "公司因蹭热点被重罚，股价已连续跌停，短期负面冲击大。",
+    "catalyst": "监管严查蹭热点，公司误导性陈述被处罚。"
+  },
+  "d83e57b74e526c3dbc3a545b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "武汉众邦银行因严重信用风险被接管，汉口银行承接其业务，个人存款全额保障。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行风险事件影响市场信心，但接管措施稳定预期，短期负面，长期需观察。",
+    "catalyst": "银行信用风险暴露，监管接管保障存款安全。"
+  },
+  "dc8b05463ea26eef78022c1e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "ST金顶违规预付款细节曝光，原董事长提供失实信息导致公司损失1870万元。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "ST金顶",
+        "code": "600678"
+      }
+    ],
+    "reason": "公司内控重大缺陷，违规预付款无法收回，利空股价。",
+    "catalyst": "违规预付款事件暴露内控问题，资金回收风险高。"
+  },
+  "07d3ee0836d8c12867737ba3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行将于7月6日开展10000亿元3个月期买断式逆回购操作，维护流动性充裕。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "央行大额逆回购释放流动性，利好银行及整体市场，但未点名具体个股。",
+    "catalyst": "央行大规模逆回购操作，释放流动性宽松信号。"
+  },
+  "3dc5c502b7b0658280116a42": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行等三部门就金融业网络安全管理办法征求意见，共五章三十三条。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "金融科技",
+    "stocks": [],
+    "reason": "政策处于征求意见阶段，未涉及具体公司，对板块影响中性。",
+    "catalyst": "金融业网络安全监管加强，利好金融科技及网络安全服务商。"
+  },
+  "fe4107ee0b66f4a6fdaa568c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "汉口银行依法承接众邦银行资产、负债、业务和人员，保障存款人权益。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行板块事件，但未点名具体上市公司，影响偏中性。",
+    "catalyst": "银行接管与承接，行业风险化解"
+  },
+  "51f8e3d7cc7b833e702344be": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三部门拟对金融业关键信息基础设施实行重点保护，并公开征求意见。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好金融IT安全，但未点名具体公司，暂不进入交易池。",
+    "catalyst": "关键信息基础设施重点保护，金融网络安全需求提升。"
+  },
+  "87944365071e286a41b2487f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "世界气象组织预警强厄尔尼诺加速形成，恐推高全球气温并加剧极端天气。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "气象",
+    "stocks": [],
+    "reason": "新闻未提及具体上市公司，但厄尔尼诺可能影响农业、能源等板块。",
+    "catalyst": "强厄尔尼诺现象加剧极端天气风险。"
+  },
+  "afb2df7d819039a9d699897c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "圣亚支付支付牌照被央行注销，累计注销牌照达113张。",
+    "impact": "negative",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "第三方支付",
+    "stocks": [],
+    "reason": "行业监管趋严，但未点名具体上市公司，影响有限。",
+    "catalyst": "支付牌照注销，行业洗牌加速。"
+  },
+  "c713d2c22a693ed263e8a387": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国内汽柴油价格每吨分别下调950元和915元",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价下调利好交通运输、化工等用油行业，但未点名具体公司",
+    "catalyst": "国际油价回落，国内成品油价格下调"
+  },
+  "ded4b8e1c9ae8fef6d0fa103": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股大跌，超240亿资金抄底，半导体和宽基ETF净流入居前。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "资金大幅流入半导体和宽基ETF，显示市场抄底意愿强，短期提振信心。",
+    "catalyst": "市场大跌后资金抄底，半导体和宽基ETF获大额净流入。"
+  },
+  "557ecee557c0e593b59d8eff": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "邮储银行、中信银行、中诚信指数联合发布离岸人民币债券估值与指数产品，助力人民币国际化。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "邮储银行",
+        "code": "601658"
+      },
+      {
+        "name": "中信银行",
+        "code": "601998"
+      }
+    ],
+    "reason": "利好银行板块，提升离岸人民币债券市场透明度，促进国际化。",
+    "catalyst": "联合发布离岸人民币债券估值与指数产品，提供定价参考。"
+  },
+  "4e2ba2eec4cac3b7b64cdb0d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "造纸行业7月迎来大范围提价，但成本压力仍大，盈利承压，后市涨价与回调风险并存。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "造纸",
+    "stocks": [
+      {
+        "name": "太阳纸业",
+        "code": "002078"
+      },
+      {
+        "name": "博汇纸业",
+        "code": "600966"
+      },
+      {
+        "name": "晨鸣纸业",
+        "code": "000488"
+      }
+    ],
+    "reason": "行业提价信号明确，但盈利改善有限，短期有催化但持续性待观察。",
+    "catalyst": "纸企协同提价，成本驱动叠加旺季预期，供给收缩支撑价格。"
+  },
+  "c5a8082140876fea044f5363": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "神策数据发布新三年战略，推出Sensors AI 1.0，打造L4级AI Growth Team，旨在通过AI Agent帮助企业实现增长工作流自动化。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "AI应用",
+    "stocks": [],
+    "reason": "新闻涉及AI在企业增长中的应用，属于AI应用领域，但未点名具体A股上市公司，且神策数据非A股公司。",
+    "catalyst": "AI Agent在企业增长场景的落地应用"
+  },
+  "c3fcf8bcb10a9e2f59dc6f56": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "碳酸锂期货及期权今日正式引入境外交易者，提升国际化水平，有望成为全球定价基准。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好新能源产业链，提升中国定价权，但未点名具体个股。",
+    "catalyst": "境外交易者入场，碳酸锂期货国际化关键一步。"
+  },
+  "a9a6c45ede5d11a0d3cff997": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "程福波被任命为国务院国资委主任，郝炜明任海关总署副署长。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "央企改革",
+    "stocks": [],
+    "reason": "人事任命影响长期政策方向，短期无直接交易机会。",
+    "catalyst": "国资委主任换人，关注央企改革政策变化。"
+  },
+  "5d3795c4fbc9473bdd758fdb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "未成年人确诊罕见病遭保险公司拒赔，法院判决保险公司赔付50万元。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "司法判决支持保险消费者权益，利好保险行业规范发展。",
+    "catalyst": "法院明确保险条款解释应有利于被保险人，降低理赔纠纷风险。"
+  },
+  "ce11838786eaf10ad2f386e7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "西班牙世界杯晋级，华帝作为官方厨电合作伙伴，以文化底蕴营销提升品牌价值。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华帝股份",
+        "code": "002035"
+      }
+    ],
+    "reason": "华帝作为世界杯营销主体，品牌曝光提升，利好消费板块。",
+    "catalyst": "世界杯赛事热度带动品牌营销效应。"
+  },
+  "c9951bf7185bfd759146e425": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三部门就金融业网络安全管理办法征求意见，强化金融网络安全保护。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "金融科技",
+    "stocks": [],
+    "reason": "政策利好金融网络安全领域，但未点名具体公司，暂不进入交易池。",
+    "catalyst": "金融网络安全监管加强，利好相关安全服务商。"
+  },
+  "c9177abd54098a68f1fd21a5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国股市V形大逆转，三星电子、SK海力士涨约10%，政府考虑利用半导体税收支持AI模型开发。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "韩国半导体和AI政策利好，但未直接点名A股公司，影响偏间接。",
+    "catalyst": "韩国政府考虑利用半导体税收采购GPU支持AI模型开发。"
+  },
+  "cf8904df7ca74cfef1e32bd8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院发布教育发展十五五规划，推动优质普高扩容和双一流本科扩招超10万人。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "教育",
+    "stocks": [],
+    "reason": "政策长期利好教育行业，但未提及具体上市公司，短期影响有限。",
+    "catalyst": "教育资源配置结构性调整，扩招政策利好教育板块。"
+  },
+  "d91ffb86f9f15be52903a60c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "理想汽车计划拆分整车和智驾产品团队并入研发部门，调整产品决策流程。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "组织架构调整，短期影响有限，长期关注研发效率变化。",
+    "catalyst": "内部架构优化，提升产品研发协同效率。"
+  },
+  "39d3c13c42163429f38851c5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "调查显示24%中国内地受访者希望退休后依靠子女经济支持，反映养老观念变化。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "养老",
+    "stocks": [],
+    "reason": "新闻为调查数据，无直接交易信号，但涉及养老主题，可关注相关板块。",
+    "catalyst": "养老观念变化或推动养老产业政策与需求。"
+  },
+  "17bb08f75eab8324f64d7e35": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "西班牙队3-0胜奥地利晋级16强，华帝作为官方合作伙伴受益于品牌曝光。",
+    "impact": "positive",
+    "importance": 30,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华帝股份",
+        "code": "002035"
+      }
+    ],
+    "reason": "新闻提及华帝为西班牙队官方合作伙伴，品牌曝光提升，利好消费板块。",
+    "catalyst": "世界杯赛事品牌合作催化消费股关注度。"
+  },
+  "c043d4cb1e568c2938978116": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "十部门联合发布交通新政，目标2030年主要都市圈1小时通勤覆盖人口达75%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "低空经济",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好交通基建及关联产业，但未点名具体公司，建议关注低空经济、新能源车板块。",
+    "catalyst": "交通强国战略推进，都市圈通勤效率提升，带动相关产业链需求。"
+  },
+  "ef201c509a767b9d94ac42dc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月3日A股主力资金净流出87.1亿，汽车行业净流入最多，三花智控净流入21.46亿居首。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "三花智控",
+        "code": "002050"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "立讯精密",
+        "code": "002475"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "比亚迪",
+        "code": "002594"
+      },
+      {
+        "name": "沪电股份",
+        "code": "002463"
+      },
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      }
+    ],
+    "reason": "主力资金大幅流入汽车及新能源车板块，个股资金流向明确，短期交易活跃。",
+    "catalyst": "资金面显示汽车产业链获主力青睐，市场情绪偏多。"
+  },
+  "14a8c96e3501c26140e86b59": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "西班牙晋级淘汰赛，华帝“夺冠送青瓷”活动有望成真，中国品牌借世界杯输出价值。",
+    "impact": "positive",
+    "importance": 40,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华帝股份",
+        "code": "002035"
+      }
+    ],
+    "reason": "华帝借世界杯营销提升品牌影响力，利好消费板块，但事件本身对业绩影响有限。",
+    "catalyst": "华帝牵手西班牙队开展夺冠送青瓷活动，品牌曝光度提升。"
+  },
+  "182e115c1ea47e76110a2781": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国华退现地天板6日涨超70%，贵金属期货个股齐涨，高分红股名单出炉。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "贵金属",
+    "stocks": [
+      {
+        "name": "西部黄金",
+        "code": "601069"
+      },
+      {
+        "name": "四川黄金",
+        "code": "001337"
+      },
+      {
+        "name": "赤峰黄金",
+        "code": "600988"
+      },
+      {
+        "name": "招金黄金",
+        "code": ""
+      },
+      {
+        "name": "山金国际",
+        "code": ""
+      },
+      {
+        "name": "晓程科技",
+        "code": "300139"
+      },
+      {
+        "name": "中金黄金",
+        "code": "600489"
+      },
+      {
+        "name": "山东黄金",
+        "code": "600547"
+      }
+    ],
+    "reason": "贵金属板块受美国就业数据疲软和美联储加息预期减弱催化，个股普涨，短期有交易机会。",
+    "catalyst": "美国非农数据低于预期，美联储加息预期减弱，贵金属期货大涨。"
+  },
+  "9ec2c4ee64f635f894c5cf45": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年1-5月中国服务贸易逆差收窄1607亿元，出口增速远超进口。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "服务贸易",
+    "stocks": [],
+    "reason": "服务贸易逆差收窄反映出口竞争力提升，利好相关行业但未直接点名个股。",
+    "catalyst": "服务出口高增长，贸易结构优化。"
+  },
+  "f45e353475c77635560e6c83": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行开展10000亿元买断式逆回购操作，期限3个月，向市场投放流动性。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "大规模流动性投放利好银行间市场，但未直接点名个股。",
+    "catalyst": "央行大规模逆回购释放流动性，缓解资金面压力。"
+  },
+  "a3e39ebdcb8503353f5a1b28": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "6月安全生产月结束，焦煤供应或恢复，短期承压但需求韧性支撑，关注后续政策。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "煤炭",
+    "stocks": [],
+    "reason": "新闻讨论焦煤供需，但未点名具体公司，板块建议煤炭。",
+    "catalyst": "安全生产月结束，焦煤供应预期增加，需求端韧性待观察。"
+  },
+  "f05886a3bdd52246b4350bb3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "市场震荡，分散配置基金抗跌，科技股回调后机器人、黄金等板块反弹。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "机器人",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "亨通光电",
+        "code": "600487"
+      },
+      {
+        "name": "海通发展",
+        "code": "603162"
+      },
+      {
+        "name": "东方电缆",
+        "code": "603606"
+      },
+      {
+        "name": "南亚新材",
+        "code": "688519"
+      },
+      {
+        "name": "新锐股份",
+        "code": "688257"
+      },
+      {
+        "name": "联瑞新材",
+        "code": "688300"
+      },
+      {
+        "name": "麦格米特",
+        "code": "002851"
+      },
+      {
+        "name": "特变电工",
+        "code": "600089"
+      }
+    ],
+    "reason": "新闻提及具体基金持仓和反弹板块，但未明确推荐交易，需结合其他信息。",
+    "catalyst": "市场风格再平衡，低位板块补涨机会显现。"
+  },
+  "2ec5c0fa66faadb8f681b65c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "西班牙小组头名出线，华帝作为赞助商换玩法，玄学能否延续引关注。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "家电",
+    "stocks": [],
+    "reason": "新闻主要讲体育赛事和赞助商营销，对A股无直接影响。",
+    "catalyst": "华帝赞助西班牙队，世界杯营销活动。"
+  },
+  "d5b402ec099f06c0911eebea": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "福建跨境贸易高水平开放试点扩围至全省，首笔业务落地。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "跨境贸易",
+    "stocks": [],
+    "reason": "政策利好外贸企业，但未点名具体上市公司，不直接进入交易池。",
+    "catalyst": "外汇管理改革试点扩围，提升贸易便利化。"
+  },
+  "d184bb24fe56f2d89c404f57": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华帝在2026洗碗机产业峰会上获奖，展示技术成果，推动洗碗机普及。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华帝",
+        "code": "002035"
+      }
+    ],
+    "reason": "华帝作为厨电龙头获奖，利好品牌影响力和市场份额提升。",
+    "catalyst": "洗碗机产业峰会获奖，行业普及加速利好华帝。"
+  },
+  "abcf2a5ba157d98dfda7f1de": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "西班牙队小组赛头名出线，华帝“玄学”营销爆火，世界杯扩军后竞技魅力不减。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要报道世界杯赛事，未涉及A股公司，但华帝营销可能间接利好消费板块。",
+    "catalyst": "世界杯赛事热度带动相关营销活动"
+  },
+  "8fab2a70feccfba28dae39c6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院印发规划，推动气候投融资和碳金融创新。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好新能源和碳金融相关板块，但未点名具体公司。",
+    "catalyst": "政策明确支持碳金融产品创新，利好新能源行业。"
+  },
+  "75cfb9bed73ec568f2b88728": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "西班牙3-0胜奥地利，华帝借非遗国瓷在世界杯赛场外展示品牌出海新范式。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华帝股份",
+        "code": "002035"
+      }
+    ],
+    "reason": "华帝作为西班牙队合作伙伴，借世界杯提升品牌国际影响力，利好出海链。",
+    "catalyst": "世界杯赛事合作与非遗国瓷营销提升品牌知名度。"
+  },
+  "2a0d2467daeab615e844456a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院印发美丽中国建设十五五规划，强调人工智能等新技术应用。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "环保",
+    "stocks": [],
+    "reason": "政策利好环保及AI应用，但未点名具体公司，暂不进入交易池。",
+    "catalyst": "美丽中国建设规划推动AI在环保领域应用。"
+  },
+  "f0acfc1b085da56654df5c54": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "分红险演示利率下调引发630停售潮，一线反馈大单、冷场与低佣金并存。",
+    "impact": "neutral",
+    "importance": 50,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻描述行业营销现象，未涉及具体公司或政策变动，对交易影响有限。",
+    "catalyst": "分红险演示利率下调，但实际收益影响有限，市场反应分化。"
+  },
+  "4fb1f8755626c14bf605c72f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院印发美丽中国建设十五五规划，推动气候投融资和碳金融创新。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好新能源和碳金融板块，但未点名具体个股。",
+    "catalyst": "气候投融资和碳金融产品创新政策催化。"
+  },
+  "2a34f8f7a7b4abfe7d80b637": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "手回集团公告非执行董事李思睿离世，对其贡献致谢。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "公司高管离世属常规人事变动，对业务影响有限。",
+    "catalyst": "高管变动，但非核心管理层，影响小。"
+  },
+  "7ec96370fde6c5f5d2668c8e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "明年起节能汽车和部分新能源车恢复全额征收车船税。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策取消优惠增加用车成本，短期利空新能源车板块。",
+    "catalyst": "车船税优惠取消，增加消费者购车成本。"
+  },
+  "b7e67057b77144578003f60e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院印发美丽中国建设规划，推广新能源汽车、绿色智能家电和绿色建材下乡活动。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好新能源车和绿色消费板块，但未点名具体个股。",
+    "catalyst": "绿色消费下乡政策刺激需求增长。"
+  }
+}
