@@ -52,7 +52,7 @@ Windows PowerShell：
 powershell -ExecutionPolicy Bypass -File .\scripts\doctor.ps1
 powershell -ExecutionPolicy Bypass -File .\run.ps1 sample
 powershell -ExecutionPolicy Bypass -File .\run.ps1 daily
-powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19080 -RefreshIntervalMinutes 0 -NoRefreshOnStart
+powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19080 -RefreshIntervalSeconds 0 -NoRefreshOnStart
 ```
 
 访问：
@@ -73,7 +73,7 @@ DEPLOY.md
 关键环境变量：
 
 ```text
-NEWS_REFRESH_INTERVAL_MINUTES=10
+NEWS_REFRESH_INTERVAL_SECONDS=10
 NEWS_API_CORS_ORIGIN=*
 NEWS_API_TOKEN=一个长随机字符串
 ```

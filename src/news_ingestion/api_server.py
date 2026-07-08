@@ -51,6 +51,7 @@ DEFAULT_INBOX_DIR = PRODUCT_ROOT / "data" / "inbox"
 DEFAULT_SECTOR_KEYWORDS = PRODUCT_ROOT / "config" / "sector_keywords.v1.json"
 DEFAULT_DASHBOARD = PRODUCT_ROOT / "static" / "dashboard.html"
 API_VERSION = "v1"
+DEFAULT_REFRESH_INTERVAL_SECONDS = 10
 EXPORT_METRIC_FIELDS = ["read_count", "view_count", "comment_count", "like_count", "favorite_count", "share_count", "repost_count"]
 EXPORT_FIELDNAMES = [
     "schema_version",
@@ -477,14 +478,15 @@ class ApiState:
         inbox_dir: Path,
         registry_path: Path,
         rules_path: Path,
-        refresh_interval_minutes: int,
+        refresh_interval_seconds: int,
         refresh_on_start: bool,
     ) -> None:
         self.data_root = data_root
         self.inbox_dir = inbox_dir
         self.registry_path = registry_path
         self.rules_path = rules_path
-        self.refresh_interval_minutes = refresh_interval_minutes
+        self.refresh_interval_seconds = refresh_interval_seconds
+        self.refresh_interval_minutes = round(refresh_interval_seconds / 60, 4)
         self.refresh_on_start = refresh_on_start
         self.lock = threading.RLock()
         self.started_at = now_iso()
@@ -497,7 +499,7 @@ class ApiState:
         self.stop_event = threading.Event()
 
     def start_background_refresh(self) -> None:
-        if not self.refresh_on_start and self.refresh_interval_minutes <= 0:
+        if not self.refresh_on_start and self.refresh_interval_seconds <= 0:
             return
         thread = threading.Thread(target=self._background_loop, name="news-api-refresh", daemon=True)
         thread.start()
@@ -505,7 +507,7 @@ class ApiState:
     def _background_loop(self) -> None:
         if self.refresh_on_start:
             self.refresh_once(reason="startup")
-        while self.refresh_interval_minutes > 0 and not self.stop_event.wait(self.refresh_interval_minutes * 60):
+        while self.refresh_interval_seconds > 0 and not self.stop_event.wait(self.refresh_interval_seconds):
             self.refresh_once(reason="interval")
 
     def refresh_once(self, date: str | None = None, reason: str = "manual") -> dict[str, Any]:
@@ -561,6 +563,7 @@ class ApiState:
                 "started_at": self.started_at,
                 "data_root": str(self.data_root),
                 "latest_date": latest_date_tag(self.data_root),
+                "refresh_interval_seconds": self.refresh_interval_seconds,
                 "refresh_interval_minutes": self.refresh_interval_minutes,
                 "refresh_on_start": self.refresh_on_start,
                 "refresh_requires_token": bool(os.environ.get("NEWS_API_TOKEN")),
@@ -1243,19 +1246,38 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--inbox-dir", type=Path, default=DEFAULT_INBOX_DIR)
     parser.add_argument("--registry", type=Path, default=DEFAULT_REGISTRY)
     parser.add_argument("--rules", type=Path, default=DEFAULT_RULES_PATH)
-    parser.add_argument("--refresh-interval-minutes", type=int, default=int(os.environ.get("NEWS_REFRESH_INTERVAL_MINUTES", "10")))
+    parser.add_argument("--refresh-interval-seconds", type=int, default=None)
+    parser.add_argument("--refresh-interval-minutes", type=int, default=None)
     parser.add_argument("--no-refresh-on-start", action="store_true")
     return parser
 
 
+def resolve_refresh_interval_seconds(args: argparse.Namespace) -> int:
+    if args.refresh_interval_seconds is not None:
+        return max(0, args.refresh_interval_seconds)
+    if args.refresh_interval_minutes is not None:
+        return max(0, args.refresh_interval_minutes) * 60
+
+    env_seconds = os.environ.get("NEWS_REFRESH_INTERVAL_SECONDS")
+    if env_seconds is not None:
+        return parse_int(env_seconds, DEFAULT_REFRESH_INTERVAL_SECONDS, minimum=0)
+
+    env_minutes = os.environ.get("NEWS_REFRESH_INTERVAL_MINUTES")
+    if env_minutes is not None:
+        return parse_int(env_minutes, 0, minimum=0) * 60
+
+    return DEFAULT_REFRESH_INTERVAL_SECONDS
+
+
 def main() -> None:
     args = build_parser().parse_args()
+    refresh_interval_seconds = resolve_refresh_interval_seconds(args)
     state = ApiState(
         data_root=args.data_root,
         inbox_dir=args.inbox_dir,
         registry_path=args.registry,
         rules_path=args.rules,
-        refresh_interval_minutes=max(0, args.refresh_interval_minutes),
+        refresh_interval_seconds=refresh_interval_seconds,
         refresh_on_start=not args.no_refresh_on_start,
     )
     state.data_root.mkdir(parents=True, exist_ok=True)
@@ -1273,6 +1295,7 @@ def main() -> None:
                 "event": "api_started",
                 "host": args.host,
                 "port": args.port,
+                "refresh_interval_seconds": state.refresh_interval_seconds,
                 "refresh_interval_minutes": state.refresh_interval_minutes,
                 "refresh_on_start": state.refresh_on_start,
                 "started_at": state.started_at,

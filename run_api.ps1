@@ -1,7 +1,8 @@
 param(
   [string]$HostName = "127.0.0.1",
   [int]$Port = 8080,
-  [int]$RefreshIntervalMinutes = 10,
+  [int]$RefreshIntervalSeconds = 10,
+  [int]$RefreshIntervalMinutes = -1,
   [switch]$NoRefreshOnStart,
   [Parameter(ValueFromRemainingArguments = $true)]
   [string[]]$Args
@@ -20,9 +21,13 @@ if (Test-Path -LiteralPath $BundledPython) {
 $cmdArgs = @(
   "-m", "news_ingestion.api_server",
   "--host", $HostName,
-  "--port", "$Port",
-  "--refresh-interval-minutes", "$RefreshIntervalMinutes"
+  "--port", "$Port"
 )
+if ($RefreshIntervalMinutes -ge 0) {
+  $cmdArgs += @("--refresh-interval-minutes", "$RefreshIntervalMinutes")
+} else {
+  $cmdArgs += @("--refresh-interval-seconds", "$RefreshIntervalSeconds")
+}
 if ($NoRefreshOnStart) {
   $cmdArgs += "--no-refresh-on-start"
 }

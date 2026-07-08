@@ -8,7 +8,7 @@ services:
     envVars:
       - key: NEWS_API_HOST
         value: 0.0.0.0
-      - key: NEWS_REFRESH_INTERVAL_MINUTES
+      - key: NEWS_REFRESH_INTERVAL_SECONDS
         value: "10"
       - key: NEWS_API_CORS_ORIGIN
         value: "*"

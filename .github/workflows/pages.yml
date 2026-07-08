@@ -32,7 +32,7 @@ jobs:
             cp -R seed-data/daily data/daily
           fi
       - name: Collect latest news
-        run: PYTHONPATH=src python -m news_ingestion.cli daily --analyze
+        run: PYTHONPATH=src python -m news_ingestion.cli daily --analyze --analyze-max 30
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

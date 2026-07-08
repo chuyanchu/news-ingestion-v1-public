@@ -91,6 +91,7 @@ def daily_collect(
     fetch_rss: bool = True,
     fetch_html: bool = True,
     analyze: bool = False,
+    analyze_max: int = 30,
 ) -> None:
     registry = load_registry(registry_path)
     rules = load_rules(rules_path)
@@ -155,7 +156,7 @@ def daily_collect(
         from .sector_heat import load_sector_dictionary
         if ai_enabled():
             sector_dict = load_sector_dictionary(PRODUCT_ROOT / "config" / "sector_keywords.v1.json")
-            stats = batch_analyze_for_date(today_only, sector_dict, out_root, date_tag)
+            stats = batch_analyze_for_date(today_only, sector_dict, out_root, date_tag, max_articles=analyze_max)
             print(f"ai_analyze={stats}")
         else:
             print("ai_analyze=skipped (no API key)")
@@ -195,6 +196,7 @@ def build_parser() -> argparse.ArgumentParser:
     daily.add_argument("--no-rss", action="store_true", help="Skip RSS entrypoints in source registry")
     daily.add_argument("--no-html", action="store_true", help="Skip HTML entrypoints in source registry")
     daily.add_argument("--analyze", action="store_true", help="采集后对命中板块的新闻自动跑 AI 分析（需配置 API key）")
+    daily.add_argument("--analyze-max", type=int, default=30, help="AI 预计算最多分析的新闻数，按热度排序（默认 30）")
 
     report = subparsers.add_parser("report", help="Generate crawl health report")
     report.add_argument("--articles", type=Path, required=True)
@@ -221,6 +223,7 @@ def main() -> None:
             fetch_rss=not args.no_rss,
             fetch_html=not args.no_html,
             analyze=args.analyze,
+            analyze_max=args.analyze_max,
         )
     elif args.command == "report":
         create_report(args.articles, args.rejected, args.out, args.registry)

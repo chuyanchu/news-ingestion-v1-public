@@ -33,7 +33,7 @@ https://你的服务名.onrender.com/health
 
 ```text
 NEWS_API_HOST=0.0.0.0
-NEWS_REFRESH_INTERVAL_MINUTES=10
+NEWS_REFRESH_INTERVAL_SECONDS=10
 NEWS_API_TOKEN=自动生成
 disk mountPath=/app/data
 ```
@@ -49,7 +49,7 @@ Render 的 persistent disk 必须保留，否则服务重启后历史 `data/dail
 
 ```text
 NEWS_API_HOST=0.0.0.0
-NEWS_REFRESH_INTERVAL_MINUTES=10
+NEWS_REFRESH_INTERVAL_SECONDS=10
 NEWS_API_CORS_ORIGIN=*
 NEWS_API_TOKEN=自己生成的长随机字符串
 ```
@@ -93,7 +93,7 @@ Invoke-RestMethod `
 ## 本地模拟公网服务
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19080 -RefreshIntervalMinutes 0 -NoRefreshOnStart
+powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19080 -RefreshIntervalSeconds 0 -NoRefreshOnStart
 ```
 
 测试：

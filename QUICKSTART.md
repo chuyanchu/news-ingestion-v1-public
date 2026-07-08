@@ -77,7 +77,7 @@ data/daily/YYYYMMDD/
 启动本地 API：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19080 -RefreshIntervalMinutes 0 -NoRefreshOnStart
+powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19080 -RefreshIntervalSeconds 0 -NoRefreshOnStart
 ```
 
 浏览器打开：
@@ -181,7 +181,7 @@ powershell -ExecutionPolicy Bypass -File .\run.ps1 sample
 换一个端口：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19100 -RefreshIntervalMinutes 0 -NoRefreshOnStart
+powershell -ExecutionPolicy Bypass -File .\run_api.ps1 -HostName 127.0.0.1 -Port 19100 -RefreshIntervalSeconds 0 -NoRefreshOnStart
 ```
 
 ### 数据在哪里
