@@ -1,0 +1,520 @@
+{
+  "91f58eb9580f76bcbd1cec0a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "解密科技超额收益，顶尖基金经理具备名校理工科背景、全链条从业积淀和完整买方投研历练三大核心禀赋。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻强调科技赛道投资价值，利好AI算力和半导体板块，但未点名具体个股。",
+    "catalyst": "基金经理理工科背景与科技赛道高度耦合，凸显产业认知溢价。"
+  },
+  "6aab42977af2bc8688a4fc17": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "黄金白银经历大涨后大幅回调，预计下半年先弱后稳，四季度或迎修复。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "贵金属",
+    "stocks": [],
+    "reason": "新闻分析贵金属走势，未点名具体个股，但板块有潜在交易机会。",
+    "catalyst": "美联储政策预期变化及通胀数据影响贵金属价格。"
+  },
+  "5690f9ad439314ca66683b36": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中兴高管称努比亚将推出全球首款AI智能体手机，2026年亮相。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "消费电子",
+    "stocks": [
+      {
+        "name": "中兴通讯",
+        "code": "000063"
+      }
+    ],
+    "reason": "中兴通讯旗下努比亚发布AI手机，利好消费电子板块，但量产时间较远，短期催化有限。",
+    "catalyst": "全球首款AI智能体手机发布预期"
+  },
+  "448de11837f2e6178fd56b33": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三星受AI数据中心需求拉动，存储芯片业务推动利润暴涨，凸显半导体行业景气度。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻未点名A股公司，但半导体板块受益于存储芯片需求增长，可关注相关标的。",
+    "catalyst": "AI数据中心需求拉动存储芯片价格与出货量上升。"
+  },
+  "f981611374da14e765577fd3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "康美特今日在北交所上市，首日大涨526%，公司为高分子新材料小巨人，打破国际垄断。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "康美特为新股上市，非A股上市公司，但行业地位突出，可关注产业链相关公司。",
+    "catalyst": "北交所上市及Mini LED封装胶量产打破国际垄断。"
+  },
+  "1df858225dcf088345bd5c63": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华为乾崑回应断网后智驾里程数仍上涨，称数据真实且经平滑处理。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "事件涉及数据展示技术问题，未影响公司基本面或行业趋势，不构成交易信号。",
+    "catalyst": "数据真实性争议，但已澄清，无实质催化。"
+  },
+  "1aa573007d5f8d939d8157a5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普称美伊谅解备忘录已终结，中东局势紧张，地缘风险上升。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突升级，避险情绪升温，军工板块受益，但未点名具体公司。",
+    "catalyst": "美伊关系恶化，中东局势紧张，避险需求增加。"
+  },
+  "2ecd885f94d4fdb9e748d457": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美伊冲突升级引发全球市场异动，欧美股市暴跌，黄金白银跳水，原油飙涨。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治风险加剧，避险情绪升温，短期利空股市，利好军工和能源。",
+    "catalyst": "美伊冲突升级，市场避险情绪急剧升温。"
+  },
+  "305c0068552ae791584da0f3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "河南老君山景区月薪6万招募云海观察员，要求住山顶30天拍摄云海视频，旨在推广景区。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "旅游",
+    "stocks": [],
+    "reason": "新闻为景区营销事件，未涉及A股上市公司，对资本市场影响有限。",
+    "catalyst": "景区短视频推广活动，提升品牌知名度。"
+  },
+  "bed33fc60110cea2b1b1ea5a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "《求是》文章强调城市更新和好房子建设将释放巨大投资潜力，预计十五五期间城市更新投资达12-15万亿。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策明确支持城市更新和好房子建设，利好房地产板块，但未点名具体个股。",
+    "catalyst": "城市更新被定位为释放投资潜力的重要方向，政策预期增强。"
+  },
+  "f62b571e02790960605da8c2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美伊备忘录终结，黄金反弹承压，地缘风险加剧。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "贵金属",
+    "stocks": [],
+    "reason": "地缘政治风险影响黄金避险情绪，但未直接关联A股板块。",
+    "catalyst": "美伊关系恶化，制裁加码，避险资产波动。"
+  },
+  "8d474cbe8e2781a94e693716": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普称美伊谅解备忘录已终结，油价大涨，黄金跳水。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "石油",
+    "stocks": [],
+    "reason": "地缘政治事件影响油价，但未直接关联A股板块或个股。",
+    "catalyst": "美伊关系恶化，原油供应风险上升。"
+  },
+  "2c85f11fc527cea952681ca9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普称美伊停火结束，双方相互军事打击，地缘风险升级。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突升级，军工板块受催化，但未点名具体A股公司。",
+    "catalyst": "美伊相互军事打击，避险情绪升温。"
+  },
+  "b64c8e119459750ca8a339bd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "雅创电子上半年净利预增超500%，受益于汽车电子和AI存储需求。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "雅创电子",
+        "code": "301099"
+      }
+    ],
+    "reason": "业绩大幅超预期，股价已上涨但仍有催化，可关注。",
+    "catalyst": "业绩预增超500%，AI存储和汽车电子需求驱动。"
+  },
+  "228eae6cd9d012b8ab42bead": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金饰价格下调，现货黄金失守4100美元，高盛等大行下调金价目标。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [],
+    "reason": "金价下跌利空黄金板块，但未点名具体A股公司。",
+    "catalyst": "中东局势缓和及美联储鹰派预期压制金价。"
+  },
+  "e942819a1d75abbb6d7bf2ec": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普称美伊临时停火结束，军事冲突风险上升，能源市场波动。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "地缘政治风险加剧，影响全球能源供应预期，但未直接点名A股公司。",
+    "catalyst": "美伊冲突升级，霍尔木兹海峡安全受威胁，油价波动。"
+  },
+  "4d045839e70aee0a18c57529": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年上半年银行因数据治理违规罚单激增，监管趋严，银行面临数据治理挑战。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "监管处罚增多对银行板块情绪偏负面，但未点名具体个股。",
+    "catalyst": "数据治理监管趋严，银行合规成本上升。"
+  },
+  "78b483eaedd03e10ba471c58": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "伊朗总统批评美国在世界杯上的霸凌行为，伊朗将捍卫自身权利。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国际政治新闻，与A股关联度低，不进入交易池。",
+    "catalyst": ""
+  },
+  "c21731bc0841af61d3b25dc8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "习近平强调十五五时期是科技强国建设关键攻坚期，加快推进高水平科技自立自强。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人",
+      "新能源车",
+      "新能源",
+      "低空经济",
+      "医药生物",
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "最高层定调科技创新，利好科技板块整体，政策催化强。",
+    "catalyst": "国家最高领导人强调科技强国，政策预期升温。"
+  },
+  "bae27e510d03fb2a21b61be3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "券商两融利率战加剧，百万级客户融资利率降至3%以下，低于消费贷，行业竞争白热化。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "两融利率下降压缩券商息差收入，增量不增收问题突出，利空券商板块。",
+    "catalyst": "两融利率战扩散，低利率侵蚀券商利润空间。"
+  },
+  "a572a8ebb59dbc995b9ca40b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "消费电子上游企业上半年业绩预增，受AI、汽车等多元化业务驱动，手机销量下滑影响有限。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "视源股份",
+        "code": "002841"
+      },
+      {
+        "name": "福蓉科技",
+        "code": "603327"
+      },
+      {
+        "name": "立讯精密",
+        "code": "002475"
+      },
+      {
+        "name": "华勤技术",
+        "code": "603296"
+      }
+    ],
+    "reason": "新闻明确点名多家A股公司业绩预增，且涉及消费电子产业链上游，具有投资参考价值。",
+    "catalyst": "AI、汽车电子等多元化业务驱动上游供应链业绩增长。"
+  },
+  "36d9f4a883a707e1cd75697a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普称美伊临时停火结束，美对伊发动新打击并撤销石油豁免，能源市场波动。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突升级，能源供应风险增加，影响市场情绪。",
+    "catalyst": "美伊冲突加剧，石油供应不确定性上升。"
+  },
+  "80cfc4572bab165791553488": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普称美伊谅解备忘录已终结，油价直线拉升，黄金跳水。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "石油",
+    "stocks": [],
+    "reason": "地缘政治风险推升油价，利好石油板块，但未点名具体A股公司。",
+    "catalyst": "美伊协议破裂，中东局势紧张，原油供应风险增加。"
+  },
+  "b2ecd11c80da54fa7ed48ea3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "雅创电子预计上半年归母净利润同比增长439%-561%，业绩大幅预增。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "雅创电子",
+        "code": "301099"
+      }
+    ],
+    "reason": "业绩超预期增长，净利润最高增超500%，利好股价。",
+    "catalyst": "业绩预增超500%，盈利能力显著提升。"
+  },
+  "ebfd6377af6e8d4e9da79427": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI服务器龙头浪潮信息业绩大增，涨停封单超34亿元，带动计算机板块多股涨停。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "浪潮信息",
+        "code": "000977"
+      },
+      {
+        "name": "星网锐捷",
+        "code": "002396"
+      },
+      {
+        "name": "网宿科技",
+        "code": "300017"
+      }
+    ],
+    "reason": "浪潮信息业绩超预期，AI算力板块景气度提升，封单资金大，市场关注度高。",
+    "catalyst": "浪潮信息半年报业绩大增226%-288%，创历史新高。"
+  },
+  "b23f098363bc8c52b39c9cba": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证券时报社长程国慧提出四点倡议推动ETF生态高质量发展，聚焦产品创新、投资者保护、深港合作和数字赋能。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "ETF生态发展利好券商板块，但未点名具体个股，不进入交易池。",
+    "catalyst": "ETF产品创新与深港合作深化，提升市场效率与投资者体验。"
+  },
+  "3fb9bc2b56e4a58020f8848d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "德业股份业绩预增超75%，AI手机PC销量预计首超非AI产品，机构关注产业链。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "德业股份",
+        "code": "605117"
+      },
+      {
+        "name": "思泉新材",
+        "code": ""
+      },
+      {
+        "name": "芯海科技",
+        "code": ""
+      },
+      {
+        "name": "科大讯飞",
+        "code": ""
+      },
+      {
+        "name": "隆利科技",
+        "code": ""
+      },
+      {
+        "name": "中科创达",
+        "code": ""
+      },
+      {
+        "name": "英力股份",
+        "code": ""
+      }
+    ],
+    "reason": "储能龙头业绩超预期，AI手机PC渗透率提升利好产业链，催化明确。",
+    "catalyst": "德业股份业绩大增，AI手机PC销量预计首超非AI产品。"
+  },
+  "cbd057dc6a02fb86b2ec44b4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会立案调查安某编造传播中公教育虚假信息，中公教育股价异常波动，深交所监控交易。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中公教育",
+        "code": "002607"
+      }
+    ],
+    "reason": "监管打击虚假信息，短期压制市场情绪，但长期利好信息环境。",
+    "catalyst": "证监会立案调查虚假信息，监管趋严。"
+  },
+  "b72cbc50378dd0fae53994c9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数收跌，算力概念活跃，石油石化走强，能源金属、机器人等板块跌幅居前。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "算力",
+    "stocks": [
+      {
+        "name": "深信服",
+        "code": "300454"
+      },
+      {
+        "name": "网宿科技",
+        "code": "300017"
+      },
+      {
+        "name": "浪潮信息",
+        "code": "000977"
+      },
+      {
+        "name": "云赛智联",
+        "code": "600602"
+      }
+    ],
+    "reason": "市场整体下跌但算力概念活跃，有明确涨停个股，可关注短线机会。",
+    "catalyst": "算力概念活跃，多只个股涨停，政策或需求驱动。"
+  },
+  "5a1187726de43369d75ede49": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "外资加仓A股，年内调研超3700次，聚焦科技赛道；市场调整不改长期价值，中报业绩亮眼。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "招商证券",
+        "code": "600999"
+      },
+      {
+        "name": "松发股份",
+        "code": "603268"
+      },
+      {
+        "name": "海通发展",
+        "code": "603162"
+      }
+    ],
+    "reason": "外资持续调研显示信心，中报业绩预喜支撑基本面，市场调整提供布局机会。",
+    "catalyst": "外资调研热情升温，中报业绩批量预喜，低利率下A股配置价值提升。"
+  }
+}
