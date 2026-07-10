@@ -1,0 +1,639 @@
+{
+  "71787fa176d2721768dca6d7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "牧原股份预计2026年上半年亏损57-67亿元，行业深度调整。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "生猪养殖",
+    "stocks": [
+      {
+        "name": "牧原股份",
+        "code": "002714"
+      }
+    ],
+    "reason": "行业龙头亏损，反映猪周期底部，但公司调减产能、降本增效，具备韧性。",
+    "catalyst": "猪价低迷导致行业亏损，产能去化加速，关注周期反转预期。"
+  },
+  "465e41a74a4b2caaadaa82b0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家A股公司预告上半年业绩大幅预增，香农芯创、翔鹭钨业等净利润增幅超10倍。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "香农芯创",
+        "code": "300475"
+      },
+      {
+        "name": "翔鹭钨业",
+        "code": "002842"
+      },
+      {
+        "name": "诚志股份",
+        "code": "000990"
+      },
+      {
+        "name": "中矿资源",
+        "code": "002738"
+      },
+      {
+        "name": "融捷股份",
+        "code": "002192"
+      }
+    ],
+    "reason": "业绩大幅预增显示行业景气度高，利好相关板块及个股。",
+    "catalyst": "存储芯片、钨制品、锂盐等产品价格上涨及需求增长。"
+  },
+  "5b68eeafabad2564dddd3449": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "源达策略周报：市场分化，关注存储芯片、半导体设备、人形机器人等方向，点名兆易创新、佰维存储等个股。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体",
+      "机器人",
+      "新能源",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "佰维存储",
+        "code": "688525"
+      },
+      {
+        "name": "中微公司",
+        "code": "688012"
+      },
+      {
+        "name": "北方华创",
+        "code": "002371"
+      },
+      {
+        "name": "恒立液压",
+        "code": "601100"
+      },
+      {
+        "name": "三花智控",
+        "code": "002050"
+      },
+      {
+        "name": "思源电气",
+        "code": "600028"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      }
+    ],
+    "reason": "报告明确看好多个科技成长方向，并给出具体标的，具有较强投资参考价值。",
+    "catalyst": "AI需求拉动存储涨价、半导体国产化加速、政策支持人形机器人和创新药。"
+  },
+  "ed49e5d8e526e16a096a1098": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "万科A预计2026年上半年净利润亏损120-150亿元，亏损扩大。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "万科A",
+        "code": "000002"
+      }
+    ],
+    "reason": "业绩亏损扩大，对房地产板块有负面影响，但市场已有预期。",
+    "catalyst": "业绩预亏，房地产开发项目结算规模下降，毛利率低位。"
+  },
+  "c2e8bd0a56549a80b063fe1c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "外资银行密集设立首席AI官，国内唯一CAIO退休，中外银行AI治理差异明显。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要讨论中外银行AI职位差异，未提及具体A股公司，对银行板块影响中性。",
+    "catalyst": "外资银行AI布局加速，国内银行AI治理模式待观察。"
+  },
+  "ed5e75ed98ed1e4dcde0c106": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "万科A预计2026年上半年亏损120-150亿元，主因结算规模下降、毛利率低及资产减值。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "万科A",
+        "code": "000002"
+      }
+    ],
+    "reason": "业绩大幅亏损，债务压力大，房地产行业基本面恶化，不进入交易池。",
+    "catalyst": "业绩预亏，债务展期，流动性承压。"
+  },
+  "b94a28d8220a4984b7fbe305": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "融捷股份上半年业绩预增近1200%，但股价三连跌停，因锂矿供给端产能释放预期引发市场担忧。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "融捷股份",
+        "code": "002192"
+      },
+      {
+        "name": "盐湖股份",
+        "code": "000792"
+      },
+      {
+        "name": "藏格矿业",
+        "code": "000408"
+      },
+      {
+        "name": "天华新能",
+        "code": "300390"
+      },
+      {
+        "name": "盛新锂能",
+        "code": "002240"
+      },
+      {
+        "name": "雅化集团",
+        "code": "002497"
+      },
+      {
+        "name": "天齐锂业",
+        "code": "002466"
+      }
+    ],
+    "reason": "业绩利好但股价下跌，供给端利空压制，短期情绪偏空，暂不进入交易池。",
+    "catalyst": "锂矿供给端产能释放预期集中落地，打破紧平衡格局。"
+  },
+  "5fd809f835122e9b1e508c40": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美团回应裁员，称近两月离职员工不到2000人，占比不高。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及美团裁员，但未提及A股上市公司，且影响中性。",
+    "catalyst": "公司回应裁员规模不大，市场情绪影响有限。"
+  },
+  "b0806e4772c35564fe98a8c5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全国用电负荷创15.18亿千瓦历史新高，新能源贡献超40%高峰出力。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "用电负荷新高反映经济向好，新能源出力提升利好板块。",
+    "catalyst": "高温天气推高用电负荷，新能源发电支撑电力供应。"
+  },
+  "2179a5ad3eea3f4c2d632761": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家券商App因违法收集使用个人信息被国家网络安全通报中心点名，涉及同花顺、平安证券、长城证券等。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "同花顺",
+        "code": "300033"
+      },
+      {
+        "name": "长城证券",
+        "code": "002939"
+      },
+      {
+        "name": "平安证券",
+        "code": ""
+      }
+    ],
+    "reason": "监管点名违法收集个人信息，短期利空券商板块及被点名个股，但影响有限，不进入交易池。",
+    "catalyst": "监管通报违法违规收集个人信息，引发合规风险担忧。"
+  },
+  "ad56bddf78d8057119db926a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年上半年银行业罚金超11亿元创三年新高，反洗钱、信贷和存款业务成监管重点。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "建设银行",
+        "code": "601939"
+      },
+      {
+        "name": "浦发银行",
+        "code": "600000"
+      },
+      {
+        "name": "中信银行",
+        "code": "601998"
+      }
+    ],
+    "reason": "监管趋严，罚金大增，银行板块短期承压，但长期利好合规龙头。",
+    "catalyst": "监管高压态势延续，反洗钱和信贷违规处罚力度加大。"
+  },
+  "6cfb24b39a287ef7daef5e14": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "翔鹭钨业预计上半年净利润同比增长2348%-3436%，受益于钨价上涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "有色金属",
+    "stocks": [
+      {
+        "name": "翔鹭钨业",
+        "code": "002842"
+      }
+    ],
+    "reason": "业绩大幅预增，钨价上涨传导顺畅，利好公司基本面。",
+    "catalyst": "钨价上涨带动营收增长，业绩超预期。"
+  },
+  "181fdafa1a6355b68371f0ac": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股芯片和医药板块大涨，深科达、国林科技等涨停，美股芯片股走强及政策利好推动。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "深科达",
+        "code": "688328"
+      },
+      {
+        "name": "国林科技",
+        "code": "300786"
+      },
+      {
+        "name": "华胜天成",
+        "code": "600410"
+      },
+      {
+        "name": "崇达技术",
+        "code": "002815"
+      },
+      {
+        "name": "华微电子",
+        "code": "600360"
+      },
+      {
+        "name": "和元生物",
+        "code": "688238"
+      },
+      {
+        "name": "常山药业",
+        "code": "300255"
+      },
+      {
+        "name": "美诺华",
+        "code": "603538"
+      }
+    ],
+    "reason": "芯片和医药板块强势，政策与产业催化明确，个股涨停或大涨，具备交易价值。",
+    "catalyst": "美股芯片股上涨及美光扩产；医药政策利好及创新药出海趋势。"
+  },
+  "cf5e8510fc56b40445203947": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "券商年内领190张罚单，经纪业务成违规重点，中小券商罚单较多，监管延伸至全流程。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天风证券",
+        "code": "601162"
+      },
+      {
+        "name": "国泰海通",
+        "code": ""
+      },
+      {
+        "name": "金融街证券",
+        "code": ""
+      },
+      {
+        "name": "华林证券",
+        "code": "002945"
+      },
+      {
+        "name": "江海证券",
+        "code": ""
+      },
+      {
+        "name": "中山证券",
+        "code": ""
+      },
+      {
+        "name": "中泰证券",
+        "code": "600918"
+      },
+      {
+        "name": "中天国富证券",
+        "code": ""
+      }
+    ],
+    "reason": "监管趋严，券商合规风险暴露，短期压制板块情绪。",
+    "catalyst": "监管密集处罚，合规成本上升，业务扩张受限。"
+  },
+  "0966c448418cf5b47a1815b9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金融监管总局发布严重失信主体名单管理规定，严格规范管理程序。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "监管政策影响金融机构合规成本，但未直接点名具体公司。",
+    "catalyst": "规范失信名单管理，强化金融监管合规要求。"
+  },
+  "8200f560262dc58c6b6e1d4f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "齐翔腾达2026年上半年净利预增374.64%-423.88%，受益化工周期修复及内生提质。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "化工",
+    "stocks": [
+      {
+        "name": "齐翔腾达",
+        "code": "002408"
+      }
+    ],
+    "reason": "业绩大幅预增，化工周期修复叠加内生改善，利好明确。",
+    "catalyst": "化工行业周期触底修复，产品价格上涨，公司降本增效。"
+  },
+  "0e9598a441e91c8626d294bb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "香农芯创预计2026年上半年净利润同比增长超21倍，受益于AI需求推动存储芯片行业高景气。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "香农芯创",
+        "code": "300475"
+      }
+    ],
+    "reason": "业绩大幅预增，存储芯片景气度高，AI需求驱动，可进入交易池。",
+    "catalyst": "AI需求带动企业级存储需求，存储芯片价格上涨。"
+  },
+  "832d4ba0e6cfc7a01f9c3049": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "IEA警告中东地缘冲突升级可能颠覆明年原油过剩预期，今夏燃料供应紧张。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价上涨预期利好石油板块，但未点名具体A股公司。",
+    "catalyst": "中东冲突升级威胁霍尔木兹海峡通行，原油供应风险加剧。"
+  },
+  "5343362aa56481208c844309": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "大额存单转让被黄牛利用牟利，扰乱金融秩序，需疏堵结合治理。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要讨论大额存单转让乱象，未点名具体上市公司，对银行板块影响中性。",
+    "catalyst": "黄牛炒作高息存单，监管可能加强整治。"
+  },
+  "4b485121a3871acac8fe8290": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "小红书捐款1000万元支援广西、湖北等地救灾",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "公益",
+    "stocks": [],
+    "reason": "企业捐款救灾，非直接经济影响，不涉及上市公司",
+    "catalyst": "企业社会责任行为，无直接市场催化"
+  },
+  "e34e0c71b3737cb9791ced24": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股午后科技股跳水，商业航天逆市爆发，长征十号乙火箭成功回收。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "商业航天",
+    "stocks": [
+      {
+        "name": "中国卫通",
+        "code": "601698"
+      },
+      {
+        "name": "中国卫星",
+        "code": "600118"
+      },
+      {
+        "name": "中信重工",
+        "code": "601608"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      }
+    ],
+    "reason": "商业航天板块受火箭回收成功消息刺激爆发，相关个股涨停，具备交易价值。",
+    "catalyst": "长征十号乙火箭首次成功回收，商业航天技术突破。"
+  },
+  "7325250583a23b12209e8306": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院批复同意中医药振兴发展“十五五”规划，强调中西医并重和现代化。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好中医药板块，但未点名具体公司，整体影响积极。",
+    "catalyst": "国家层面规划推动中医药传承创新与现代化。"
+  },
+  "509cc6d1b085493126cf255e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金融监管总局发布严重失信主体名单管理规定，明确三类列入情形，金融机构可在授信、保险等业务中参考使用。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策长期利好金融行业信用体系建设，但短期无直接影响，不进入交易池。",
+    "catalyst": "信用惩戒机制完善，提升金融监管效能。"
+  },
+  "3e1db41187f8f91e089e7dbf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "拼多多33亿元收购上海陆家嘴星展银行大厦，用于新拼姆全球自营品牌运营总部。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "拼多多重仓中国供应链，自营品牌出海战略落地，利好出海链板块。",
+    "catalyst": "拼多多收购大厦作为新拼姆运营总部，加码跨境电商自营品牌。"
+  },
+  "58e1cb98873a78d8240350aa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长征十号乙火箭首飞成功并回收一子级，计划年底前完成复用飞行。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "航天技术突破利好军工板块，但未点名具体公司。",
+    "catalyst": "火箭回收技术验证成功，加速重复使用进程。"
+  },
+  "985748825db86325926632d9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "医药板块受催化全线走强，CXO和创新药领涨，多只ETF涨幅超4%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "医药板块受政策或事件催化，短期资金涌入，但未点名具体个股，需关注持续性。",
+    "catalyst": "时隔8年重磅发布，行业政策或新药进展利好。"
+  },
+  "1c9ae87f0aa157edaceec210": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储主席沃什任命外部顾问领导五大工作组，重审核心运作方式。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "金融监管",
+    "stocks": [],
+    "reason": "新闻涉及美联储内部改革，未直接提及A股公司，对A股影响间接且长期。",
+    "catalyst": "美联储改革工作组研究结果可能影响全球货币政策预期。"
+  },
+  "78d719d0e05b8101592e6537": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股冲高回落，创业板指跌超4%，科创50跌超5%，市场情绪突变。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场整体下跌，未明确提及具体板块或个股，但影响广泛，需警惕系统性风险。",
+    "catalyst": "市场冲高后突发跳水，原因未明，可能为获利回吐或利空传闻。"
+  },
+  "cf3529315ec6cbe7c82c3790": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "托伦斯上市首日股价暴涨近10倍，中一签可赚超12万元，公司为半导体设备精密零部件供应商。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "托伦斯",
+        "code": "301583"
+      }
+    ],
+    "reason": "新股上市首日暴涨，市场关注度高，但短期波动大，需谨慎参与。",
+    "catalyst": "半导体设备零部件国产化替代，公司获头部客户认可。"
+  },
+  "e9f4f4e3a08490ce5a003555": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "字节跳动联合中兴努比亚的AI手机备货消息被证伪，仅为首次公开展示。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "消费电子",
+    "stocks": [],
+    "reason": "消息被证伪，短期利空相关概念股，但影响有限，不进入交易池。",
+    "catalyst": "辟谣导致预期落空，情绪面利空。"
+  }
+}
