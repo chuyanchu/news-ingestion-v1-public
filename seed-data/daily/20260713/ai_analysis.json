@@ -1,0 +1,558 @@
+{
+  "cb0d16e91c4eab8bf7161748": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国石化完成对中国航油的重组，中国航油成为其全资子公司，央企数量减至99家。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "重组提升行业集中度，利好中国石化，但未点名具体A股公司。",
+    "catalyst": "央企战略性重组，提升航空能源供应安全与绿色转型能力。"
+  },
+  "dee7e0f4c8161f921a978ee6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "周星驰《功夫女足》上映3日票房破5亿，口碑两极分化。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要涉及电影票房，与A股关联度低，不进入交易池。",
+    "catalyst": "电影票房超预期，但未提及具体上市公司。"
+  },
+  "6b633cd70dcf759ad23c5cd6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普透露格雷厄姆去世前通话，称对伊朗猛烈打击，抨击伊朗毁约，并晒经济成绩单。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "地缘政治",
+    "stocks": [],
+    "reason": "新闻主要涉及美国政治和外交，对A股直接影响有限，不进入交易池。",
+    "catalyst": "地缘政治紧张可能影响市场情绪，但无具体A股关联。"
+  },
+  "6f989e64c3d66cdedc8a0e4f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股受外围冲击大幅回调，科技板块领跌，机构认为科技产业趋势未结束，短期震荡消化估值。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻分析市场下跌原因及后市展望，未点名具体个股，但影响市场情绪，短期偏空。",
+    "catalyst": "外围科技股走弱、地缘风险升温，高位科技股获利回吐。"
+  },
+  "9c9fb249f8f8c4b6431614f9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沐曦股份因WAIC大会发布新品及国产算力需求爆发大涨超13%，带动GPU板块走强。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "沐曦股份",
+        "code": ""
+      },
+      {
+        "name": "寒武纪",
+        "code": "688256"
+      },
+      {
+        "name": "摩尔线程",
+        "code": ""
+      }
+    ],
+    "reason": "国产GPU龙头受益于AI算力国产化趋势，大会催化及业绩预期向好。",
+    "catalyst": "WAIC大会新品发布及国产算力需求爆发"
+  },
+  "b297b39eb22e4477d74fb46a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "众泰汽车预计上半年净利润7800万至1.05亿元，扭亏为盈，主因补偿款和诉讼和解收入。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "众泰汽车",
+        "code": "000980"
+      }
+    ],
+    "reason": "扭亏为盈，但扣非仍亏损，需关注持续性。",
+    "catalyst": "补偿款及诉讼和解收入确认，非经常性收益驱动。"
+  },
+  "596afad11c9fe31b2ca67431": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "霍尔木兹危机推升油价，但布伦特原油在80美元附近受阻，市场关注后续地缘局势。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "地缘事件短期利好油价，但未点名具体A股公司，且油价已滞涨，需观察持续性。",
+    "catalyst": "霍尔木兹海峡关闭威胁，中东地缘风险升温。"
+  },
+  "c71bd8bf63cb87c838adf3cf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沪指跌超2%，军工半导体下挫，银行逆势拉升，近4700股飘绿。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "银行",
+      "军工",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场大幅下跌，银行逆势上涨，但整体情绪悲观，短期回避风险。",
+    "catalyst": "市场恐慌情绪蔓延，资金避险涌入银行板块。"
+  },
+  "05f48e0404ccdcc5f5edadb6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普遇刺后指挥权移交万斯，其常备攻击指令无强制效力，美伊紧张局势升级。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治风险加剧，军工板块受关注但无直接利好个股。",
+    "catalyst": "美伊冲突升级，特朗普遇刺风险引发市场避险情绪。"
+  },
+  "aa0cd5883cb7c37bbba2d308": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "政策利好推动中药板块逆市走强，36只中药股连续五年现金分红。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "九芝堂",
+        "code": "000989"
+      },
+      {
+        "name": "天目药业",
+        "code": "600671"
+      },
+      {
+        "name": "陇神戎发",
+        "code": "300534"
+      },
+      {
+        "name": "沃华医药",
+        "code": "002107"
+      },
+      {
+        "name": "盘龙药业",
+        "code": "002864"
+      },
+      {
+        "name": "康恩贝",
+        "code": "600572"
+      },
+      {
+        "name": "益佰制药",
+        "code": "600594"
+      },
+      {
+        "name": "金陵药业",
+        "code": "000919"
+      }
+    ],
+    "reason": "政策利好叠加成本下降，中药板块逆市走强，多股涨停，具备交易价值。",
+    "catalyst": "国务院批复中医药振兴规划，基药目录扩容，中药材价格回落。"
+  },
+  "0d92633d75d2cf434c7a0fb8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "一汽解放2026年上半年净利润预增1273%-1528%，受益于产品结构优化、海外布局和新能源业务增长。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "一汽解放",
+        "code": "000800"
+      }
+    ],
+    "reason": "业绩大幅预增，经营质量改善，海外和新能源双轮驱动，具备交易价值。",
+    "catalyst": "中重卡需求复苏，海外和新能源业务放量，降本增效显著。"
+  },
+  "bd9119b65ea7393bda085883": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中药类ETF领涨，半导体ETF越跌越买获资金大幅流入",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物",
+      "半导体",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "资金逆势加仓半导体，中药ETF领涨，显示市场结构性机会",
+    "catalyst": "资金逆势流入半导体，中药板块领涨"
+  },
+  "73c4a8993fd8e1aaef26a8c2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "SK海力士因Q2营业利润预期低于市场共识而暴跌15%，但券商认为仅是正常化调整。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要涉及韩国公司，未点名A股个股，但半导体板块情绪可能受波及。",
+    "catalyst": "Q2营业利润预期低于市场共识，引发抛售。"
+  },
+  "286f1b080e06f9e4c3aef48f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "新华保险预计2026年半年度归母净利润同比增长40%-60%，受益于AI科技投入和资产配置优化。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新华保险",
+        "code": "601336"
+      }
+    ],
+    "reason": "业绩大幅预增，利好保险板块，可关注。",
+    "catalyst": "AI科技投入提升投资收益，利润超预期。"
+  },
+  "acd568537f34db1e99a8a7f0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院发布扩大消费十五五规划，目标2030年社零达60万亿，涵盖数字消费、大宗消费、增收等十大要点。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好消费板块，但未点名具体个股，整体影响偏正面。",
+    "catalyst": "国务院扩大消费规划，明确消费增长目标及具体措施。"
+  },
+  "a4e716f9ac019bd5604772f3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上交所举办培训答疑，推动“提质增效重回报”2.0专项行动落地，培育示范案例。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策引导上市公司提升质量与回报，利好市场整体，但无具体板块或个股指向。",
+    "catalyst": "监管层推动上市公司质量提升，增强投资者信心。"
+  },
+  "3778f2aa759491c71a1aca63": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "SK海力士股价暴跌15%，韩国投资证券下调盈利预测但看好长期盈利能力，HBM占比提升影响ASP。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及全球AI存储龙头SK海力士，对半导体板块有情绪影响，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "盈利预测下调及HBM产品结构变化导致短期股价承压。"
+  },
+  "497e2092532a5fd1499cdbab": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国经济危机历史回顾，当前面临类似困境，可能引发市场担忧。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "历史回顾性内容，未涉及具体A股公司，但可能影响市场情绪。",
+    "catalyst": "韩国经济危机历史类比，引发避险情绪。"
+  },
+  "35e26e5071ca9f2145dea5d1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "铝企上半年业绩爆发，净利润翻倍，但分析师认为超高利润难持续，中期仍可观。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天山铝业",
+        "code": "002532"
+      },
+      {
+        "name": "中孚实业",
+        "code": "600595"
+      },
+      {
+        "name": "神火股份",
+        "code": "000933"
+      },
+      {
+        "name": "焦作万方",
+        "code": "000612"
+      }
+    ],
+    "reason": "铝行业高景气，业绩超预期，但需关注持续性，短期有催化。",
+    "catalyst": "铝价高位运行，成本下降，业绩大增。"
+  },
+  "d3fb36a8c4d59a390b40424a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "厄尔尼诺现象推高粮价、电价和海运成本，冲击全球供应链，可能引发通胀。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "厄尔尼诺导致农产品减产和运输成本上升，可能推高通胀，影响消费板块。",
+    "catalyst": "极端天气导致粮食、能源和物流成本上涨。"
+  },
+  "b97458f3a2b916b6c2d4faea": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院批复中医药振兴发展“十五五”规划，利好智慧中药服务，艾隆科技有望受益。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "艾隆科技",
+        "code": "688329"
+      }
+    ],
+    "reason": "政策利好中医药现代化，艾隆科技智慧中药业务布局领先，有望受益。",
+    "catalyst": "中医药振兴规划获批，智慧中药需求释放。"
+  },
+  "0c59fc76a86bdfacc7f46f61": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "北京市场监管局曝光电动自行车违法案例，涉及改装、不合格产品等，罚款并没收财物。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "监管趋严，短期利空电动自行车行业，但长期利好合规龙头。",
+    "catalyst": "北京严查电动自行车非法改装，全链条溯源治理。"
+  },
+  "fbabb37997e4a0bd28f0c66a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "负极材料产业链多家企业上半年业绩预喜，行业供需偏紧，价格有望持续上行。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "杉杉股份",
+        "code": "600884"
+      },
+      {
+        "name": "科达制造",
+        "code": "600499"
+      },
+      {
+        "name": "信德新材",
+        "code": "301349"
+      },
+      {
+        "name": "贝特瑞",
+        "code": "920185"
+      }
+    ],
+    "reason": "行业景气度提升，龙头企业业绩大幅增长，供需格局改善，具备投资价值。",
+    "catalyst": "下游需求高增，一体化产能紧缺，负极材料价格修复，业绩超预期。"
+  },
+  "801a26b6abea986c3db4d9f5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全球首款AI智能体手机即将亮相，中兴努比亚量产在即，行业价值转向智能化。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "AI手机",
+    "stocks": [
+      {
+        "name": "中兴通讯",
+        "code": "000063"
+      }
+    ],
+    "reason": "中兴通讯旗下努比亚推出全球首款AI智能体手机，量产在即，利好公司终端业务。",
+    "catalyst": "AI智能体手机量产上市，推动AI终端商业化。"
+  },
+  "cbef0a7b7b1f987e370e511d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI Token生产商趋境科技半年内融资超10亿元，用于扩大产能和建设AI Token工厂。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "融资事件反映AI算力产业链高景气，但未点名具体A股公司，不直接进入交易池。",
+    "catalyst": "AI Token需求爆发，资本加码算力基础设施。"
+  },
+  "13974bc094da0e6040685343": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储主席沃什避免前瞻指引，市场关注其政策反应逻辑，但可能仍难获明确答案。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及美联储政策沟通方式，对A股直接影响有限，但可能影响市场情绪。",
+    "catalyst": "沃什国会听证会政策表态"
+  },
+  "5cb2a8bc16f9db2fa322eb15": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "机构调研券商频次增加，关注并购重组、自营投资及硬科技赛道布局。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "招商证券",
+        "code": "600999"
+      },
+      {
+        "name": "西南证券",
+        "code": "600369"
+      },
+      {
+        "name": "申万宏源",
+        "code": "000166"
+      },
+      {
+        "name": "长江证券",
+        "code": "000783"
+      },
+      {
+        "name": "国信证券",
+        "code": "002736"
+      }
+    ],
+    "reason": "券商板块受关注度提升，并购重组预期及硬科技布局催化行情。",
+    "catalyst": "机构调研频次增加，券商并购重组及科技赛道布局受关注。"
+  },
+  "2b4e517eefbf82e236a8c21d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "风华高科、多氟多业绩大增但股价跌停，因利好出尽和预期差。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "风华高科",
+        "code": "000636"
+      },
+      {
+        "name": "多氟多",
+        "code": "002407"
+      }
+    ],
+    "reason": "业绩利好已被提前消化，股价高位回调风险大，不进入交易池。",
+    "catalyst": "利好出尽，资金获利了结触发跌停。"
+  },
+  "229fb9fe70b263ceeb5ad5e6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中航重机核心锻件护航长征十号乙可回收火箭首飞，标志中国火箭可重复使用跨越升级。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中航重机",
+        "code": "600765"
+      }
+    ],
+    "reason": "公司深度参与航天核心部件，受益于可回收火箭产业化趋势，业绩增长确定性高。",
+    "catalyst": "长征十号乙首飞成功，可回收火箭规模化运营开启，公司锻件需求放量。"
+  },
+  "d853707aea3cf8ad2fcba271": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "6月50城住宅租金环比转涨，毕业季租赁需求释放，市场活跃度提升。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "房地产租赁市场回暖，利好房地产板块，但未点名具体公司。",
+    "catalyst": "毕业季租赁需求集中入市，业主预期修复。"
+  }
+}
