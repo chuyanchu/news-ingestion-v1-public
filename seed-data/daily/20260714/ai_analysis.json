@@ -1,0 +1,607 @@
+{
+  "cecfb0cf5ec55c3dc06e5193": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华勤技术2026上半年归母净利润预增超53%，超节点产品已小批量交付，算力基建布局深化。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华勤技术",
+        "code": "603296"
+      }
+    ],
+    "reason": "业绩超预期且超节点产品落地，算力基建核心受益标的，建议进入交易池。",
+    "catalyst": "超节点产品小批量交付，下半年上量，AI算力需求持续增长。"
+  },
+  "962fd4ae70b900ee58fda775": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "双杰电气因违规被国网拉黑跌停；钙钛矿电池效率破纪录，多家公司布局。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "双杰电气",
+        "code": "300444"
+      },
+      {
+        "name": "东方日升",
+        "code": "300118"
+      },
+      {
+        "name": "捷佳伟创",
+        "code": "300724"
+      },
+      {
+        "name": "钧达股份",
+        "code": "002865"
+      },
+      {
+        "name": "聚合材料",
+        "code": ""
+      }
+    ],
+    "reason": "双杰电气利空明确，钙钛矿技术突破利好相关公司，但需关注后续进展。",
+    "catalyst": "双杰电气被国网拉黑；钙钛矿电池效率刷新世界纪录。"
+  },
+  "e8f58f829cbaaeff1b7de0f5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "LV起诉国家知识产权局，商标行政纠纷案将于7月16日开庭。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "商标纠纷",
+    "stocks": [],
+    "reason": "不涉及A股上市公司，对市场影响有限。",
+    "catalyst": "商标行政纠纷案件开庭。"
+  },
+  "91e6a01c046d9a04ac0a57cb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国人寿预计上半年归母净利润同比增长215%-235%，主因投资业绩良好。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国人寿",
+        "code": "601628"
+      }
+    ],
+    "reason": "业绩大幅预增，利好保险板块，但需关注持续性。",
+    "catalyst": "资产负债联动优化，投资业绩超预期。"
+  },
+  "c5752e647d82af86a92b8fde": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家A股公司发布半年度业绩预增公告，长飞光纤、东山精密等净利大幅增长。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "长飞光纤",
+        "code": "601869"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "宏和科技",
+        "code": "603256"
+      },
+      {
+        "name": "剑桥科技",
+        "code": "603083"
+      },
+      {
+        "name": "通富微电",
+        "code": "002156"
+      },
+      {
+        "name": "赣锋锂业",
+        "code": "002460"
+      },
+      {
+        "name": "章源钨业",
+        "code": "002378"
+      },
+      {
+        "name": "山东玻纤",
+        "code": "605006"
+      }
+    ],
+    "reason": "业绩超预期增长，提振市场信心，相关板块受益。",
+    "catalyst": "半年度业绩预告大幅预增，行业景气度提升。"
+  },
+  "c7bb1436f289e63ab0a16fa8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "支付行业迎来网络安全新规和账户清理，强化合规治理。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "金融科技",
+    "stocks": [],
+    "reason": "政策利好合规支付机构，但未点名具体公司，暂不进入交易池。",
+    "catalyst": "金融业网络安全新规征求意见，账户清理行动密集落地。"
+  },
+  "3c6e99ce72f22ddcb5e6022b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "东山精密预计2026上半年净利润同比增长282.58%至295.78%，业绩大幅预增。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "东山精密",
+        "code": "002384"
+      }
+    ],
+    "reason": "业绩超预期增长，显示公司盈利能力大幅提升，利好股价。",
+    "catalyst": "业绩预告净利润同比增超280%，超出市场预期。"
+  },
+  "a152ce4ff3cda79c3f98c568": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国CPI、美联储主席听证及银行财报三重事件叠加，市场波动加剧，加息预期升温。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "银行",
+    "stocks": [],
+    "reason": "新闻主要影响全球宏观和美股，未直接点名A股公司，但银行板块可能受情绪传导。",
+    "catalyst": "美国通胀数据及美联储加息预期变化"
+  },
+  "f4eff57499014aa6fcdf2dfb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股午后暴力拉升，沪指涨1.36%，算力硬件、油气、医药商业等板块走强，超4200只个股上涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场情绪回暖，成交额维持高位，板块普涨，具备短期交易机会。",
+    "catalyst": "市场探底回升，资金涌入算力、医药等热点板块。"
+  },
+  "76305bdf0ae87833f038a6f8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股午后V型反转，中报预增股和芯片概念股领涨，主力资金大幅流入电子、通信板块。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "沪电股份",
+        "code": "002463"
+      },
+      {
+        "name": "生益科技",
+        "code": "600183"
+      },
+      {
+        "name": "源杰科技",
+        "code": "688498"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "行云科技",
+        "code": ""
+      }
+    ],
+    "reason": "市场情绪回暖，中报预增和芯片概念强势，主力资金大幅流入，短期反弹信号明确。",
+    "catalyst": "中报业绩预增超预期，芯片概念王者归来，资金大幅流入电子通信板块。"
+  },
+  "9bc50309b24f06978952142d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股走低，科创综指跌逾3%，资源类板块走强，多只业绩预增股逆市大涨。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "煤炭",
+    "stocks": [
+      {
+        "name": "ST西王",
+        "code": "000639"
+      },
+      {
+        "name": "方大集团",
+        "code": "000055"
+      },
+      {
+        "name": "德赛电池",
+        "code": "000049"
+      },
+      {
+        "name": "TCL科技",
+        "code": "000100"
+      }
+    ],
+    "reason": "市场整体下跌但业绩预增股表现强势，存在结构性机会。",
+    "catalyst": "业绩预增公告驱动个股逆市上涨。"
+  },
+  "675d3ccadb7dd3426092b42d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "售电公司因批零倒挂大面积亏损，行业面临洗牌，多地发布退出公示。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "电力",
+    "stocks": [],
+    "reason": "新闻聚焦售电行业困境，未提及具体上市公司，但影响电力市场化改革预期。",
+    "catalyst": "批零倒挂导致售电公司亏损，行业洗牌加速。"
+  },
+  "dba05f80e3bcbd770e653385": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多只热门股上半年业绩大幅预增，长飞光纤、利通电子、海德股份等净利润同比增幅超7倍。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "长飞光纤",
+        "code": "601869"
+      },
+      {
+        "name": "利通电子",
+        "code": "603629"
+      },
+      {
+        "name": "海德股份",
+        "code": "000567"
+      },
+      {
+        "name": "华资实业",
+        "code": "600191"
+      }
+    ],
+    "reason": "业绩大幅预增，算力、困境资产等业务驱动，市场关注度高，可能带动相关板块情绪。",
+    "catalyst": "算力需求增长及困境资产价值重估推动业绩爆发。"
+  },
+  "4b056da8f9b90084c3a648ab": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "伊朗军方称在霍尔木兹海峡问题上绝不让步，强调尊重伊朗人民权利和美国遵守协议是重开海峡的前提。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治紧张可能提升军工板块关注度，但未直接点名A股公司。",
+    "catalyst": "霍尔木兹海峡局势升级，避险情绪升温。"
+  },
+  "25333dd4c249317b534695f8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上半年进出口规模首超25万亿元，算力硬件进出口增56.6%，清凉家电出口超千亿元。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "外贸数据超预期，算力硬件和清凉家电出口强劲，利好相关板块。",
+    "catalyst": "算力硬件进出口高增长，AI投资热潮持续拉动出口。"
+  },
+  "fe284c381424262ae7d1a114": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "可回收火箭技术突破，商业航天企业密集IPO，行业进入价值兑现期。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "商业航天",
+    "stocks": [],
+    "reason": "新闻涉及商业航天产业重大技术突破和IPO热潮，但未点名具体A股公司，建议关注相关板块。",
+    "catalyst": "可回收火箭技术突破及科创板政策支持，推动商业航天企业上市融资。"
+  },
+  "31d91b0aa25145ed0a2ef967": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院批复《扩大消费“十五五”规划》，提出到2030年社零总额达60万亿元，重点促进服务消费和商品消费扩容升级。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "消费板块受益于顶层规划利好，政策明确扩大内需，消费为经济增长压舱石。",
+    "catalyst": "消费“十五五”规划发布，社零目标60万亿，服务消费成增长引擎。"
+  },
+  "c80d76833a1e60f555d31daf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国宝安半年业绩预亏，但主营业务贝特瑞和马应龙一季度稳健增长，亏损源于金融资产收益下降。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "新能源",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国宝安",
+        "code": "000009"
+      },
+      {
+        "name": "贝特瑞",
+        "code": ""
+      },
+      {
+        "name": "马应龙",
+        "code": ""
+      }
+    ],
+    "reason": "短期业绩预亏但主营业务稳健，关注后续修复机会。",
+    "catalyst": "贝特瑞全球化布局及技术突破，马应龙大健康业务高增长。"
+  },
+  "795583a806adc14ef7613419": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "自然资源部解读《意见》，完善自然资源资产产权制度，推进确权登记，促进保值增值。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "自然资源",
+    "stocks": [],
+    "reason": "政策利好自然资源资产管理，但未直接点名具体上市公司，暂不进入交易池。",
+    "catalyst": "自然资源资产管理制度体系完善，产权明晰利好相关行业。"
+  },
+  "cf7d835fa3b8ae8b2ab38db1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国单股杠杆ETF引发市场波动，央行或加息，监管面临收紧压力。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "韩国市场波动可能影响全球半导体供应链预期，但未直接点名A股公司。",
+    "catalyst": "韩国杠杆ETF监管收紧及加息预期，加剧市场波动。"
+  },
+  "f99337076ade7c3c1dedc7cb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中华企业发布业绩预告，成功发行20亿元公司债，利率创新低，重点项目有序推进。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中华企业",
+        "code": "600675"
+      }
+    ],
+    "reason": "公司债利率创新低，融资成本下降，项目进展顺利，利好公司发展。",
+    "catalyst": "低利率债券发行成功，融资成本降低，项目交付与销售推进。"
+  },
+  "4095cdb26dfba714f69a38cf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "期货公司半年报业绩预增，瑞达期货净利最高预增近89%，南华期货预增超62%，行业景气度提升。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "瑞达期货",
+        "code": "002961"
+      },
+      {
+        "name": "南华期货",
+        "code": "603093"
+      }
+    ],
+    "reason": "期货行业业绩大幅预增，核心业务共振增长，市场活跃度创新高，利好相关上市公司。",
+    "catalyst": "期货市场成交活跃，客户权益增长，风险管理需求旺盛，推动业绩高增。"
+  },
+  "56d2528632069d78fa1741d5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "利通电子预计2026年半年度净利润同比增长1173%-1368%，因算力业务收入持续增长。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "利通电子",
+        "code": "603629"
+      }
+    ],
+    "reason": "业绩大幅预增，算力业务高增长，利好明显，可进入交易池。",
+    "catalyst": "算力经销业务增长显著，带动净利润爆发式增长。"
+  },
+  "a4900af65a7b7fd0d2cd0ce9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "外交部驳斥美方网络攻击指控，奉劝他国勿做帮凶。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "网络安全",
+    "stocks": [],
+    "reason": "政治外交事件，对A股直接影响有限。",
+    "catalyst": "中美网络安全博弈，情绪扰动。"
+  },
+  "0a15dbc79e2d00cb9d14fb25": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "邹市明夫妇因拳馆投资亏损超2亿引发关注，非A股相关。",
+    "impact": "neutral",
+    "importance": 10,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为个人财务事件，不涉及A股上市公司或行业影响。",
+    "catalyst": ""
+  },
+  "ee3411d276b00eb7abb5109e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美伊对峙升级，特朗普宣布重启伊朗封锁并提议征收20%海峡过路费，油价应声上涨，经济学家警告不确定性或推升油价至100美元。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价上涨预期利好石油石化板块，但新闻未点名具体A股公司，暂不进入交易池。",
+    "catalyst": "美伊对峙升级，霍尔木兹海峡封锁不确定性推升油价"
+  },
+  "1b0ce6688c500efb81cab476": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "午后A股大反攻，创业板指涨逾3%，芯片产业链全线走强，中金认为市场已反映悲观预期，反弹或随时到来。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宏和科技",
+        "code": "603256"
+      },
+      {
+        "name": "中国巨石",
+        "code": "600176"
+      },
+      {
+        "name": "山东玻纤",
+        "code": "605006"
+      },
+      {
+        "name": "博杰股份",
+        "code": "002975"
+      },
+      {
+        "name": "东材科技",
+        "code": "601208"
+      },
+      {
+        "name": "国瓷材料",
+        "code": "300285"
+      },
+      {
+        "name": "风华高科",
+        "code": "000636"
+      },
+      {
+        "name": "三环集团",
+        "code": "300408"
+      }
+    ],
+    "reason": "市场情绪反转，芯片产业链领涨，中金研报看好，短期反弹概率大。",
+    "catalyst": "中金研报称市场已反映悲观预期，反弹随时到来，芯片产业链全线走强。"
+  },
+  "aacef76d1f60dd489bf62def": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "四大行辟谣高息存款虚假宣传，提醒防范诈骗。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及银行声誉风险，但无具体公司影响，不进入交易池。",
+    "catalyst": "监管警示虚假宣传，银行板块情绪短期承压。"
+  },
+  "300b4520b31fbeb73d982d66": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宁津健身器材产业从无到有，金融支持助力企业成长，产业产值达170亿元，远销全球。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "健身器材",
+    "stocks": [],
+    "reason": "新闻聚焦县域产业与金融共生，未提及A股上市公司，但产业利好相关供应链。",
+    "catalyst": "金融持续赋能产业，企业扩产出海需求旺盛。"
+  },
+  "2bd42c7e8df55321f6de91ce": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "午后亚太股市拉升，受韩国稳市和A股ETF买入两大利好刺激。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好刺激市场情绪，但未点名具体A股公司，整体偏正面。",
+    "catalyst": "韩国稳市政策及A股ETF大额买入提振信心。"
+  }
+}
