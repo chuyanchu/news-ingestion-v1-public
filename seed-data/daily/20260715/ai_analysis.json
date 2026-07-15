@@ -1,0 +1,715 @@
+{
+  "6c8e4b457e004be719c63b82": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上半年煤焦价格走强，企业利润改善但部分仍亏损，焦炭连涨九轮。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "陕西黑猫",
+        "code": "601015"
+      },
+      {
+        "name": "美锦能源",
+        "code": "000723"
+      },
+      {
+        "name": "陕西煤业",
+        "code": "601225"
+      }
+    ],
+    "reason": "煤焦价格走强，企业利润改善，但成本压力仍存，关注后续供需变化。",
+    "catalyst": "上游焦煤供给收缩及地缘冲突推高能源价格，焦炭连续提涨。"
+  },
+  "b47dcc3058db900e375ec19a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "暑期档票房突破33亿元，《功夫女足》领涨，影视板块大涨，主力资金抢筹儒意电影等。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "幸福蓝海",
+        "code": "300528"
+      },
+      {
+        "name": "儒意电影",
+        "code": ""
+      },
+      {
+        "name": "光线传媒",
+        "code": "300251"
+      },
+      {
+        "name": "奥飞娱乐",
+        "code": "002292"
+      },
+      {
+        "name": "北京文化",
+        "code": "000802"
+      },
+      {
+        "name": "中国电影",
+        "code": "600977"
+      },
+      {
+        "name": "金逸影视",
+        "code": "002905"
+      },
+      {
+        "name": "上海电影",
+        "code": "601595"
+      }
+    ],
+    "reason": "暑期档票房超预期，政策利好，板块资金流入，但部分公司业绩亏损，需谨慎。",
+    "catalyst": "《功夫女足》票房超预期及电影院多元化经营政策利好。"
+  },
+  "b9938156da09f10aef7578a3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "努比亚率先完成智能体大模型备案，将发布全球首款AI智能体手机。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "AI手机",
+    "stocks": [],
+    "reason": "利好AI手机产业链，但未点名具体A股公司。",
+    "catalyst": "智能体大模型备案通过，AI手机终端落地加速。"
+  },
+  "40023c4f6bc4d5b3f725420a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全球企业扎堆大规模融资，牛市承压，市场担忧行情落幕。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻未点名具体A股公司，但整体利空市场情绪，不进入交易池。",
+    "catalyst": "企业高位套现潮，市场流动性承压。"
+  },
+  "b8c559628a2c9cac8c1f825e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "创新药赛道景气度升温，政策与业绩双驱动，机构看好22只概念股。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "药明康德",
+        "code": "603259"
+      },
+      {
+        "name": "迪哲医药-U",
+        "code": "688192"
+      },
+      {
+        "name": "博瑞医药",
+        "code": "688166"
+      },
+      {
+        "name": "万邦医药",
+        "code": "301520"
+      },
+      {
+        "name": "睿智医药",
+        "code": "300149"
+      },
+      {
+        "name": "海特生物",
+        "code": "300683"
+      },
+      {
+        "name": "阳光诺和",
+        "code": "688621"
+      },
+      {
+        "name": "常山药业",
+        "code": "300255"
+      }
+    ],
+    "reason": "政策利好叠加业绩兑现窗口，创新药板块景气度提升，龙头股走强。",
+    "catalyst": "新版基药目录纳入创新药，医保谈判常态化，行业放量确定性增强。"
+  },
+  "4872813259f9055a38ab9ab0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上半年GDP增4.7%，生产稳出口强，高端制造和外贸成亮点。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "新能源车",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "宏观数据符合预期，结构分化但无明确交易信号，需观察后续政策。",
+    "catalyst": "经济增速放缓但高端制造和出口强劲，结构性机会显现。"
+  },
+  "d4efe31ad1042bca0fe5f15f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行发布6月金融数据，社融存量同比增7.4%，M2增8%，上半年社融增量同比少增。",
+    "impact": "neutral",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "宏观数据反映经济融资状况，影响市场流动性预期，但未直接点名个股。",
+    "catalyst": "社融增速放缓，M2平稳，关注后续货币政策动向。"
+  },
+  "9f76b6c37f32740f4bd2213c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国拟提高杠杆ETF保证金门槛，10天内32万散户遭强平，韩股波动加剧。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "韩国市场风险事件，对A股券商板块有情绪传导，但无直接点名个股。",
+    "catalyst": "韩国杠杆ETF监管收紧，散户强平潮引发市场波动。"
+  },
+  "764ab49c59a0aeaab4901ae5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "银行加强反重组风控，打击中介借新还旧、以贷养贷行为，债务重组风险暴露。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行风控收紧可能影响零售信贷资产质量，但未点名具体公司，板块影响偏负面。",
+    "catalyst": "银行反重组措施打击灰色中介，暴露以贷养贷风险。"
+  },
+  "5d6f7aaef722b3bed8c58ab9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技科创板IPO战配阵容豪华，国家队、产业链龙头及互联网巨头参与，募资规模超预期。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "澜起科技",
+        "code": "688008"
+      },
+      {
+        "name": "拓荆科技",
+        "code": "688072"
+      },
+      {
+        "name": "安集科技",
+        "code": "688019"
+      },
+      {
+        "name": "通富微电",
+        "code": "002156"
+      },
+      {
+        "name": "中微公司",
+        "code": "688012"
+      },
+      {
+        "name": "沪硅产业",
+        "code": "688126"
+      },
+      {
+        "name": "传音控股",
+        "code": "688036"
+      },
+      {
+        "name": "TCL科技",
+        "code": "000100"
+      }
+    ],
+    "reason": "长鑫科技上市带动半导体产业链关注度，战配名单中多家A股公司受益，板块催化明显。",
+    "catalyst": "长鑫科技IPO战配阵容豪华，产业链上下游深度参与，提振半导体板块信心。"
+  },
+  "9296d21944663d7bc4956c9e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "木林森2026年上半年业绩预增290%-356%，第二季度扣非净利润同比增超1200%，主营业务盈利能力实质性修复。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "木林森",
+        "code": "002745"
+      }
+    ],
+    "reason": "业绩超预期，扣非净利润大幅增长，显示基本面反转，具备投资价值。",
+    "catalyst": "行业供需改善，多板块协同，全产业链闭环优势释放盈利弹性。"
+  },
+  "ae040c4addeda9e9ba460d59": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股缩量震荡，游戏和大金融午后拉升，医药生物获主力资金净流入。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物",
+      "券商",
+      "保险",
+      "银行",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "恺英网络",
+        "code": "002517"
+      },
+      {
+        "name": "巨人网络",
+        "code": "002558"
+      },
+      {
+        "name": "贵州茅台",
+        "code": "600519"
+      },
+      {
+        "name": "恒瑞医药",
+        "code": "600276"
+      },
+      {
+        "name": "昭衍新药",
+        "code": "603127"
+      },
+      {
+        "name": "东方财富",
+        "code": "300059"
+      },
+      {
+        "name": "长飞光纤",
+        "code": "601869"
+      },
+      {
+        "name": "中国中免",
+        "code": "601888"
+      }
+    ],
+    "reason": "游戏、大金融、医药生物等板块逆市拉升，资金流入明显，短期有交易机会。",
+    "catalyst": "游戏板块午后放量拉升，大金融集体走强，医药生物持续获资金净流入。"
+  },
+  "89c26d72600ec645ba1c8bec": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国提高杠杆ETF保证金门槛，10天内32万散户被强平，市场波动加剧。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "韩国股市",
+    "stocks": [],
+    "reason": "新闻主要涉及韩国股市和散户强平，未直接点名A股公司，但可能影响A股情绪。",
+    "catalyst": "韩国提高保证金门槛，散户强平潮引发市场担忧。"
+  },
+  "f5a1527f8e7749f35809309d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行将开展1.4万亿元买断式逆回购操作，净投放5000亿元，分析师预计后期将持续加量，支持政府债券发行和信贷投放。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "央行大额净投放流动性，利好银行资金面和债券市场，但未点名具体个股。",
+    "catalyst": "央行逆回购加量续作，释放宽松信号，支持财政与货币政策协同。"
+  },
+  "8b7903d741271fd9f020d6c0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华体科技起诉成都天府绿道集团，要求支付欠款及利息约2.5亿元，案件已受理。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华体科技",
+        "code": "603679"
+      }
+    ],
+    "reason": "涉及大额诉讼，可能影响公司现金流和利润，但公司主业增长强劲，需关注诉讼结果。",
+    "catalyst": "大额诉讼追讨欠款，可能改善现金流或带来减值风险。"
+  },
+  "958080296135b84df751b496": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "十五五消费规划出台，目标2030年社零达60万亿，聚焦服务消费、银发经济等。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国家级消费规划明确利好消费板块，政策催化强，但未点名具体个股。",
+    "catalyst": "十五五消费规划发布，服务消费提质扩容，消费信心提振。"
+  },
+  "08cc55e267a27e890db1fbb9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "江苏索普财务造假三年，监管处罚叠加行业寒冬，面临资金链断裂风险。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "化工",
+    "stocks": [
+      {
+        "name": "江苏索普",
+        "code": "600746"
+      }
+    ],
+    "reason": "财务造假严重，监管处罚，行业下行，公司基本面恶化，不进入交易池。",
+    "catalyst": "会计差错更正暴露财务乱账，监管警示函，高管追责。"
+  },
+  "c725bd4bb1dbe330f4024009": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "新研股份2026上半年扭亏为盈，可控核聚变订单交付推动增长。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新研股份",
+        "code": "300159"
+      }
+    ],
+    "reason": "公司扭亏为盈，可控核聚变订单落地，基本面改善，可关注。",
+    "catalyst": "可控核聚变订单批量交付，业绩扭亏为盈。"
+  },
+  "7dfe7aa35a4ec14e8f7b451f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "爱奇艺业绩低迷，四大业务全线下滑，市值跌超90%，现金流吃紧，AI成核心叙事。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "长视频",
+    "stocks": [],
+    "reason": "新闻主要涉及爱奇艺在美股表现，未提及A股公司，但反映长视频行业困境。",
+    "catalyst": "爱奇艺业绩下滑，短剧冲击长视频，AI转型成关键。"
+  },
+  "60b17856148c039b9397b134": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上半年烟酒零售额增长13.2%，白酒板块上涨但业绩普遍预降，行业深度调整。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "古井贡酒",
+        "code": "000596"
+      },
+      {
+        "name": "金种子酒",
+        "code": "600199"
+      },
+      {
+        "name": "大湖股份",
+        "code": "600257"
+      },
+      {
+        "name": "泸州老窖",
+        "code": "000568"
+      },
+      {
+        "name": "山西汾酒",
+        "code": "600809"
+      },
+      {
+        "name": "顺鑫农业",
+        "code": "000860"
+      },
+      {
+        "name": "今世缘",
+        "code": "603369"
+      },
+      {
+        "name": "天佑德酒",
+        "code": "002646"
+      }
+    ],
+    "reason": "消费数据利好，但行业基本面承压，短期情绪驱动，需谨慎。",
+    "catalyst": "上半年烟酒零售额双位数增长，刺激白酒板块反弹。"
+  },
+  "00274a581292a69579293bb8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国重启对伊朗海上封锁，伊朗威胁切断中东能源出口，地缘风险升级。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突加剧，能源供应风险上升，影响市场情绪，但未直接点名A股公司。",
+    "catalyst": "美伊冲突升级，霍尔木兹海峡封锁威胁全球能源供应。"
+  },
+  "0063afdf72f6a3e47a93a10e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "公募二季报显示多只翻倍基重仓AI和半导体，基金经理看好国产替代但提示分化风险。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "中微公司",
+        "code": "688012"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      }
+    ],
+    "reason": "AI和半导体是当前主线，新闻提及多只翻倍基金重仓，催化明确。",
+    "catalyst": "AI产业趋势和国产替代加速，基金加仓显示信心。"
+  },
+  "229f2725d447db899d457112": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "天马科技上半年业绩预告显示盈利，饲料业务稳健对冲鳗鱼周期波动。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天马科技",
+        "code": "603668"
+      }
+    ],
+    "reason": "公司盈利但受周期影响，关注度一般，可观察后续行业回暖。",
+    "catalyst": "饲料主业提质增效，鳗鱼价格有望企稳回升。"
+  },
+  "8d1cd62f1847b788228e9bd4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "东鹏控股上半年净增门店50家，终端渠道建设稳步推进，但行业承压。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "建筑陶瓷",
+    "stocks": [
+      {
+        "name": "东鹏控股",
+        "code": "003012"
+      }
+    ],
+    "reason": "公司经营稳健但行业调整期，短期催化有限，可关注长期渠道优化。",
+    "catalyst": "终端门店提质扩容，店效提升策略推进。"
+  },
+  "7118967c51c5219c35cd3e24": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "医药生物板块涨停潮，电子板块调整，港股反弹。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "昭衍新药",
+        "code": "603127"
+      }
+    ],
+    "reason": "医药生物板块领涨，创新药概念突出，业绩利好，政策催化。",
+    "catalyst": "创新药授权交易额创新高，国家药监局批准新药上市。"
+  },
+  "5d5d7e11916b8ecc4c399d7d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "主力资金净流出279亿，医药、传媒获净流入，8股净流入超5亿。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "医药生物",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "巨人网络",
+        "code": "002558"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "长飞光纤",
+        "code": "601869"
+      },
+      {
+        "name": "华天科技",
+        "code": "002185"
+      },
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "江波龙",
+        "code": "301308"
+      },
+      {
+        "name": "华工科技",
+        "code": "000988"
+      },
+      {
+        "name": "长电科技",
+        "code": "600584"
+      }
+    ],
+    "reason": "市场整体资金流出，但医药、传媒有资金流入，个股分化明显，需关注结构性机会。",
+    "catalyst": "主力资金流向反映短期市场情绪，医药、传媒获资金青睐。"
+  },
+  "85aab0db99c3a6c01daddb14": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "今日A股涨停74只，医药生物板块表现活跃，哈药股份4连板，封单资金居前。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "哈药股份",
+        "code": "600664"
+      },
+      {
+        "name": "昭衍新药",
+        "code": "603127"
+      },
+      {
+        "name": "九安医疗",
+        "code": "002432"
+      },
+      {
+        "name": "云创退",
+        "code": ""
+      },
+      {
+        "name": "艾艾精工",
+        "code": "603580"
+      }
+    ],
+    "reason": "涨停家数多，医药生物板块强势，哈药股份封单大，有持续催化可能。",
+    "catalyst": "市场情绪回暖，医药板块资金流入明显。"
+  },
+  "1e4f7da2593181726e0c860a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股震荡，游戏股放量走强，医药、大金融获资金流入，半导体遭流出。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物",
+      "券商",
+      "保险",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "恺英网络",
+        "code": "002517"
+      },
+      {
+        "name": "巨人网络",
+        "code": "002558"
+      }
+    ],
+    "reason": "游戏股放量涨停，大金融异动，资金流入明显，短期有交易机会。",
+    "catalyst": "游戏板块午后放量拉升，大金融集体走强带动市场情绪。"
+  },
+  "f8ccdedebb9307740156a981": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇顺电子拟向上海奉望定增15亿偿债补流，此前获超50亿输血成17倍牛股，市场关注其能否实现自身造血。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宇顺电子",
+        "code": "002289"
+      }
+    ],
+    "reason": "定增偿债补流改善财务，但跨界并购造血能力待验证，短期情绪偏正面。",
+    "catalyst": "大股东全额认购定增，资金注入缓解债务压力。"
+  },
+  "51e6c4f1fe621977fb5d9e71": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "甘肃兰银金融租赁注册资本金获批增至7.5亿元，股东持股比例不变。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "非上市主体，对A股无直接影响，不进入交易池。",
+    "catalyst": "金融租赁公司增资，行业常规事件。"
+  }
+}
