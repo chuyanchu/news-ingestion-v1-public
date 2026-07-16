@@ -1,0 +1,496 @@
+{
+  "21e46bb43df889a53f55fa51": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "OPPO调整子品牌策略：realme聚焦海外，一加主攻中国，协同ColorOS系统。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "消费电子",
+    "stocks": [],
+    "reason": "新闻涉及OPPO内部战略调整，未直接点名A股上市公司，对A股影响间接。",
+    "catalyst": "OPPO整合子品牌资源，优化全球市场布局。"
+  },
+  "a41669bf48e0de06eebbcf34": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国暂停新单一股票杠杆ETF上市，抑制市场波动，提高最低存款额。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "ETF监管",
+    "stocks": [],
+    "reason": "政策针对韩国市场，对A股无直接影响。",
+    "catalyst": "韩国监管收紧杠杆ETF，抑制散户投机。"
+  },
+  "baaf8469d38532dca41e597d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股低开冲高回落，尾盘拉升，PCB板块逸豪新材涨停，贤丰控股连板，市场关注超跌修复。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "逸豪新材",
+        "code": "301176"
+      },
+      {
+        "name": "景旺电子",
+        "code": "603228"
+      },
+      {
+        "name": "源杰科技",
+        "code": "688498"
+      },
+      {
+        "name": "贤丰控股",
+        "code": "002141"
+      }
+    ],
+    "reason": "PCB板块强势修复，个股涨停，市场情绪回暖，但整体力度较弱，需观察持续性。",
+    "catalyst": "PCB板块超跌修复，AI主线回暖，个股涨停带动人气。"
+  },
+  "8378cdd64cd5254bbf2aae47": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股午后跳水，上证跌破3900点，尾盘有资金抄底。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场情绪悲观，但未提及具体板块或个股，影响广泛但缺乏直接交易信号。",
+    "catalyst": "市场恐慌情绪蔓延，资金尾盘抄底但力度有限。"
+  },
+  "9fc33551397552a4e7d9153b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "亚太股市集体下跌，韩国半导体受美国施压，A股科技券商重挫。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "半导体",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华安证券",
+        "code": "600909"
+      },
+      {
+        "name": "中金公司",
+        "code": "601995"
+      },
+      {
+        "name": "招商证券",
+        "code": "600999"
+      },
+      {
+        "name": "长江证券",
+        "code": "000783"
+      },
+      {
+        "name": "中信建投",
+        "code": "601066"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "太极实业",
+        "code": "600667"
+      },
+      {
+        "name": "华天科技",
+        "code": "002185"
+      }
+    ],
+    "reason": "市场系统性风险，科技与券商板块领跌，短期回避。",
+    "catalyst": "美国施压韩国半导体，韩国加强杠杆交易限制。"
+  },
+  "8c46fda12e8eb974884cfcf5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国暂停单一股票杠杆产品新上市，提高个人投资者门槛，旨在稳定市场。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "韩国监管收紧杠杆交易，可能影响市场情绪，但未直接点名A股公司。",
+    "catalyst": "韩国监管收紧杠杆交易，抑制投机，市场波动或降低。"
+  },
+  "5527b594c2f5bfe4a75ce089": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "张忆东称AI已成为拉动中国经济新动能的核心支柱。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI被定为核心支柱，利好AI算力板块，但未点名具体个股。",
+    "catalyst": "高层经济学家明确AI为经济新动能核心支柱。"
+  },
+  "f9168e031bb7f877f83431dc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "洪灏称A股将创新高，新浪全球资本峰会聚焦市场走势与跨境配置。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "观点偏乐观但无具体个股或板块催化，短期影响有限。",
+    "catalyst": "知名分析师看多言论提振市场情绪。"
+  },
+  "6205592ed1c6b26330a51656": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技IPO募资579亿元，专家认为大型IPO并非市场魔咒，当前流动性充裕。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻讨论IPO影响，未提供明确交易信号，但半导体板块受关注。",
+    "catalyst": "长鑫科技IPO募资用于DRAM和HBM研发"
+  },
+  "248328847de1594f6c581d65": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中金公司换股吸收合并东兴证券、信达证券获证监会受理，重组提速，上半年业绩预增78%-90%。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中金公司",
+        "code": "601995"
+      },
+      {
+        "name": "东兴证券",
+        "code": "601198"
+      },
+      {
+        "name": "信达证券",
+        "code": "601059"
+      }
+    ],
+    "reason": "重组获监管受理，进度超预期，叠加业绩大增，利好券商板块及标的。",
+    "catalyst": "证监会受理重组申请，打造航母级头部券商，行业整合加速。"
+  },
+  "17dc16ba9c7c66248ad9610a": {
+    "enabled": false,
+    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+  },
+  "2532be9037afcbb43ff99b37": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "公募基金自购旗下权益基金，沪指4000点下方，AI仍是焦点。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "公募自购",
+    "stocks": [],
+    "reason": "自购行为传递信心，但未明确指向具体板块或个股。",
+    "catalyst": "公募自购显示对市场长期看好，提振情绪。"
+  },
+  "d5960922fbf2ca565f516ed5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "巴菲特批评股市投机化，力挺谷歌，透露自己摔伤后恢复良好。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "未提及A股公司，对A股市场无直接影响。",
+    "catalyst": "巴菲特言论反映市场投机情绪，但无具体A股催化。"
+  },
+  "0531282a1f6b791c646e89fa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国股市强制平仓规模激增，监管叫停个股杠杆ETF上市，市场波动加剧。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "韩国股市",
+    "stocks": [],
+    "reason": "新闻主要涉及韩国股市，未直接关联A股板块或个股，但可能影响全球市场情绪。",
+    "catalyst": "韩国去杠杆政策及市场暴跌引发风险担忧。"
+  },
+  "021d771ccd4427fcfd7da5d6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "利欧股份回应称实控人套现超9亿元报道不实，近年实控人从未减持。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "利欧股份",
+        "code": "002131"
+      }
+    ],
+    "reason": "辟谣实控人减持，消除负面传闻，对股价有正面影响。",
+    "catalyst": "公司澄清实控人未减持，稳定市场信心。"
+  },
+  "a1bb8985aa119e1e5ec6fbd3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部回应安世半导体问题，中荷同意推动企业协商化解纠纷，保障半导体供应链安全。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好半导体产业链，但未点名具体公司，整体偏正面。",
+    "catalyst": "中荷政府推动协商化解纠纷，保障半导体供应链安全。"
+  },
+  "2f54d4d80a5b92881e2756c7": {
+    "enabled": false,
+    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+  },
+  "7fd97906388c7189ddcea9b9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "张忆东称港股A股调整尾部，秋季行情呼之欲出，全球资本峰会召开。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "知名分析师看多，市场情绪提振，利好券商和银行板块。",
+    "catalyst": "调整尾部信号，秋季行情预期升温。"
+  },
+  "e2462462944a06236b497456": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "张忆东称AI进入下半场，杀手级应用或一年内出现。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI应用前景乐观，利好AI算力板块，但未点名具体个股。",
+    "catalyst": "AI杀手级应用预期，推动算力需求增长。"
+  },
+  "66066693840c65aa354bdb7a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上半年社融增量超20万亿，企业直接融资占比上升，贷款增速放缓但结构优化。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "社融数据超预期，直接融资占比提升利好资本市场，但未点名具体个股。",
+    "catalyst": "货币政策适度宽松，企业融资成本下降，直接融资渠道拓宽。"
+  },
+  "9187caf34ba241a314af3d07": {
+    "enabled": false,
+    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+  },
+  "b689c9484eddc7225cb0b709": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "洪灏称人民币被低估，中国资本市场价值重估是未来五年最大机会。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "资本市场",
+    "stocks": [],
+    "reason": "宏观观点利好整体市场，但未指定具体板块或个股。",
+    "catalyst": "人民币低估引发价值重估预期。"
+  },
+  "4f3e1357f67661c5a4e2226d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "亚太股市集体下跌，韩国跌超6%，受美国施压半导体及韩国加强杠杆交易监管影响。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "太极实业",
+        "code": "600667"
+      },
+      {
+        "name": "华天科技",
+        "code": "002185"
+      },
+      {
+        "name": "长电科技",
+        "code": "600584"
+      },
+      {
+        "name": "德明利",
+        "code": "001309"
+      },
+      {
+        "name": "澜起科技",
+        "code": "688008"
+      },
+      {
+        "name": "江丰电子",
+        "code": "300666"
+      },
+      {
+        "name": "恒烁股份",
+        "code": "688416"
+      }
+    ],
+    "reason": "半导体板块受美国施压及韩国监管利空，个股跌幅大，短期回避。",
+    "catalyst": "美国施压韩国半导体本土化，韩国加强杠杆交易监管。"
+  },
+  "18548daaca161ff10b42a289": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI拟人化新规正式施行，豆包、千问等大厂下线相关功能，专家称合规成本高且情感界定模糊。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "AI应用",
+    "stocks": [],
+    "reason": "新规增加合规成本，短期压制AI情感陪伴类业务，但长期规范行业健康发展。",
+    "catalyst": "监管收紧导致平台下线功能，行业面临调整压力。"
+  },
+  "4c3182f4c2abd8d662c29970": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "北交所加强退市股云创退交易监管，对异常交易行为采取自律监管措施。",
+    "impact": "negative",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "退市风险",
+    "stocks": [],
+    "reason": "新闻仅涉及退市股监管，未提及具体行业或公司，不进入交易池。",
+    "catalyst": "退市整理期异常波动监管趋严"
+  },
+  "d4f40721870df98d371596c6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "阳狮集团上调全年业绩指引，二季度营收增速提升至4.8%。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "广告传媒",
+    "stocks": [],
+    "reason": "新闻涉及海外广告公司，对A股直接影响有限，但可能提振传媒板块情绪。",
+    "catalyst": "业绩超预期及上调指引显示行业需求回暖。"
+  },
+  "ca95cff10f6e3e0b544b8bd7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "智己汽车多地经销商暴雷，车主付款后无法提车，员工讨薪，官方称会兜底但需时间。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "事件反映新能源车经销商经营压力，可能影响行业信心，但未点名具体上市公司。",
+    "catalyst": "经销商经营异常，暴露新能源车渠道风险。"
+  },
+  "ec5032c0bdd1d78562567bba": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "台积电二季度净利润同比增77.4%，上调资本支出，AI需求强劲。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "台积电业绩超预期并上调资本支出，利好AI算力和半导体板块，但未点名A股公司。",
+    "catalyst": "AI芯片需求旺盛，台积电上调资本支出至600-640亿美元。"
+  },
+  "ff21431bff5e62bc69b58770": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "兆易创新跌停，半导体板块掀跌停潮，24万股民受影响。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "澜起科技",
+        "code": "688008"
+      },
+      {
+        "name": "华天科技",
+        "code": "002185"
+      },
+      {
+        "name": "德明利",
+        "code": "301388"
+      },
+      {
+        "name": "长电科技",
+        "code": "600584"
+      },
+      {
+        "name": "华微电子",
+        "code": "600360"
+      }
+    ],
+    "reason": "存储芯片龙头跌停，带动半导体板块大跌，市场情绪悲观，短期回避。",
+    "catalyst": "存储芯片龙头兆易创新跌停，半导体板块集体重挫。"
+  },
+  "ac020308e098e15121f61ec5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "巴基斯坦呼吁美伊恢复技术层面谈判，关注霍尔木兹海峡局势。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "地缘政治",
+    "stocks": [],
+    "reason": "新闻涉及地缘政治，未直接关联A股板块或个股，影响有限。",
+    "catalyst": "美伊谈判进展可能影响能源供应预期。"
+  }
+}
