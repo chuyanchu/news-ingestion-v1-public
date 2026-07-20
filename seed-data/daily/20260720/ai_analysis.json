@@ -1,0 +1,678 @@
+{
+  "f3608cbde995ca379cdfb494": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会召开投资者座谈会，强调严控风险、强化监管，维护公平市场环境。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "座谈会释放稳市场信号，利好券商和银行板块，但无具体个股点名。",
+    "catalyst": "监管层表态维护公平，严控风险，提振市场信心。"
+  },
+  "39a3ab9df2febb0bbb5dfb64": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "29国签署协定成立世界人工智能合作组织，推动AI国际合作与普惠发展。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国际AI合作组织成立，利好AI算力等板块，但未点名具体个股。",
+    "catalyst": "多国签署协定，AI国际合作加速，释放智能红利。"
+  },
+  "0119e7230eca03a1057870ca": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "智元王闯称具身智能从演示转向部署态，市场容量大百倍，行业进入量产落地阶段。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "行业从Demo转向部署态，市场空间大幅扩大，利好机器人板块。",
+    "catalyst": "具身智能规模化商用落地，量产加速，技术突破。"
+  },
+  "edf3f2e37ff1431a1c510b53": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "信银理财发布新品牌，聚焦多资产多策略，加大含权产品布局，构建权益投研体系。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "银行",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要涉及银行理财行业战略调整，对具体上市公司影响不直接，不进入交易池。",
+    "catalyst": "银行理财加大权益配置，但短期催化不明显。"
+  },
+  "abe7846ac23161d178291a35": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普倾向升级对伊军事行动，警告停火失败局势升级，并为世界杯颁奖，敦促企业降价。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突升级利好军工板块，但未点名具体A股公司。",
+    "catalyst": "中东局势紧张，军事行动预期升温。"
+  },
+  "5da64fd11143fa53be98881a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股利好密集但市场割裂，资金转向低估值高股息板块，科技回调。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国海油",
+        "code": "600938"
+      },
+      {
+        "name": "兖矿能源",
+        "code": "600188"
+      },
+      {
+        "name": "中煤能源",
+        "code": "601898"
+      },
+      {
+        "name": "贵州茅台",
+        "code": "600519"
+      },
+      {
+        "name": "中国铝业",
+        "code": "601600"
+      }
+    ],
+    "reason": "政策托市但市场分化，高股息板块受资金青睐，科技回调，需观察持续性。",
+    "catalyst": "国家队增持、央企回购、券商回购等护盘利好密集落地。"
+  },
+  "098913258272ace501cc97c3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026世界杯决赛西班牙胜阿根廷，联想与咪咕合作AI预测世界杯。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "体育传媒",
+    "stocks": [],
+    "reason": "新闻主要关于体育赛事和AI预测，未涉及A股公司或明确行业影响。",
+    "catalyst": "AI预测世界杯，但无直接A股催化。"
+  },
+  "5c1ab9d9a90d8b80253ef300": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会主席吴清与投资者座谈，强调维护市场平稳运行，听取意见建议。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策面利好，稳定市场预期，提振信心。",
+    "catalyst": "监管层表态维护市场稳定，逆周期调节预期。"
+  },
+  "54cfc0b024190fe4caee3510": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月以来创业板指ETF净流入超200亿，成长股受关注，基本面与创新突出。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源车",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "东方财富",
+        "code": "300059"
+      },
+      {
+        "name": "迈瑞医疗",
+        "code": "300760"
+      }
+    ],
+    "reason": "增量资金持续流入，基本面与创新支撑，成长板块受关注。",
+    "catalyst": "增量资金涌入，创业板指ETF净流入超200亿元。"
+  },
+  "fd062ba2a555ca3c1288e849": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国平安公告坚定支持资本市场发展，坚持稳定可持续现金分红，增强投资者信心。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国平安",
+        "code": "601318"
+      }
+    ],
+    "reason": "公司明确表态支持资本市场并强调分红，利好保险板块及市场情绪。",
+    "catalyst": "公司公告坚定支持资本市场发展，持续高分红增强信心。"
+  },
+  "86886da6e44cd0ec7e981f30": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "工信部将加快出台人工智能+软件行动方案，推动算力基础设施和6G等通信技术发展。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策明确支持AI+软件和算力建设，利好相关板块，但未点名具体个股。",
+    "catalyst": "工信部将出台AI+软件行动方案，推动算力与通信技术升级。"
+  },
+  "5fb9232d43114300e200d909": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "C919将于8月12日起执飞北京至乌兰巴托国际航线，首次进入常态化国际运营。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "C919国际航线拓展利好国产大飞机产业链，但未点名具体A股公司。",
+    "catalyst": "国产大飞机首次常态化国际运营，打开海外市场空间。"
+  },
+  "ca8474b57ea51e44e50e46a4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国太保公告将加大权益配置，继续投资科技、消费、新能源等领域股票及ETF，并优化分红提升股东回报。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "险资作为长期资金表态增配权益，提振市场信心，利好相关板块。",
+    "catalyst": "险资加大权益配置，投资科技、消费、新能源等领域。"
+  },
+  "faa2473a36324b145a316b31": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "申万宏源策略首席王胜认为抛压已集中释放，反弹在即，AI产业链超跌反弹，科技股回调后市场有望共振反弹。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "权威策略师看好反弹，科技与券商板块受益，市场情绪提振。",
+    "catalyst": "抛压释放完毕，AI产业链超跌反弹预期，存储龙头上市催化。"
+  },
+  "44388f84be700da490fb2c48": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会主席吴清调研座谈，强调维护市场平稳运行；科技股回调，红利板块领涨。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      }
+    ],
+    "reason": "证监会护盘信号明确，市场信心有望提振，但科技股回调风险仍在。",
+    "catalyst": "证监会主席调研座谈，释放维护市场稳定信号。"
+  },
+  "babbf0ea2b30ad3e7218f6d3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "跨维智能发布全球首个跨本体数据集与仿真引擎，推动机器人产业落地。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及机器人底层技术突破，利好机器人板块，但未点名具体A股公司。",
+    "catalyst": "跨本体数据集与生成式仿真引擎发布，加速机器人产业化。"
+  },
+  "0d68ff49579315eec2531fbd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股震荡，电力股尾盘异动多股涨停，石油板块大涨，高股息板块走强。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "浙江新能",
+        "code": "600032"
+      },
+      {
+        "name": "大唐发电",
+        "code": "601991"
+      },
+      {
+        "name": "京能电力",
+        "code": "601578"
+      },
+      {
+        "name": "深南电A",
+        "code": "000037"
+      },
+      {
+        "name": "湖南发展",
+        "code": "000722"
+      },
+      {
+        "name": "中国海油",
+        "code": "600938"
+      },
+      {
+        "name": "中国石油",
+        "code": "601857"
+      },
+      {
+        "name": "中国石化",
+        "code": "600028"
+      }
+    ],
+    "reason": "电力板块尾盘异动，石油板块受油价上涨驱动，高股息板块受资金青睐。",
+    "catalyst": "电力负荷预期增长，中东局势推升油价。"
+  },
+  "cbde0d4c0c3eb9088abe28cc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "港交所研究延长衍生产品交易时段，现货市场调整尚早。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "未点名具体A股公司，影响间接且短期不明确。",
+    "catalyst": "港交所延长交易时段研究，提升市场便利性。"
+  },
+  "95eab112b0214acad456abae": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "发改委主任郑栅洁召开民企座谈会，听取意见并强调支持民营经济。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "三全食品",
+        "code": "002216"
+      },
+      {
+        "name": "华兴源创",
+        "code": "688001"
+      },
+      {
+        "name": "易点天下",
+        "code": "301171"
+      }
+    ],
+    "reason": "高层座谈释放政策支持信号，提振民企信心，利好相关行业。",
+    "catalyst": "发改委明确支持民营经济，政策预期改善。"
+  },
+  "c42763c82c9de0966f30f85c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "均普智能在WAIC展出全球首条多机器人协同汽车BMS产线，实现无人化量产。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "机器人",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "均普智能",
+        "code": "688306"
+      }
+    ],
+    "reason": "公司具身智能产线落地，解决行业难题，技术领先，利好机器人及新能源车板块。",
+    "catalyst": "多机器人协同产线突破工业具身智能，实现无人化量产。"
+  },
+  "95ef12a5b700d5b98d957661": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股红利板块大涨，中国海油涨停，贵州茅台涨超5%，多家公司发布增持公告。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国海油",
+        "code": "600938"
+      },
+      {
+        "name": "贵州茅台",
+        "code": "600519"
+      },
+      {
+        "name": "中国铝业",
+        "code": "601600"
+      },
+      {
+        "name": "中国中车",
+        "code": "601766"
+      },
+      {
+        "name": "中煤能源",
+        "code": "601898"
+      }
+    ],
+    "reason": "红利板块大涨，增持公告提振信心，市场风格转换明显。",
+    "catalyst": "红利板块受资金追捧，增持公告强化市场信心。"
+  },
+  "54bd0a65a94b9ff2b5827d26": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年上半年北京GDP同比增长5.4%，经济运行平稳。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "宏观经济数据，不直接影响具体板块或个股。",
+    "catalyst": "地区经济数据发布，无直接催化。"
+  },
+  "4ba3d3c012408af2a424f68e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "港交所回应取消午休传闻，称当前首要研究延长衍生品交易时段，现货市场调整尚处早期。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及港交所交易时段调整，但未点名具体A股公司，且调整尚处早期，对A股直接影响有限。",
+    "catalyst": "港交所延长衍生品交易时段研究，提升市场效率预期。"
+  },
+  "9dc6452a9fc03429d7cf0dfa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "22家券商半年业绩出炉，7家净利翻倍，受益于市场活跃和科创投资。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天风证券",
+        "code": "601162"
+      },
+      {
+        "name": "中泰证券",
+        "code": "600918"
+      },
+      {
+        "name": "华安证券",
+        "code": "600909"
+      },
+      {
+        "name": "招商证券",
+        "code": "600999"
+      },
+      {
+        "name": "财达证券",
+        "code": "600906"
+      },
+      {
+        "name": "长江证券",
+        "code": "000783"
+      },
+      {
+        "name": "中金公司",
+        "code": "601995"
+      },
+      {
+        "name": "广发证券",
+        "code": "000776"
+      }
+    ],
+    "reason": "券商板块业绩高增，市场活跃度提升，利好券商股。",
+    "catalyst": "市场交投活跃，财富管理和自营业务增长，科创投资放大弹性。"
+  },
+  "571b17887473af1d1124505a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "灵均投资和平方和投资同日宣布自购合计3亿元，传递市场信心。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "量化私募",
+    "stocks": [],
+    "reason": "自购行为显示机构对后市信心，但未直接点名个股，整体利好市场情绪。",
+    "catalyst": "头部量化私募逆势自购，提振市场信心。"
+  },
+  "2962281dca5a25ffa7679036": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "理想汽车发布AI眼镜，定位为个人全场景终端入口，强调轻量化和续航，已实现远程车控。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "理想汽车布局AI眼镜，拓展智能生态，利好公司及产业链。",
+    "catalyst": "理想AI眼镜发布，具身智能战略升级。"
+  },
+  "583759cd6619f5eaafe46683": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多只宽基ETF尾盘放量成交，中国诚通、中国国新等大额增持，公募自购，市场底部承接强劲，科技股回调提供布局窗口。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "银行",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "资金大举流入ETF及央企增持，显示政策底明确，市场信心提振，短期风险偏好回升。",
+    "catalyst": "国家队资金入场增持ETF及央企股票，释放维稳信号。"
+  },
+  "e9e1a6bf0981c0e6d96b54a6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "红利资产逆市上涨，多家机构看好高股息配置价值，197股股息率超5%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行",
+      "保险",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华友钴业",
+        "code": "600516"
+      },
+      {
+        "name": "三一重工",
+        "code": "600031"
+      },
+      {
+        "name": "科达利",
+        "code": "002850"
+      },
+      {
+        "name": "山东高速",
+        "code": "600350"
+      },
+      {
+        "name": "淳中科技",
+        "code": "603516"
+      },
+      {
+        "name": "圆通速递",
+        "code": "600233"
+      },
+      {
+        "name": "中泰证券",
+        "code": "600918"
+      },
+      {
+        "name": "天奈科技",
+        "code": "688116"
+      }
+    ],
+    "reason": "高股息资产受机构看好，风格切换明显，回购潮提振信心，估值低位有修复空间。",
+    "catalyst": "机构密集看好红利资产，回购潮与高股息策略受追捧。"
+  },
+  "e956fea83c22313ae6dd6c52": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "电力板块受用电量增长及特高压招标利好掀涨停潮，沪指涨0.85%。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华银电力",
+        "code": "600744"
+      },
+      {
+        "name": "美利云",
+        "code": "000815"
+      },
+      {
+        "name": "华电能源",
+        "code": "600726"
+      },
+      {
+        "name": "大唐发电",
+        "code": "601991"
+      },
+      {
+        "name": "粤电力A",
+        "code": "000539"
+      }
+    ],
+    "reason": "电力板块涨停潮，特高压招标超预期，行业景气度提升。",
+    "catalyst": "6月用电量同比增长3.7%，特高压招标金额超去年全年。"
+  },
+  "7ddaaf32948d5eb8e32311e4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "主力资金净流出570亿，计算机、石油石化等4行业获净流入，紫光股份、宁德时代净流入居前。",
+    "impact": "neutral",
+    "importance": 65,
+    "sectors": [
+      "AI算力",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "紫光股份",
+        "code": "000938"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "利通电子",
+        "code": "603629"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "浪潮信息",
+        "code": "000977"
+      },
+      {
+        "name": "惠科股份",
+        "code": ""
+      },
+      {
+        "name": "通鼎互联",
+        "code": "002491"
+      },
+      {
+        "name": "京东方A",
+        "code": "000725"
+      }
+    ],
+    "reason": "资金流向显示AI算力和新能源板块受关注，但整体净流出大，需谨慎。",
+    "catalyst": "AI算力需求驱动ICT增长，钠电池政策利好新能源。"
+  }
+}
