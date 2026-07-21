@@ -1,0 +1,653 @@
+{
+  "d792c0b7e7c4765a089dcfa4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI赛道反攻，人形机器人产量预计突破10万台，产业化临界点到来，概念股业绩大增。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "国瓷材料",
+        "code": "300285"
+      },
+      {
+        "name": "三环集团",
+        "code": "300408"
+      },
+      {
+        "name": "骄成超声",
+        "code": "688392"
+      },
+      {
+        "name": "斯迪克",
+        "code": "300806"
+      },
+      {
+        "name": "达利凯普",
+        "code": "301566"
+      },
+      {
+        "name": "宏达电子",
+        "code": "300726"
+      }
+    ],
+    "reason": "人形机器人产业化加速，政策与资本合力，概念股业绩高增，市场情绪回暖。",
+    "catalyst": "工信部预计2026年人形机器人产量超10万台，产业化临界点。"
+  },
+  "fe71221b07d5b0659dc4f2fe": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海上半年外贸创历史新高，高技术产品出口增长强劲，显示经济韧性。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "外贸数据利好出海链，但未点名具体公司，整体影响偏宏观。",
+    "catalyst": "上海外贸高增长，高技术产品出口结构优化。"
+  },
+  "92d627068b6b133e9e8ebeeb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "高德上线位置口令功能，通过6位数字实现任意位置分享，降低位置沟通门槛。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "互联网",
+    "stocks": [],
+    "reason": "新闻涉及高德产品功能更新，但未点名A股上市公司，对相关板块影响有限。",
+    "catalyst": "位置分享创新，提升地图使用便捷性。"
+  },
+  "e6ea8253cc6530258912a556": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中文在线路演回应AI短剧降本、出海平台布局及大模型数据合作，预计2026年末AI短剧年产能达3000部。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中文在线",
+        "code": "300364"
+      }
+    ],
+    "reason": "AI短剧降本超75%，产能数倍增长，出海平台FlareFlow领先，数据合作深化，利好公司业绩。",
+    "catalyst": "AI短剧产能爆发+出海平台扩张+数据合作变现"
+  },
+  "5ce7775f5eb6028056bc26ce": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI和人形机器人板块大涨，工信部称今年人形机器人产量预计超10万台，概念股业绩高增。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "机器人",
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "国瓷材料",
+        "code": "300285"
+      },
+      {
+        "name": "三环集团",
+        "code": "300408"
+      },
+      {
+        "name": "骄成超声",
+        "code": "688392"
+      },
+      {
+        "name": "斯迪克",
+        "code": "300806"
+      },
+      {
+        "name": "达利凯普",
+        "code": "301566"
+      },
+      {
+        "name": "宏达电子",
+        "code": "300726"
+      }
+    ],
+    "reason": "政策利好叠加产业突破，板块热度高，业绩增长明确，可关注。",
+    "catalyst": "工信部预计人形机器人产量突破10万台，产业化临界点来临。"
+  },
+  "eb6b33e495fadf746cad5082": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "影视飓风回应员工陪老板演松弛感指责，称营销号解读恶毒。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "非上市公司，不涉及A股，无交易影响。",
+    "catalyst": "公司声誉争议，但无资本市场关联。"
+  },
+  "77d40d546a56fb0eb6bdbeed": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "大众评论影响新大众文艺创作，强调读者判断力与作品长周期。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "文化传媒",
+    "stocks": [],
+    "reason": "新闻聚焦文艺评论现象，不涉及具体财经事件或上市公司。",
+    "catalyst": "大众参与共创提升文艺作品影响力。"
+  },
+  "d22c874d6275498f028dd5cb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "富汇创投曾军称科创板壮大激励早期投资，政策与市场共同托举“投早投小”。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "创投",
+    "stocks": [],
+    "reason": "新闻聚焦创投行业趋势，未直接利好特定板块或个股，但提振市场信心。",
+    "catalyst": "科创板七周年及政策鼓励早期投资，优化创投生态。"
+  },
+  "8046bad1e88ea9d4013c56c4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "蚂蚁国际完成12亿美元A轮融资，加速全球支付和AI技术布局。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "蚂蚁国际融资利好出海链，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "融资加速全球业务扩张，提升跨境支付竞争力。"
+  },
+  "be002556ce503415fb7df0e7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "源杰科技预计2026年上半年净利润同比增长超1100%，受数据中心业务和投资收益驱动。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "源杰科技",
+        "code": "688498"
+      }
+    ],
+    "reason": "业绩超预期且AI算力需求持续，股价已大涨但催化仍强。",
+    "catalyst": "AI数据中心需求爆发，光芯片量价齐升。"
+  },
+  "0c93b3d568470b830fc194e2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "伊朗媒体称美海军第五舰队司令部发生爆炸，巴林拉响警报。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突升级，利好军工板块，但未点名具体个股。",
+    "catalyst": "中东局势紧张，军工避险情绪升温。"
+  },
+  "e0a1e28195a03049f075e854": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "智谱AI股价大涨，完成收购中科加禾并落地国产AI算力数据中心。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "智谱AI非A股上市公司，但事件利好AI算力板块，可关注相关A股标的。",
+    "catalyst": "国产AI算力数据中心落地及收购中科加禾，补齐算力供给与释放能力。"
+  },
+  "d0b4e163e6982d7aff8342a2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股探底回升，科创50涨超10%，政策资金基本面三重护航，券商首席看多后市。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场非理性错杀后强力反弹，政策与资金面支撑，券商首席集体看多，具备交易价值。",
+    "catalyst": "政策、资金、基本面三重护航，市场情绪修复。"
+  },
+  "1570291728c28df940a6b493": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "业绩超预期股受关注，睿创微纳涨停，机构建议把握反弹机会，AI外溢扩散方向包括创新药、化工、有色等。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "睿创微纳",
+        "code": "688002"
+      },
+      {
+        "name": "燕京啤酒",
+        "code": "000729"
+      },
+      {
+        "name": "中国人寿",
+        "code": "601628"
+      },
+      {
+        "name": "浪潮信息",
+        "code": "000977"
+      },
+      {
+        "name": "大族数控",
+        "code": "301200"
+      },
+      {
+        "name": "卫星化学",
+        "code": "002648"
+      },
+      {
+        "name": "鹏辉能源",
+        "code": "300438"
+      },
+      {
+        "name": "富祥股份",
+        "code": "300497"
+      }
+    ],
+    "reason": "业绩超预期个股有望成为反弹龙头，市场关注度高，但需注意个股分化风险。",
+    "catalyst": "半年报业绩预告超预期，行业需求景气，订单充裕。"
+  },
+  "20dfe5a4a2053627708a62ca": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "高盛警告若霍尔木兹海峡受阻持续，布伦特原油或突破120美元，但基准预测为80美元。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价上涨利好石油石化板块，但未点名具体A股公司。",
+    "catalyst": "中东局势升级，霍尔木兹海峡航运受阻风险。"
+  },
+  "64eb702a590ddc22184aaa11": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "葛兰称创新药产业链景气回升，看好创新药及CXO板块，关注海外临床进展。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "凯莱英",
+        "code": "002821"
+      },
+      {
+        "name": "百利天恒",
+        "code": "688506"
+      },
+      {
+        "name": "恒瑞医药",
+        "code": "600276"
+      },
+      {
+        "name": "药明康德",
+        "code": "603259"
+      },
+      {
+        "name": "海思科",
+        "code": "002653"
+      },
+      {
+        "name": "康龙化成",
+        "code": "300759"
+      },
+      {
+        "name": "科伦药业",
+        "code": "002422"
+      },
+      {
+        "name": "泰格医药",
+        "code": "300347"
+      }
+    ],
+    "reason": "知名基金经理明确看好创新药产业链，板块景气回升，业绩估值有望共振。",
+    "catalyst": "创新药海外临床数据密集读出，CXO订单回暖，板块修复预期增强。"
+  },
+  "4ac1333c09ab68cf7f52eaf0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "算力租赁和跨境支付概念逆市拉升，中嘉博创5天3板，美利云2连板。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中嘉博创",
+        "code": "000889"
+      },
+      {
+        "name": "美利云",
+        "code": "000815"
+      }
+    ],
+    "reason": "算力租赁景气上行，政策催化，个股强势涨停，具备交易价值。",
+    "catalyst": "Kimi算力紧缺暂停订阅，Meta拟百亿美元租算力，工信部支持算力基建。"
+  },
+  "c82d413f0499f21d93ca05af": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家队历次进场后A股走势各异，短期止跌但市场底滞后，需结合政策与基本面。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国平安",
+        "code": "601318"
+      },
+      {
+        "name": "中国太保",
+        "code": "601601"
+      },
+      {
+        "name": "中国人保",
+        "code": "601319"
+      },
+      {
+        "name": "新华保险",
+        "code": "601336"
+      },
+      {
+        "name": "中国人寿",
+        "code": "601628"
+      }
+    ],
+    "reason": "国家队进场提供流动性，阻断负反馈，历史经验显示政策底后市场底渐近，可关注金融板块。",
+    "catalyst": "国家队增持及险资表态加大权益配置，释放稳市信号。"
+  },
+  "372aef305860cf5438090140": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全球金融市场反弹，半导体板块领涨，黄金白银大涨，美伊局势缓和。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "半导体板块带动全球市场反弹，利好A股相关板块。",
+    "catalyst": "半导体反弹、美伊停火预期、地缘风险缓和。"
+  },
+  "9568af559a58f6dfbcf64054": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股大幅反弹，芯片股全线爆发，多股涨停，成交额放大至2.97万亿元。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "半导体",
+      "AI算力",
+      "机器人",
+      "新能源车",
+      "消费电子"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "紫光股份",
+        "code": "000938"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "北方华创",
+        "code": "002371"
+      },
+      {
+        "name": "九安医疗",
+        "code": "002432"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "中微公司",
+        "code": "688012"
+      }
+    ],
+    "reason": "市场大幅反弹，芯片板块领涨，资金大幅流入，短期情绪修复，可关注。",
+    "catalyst": "市场超跌反弹，芯片股全线爆发，资金大幅流入电子行业。"
+  },
+  "f19e6e36a2c7b2ea5293e8fe": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月LPR连续14个月不变，下半年有望下调，房贷利率或降。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "LPR下调预期利好房地产和银行板块，但未点名具体个股。",
+    "catalyst": "央行可能实施政策性降息，带动LPR下调。"
+  },
+  "db79d8823f1bebe1ed83f732": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普宣布对加拿大汽车、乳制品及酒类征50%关税，美加贸易摩擦升级。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "关税升级影响出口导向型企业，但未点名具体A股公司。",
+    "catalyst": "美加贸易摩擦加剧，可能波及全球供应链。"
+  },
+  "9590cf3416d9d43d7092cff9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股科技股午后暴涨，市场情绪逆转，被称为大奇迹日。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "科技股全线回暖，双创指数爆拉，市场情绪积极，可关注相关板块。",
+    "catalyst": "科技股全线回暖，双创指数直线爆拉，市场情绪逆转。"
+  },
+  "ea35d4d2d760fe22e7a7b656": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "大叶股份业绩预告大幅修正，亏损扩大，深交所发监管函，投资者索赔窗口开启。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "大叶股份",
+        "code": "300879"
+      }
+    ],
+    "reason": "业绩预告大幅修正，信息披露不准确，可能误导投资者，负面事件。",
+    "catalyst": "业绩预告修正导致亏损扩大，引发监管关注和投资者索赔。"
+  },
+  "a314cd61b7255c0a374bf562": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "吉比特提议10派100元分红，上半年业绩预增57%-71%，高分红传统延续。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "游戏",
+    "stocks": [
+      {
+        "name": "吉比特",
+        "code": "603444"
+      }
+    ],
+    "reason": "高分红+业绩预增，利好股价，但需关注方案审批不确定性。",
+    "catalyst": "大手笔分红预案及业绩高增长"
+  },
+  "05076bfc23a59d4eab5c7ae0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部等9部门发布19条措施，促进家政服务业高质量发展，解决素质不高、信用不明等痛点。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好家政服务行业，但未点名具体上市公司，暂不进入交易池。",
+    "catalyst": "家政服务新规出台，行业规范化发展利好消费板块。"
+  },
+  "1872d04346d9d1f8ba70f41e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国宣布对加拿大部分产品加征50%关税，加拿大威胁反制，贸易紧张升级。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "贸易摩擦升级，影响出口导向型企业，但未点名具体A股公司。",
+    "catalyst": "美国对加拿大加征关税，引发贸易战担忧。"
+  },
+  "99947e06b3d214de4e36ea41": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股深V反弹，半导体板块涨超5%，多股涨停，受三星、台积电扩产消息提振。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "托伦斯",
+        "code": ""
+      },
+      {
+        "name": "臻宝科技",
+        "code": ""
+      },
+      {
+        "name": "屹唐股份",
+        "code": ""
+      },
+      {
+        "name": "强一股份",
+        "code": ""
+      },
+      {
+        "name": "格科微",
+        "code": ""
+      },
+      {
+        "name": "杰华特",
+        "code": ""
+      },
+      {
+        "name": "华虹宏力",
+        "code": ""
+      },
+      {
+        "name": "长川科技",
+        "code": ""
+      }
+    ],
+    "reason": "半导体板块强势反弹，多股涨停，市场情绪积极，可关注。",
+    "catalyst": "三星、台积电扩产计划提振半导体行业预期。"
+  },
+  "e8a9f5ffccd9d4d742ee6f3f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "鸣鸣很忙首次跻身《财富》中国500强，位列第265位，消费新势力崛起。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "鸣鸣很忙上市且门店突破3万家，消费板块受关注，但未点名A股个股。",
+    "catalyst": "首次上榜财富500强，验证下沉市场+加盟模式成功。"
+  },
+  "9d5a18669803ca7f138f2a1a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月以来深市增持回购计划金额上限达116.85亿元，热度持续走高。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "增持回购显示公司信心，利好市场情绪，但未点名具体个股。",
+    "catalyst": "上市公司增持回购计划密集发布，提振市场信心。"
+  }
+}
