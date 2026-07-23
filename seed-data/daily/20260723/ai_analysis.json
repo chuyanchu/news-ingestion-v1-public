@@ -1,0 +1,630 @@
+{
+  "28ac0e2486c71dedc7374e7e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "河南车主刘先生自驾新能源车出境，被厂商远程锁车30小时，影响导航、储物箱等功能，厂商称因无国外授权。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "事件反映新能源车出海面临的数据与功能授权问题，可能影响消费者信心及车企海外布局，但未点名具体公司。",
+    "catalyst": "新能源车跨境使用受限，暴露海外服务短板"
+  },
+  "506ebe8c6e432c0e56ab2252": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "朱江明称零跑汽车价值被低估，至少值2000亿，认为汽车工具属性增强。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "零跑汽车",
+        "code": ""
+      }
+    ],
+    "reason": "零跑汽车创始人看好公司价值，销量表现亮眼，但港股上市，A股无直接标的。",
+    "catalyst": "创始人表态及销量增长提振市场信心。"
+  },
+  "567771c07623030eb290c69b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "苏州工业园区23家科创板企业获资本市场认可，成为科技金融实践样本。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华兴源创",
+        "code": "688001"
+      },
+      {
+        "name": "瀚川智能",
+        "code": "688022"
+      },
+      {
+        "name": "强一股份",
+        "code": ""
+      },
+      {
+        "name": "胜科纳米",
+        "code": ""
+      },
+      {
+        "name": "盛科通信",
+        "code": ""
+      },
+      {
+        "name": "思瑞浦",
+        "code": "688536"
+      },
+      {
+        "name": "纳芯微",
+        "code": "688052"
+      },
+      {
+        "name": "东微半导",
+        "code": "688261"
+      }
+    ],
+    "reason": "政策利好叠加产业生态优势，科创板企业集群效应显著，催化板块估值提升。",
+    "catalyst": "证监会支持苏州打造科技金融实践样本，园区科创板企业受益。"
+  },
+  "52aeca97dbca805a7c357212": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国企业出海进入供应链出海2.0时代，马士基等物流企业面临机遇与挑战。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "出海链板块受益于中国企业供应链出海趋势，但未点名具体A股公司。",
+    "catalyst": "中国企业海外建厂及供应链需求升级，利好跨境物流服务商。"
+  },
+  "fdf2ba12b9037b1ed5443c11": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "零跑汽车朱江明谈年销百万目标，认为汽车工具属性增强，未来更大众化。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "零跑汽车",
+        "code": ""
+      }
+    ],
+    "reason": "零跑汽车销量亮眼，创始人乐观展望，利好新能源车板块。",
+    "catalyst": "零跑汽车上半年销量超35万辆，领跑新势力。"
+  },
+  "1381913a885bb55ed803a38e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普警告伊朗、调查士兵死亡、考虑马里军事行动、预测政府停摆、探索联邦水域核电。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治紧张加剧，军工板块受关注，但未点名具体A股公司。",
+    "catalyst": "中东局势升级及军事行动预期"
+  },
+  "cb78fa8c45dc8a9e14f841bb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美伊冲突升级，油价大涨超4%，黄金跳水；科技巨头AI投入引发回报疑虑，美股科技股承压。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "石油",
+    "stocks": [],
+    "reason": "油价上涨利好石油板块，但科技股下跌拖累市场情绪，整体偏空。",
+    "catalyst": "美伊冲突升级，以色列进入最高警戒状态。"
+  },
+  "5e07669fb2b8930156b214f9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国机集团在2025年度央企负责人经营业绩考核中再获A级。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "央企改革",
+    "stocks": [],
+    "reason": "国机集团获A级考核，体现央企经营质量，但未涉及具体上市公司，不直接进入交易池。",
+    "catalyst": "央企考核结果公布，利好央企改革主题。"
+  },
+  "8e0c9e5958dfaf7886cb9b31": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上汽名爵总经理陈萃发单曲回应新车被质疑抄袭小米，强调原创性。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "事件涉及品牌公关，对行业影响有限，不构成交易信号。",
+    "catalyst": "品牌回应抄袭质疑，但未涉及核心技术或业绩变化。"
+  },
+  "968a54fcec2da24785dc33a5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "滔搏否认甩卖耐克库存，但耐克线上销售将于2027年终止，可能加大促销。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "滔搏为港股，非A股，但事件影响消费板块情绪，耐克库存压力可能拖累经销商。",
+    "catalyst": "耐克线上销售终止，库存压力或致促销加剧"
+  },
+  "f406a836400cccb1602eb688": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "湖南黄金获湖南省国资委批复，拟发行股份收购黄金天岳和中南冶炼100%股权，并募资不超10亿元。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [
+      {
+        "name": "湖南黄金",
+        "code": "002155"
+      }
+    ],
+    "reason": "重大资产重组获国资委批复，整合资源提升盈利空间，且业绩预增，利好股价。",
+    "catalyst": "资产重组获国资委批复，整合金矿采选与冶炼环节。"
+  },
+  "93eb8ffdf0b80db9b0c37da1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "段永平称十年内大概率不卖泡泡玛特，计划卖出SpaceX与特斯拉Put，加仓谷歌与伯克希尔。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "段永平看好泡泡玛特长期持有，但未点名A股公司，对消费板块情绪有提振。",
+    "catalyst": "知名投资人表态长期持有，提振消费板块信心。"
+  },
+  "fb518e82c17b7d06deaeb3b4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "段永平称泡泡玛特10年内大概率不卖，并计划卖出看涨期权买入国债，同时卖出美光、SpaceX等看跌期权。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "段永平个人投资观点，对A股市场影响有限，但提及泡泡玛特（港股）和美股，未涉及A股公司。",
+    "catalyst": "知名投资人表态，但无直接A股催化逻辑。"
+  },
+  "c1e4dfc5466f557ddd895e98": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美股科技财报分化：上游芯片业绩兑现，中游云业务增长，传统IT承压，Alphabet资本开支致自由现金流转负。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要涉及美股公司，未明确点名A股上市公司，但AI算力和半导体板块情绪可能受传导。",
+    "catalyst": "AI算力军备竞赛下产业链业绩分化，上游确定性受益，中游资本开支压力显现。"
+  },
+  "433703ee779b3f3aefa0c2c4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储7月加息概率约30%，市场分歧罕见；油价飙涨加剧通胀担忧，决策复杂化。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "加息预期和油价上涨对市场情绪偏空，但未直接点名A股公司。",
+    "catalyst": "美联储政策路径不确定性及油价持续上涨推升通胀风险。"
+  },
+  "4e4386b28892474a8573670a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家发改委、能源局印发可再生能源十五五规划，光伏风电等板块大涨。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新能股份",
+        "code": ""
+      },
+      {
+        "name": "鲁阳节能",
+        "code": ""
+      },
+      {
+        "name": "中电电机",
+        "code": ""
+      },
+      {
+        "name": "宝光股份",
+        "code": ""
+      },
+      {
+        "name": "拓日新能",
+        "code": ""
+      },
+      {
+        "name": "顺钠股份",
+        "code": ""
+      },
+      {
+        "name": "立新能源",
+        "code": ""
+      },
+      {
+        "name": "汉缆股份",
+        "code": ""
+      }
+    ],
+    "reason": "政策利好明确，板块效应强，多股涨停，可进入交易池。",
+    "catalyst": "可再生能源十五五规划发布，装机目标超预期。"
+  },
+  "5d9ff79eb4d160b9145d1d94": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会连续召开座谈会，强调投资者保护长效机制，从制度、执法、司法、市场四方面推进。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好券商板块，但未点名具体个股，暂不进入交易池。",
+    "catalyst": "监管层强化投资者保护，提振市场信心。"
+  },
+  "766fc62ab8c60afbe7d7ce82": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股小幅上扬，电网设备板块大涨，新能源全线走强，超4300股上涨。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "风华高科",
+        "code": "000636"
+      },
+      {
+        "name": "特变电工",
+        "code": "600089"
+      },
+      {
+        "name": "中国西电",
+        "code": "601179"
+      },
+      {
+        "name": "紫金矿业",
+        "code": "601899"
+      },
+      {
+        "name": "美利云",
+        "code": "000815"
+      },
+      {
+        "name": "立新能源",
+        "code": "001258"
+      },
+      {
+        "name": "双杰电气",
+        "code": "300444"
+      }
+    ],
+    "reason": "电网设备板块爆发，新能源全线走强，资金大幅流入，市场情绪积极。",
+    "catalyst": "国家电网特高压项目招标金额远超去年，新能源政策利好。"
+  },
+  "cc7a051462a1329d1b8738fc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美伊冲突升级，原油大涨超4%，黄金跳水，科技股因AI资本开支疑虑下跌。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "石油",
+    "stocks": [],
+    "reason": "地缘冲突推升油价，但压制科技股和黄金，市场避险情绪升温。",
+    "catalyst": "美以计划加大打击伊朗，以色列进入最高警戒状态。"
+  },
+  "f81c2787763df14540034869": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "量化交易在A股引发争议，监管逐步规范，市场需理性看待。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "量化交易",
+    "stocks": [],
+    "reason": "新闻为评论性文章，未点名具体公司，但涉及量化交易监管趋势。",
+    "catalyst": "监管层进一步规范量化交易行为"
+  },
+  "520a5cfd25bba1205bbb3317": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "碳酸锂概念爆发，花旗看涨三季度锂价至25万元/吨，储能需求成新增长点。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "盛新锂能",
+        "code": "002240"
+      },
+      {
+        "name": "川能动力",
+        "code": "000155"
+      },
+      {
+        "name": "永杉锂业",
+        "code": ""
+      },
+      {
+        "name": "国城矿业",
+        "code": "000688"
+      },
+      {
+        "name": "天华新能",
+        "code": ""
+      },
+      {
+        "name": "大中矿业",
+        "code": "001203"
+      },
+      {
+        "name": "中矿资源",
+        "code": "002738"
+      },
+      {
+        "name": "赣锋锂业",
+        "code": "002460"
+      }
+    ],
+    "reason": "新闻明确点名多家锂矿公司涨停，且花旗、高盛等机构看多锂价，板块热度高。",
+    "catalyst": "花旗调研称三季度锂价有望涨至25万元/吨，储能需求超预期。"
+  },
+  "0ed19fce75761a576d016868": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "写字楼改酒店成趋势，政策通道打开，深圳写字楼空置率下降。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好房地产行业，尤其是商办物业转型酒店，盘活存量资产。",
+    "catalyst": "写字楼改酒店政策支持，降低空置率，提升资产价值。"
+  },
+  "63621c07844e242a2fd66cfc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海发布直接融资20条，推动科创板改革，支持新兴产业上市。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "机器人",
+      "新能源",
+      "低空经济",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好科创板及新兴产业，但未点名具体个股，整体影响积极。",
+    "catalyst": "上海直接融资政策支持科创板及未来产业上市。"
+  },
+  "9027e944bd92216fe4fdbb34": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "纳斯达克新规加速清退市值低于500万美元的微盘股，约180家公司面临退市风险。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "美股微盘股",
+    "stocks": [],
+    "reason": "新闻主要涉及纳斯达克退市规则变化，未直接提及A股公司，但可能影响A股微盘股情绪。",
+    "catalyst": "纳斯达克收紧微盘股退市标准，打击小市值公司流动性。"
+  },
+  "4fd76c263567813c240449af": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "谭炯任中国人保党委书记，曾任金融副省长及国开行行长，银行经验丰富。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "高层人事变动通常影响公司战略，谭炯银行背景可能带来协同，但短期影响有限。",
+    "catalyst": "新党委书记上任，市场关注其改革与业务拓展方向。"
+  },
+  "3dbe353494ce1ccf8657e026": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "发改委能源局印发可再生能源规划，碳酸锂板块大涨，锂矿股批量涨停。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "国城矿业",
+        "code": "000688"
+      },
+      {
+        "name": "永杉锂业",
+        "code": ""
+      },
+      {
+        "name": "盛新锂能",
+        "code": "002240"
+      }
+    ],
+    "reason": "政策利好新能源板块，碳酸锂供需改善，板块短期强势。",
+    "catalyst": "可再生能源十五五规划发布，碳酸锂供需预期改善。"
+  },
+  "b290b058d39099ef9f1c728a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "混合基金经理规模排名大洗牌，郑希等四人挺进500亿，张坤葛兰跌出前十，持仓高度集中于AI产业链。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "源杰科技",
+        "code": "688498"
+      },
+      {
+        "name": "三环集团",
+        "code": "300408"
+      },
+      {
+        "name": "生益科技",
+        "code": "600183"
+      },
+      {
+        "name": "寒武纪",
+        "code": "688256"
+      },
+      {
+        "name": "鼎泰高科",
+        "code": "301377"
+      },
+      {
+        "name": "华虹宏力",
+        "code": ""
+      }
+    ],
+    "reason": "AI产业链景气度高，基金经理集中加仓，市场关注度提升，可能吸引资金流入。",
+    "catalyst": "AI产业进入基本面兑现阶段，算力需求持续增长。"
+  },
+  "01498494f32fbc73b83d9053": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "我国海上风电量质齐升，部分概念股上半年业绩高增。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "亨通光电",
+        "code": "600487"
+      },
+      {
+        "name": "中天科技",
+        "code": "600522"
+      },
+      {
+        "name": "振江股份",
+        "code": "603507"
+      },
+      {
+        "name": "明阳智能",
+        "code": "601615"
+      },
+      {
+        "name": "天顺风能",
+        "code": "002531"
+      }
+    ],
+    "reason": "海上风电行业景气度提升，相关公司业绩高增，具备投资价值。",
+    "catalyst": "海上风电规模增长、政策支持，产业链持续发展。"
+  },
+  "0c307957dba407fada4707dd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "袁记食品IPO招股书失效，业绩增速放缓，门店扩张依赖三线城市，食品安全和现包叙事存疑。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "袁记食品未上市，但消费板块整体承压，加盟模式风险暴露，影响市场情绪。",
+    "catalyst": "招股书失效及业绩增速下滑，加盟商维权事件加剧市场担忧。"
+  },
+  "cb2025dd9f9c26e8cb2a32f7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海贝壳省心租推出0押月付和最高30万保障，提升租赁服务标准。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好房地产租赁服务，但未点名具体上市公司，不进入交易池。",
+    "catalyst": "信用替代押金，保障升级，降低租住门槛。"
+  }
+}
