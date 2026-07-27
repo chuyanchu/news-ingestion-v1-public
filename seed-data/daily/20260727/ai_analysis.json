@@ -1,0 +1,576 @@
+{
+  "69765fa4d2880f6cd4ed387c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上交所总经理蔡建春卸任，人事变动。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "人事变动对市场影响中性，不涉及具体公司或行业政策。",
+    "catalyst": "上交所高层人事调整，市场关注后续政策方向。"
+  },
+  "58b21296657b0f65c196e444": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "张伯礼院士回顾从医经历，强调中医药传承创新，用现代科学阐释中医价值。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "文章为人物专访，未提及具体公司，但利好中医药行业整体发展。",
+    "catalyst": "中医药传承创新获高层认可，政策支持预期增强。"
+  },
+  "441834fd790b7f98d0fd4136": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技上市首日大涨466%，市值超3万亿，合肥A股总市值跃居全国第四。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "长鑫科技",
+        "code": "688825"
+      }
+    ],
+    "reason": "长鑫科技为国产DRAM龙头，上市首日大涨，市值登顶A股，带动合肥板块，半导体行业受益。",
+    "catalyst": "长鑫科技科创板上市，国产DRAM龙头地位确立，市值超3万亿。"
+  },
+  "75e3308cc4772a95ce3a63a1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股ESG强制披露首年完成率100%，但数据质量不足，评级回落凸显信披从量到质转型压力。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "ESG服务",
+    "stocks": [],
+    "reason": "新闻聚焦ESG信披质量，未直接利好或利空特定行业或个股。",
+    "catalyst": "ESG强制披露深化，信披质量提升需求催生第三方服务机会。"
+  },
+  "658b2ee907ba902b20a5eab7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普发布AI图片展示对伊朗军事行动，否认弹药短缺问题。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突升级，军工板块受关注，但未点名具体公司。",
+    "catalyst": "美伊冲突加剧，军工需求预期提升。"
+  },
+  "d37b2f73c060a056c93cb9a2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国际油价大跌超7%，因特朗普暂停对伊朗军事打击，为外交留空间。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价大跌利好航空、化工等成本降低，但利空石油板块，需关注后续谈判进展。",
+    "catalyst": "美伊局势缓和，供给端压力缓解"
+  },
+  "6ee592580faf3da4ec28b671": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美方拟调查中国AI企业并制裁，中方反对并驳斥，称将采取必要措施。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "中美AI摩擦升级，影响AI板块情绪，但未点名具体公司。",
+    "catalyst": "美方威胁制裁中国AI企业，中方强硬回应。"
+  },
+  "463d83f5912a56fbdebf4701": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "山西汾酒拟每股派发6.56元，合计约80亿元现金分红，股权登记日为7月30日。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "山西汾酒",
+        "code": "600809"
+      }
+    ],
+    "reason": "高分红彰显公司盈利能力和股东回报意愿，利好股价。",
+    "catalyst": "大额现金分红落地，增强投资者信心。"
+  },
+  "847ab893edf0828e69280f34": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中方驳斥美方拟制裁中国AI企业，称其缺乏事实依据，属霸权行径。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "中美科技摩擦升级，短期压制AI板块情绪，但国产替代逻辑强化。",
+    "catalyst": "美国制裁威胁引发市场对AI供应链担忧。"
+  },
+  "94ac4588914e35162998174a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI漫剧市场规模快速增长，预计2026年达400亿元，关注IP、AI平台及多模态大模型方向。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "AI应用",
+    "stocks": [
+      {
+        "name": "昆仑万维",
+        "code": "300418"
+      },
+      {
+        "name": "中文在线",
+        "code": "300364"
+      },
+      {
+        "name": "荣信文化",
+        "code": "301231"
+      },
+      {
+        "name": "欢瑞世纪",
+        "code": "000892"
+      },
+      {
+        "name": "掌阅科技",
+        "code": "603533"
+      },
+      {
+        "name": "兆驰股份",
+        "code": "002429"
+      },
+      {
+        "name": "德才股份",
+        "code": "605287"
+      },
+      {
+        "name": "万兴科技",
+        "code": "300624"
+      }
+    ],
+    "reason": "AI漫剧市场高增长，相关公司受益于IP、AI平台及多模态技术，具备投资价值。",
+    "catalyst": "AI漫剧市场规模爆发，技术落地消费领域，IP价值凸显。"
+  },
+  "67426859720dfe1051e44edc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "下半年基建投资有望企稳回升，“六张网”建设提速，资金保障增强。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "基建",
+    "stocks": [],
+    "reason": "基建投资回暖信号明确，政策与资金支持力度大，利好相关产业链。",
+    "catalyst": "六张网建设加速，超长期特别国债等资金落地。"
+  },
+  "32b696da7e546bc367139261": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "工业富联等多家公司公告回购股份，金额从千万到20亿元不等。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "工业富联",
+        "code": "601138"
+      },
+      {
+        "name": "誉辰智能",
+        "code": "688638"
+      },
+      {
+        "name": "宏工科技",
+        "code": "301662"
+      },
+      {
+        "name": "东星医疗",
+        "code": "301290"
+      },
+      {
+        "name": "天奈科技",
+        "code": "688116"
+      }
+    ],
+    "reason": "大规模回购显示公司信心，提振市场情绪，工业富联为AI算力龙头。",
+    "catalyst": "公司回购股份，维护股价与内在价值匹配。"
+  },
+  "ff719b47dda6b07eda75bde0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "31省份经济半年报：安徽重返GDP十强，先进制造业和外贸成增长关键。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "安徽重返十强显示产业升级成效，利好新能源车和半导体板块。",
+    "catalyst": "安徽新能源汽车、半导体产业高速增长，带动经济排名提升。"
+  },
+  "1bad7764b9404d5d2ceb2878": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技上市首日暴涨，市值登顶A股第一，标志科技股成为新核心资产。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "长鑫科技",
+        "code": ""
+      }
+    ],
+    "reason": "长鑫科技市值登顶，半导体板块受关注，可能成为基金重仓股。",
+    "catalyst": "长鑫科技上市暴涨，市值超越工商银行，科技股崛起。"
+  },
+  "f1e6a99e3655857fbb020e0b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行发布预付卡新规，填补虚拟卡监管空白，收紧线上发卡，强化资金与商户管理。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "金融监管",
+    "stocks": [],
+    "reason": "监管政策影响支付行业，但无直接交易机会，不进入交易池。",
+    "catalyst": "预付卡监管趋严，行业合规洗牌。"
+  },
+  "830924a8e7a77ee897ea6b0e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "游戏行业双重利好：AI+游戏大会召开，部分概念股已落地AI应用，山科智能等涨停。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "游戏",
+    "stocks": [
+      {
+        "name": "完美世界",
+        "code": "002624"
+      },
+      {
+        "name": "巨人网络",
+        "code": "002558"
+      },
+      {
+        "name": "顺网科技",
+        "code": "300113"
+      },
+      {
+        "name": "昆仑万维",
+        "code": "300418"
+      },
+      {
+        "name": "山科智能",
+        "code": "300897"
+      }
+    ],
+    "reason": "AI+游戏催化明确，板块热度提升，个股有实质AI应用落地。",
+    "catalyst": "2026中国国际游戏开发者大会及ChinaJoy召开，AI赋能游戏降本增效。"
+  },
+  "bd8f24fdb4b1e1f4dc655943": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7部门联合印发疾控“十五五”规划，聚焦传染病防控体系建设。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好医药生物板块，但未点名具体个股，整体影响偏正面。",
+    "catalyst": "疾控规划明确传染病防控重点，提升行业需求预期。"
+  },
+  "bfc3706b4571974cca96feb8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "工业富联拟最高20亿元回购股份，回购价格上限103元/股，基于对公司价值认可。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "工业富联",
+        "code": "601138"
+      }
+    ],
+    "reason": "大规模回购彰显信心，叠加业绩高增长，利好股价。",
+    "catalyst": "公司回购+业绩超预期增长"
+  },
+  "48b90c23fea07761f4dad664": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "浦发银行可转债转股导致注册资本增至333.06亿元，获监管批复。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "浦发银行",
+        "code": "600000"
+      }
+    ],
+    "reason": "公司治理事件，对股价影响中性，不进入交易池。",
+    "catalyst": "可转债转股完成，注册资本增加。"
+  },
+  "e6fc6639968e53d630dd36db": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "工业富联拟不超20亿元回购股份，上半年净利润预增93%-101%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "工业富联",
+        "code": "601138"
+      }
+    ],
+    "reason": "大规模回购彰显信心，业绩高增长，利好股价。",
+    "catalyst": "回购计划+业绩超预期增长"
+  },
+  "d81477ca42b9e820ae5d524f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中小银行加速退出自营理财，转向代销模式，理财公司规模持续扩张。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "中小银行理财业务收缩，代销转型短期承压，但长期利好理财公司。",
+    "catalyst": "监管引导中小银行退出自营理财，代销模式成新方向。"
+  },
+  "e09bbc4c83d154ecab6dc44f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "远东股份定增20亿元获上交所受理，用于AIDC光棒光纤项目，加速光通信扩产。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "远东股份",
+        "code": "600869"
+      }
+    ],
+    "reason": "定增获受理，光通信扩产提速，受益AI算力需求增长。",
+    "catalyst": "AIDC光棒光纤项目推进，算力互联需求提升。"
+  },
+  "6b67e8270da2754f0f012c93": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "罗博特科子公司获1.29亿元自动化制造设备订单，用于光纤阵列量产。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "罗博特科",
+        "code": "300757"
+      }
+    ],
+    "reason": "订单金额较大，占营收比例高，利好公司业绩。",
+    "catalyst": "获得大额订单，提升业绩预期。"
+  },
+  "7472b9604ba11be4457af048": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技上市首日暴涨465%，市值超3万亿登顶A股，刷新多项纪录，凸显半导体自主化标杆意义。",
+    "impact": "positive",
+    "importance": 95,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "长鑫科技",
+        "code": "688825"
+      }
+    ],
+    "reason": "长鑫科技上市首日市值登顶，成交额创纪录，带动半导体板块情绪，具有标杆意义。",
+    "catalyst": "国产DRAM龙头上市，AI存储需求+国产替代共振，估值空间打开。"
+  },
+  "1998cf10521c3cd122be8562": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国科普作协科幻产业专委会在成都成立，推动科幻全产业链发展。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "文化传媒",
+    "stocks": [],
+    "reason": "新闻主要涉及行业组织成立，未直接点名上市公司，对A股交易池影响有限。",
+    "catalyst": "科幻产业专委会成立，促进产业链协作，但短期催化作用不明显。"
+  },
+  "9f48145f7662bef33237be82": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金融监管总局强调稳步推进中小金融机构改革化险，防范化解重点领域风险。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策信号中性，未点名具体公司，但涉及银行板块风险化解，影响偏长期。",
+    "catalyst": "监管层强调防风险，利好银行板块稳定预期。"
+  },
+  "d3b5e2ae5430afcd7cc4444c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "英伟达拟为OpenAI提供2500亿美元融资担保，助其租赁大型数据中心，存储芯片和光通信概念股大涨。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "景旺电子",
+        "code": "603228"
+      },
+      {
+        "name": "金安国纪",
+        "code": "002636"
+      },
+      {
+        "name": "中国巨石",
+        "code": "600176"
+      }
+    ],
+    "reason": "AI巨头加大算力投入，产业链受益明确，催化板块上涨。",
+    "catalyst": "英伟达担保OpenAI数据中心租赁，锁定芯片需求，利好算力产业链。"
+  },
+  "ba9c90bbb0aaf6483cc40291": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "电网投资加速，十五五期间全国电网固投超5万亿，电网设备迎机遇。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "电网设备",
+    "stocks": [],
+    "reason": "电网投资超预期，政策与需求双驱动，板块景气度高。",
+    "catalyst": "十五五电网投资超5万亿，特高压建设加速。"
+  },
+  "7b99301ad090ab00e292215c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "SpaceX星舰第13次试飞成功部署20颗星链V3卫星，验证载荷部署能力。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "航天",
+    "stocks": [],
+    "reason": "新闻涉及SpaceX，非A股公司，不直接影响A股板块。",
+    "catalyst": "星舰技术突破，但未提及A股相关公司。"
+  },
+  "7e97ea196880b0edef9d9a12": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "今日主力资金净流入485亿元，80股净流入超1亿，N长鑫净流入338亿居首，电子行业净流入最多。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "雅克科技",
+        "code": "002409"
+      },
+      {
+        "name": "国际复材",
+        "code": "301526"
+      },
+      {
+        "name": "风华高科",
+        "code": "000636"
+      },
+      {
+        "name": "三环集团",
+        "code": "300408"
+      },
+      {
+        "name": "通富微电",
+        "code": "002156"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "海康威视",
+        "code": "002415"
+      }
+    ],
+    "reason": "主力资金大幅流入，市场情绪积极，电子板块受追捧，个股资金面强势。",
+    "catalyst": "主力资金净流入超485亿，电子行业净流入367亿，N长鑫上市吸金338亿。"
+  }
+}
