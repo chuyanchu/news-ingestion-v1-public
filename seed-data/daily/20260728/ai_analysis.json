@@ -1,0 +1,635 @@
+{
+  "93e7edc56cf835634f615e3e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "千万粉丝网红“听泉赏宝”宣布彻底退出股市，删除所有股票软件。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "个人投资决策，不涉及上市公司基本面或行业政策，对市场无实质影响。",
+    "catalyst": "网红个人情绪化退出，无行业或公司层面催化。"
+  },
+  "01ae9027bcb3900898f8c5d3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国股市暴跌，监管层紧急出手，考虑对个股杠杆产品实施更严仓位管控，超32万个账户被强制平仓。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "韩国股市",
+    "stocks": [],
+    "reason": "事件主要影响韩国市场，对A股无直接关联，不进入交易池。",
+    "catalyst": "韩国监管收紧杠杆投资，市场恐慌加剧。"
+  },
+  "840fd3ac585d7a28945c2db1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股睡眠家居企业上半年利润下滑，汇兑损失和费用增加为主因，行业加速向AI智能睡眠转型。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "ST喜临门",
+        "code": "603008"
+      },
+      {
+        "name": "梦百合",
+        "code": "603313"
+      },
+      {
+        "name": "麒盛科技",
+        "code": "603610"
+      },
+      {
+        "name": "慕思股份",
+        "code": "001323"
+      },
+      {
+        "name": "趣睡科技",
+        "code": "301336"
+      }
+    ],
+    "reason": "行业利润下滑但转型方向明确，关注AI智能睡眠赛道，短期承压但长期有潜力。",
+    "catalyst": "AI智能睡眠转型加速，市场空间广阔，但短期汇兑损失和费用投入拖累业绩。"
+  },
+  "f1b26edff839a729b13cf961": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年《财富》世界500强发布，3家川企上榜，位次2升1降。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "通威股份",
+        "code": "600438"
+      },
+      {
+        "name": "新希望",
+        "code": "000876"
+      }
+    ],
+    "reason": "上榜企业为行业龙头，但新闻为榜单发布，无直接交易信号。",
+    "catalyst": "世界500强榜单发布，反映企业规模与行业地位。"
+  },
+  "200fe4e94226fcec5d1aa392": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI从概念走向通用基建，中国大模型加速追赶，核心命题未解。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI产业趋势积极，但未点名具体A股公司，影响偏长期。",
+    "catalyst": "AI技术演进与产业应用深化，中国大模型追赶加速。"
+  },
+  "25afc9e745aad0ea88bce927": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日本熊本县发生7.1级地震，气象厅发布海啸预警，后续有余震。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "地震预警",
+    "stocks": [],
+    "reason": "地震发生在日本，对A股直接影响有限，但可能引发对防灾板块的关注。",
+    "catalyst": "日本强震触发海啸预警，关注防灾概念。"
+  },
+  "2dc0ae4d5a3f8ee1eac9fa3c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中央结算公司推出五项降费措施，涉及熊猫债、付息兑付、现券交易等，优惠期2026-2028年。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "降费利好债市活跃度，间接利好银行等金融机构，但无直接点名个股。",
+    "catalyst": "中央结算公司降费，降低债市交易成本，提升市场流动性。"
+  },
+  "5b0bd6128d6e938a6a030333": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多只光刻机概念股获主力资金抢筹，房地产净流入居首，电子通信净流出居前。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "岩山科技",
+        "code": "002195"
+      },
+      {
+        "name": "福晶科技",
+        "code": "002222"
+      },
+      {
+        "name": "寒武纪",
+        "code": "688256"
+      },
+      {
+        "name": "张江高科",
+        "code": "600895"
+      },
+      {
+        "name": "比亚迪",
+        "code": "002594"
+      },
+      {
+        "name": "共进股份",
+        "code": "603118"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      }
+    ],
+    "reason": "光刻机概念受资金追捧，主力净流入明显，短期关注度高。",
+    "catalyst": "主力资金抢筹光刻机概念股，行业景气预期提升。"
+  },
+  "084901999a766d528bf51d0b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技上市推高合肥A股市值至全国第四，科技产业重塑城市排名。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "长鑫科技",
+        "code": ""
+      }
+    ],
+    "reason": "长鑫科技上市刷新纪录，带动合肥市值跃升，半导体板块受益。",
+    "catalyst": "长鑫科技科创板上市，市值超3万亿，半导体产业受关注。"
+  },
+  "8b028d79943157349305ca0c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美伊临时和平协议缓解中东紧张局势，油价下跌，能源供应担忧减弱。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价下跌利空能源板块，但未点名具体A股公司，暂不进入交易池。",
+    "catalyst": "美伊临时和平协议，霍尔木兹航道有望恢复。"
+  },
+  "2d5c700a5bcc1863404aea96": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商业银行加速处置不良资产，不良贷款规模攀升，净息差收窄，监管趋严推动银行通过转让、核销等多渠道化解风险。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "不良资产增加和净息差收窄对银行盈利构成压力，但处置能力提升可能带来长期利好。",
+    "catalyst": "不良贷款规模攀升及监管要求加速处置，银行通过转让等方式化解风险。"
+  },
+  "88033b4338eb61e9e56e1ee6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日本九州连发强震，台积电熊本工厂疏散人员，海啸预警发布，核电站无异常。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地震影响半导体供应链预期，但未点名具体A股公司，需观察后续影响。",
+    "catalyst": "日本强震导致半导体工厂停产风险，供应链扰动预期升温。"
+  },
+  "7e51e9d56a97c881ae2f32a0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "习近平与斯洛伐克总统会谈，强调深化战略伙伴关系，聚焦清洁能源、数字经济、机器人、AI等领域合作。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "机器人",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "高层外交推动中斯合作，利好相关产业，但未点名具体公司，影响偏宏观。",
+    "catalyst": "中斯战略伙伴关系深化，合作聚焦新兴领域。"
+  },
+  "b0d82f5600987d8a1db42fae": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "超强厄尔尼诺或创150年纪录，推高全球粮价，国内农产品企业加大套保和期权工具使用。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "厄尔尼诺导致农产品减产预期，利好相关商品价格，但未点名具体A股公司。",
+    "catalyst": "极端天气推升大豆、玉米等期货价格，通胀预期升温。"
+  },
+  "eb6dfd9b38a80fb6e47c7108": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数下跌，CPO、芯片调整，脑机接口活跃，食品饮料走强。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "盐津铺子",
+        "code": "002847"
+      },
+      {
+        "name": "一鸣食品",
+        "code": "605179"
+      },
+      {
+        "name": "金种子酒",
+        "code": "600199"
+      },
+      {
+        "name": "创新医疗",
+        "code": "002173"
+      },
+      {
+        "name": "海南海药",
+        "code": "000566"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      }
+    ],
+    "reason": "市场整体下跌，但消费和脑机接口有结构性机会，可关注相关个股。",
+    "catalyst": "脑机接口概念持续活跃，食品饮料板块走强。"
+  },
+  "b2a25487339e7a95198232db": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "老铺黄金Q2业绩环比暴跌，金价下行及高基数致下半年预期悲观，股价单日跌24%。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及港股老铺黄金，非A股，但消费板块受情绪影响，不进入交易池。",
+    "catalyst": "Q2业绩环比断崖下跌，金价下行及高基数压力。"
+  },
+  "a33505e4c4c920ceaf69bea7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "钠离子电池即将大规模生产，12只概念股净利润增速高，光模块龙头大跌。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "鹏辉能源",
+        "code": "300438"
+      },
+      {
+        "name": "龙蟠科技",
+        "code": "603906"
+      },
+      {
+        "name": "容百科技",
+        "code": "688005"
+      },
+      {
+        "name": "五矿新能",
+        "code": "688779"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "锐捷网络",
+        "code": "301165"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      }
+    ],
+    "reason": "钠电池量产预期利好相关概念股，但光模块龙头大跌拖累创业板，整体影响偏正面。",
+    "catalyst": "钠电池大规模量产临近，成本优势显著，出货量有望大幅增长。"
+  },
+  "d14171411a048f7d10c514f7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股调整，食品饮料板块逆势涨超2%，科技股重挫，脑机接口概念活跃。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "品渥食品",
+        "code": "300892"
+      },
+      {
+        "name": "盐津铺子",
+        "code": "002847"
+      },
+      {
+        "name": "金种子酒",
+        "code": "600199"
+      },
+      {
+        "name": "一鸣食品",
+        "code": "605179"
+      },
+      {
+        "name": "东百集团",
+        "code": "600693"
+      },
+      {
+        "name": "爱朋医疗",
+        "code": "300753"
+      },
+      {
+        "name": "海南海药",
+        "code": "000566"
+      },
+      {
+        "name": "创新医疗",
+        "code": "002173"
+      }
+    ],
+    "reason": "市场整体下跌，但食品饮料和脑机接口逆势上涨，存在结构性机会。",
+    "catalyst": "脑机接口政策利好，食品饮料防御属性凸显。"
+  },
+  "521445f21422e9dc7ea9a38b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "东箭科技及子公司收到美国关税及利息退回339.27万美元，预计影响归母净利润1891.95万元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "东箭科技",
+        "code": "300978"
+      }
+    ],
+    "reason": "公司获得关税退款，直接增厚利润，利好出海业务。",
+    "catalyst": "美国最高法院裁定IEEPA关税无效，退税启动。"
+  },
+  "bdb9a775a1a6b493f5c74ed2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "联合利华季度销量创16年新高，上调全年业绩预期，业务分拆落地在即。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "联合利华是海外公司，未点名A股公司，但消费板块受提振。",
+    "catalyst": "季度销量超预期，上调业绩指引，业务分拆利好。"
+  },
+  "5dda9a226e449e6b74d84ad8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "智元自研全模态大模型WITA-Omni登顶DailyOmni榜单，突破人机交互瓶颈。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "智元机器人未上市，但技术突破利好机器人板块，可关注相关产业链。",
+    "catalyst": "具身全模态大模型登顶，人机交互能力突破。"
+  },
+  "fc9c2599ff5f45b4201c0fbc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "今日A股下跌，光刻机概念涨停潮，张江高科封单超11亿元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "张江高科",
+        "code": "600895"
+      },
+      {
+        "name": "波长光电",
+        "code": "301421"
+      },
+      {
+        "name": "兴业股份",
+        "code": "603928"
+      },
+      {
+        "name": "国风新材",
+        "code": "000859"
+      },
+      {
+        "name": "电科数字",
+        "code": "600850"
+      },
+      {
+        "name": "永新光学",
+        "code": "603297"
+      },
+      {
+        "name": "兴欣新材",
+        "code": "001358"
+      },
+      {
+        "name": "爱丽家居",
+        "code": "603221"
+      }
+    ],
+    "reason": "光刻机概念受国产替代催化，龙头封单大，板块效应强。",
+    "catalyst": "上海微电子光刻机国产替代预期"
+  },
+  "1250198c4ea1ddcb0a6b97e3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全款买房比例攀升，从豪宅蔓延至普通住宅，反映市场理性回归和居住属性主导。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好叠加高租金回报率，推动购房需求释放，利好房地产板块。",
+    "catalyst": "全款购房比例上升，市场预期企稳，租金回报率吸引力增强。"
+  },
+  "8212dc9a10a12ff65cda0835": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "飞利浦二季度订单下滑因北美大额订单延期，股价大跌11%，维持全年指引不变。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "医疗器械",
+    "stocks": [],
+    "reason": "新闻涉及海外公司，未点名A股公司，但可能影响国内医疗器械板块情绪。",
+    "catalyst": "北美订单延期导致短期业绩承压，但全年指引不变。"
+  },
+  "5e7f692449571558e309719e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "比特币在6.4-6.5万美元区间整理，成交不足，突破待观察，需关注宏观数据。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "数字货币",
+    "stocks": [],
+    "reason": "新闻主要涉及比特币行情，未提及A股上市公司，与A股关联度低。",
+    "catalyst": "比特币价格区间震荡，等待成交确认突破方向。"
+  },
+  "60b17bbe33a035f41ecd7692": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "巴克莱二季度税前利润43.2亿美元，上调两大核心业绩目标。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "巴克莱业绩利好，但非A股直接相关，不进入交易池。",
+    "catalyst": "业绩超预期，上调目标，提振银行板块信心。"
+  },
+  "0a4e6caa15836a68cba39797": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股主要指数走低，通信电子领跌，但超2600股上涨，多股尾盘拉升，中胤时尚触及20cm涨停。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "通信",
+    "stocks": [
+      {
+        "name": "中胤时尚",
+        "code": "300901"
+      },
+      {
+        "name": "荣安地产",
+        "code": "000517"
+      },
+      {
+        "name": "国新健康",
+        "code": "000503"
+      },
+      {
+        "name": "华之杰",
+        "code": "603400"
+      }
+    ],
+    "reason": "市场整体下跌但个股活跃，尾盘拉升个股有交易机会，但需警惕大盘风险。",
+    "catalyst": "尾盘资金抢筹，个股独立行情，关注后续持续性。"
+  },
+  "e321e502dac3ea7ae3ae2141": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "赛峰上调业绩指引，LEAP发动机及零部件需求旺盛，营收利润双增。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "低空经济"
+    ],
+    "suggested_sector": "航空",
+    "stocks": [],
+    "reason": "航空产业链上游需求旺盛，利好国内航空零部件及发动机相关企业。",
+    "catalyst": "民用航空发动机及零部件需求持续增长。"
+  },
+  "4c0606223b8bca26d1da79a8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上半年科技股暴涨，7月暴跌，少数翻倍基抗跌，杨宗昌持仓稳健守住浮盈。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻反映科技板块回调风险，但未点名具体个股，不直接触发交易。",
+    "catalyst": "科技板块7月大幅回调，市场情绪转向谨慎。"
+  },
+  "caa90f39feb983128da8fdf9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "亚太股市大跌，A股科技板块重挫，光模块龙头跌逾15%成交额516亿。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "光模块龙头跌幅大、成交额高，对科技板块情绪影响显著，但未点名具体公司。",
+    "catalyst": "全球科技股暴跌传导至A股，硬件赛道集体调整。"
+  }
+}
