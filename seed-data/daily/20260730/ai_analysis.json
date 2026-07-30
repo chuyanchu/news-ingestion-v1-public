@@ -1,0 +1,564 @@
+{
+  "3d8419b6f622338d23404190": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股调整接近尾声，德明利涨停带动科技股情绪回暖，市场或企稳反弹。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "德明利",
+        "code": "001309"
+      }
+    ],
+    "reason": "德明利涨停激活人气，创业板长下影线预示反弹，科技股超跌机会。",
+    "catalyst": "超跌反弹需求，德明利涨停带动科技股情绪"
+  },
+  "53e85067e56ba19d339e2976": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "网上出现“唐朝不存在”伪史论，影响未成年人历史认知，需警惕历史虚无主义。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "不涉及财经领域，无交易池影响。",
+    "catalyst": "无财经催化逻辑。"
+  },
+  "588401a917effdbce6ea571c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储主席暗示9月可能不加息，市场反应负面，加息概率骤降。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "宏观利率",
+    "stocks": [],
+    "reason": "影响全球流动性预期，但未直接关联A股具体板块或个股。",
+    "catalyst": "美联储加息预期降温，市场流动性宽松预期变化。"
+  },
+  "68a516333aada1a6c2d93508": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特斯拉全球第1000万辆电动车下线，成为全球首家，上半年交付超83万辆。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "特斯拉里程碑事件，提振新能源车板块情绪，但未点名A股个股。",
+    "catalyst": "特斯拉产量突破千万，验证电动车规模化能力。"
+  },
+  "c2bf8da8e59ae52aa1eb2d29": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "携程回应退票争议，补偿用户14727元，并优化退票提示。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "旅游服务",
+    "stocks": [],
+    "reason": "事件涉及携程服务流程，非A股上市公司，对板块影响有限。",
+    "catalyst": "携程优化退票提示，提升用户体验。"
+  },
+  "791d7bc1c5745c468409f05c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "存储芯片概念股午后异动拉升，德明利涨停，兆易创新等深V反弹，受回购增持及三星业绩超预期催化。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "德明利",
+        "code": "001309"
+      },
+      {
+        "name": "佰维存储",
+        "code": "688525"
+      },
+      {
+        "name": "江波龙",
+        "code": "301308"
+      },
+      {
+        "name": "北京君正",
+        "code": "300223"
+      }
+    ],
+    "reason": "存储芯片板块深度回调后估值低位，叠加公司回购增持及三星业绩超预期，短期催化明显。",
+    "catalyst": "公司回购增持计划及三星电子业绩超预期"
+  },
+  "6fb4986b496145a0e2784304": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股大跌，创业板指一度跌6%，午后回升但尾盘回落，科创50跌超5%。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "德明利",
+        "code": "001309"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      }
+    ],
+    "reason": "市场恐慌性下跌，但尾盘有神秘资金托底，短期波动大，需观望。",
+    "catalyst": "市场情绪脆弱，无明确利空，技术性调整或资金面压力。"
+  },
+  "755d1a6964bd95509b94da38": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "伊朗扬言报复美国空袭，国际油价上涨，地缘冲突风险升级。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价上涨利好石油板块，但未点名具体A股公司。",
+    "catalyst": "美伊冲突升级，伊朗报复威胁推高油价。"
+  },
+  "6e71a7b391853205751538b1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "政治局会议定调下半年经济工作，强调加快动能转换，实施积极财政和适度宽松货币政策，加大逆周期调节。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策定调积极，利好消费和投资，但未点名具体个股，整体影响正面。",
+    "catalyst": "政治局会议释放稳增长信号，财政货币双宽松预期增强。"
+  },
+  "534069b0cd5a786848321538": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "周星驰做客董宇辉直播间宣传新片，3000万人围观，话题登热搜。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "传媒",
+    "stocks": [],
+    "reason": "娱乐新闻，与A股投资无关，不进入交易池。",
+    "catalyst": "无"
+  },
+  "14062589cc301e35d09bf86b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "固态电池技术突破，21只概念股获机构看好，AI硬件股大跌。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "国轩高科",
+        "code": "002074"
+      },
+      {
+        "name": "纳科诺尔",
+        "code": ""
+      },
+      {
+        "name": "元利科技",
+        "code": ""
+      },
+      {
+        "name": "亿纬锂能",
+        "code": "300014"
+      },
+      {
+        "name": "先导智能",
+        "code": "300450"
+      },
+      {
+        "name": "恩捷股份",
+        "code": "002812"
+      }
+    ],
+    "reason": "固态电池产业化加速，相关概念股业绩高增长预期明确。",
+    "catalyst": "美国固态电池企业与SK On合作，加速量产进程。"
+  },
+  "9dab6a30d93dcfc455d07fd7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月股票型ETF净流入超4500亿元，创月度纪录，宽基ETF成交放量。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "ETF",
+    "stocks": [],
+    "reason": "资金大幅流入ETF显示市场信心增强，利好整体市场情绪。",
+    "catalyst": "大量资金借道ETF入市，创月度净流入纪录。"
+  },
+  "e89e0e67b97879cfad65bcef": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储维持利率不变并释放鹰派信号，市场担忧加剧，美股下跌，国债收益率飙升。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "宏观利率",
+    "stocks": [],
+    "reason": "新闻主要影响宏观情绪，未直接关联A股板块或个股，但可能间接影响市场风险偏好。",
+    "catalyst": "美联储鹰派立场及通胀担忧，加息预期升温。"
+  },
+  "414ea7c27f3750048e509dfd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家银行本月重新上架5年期大额存单，利率1.55%-1.80%，与去年压降长期限产品形成对比。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要描述银行产品变化，对银行股影响中性，未提及具体上市公司。",
+    "catalyst": "银行净息差低位下仍推长期存单，反映负债管理策略调整。"
+  },
+  "065b35331cf1cd4cf1ba3edb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "兆易创新董事长朱一明套现44亿后，提议10-20亿回购并计划增持不低于10亿，股价已腰斩。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      }
+    ],
+    "reason": "董事长高位套现后低位回购增持，短期提振信心，但需关注基本面与股价背离风险。",
+    "catalyst": "董事长提议回购注销及增持计划，释放护盘信号。"
+  },
+  "ff75d3842738da6773a020eb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股主要指数下跌，权重股和红利股逆市走强，银行、石油石化板块表现突出。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "沪农商行",
+        "code": "601825"
+      },
+      {
+        "name": "浦发银行",
+        "code": "600000"
+      },
+      {
+        "name": "华夏银行",
+        "code": "600015"
+      },
+      {
+        "name": "渝农商行",
+        "code": "601077"
+      },
+      {
+        "name": "交通银行",
+        "code": "601328"
+      },
+      {
+        "name": "建设银行",
+        "code": "601939"
+      },
+      {
+        "name": "宁波银行",
+        "code": "002142"
+      },
+      {
+        "name": "瑞丰银行",
+        "code": "601528"
+      }
+    ],
+    "reason": "权重股和红利股逆市走强，银行、石油板块表现突出，市场风格偏向防御，但指数下跌，整体重要性中等偏高。",
+    "catalyst": "市场避险情绪升温，红利风格受追捧，银行股估值支撑，原油期货大涨带动石油板块。"
+  },
+  "8d7072299f122f47e1840f43": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月178股获机构首次关注，电子行业最受青睐，美联储维持利率不变。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "新能源车",
+      "新能源",
+      "医药生物",
+      "保险",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "贵州茅台",
+        "code": "600519"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "中国人寿",
+        "code": "601628"
+      },
+      {
+        "name": "恒瑞医药",
+        "code": "600276"
+      },
+      {
+        "name": "浪潮信息",
+        "code": "000977"
+      },
+      {
+        "name": "渤海租赁",
+        "code": "000415"
+      },
+      {
+        "name": "招商轮船",
+        "code": "601872"
+      }
+    ],
+    "reason": "机构密集关注且业绩高增长，AI算力、新能源等板块催化明确。",
+    "catalyst": "机构首次关注叠加业绩预增，AI算力需求爆发。"
+  },
+  "c73812aabfff873c9819d634": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "交易所将机房交易行情接入由局域网改为广域网，量化高频交易受约束，散户影响小。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策调整增加量化交易延迟，影响高频策略，但利好市场公平性。",
+    "catalyst": "交易所统一接入方式，消除局域网速度优势，量化策略需调整。"
+  },
+  "9bdd9b27602afb7cfcb8aa3d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "政治局会议决定召开二十届五中全会，分析经济形势，部署下半年经济工作，强调宏观政策发力、扩大内需、发展新质生产力。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "AI算力",
+      "消费",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "会议释放稳增长信号，政策加力提振市场信心，利好科技、消费等板块。",
+    "catalyst": "宏观政策发力提效，扩大内需，推动新质生产力发展。"
+  },
+  "7b47c07472a80974af30aabd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全球央行二季度净购金289吨，同比增长62%，金价高位回落但购金未止。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [],
+    "reason": "黄金板块受益于央行购金需求支撑，但新闻未点名具体A股公司。",
+    "catalyst": "全球央行持续增持黄金，需求增长提振金价预期。"
+  },
+  "f177648da893be5c8b23cd27": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上半年翻倍基7月回调，部分基金经理高位止盈调仓消费，科技股急跌后资金抄底。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "科技板块回调风险释放，但消费板块受关注，可关注调仓方向。",
+    "catalyst": "科技股高位回调，资金转向消费避险。"
+  },
+  "a082ac4e97f9ae1124f96aa6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "机票退票费过高引发争议，携程全额退款，专家建议24小时免费退票。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "航空",
+    "stocks": [],
+    "reason": "事件涉及消费者权益，但未直接关联A股上市公司或板块。",
+    "catalyst": "退票费争议可能推动行业规则调整。"
+  },
+  "a408c0c654b3947c19fcd0c2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2025年消费金融公司总资产1.48万亿元，同比增长7.18%，贷款余额1.43万亿元，同比增长6.85%。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "消费金融行业规模稳步增长，政策支持提振消费，利好消费板块。",
+    "catalyst": "消费金融公司资产扩张，财政贴息政策落地，促进消费信贷增长。"
+  },
+  "d75475a5db59ae1c309bcffa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "劳斯莱斯因军工和AI数据中心需求上调全年业绩预期，上半年利润增46%。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻未点名A股公司，但军工和AI算力板块受益于全球需求增长，可关注相关标的。",
+    "catalyst": "全球国防开支激增及AI数据中心扩建推动劳斯莱斯业绩超预期。"
+  },
+  "29b4fc1c0a1bb6e531823ba2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "白酒股逆市爆发，贵州茅台创两个月新高，工商银行A股复权价创新高，新东方港股大涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "贵州茅台",
+        "code": "600519"
+      },
+      {
+        "name": "舍得酒业",
+        "code": "600702"
+      },
+      {
+        "name": "金徽酒",
+        "code": "603919"
+      },
+      {
+        "name": "金种子酒",
+        "code": "600199"
+      },
+      {
+        "name": "口子窖",
+        "code": "603589"
+      },
+      {
+        "name": "迎驾贡酒",
+        "code": "603198"
+      },
+      {
+        "name": "酒鬼酒",
+        "code": "000799"
+      },
+      {
+        "name": "工商银行",
+        "code": "601398"
+      }
+    ],
+    "reason": "白酒板块强势，龙头创新高，带动消费板块情绪，银行股创新高，市场关注度高。",
+    "catalyst": "白酒股逆市爆发，贵州茅台创两个月新高，工商银行复权价创新高。"
+  },
+  "a23f8731e440c799d21cdc63": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "壳牌二季度利润创四年新高，受地缘冲突推高油气价格影响。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油天然气",
+    "stocks": [],
+    "reason": "新闻涉及海外能源公司，未点名A股个股，但利好油气板块。",
+    "catalyst": "中东地缘冲突推高油气价格，能源企业利润超预期。"
+  },
+  "27f0ae895422b0f3369429ab": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "高途节目《冠军在高途》第二季第三期聚焦游泳运动员内心世界与成长表达，探讨专注、感谢与自我肯定。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "教育",
+    "stocks": [],
+    "reason": "新闻为品牌节目内容，无直接财经影响，不涉及上市公司。",
+    "catalyst": "无"
+  },
+  "5d10e8b335f746fcde02fc97": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "重庆印发措施培育国际消费中心城市，支持打造世界知名商圈和优化消费载体。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好消费板块，但未点名具体个股，可关注重庆本地商业股。",
+    "catalyst": "政策支持消费升级和商圈建设，提振消费信心。"
+  },
+  "06aad9dd161a6bd3d15a655f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国资委部署下半年国资国企改革，强调优化布局、重组整合，上半年地方国企利润增7%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "国企改革",
+    "stocks": [],
+    "reason": "政策利好国企改革主题，但未点名具体个股，整体影响偏正面。",
+    "catalyst": "新一轮国资国企改革推进，重组整合预期升温。"
+  },
+  "06dce54ddd89bc5f12bac95c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美图上半年经调整净利润预增36%-40%，超预期，主因影像产品收入增长30.9%。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "AI应用",
+    "stocks": [],
+    "reason": "业绩超预期，影像产品收入高增，但未直接点名A股公司，不进入交易池。",
+    "catalyst": "影像与设计产品收入增长超预期，带动净利润高增。"
+  }
+}
