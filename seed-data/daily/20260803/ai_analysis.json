@@ -1,0 +1,619 @@
+{
+  "13e494e7c346e89f54297527": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "浙江国资委部署创新国企建设，重点发展人工智能，加大投资布局算力、AI芯片等，推动数据集团组建。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策明确支持AI和算力领域，利好相关板块，但未点名具体个股。",
+    "catalyst": "浙江国资加大AI投资，布局算力与芯片，推动数据要素价值化。"
+  },
+  "29a7a8876b5cdc3e8142a1ab": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海市政府聘任罗新宇为重大行政决策咨询论证专家，涉及国资国企改革领域。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "国资改革",
+    "stocks": [],
+    "reason": "新闻为政府人事聘任，不直接涉及上市公司，对市场影响有限。",
+    "catalyst": "国资改革政策预期可能提升，但无直接催化。"
+  },
+  "81e59f2c63179dff780ca901": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海市国资委召开会议，推动市属国企大宗商品贸易高质量发展，国茂控股等参与。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "大宗商品贸易",
+    "stocks": [],
+    "reason": "政策推动大宗商品贸易发展，利好相关国企，但未点名具体上市公司。",
+    "catalyst": "上海国资推动大宗商品贸易高质量发展"
+  },
+  "7ee0537f5bfc056254038fcd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "亚邦股份挂牌转让宁夏亚东100%股权及债权，最终以7405万元成交，已完成交割。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "化工",
+    "stocks": [
+      {
+        "name": "亚邦股份",
+        "code": "603188"
+      }
+    ],
+    "reason": "资产出售事项，规模较小，对公司影响中性，但涉及公司经营调整，可关注。",
+    "catalyst": "优化资源配置，降低运营成本，提高资金效率。"
+  },
+  "b2ce342a0ab6cc4f60c817ad": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "瑞幸即享咖啡液销量破9亿杯，携手王一博亮相纽约时代广场，宣告咖啡液时代。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "瑞幸咖啡销量里程碑，利好消费板块，但未点名A股上市公司，不直接进入交易池。",
+    "catalyst": "咖啡液销量突破，品牌代言人亮相，提升消费板块关注度。"
+  },
+  "dec15f1be95f9ab905b43f34": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国将43家中国实体列入涉疆制裁清单，包括恰恰瓜子、思念汤圆等，中方回应称是政治打压。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及消费和出海企业，但未点名具体A股公司，影响有限，暂不进入交易池。",
+    "catalyst": "美国制裁清单扩大，可能影响相关企业出口，但市场反应有限。"
+  },
+  "5089344cff141ae3c7c3074a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家A股公司披露回购计划，大秦铁路拟回购4-5亿元股份并注销，伯特利、云中马等也推进回购。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "大秦铁路",
+        "code": "601006"
+      },
+      {
+        "name": "伯特利",
+        "code": "603596"
+      },
+      {
+        "name": "云中马",
+        "code": "603130"
+      }
+    ],
+    "reason": "回购注销提升每股收益，显示公司信心，但影响有限，可关注相关个股。",
+    "catalyst": "多家公司集中回购，提振市场情绪。"
+  },
+  "fcce56398b5c023f1c93455f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普称美伊谈判启动，霍尔木兹海峡已有协议，并决定对加拿大野火采取惩罚措施，承认美日联合干预日元。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "地缘政治",
+    "stocks": [],
+    "reason": "新闻涉及地缘政治和汇率干预，但未直接点名A股公司，对A股影响间接且不确定。",
+    "catalyst": "美伊谈判及日元干预可能影响全球风险偏好和汇率，但缺乏直接A股催化。"
+  },
+  "8bd2225d5b7487d90953b940": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月首日A股指数调整但个股普涨，核电板块受政策催化走强，硬科技回调，高股息获支撑。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "久盛电气",
+        "code": "301082"
+      },
+      {
+        "name": "百利电气",
+        "code": "600468"
+      },
+      {
+        "name": "中国核建",
+        "code": "601611"
+      }
+    ],
+    "reason": "核电政策利好明确，相关个股涨停，但市场整体分化，需关注持续性。",
+    "catalyst": "国务院核准4个核电项目，总投资超1700亿元。"
+  },
+  "295378083e03e18b34836258": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩股杠杆去化近尾声，外资抄底三星等芯片股，存储芯片周期和AI资本开支逻辑仍完好。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻聚焦韩国股市和三星、SK海力士，未点名A股公司，但半导体和AI算力板块情绪受益，可关注相关A股映射。",
+    "catalyst": "外资抄底韩芯片股，存储周期和AI资本开支逻辑强化，利好A股半导体和AI算力板块。"
+  },
+  "1354127ba1f1ef4fdd8d8694": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "先进封装会议将开，AI算力需求推动扩产，8只概念股业绩预喜，欣天科技实控人变更涨停。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "欣天科技",
+        "code": "300615"
+      },
+      {
+        "name": "通富微电",
+        "code": "002156"
+      },
+      {
+        "name": "长电科技",
+        "code": "600584"
+      },
+      {
+        "name": "华天科技",
+        "code": "002185"
+      },
+      {
+        "name": "深科技",
+        "code": "000021"
+      },
+      {
+        "name": "富满微",
+        "code": "300671"
+      },
+      {
+        "name": "气派科技",
+        "code": "688216"
+      },
+      {
+        "name": "鼎龙股份",
+        "code": "300054"
+      }
+    ],
+    "reason": "先进封装需求旺盛，业绩增长明确，会议催化，板块热度高，可关注。",
+    "catalyst": "ICEPT会议召开，AI算力带动先进封装扩产，业绩超预期。"
+  },
+  "3b5391afddaea0c3730432de": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "远东股份7月中标千万元合同订单28.08亿元，环比增61.95%，智能电池储能业务累计同比增140.31%。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "远东股份",
+        "code": "600869"
+      }
+    ],
+    "reason": "公司订单大幅增长，尤其储能业务高增，业绩预期向好，利好股价。",
+    "catalyst": "7月中标订单环比大增，储能业务累计同比增140%"
+  },
+  "bc697580b33552834defd2b3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行召开2026年下半年工作会议，部署八大重点工作，强调实施适度宽松货币政策，加大逆周期调节力度。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "央行政策定调宽松，利好金融板块及整体市场流动性，提升风险偏好。",
+    "catalyst": "适度宽松货币政策，增量政策出台预期。"
+  },
+  "0ed7588389462912763cb532": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "两部门发布新型电力系统建设规划，提出到2030年非化石能源发电量占比50%，新能源消纳28亿千瓦以上，并推进AI赋能电力系统。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新能股份",
+        "code": ""
+      },
+      {
+        "name": "深南电A",
+        "code": ""
+      },
+      {
+        "name": "华电辽能",
+        "code": ""
+      },
+      {
+        "name": "久盛电气",
+        "code": ""
+      },
+      {
+        "name": "利伯特",
+        "code": ""
+      },
+      {
+        "name": "合锻智能",
+        "code": ""
+      },
+      {
+        "name": "融发核电",
+        "code": ""
+      },
+      {
+        "name": "中国核建",
+        "code": ""
+      }
+    ],
+    "reason": "政策利好新能源电力板块，明确点名相关个股，市场反应积极，可关注。",
+    "catalyst": "新型电力系统规划发布，新能源消纳目标明确，核电、水电等板块受益。"
+  },
+  "0dc48fbc0fa77485713c2827": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股主要指数下跌但多数个股上涨，造纸板块拉升，部分公司半年报后股价大涨。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "造纸",
+    "stocks": [
+      {
+        "name": "仕佳光子",
+        "code": "688313"
+      },
+      {
+        "name": "一博科技",
+        "code": "301366"
+      },
+      {
+        "name": "宜宾纸业",
+        "code": "600793"
+      },
+      {
+        "name": "凯恩股份",
+        "code": "002012"
+      }
+    ],
+    "reason": "新闻提及个股业绩增长或板块异动，但市场整体下跌，影响中性，可关注个股机会。",
+    "catalyst": "半年报业绩超预期及造纸板块拉升。"
+  },
+  "5cd76bb817195b844129b75d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "汕头通报牛蛙抗生素超标事件，已封存涉事企业产品并抽样送检，将开展专项排查。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "食品安全事件影响相关企业，但未点名上市公司，短期或利空水产养殖板块。",
+    "catalyst": "抗生素超标引发监管排查，食品安全问题受关注。"
+  },
+  "c7013c4366d916dd31d7cc54": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年上半年分红险保费破万亿，同比增长94.4%，成为市场新宠，但险企和代理人面临新考验。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "分红险保费大增，利好保险行业，但投资端压力增大，需关注险企投资能力。",
+    "catalyst": "利率下行，分红险替代传统险，保费高增，行业转型加速。"
+  },
+  "3cf28767b59c8b43f1234d8d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "香港证监会主席称港交所国债期货是离岸产品重大突破，提升定价效率，促进双向资本流动。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好港交所及券商板块，但未点名A股个股，暂不进入交易池。",
+    "catalyst": "国债期货上市提升市场活跃度，利好券商业务。"
+  },
+  "906726c72ee536636d428505": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国因仓促引入单只股票杠杆ETF引发争议，政策室长遭刑事举报，股市暴跌。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "杠杆ETF",
+    "stocks": [],
+    "reason": "事件涉及韩国政策与股市，对A股无直接关联，但可能影响市场情绪，故不进入交易池。",
+    "catalyst": "韩国监管风险事件，或引发全球市场对杠杆产品担忧。"
+  },
+  "17baa1bc0c4e9ecac9d4458a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国常会核准8台核电机组，总投资超1700亿元，核能概念股集体涨停，机构看好板块中长期景气度。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "利柏特",
+        "code": "605167"
+      },
+      {
+        "name": "中岩大地",
+        "code": "003001"
+      },
+      {
+        "name": "中国核建",
+        "code": "601611"
+      },
+      {
+        "name": "百利电气",
+        "code": "600468"
+      },
+      {
+        "name": "江苏神通",
+        "code": "002438"
+      },
+      {
+        "name": "融发核电",
+        "code": "002366"
+      },
+      {
+        "name": "深南电A",
+        "code": "000037"
+      },
+      {
+        "name": "盈峰环境",
+        "code": "000967"
+      }
+    ],
+    "reason": "核电核准带来千亿投资，产业链订单确定性增强，板块热度高，具备持续催化。",
+    "catalyst": "国常会核准8台核电机组，总投资超1700亿元，核电建设加速。"
+  },
+  "b666c001d973e6225b0c2fd6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "孙哲元利用AI编造纯碱虚假信息并传播，被罚没48.5万元。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "期货市场",
+    "stocks": [],
+    "reason": "监管处罚案例，涉及期货市场虚假信息，对相关个股影响间接，不进入交易池。",
+    "catalyst": "监管打击虚假信息，维护市场秩序。"
+  },
+  "d8bd730d5e19d3a800f9ecb2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沪指跌0.59%，电力、商业航天、造纸走强，存储芯片、半导体走弱，超4000股上涨，成交额逾2万亿。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "乐山电力",
+        "code": "600644"
+      },
+      {
+        "name": "深南电A",
+        "code": "000037"
+      },
+      {
+        "name": "长缆科技",
+        "code": "002879"
+      },
+      {
+        "name": "通宇通讯",
+        "code": "002792"
+      },
+      {
+        "name": "宜宾纸业",
+        "code": "600793"
+      }
+    ],
+    "reason": "市场整体弱势但结构性机会明显，电力、商业航天等板块活跃，可关注相关个股。",
+    "catalyst": "电力板块走强，商业航天概念活跃，造纸板块午后走高。"
+  },
+  "09811360013428d1f281884f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "电力板块活跃，多地用电负荷创新高，核电政策利好，电力ETF四连阳。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "乐山电力",
+        "code": "600644"
+      },
+      {
+        "name": "华银电力",
+        "code": "600744"
+      },
+      {
+        "name": "晶科科技",
+        "code": "601778"
+      },
+      {
+        "name": "大唐发电",
+        "code": "601991"
+      },
+      {
+        "name": "粤电力A",
+        "code": "000539"
+      },
+      {
+        "name": "协鑫能科",
+        "code": "002015"
+      },
+      {
+        "name": "嘉泽新能",
+        "code": "601619"
+      }
+    ],
+    "reason": "用电负荷创新高及核电政策利好，板块活跃，个股上涨明显，可关注。",
+    "catalyst": "用电负荷创新高，核电政策利好催化。"
+  },
+  "fb719fc7afee133a6a2fe7f1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "6月券商私募资管备案规模超800亿，存续规模6.47万亿，混合类产品增长，行业二八分化。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "券商资管业务规模增长，行业集中度提升，利好头部券商，但未点名具体个股。",
+    "catalyst": "私募资管备案规模同比翻倍，混合类产品增长，行业转型加速。"
+  },
+  "b0b5972dbd60dc2acf602eb6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中央政治局会议释放稳增长、稳预期、稳市场信号，兴业证券首席经济学家刘郁解读政策部署，强调逆周期调节和资本市场韧性提升。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好资本市场，提升市场信心和韧性，券商板块直接受益。",
+    "catalyst": "宏观政策逆周期调节，资本市场改革深化，提升市场预期。"
+  },
+  "acef8c77a62645ff7db142aa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "冰轮环境子公司顿汉布什获北美及澳大利亚客户磁悬浮冷机大额订单，金额合计超1.4亿美元。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "冰轮环境",
+        "code": "000811"
+      }
+    ],
+    "reason": "子公司获大额海外订单，金额超1.4亿美元，显著增厚未来业绩，提升出海预期。",
+    "catalyst": "海外磁悬浮冷机订单落地，验证技术实力，打开海外市场空间。"
+  },
+  "51fb24be9111031e571e6788": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "伊朗称霍尔木兹海峡管理磋商接近尾声，油价下跌，特朗普取消打击行动，地缘风险缓和。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突缓和导致油价下跌，利好新能源替代需求，但未点名具体A股公司。",
+    "catalyst": "霍尔木兹海峡局势缓和，油价承压，新能源板块受益。"
+  },
+  "c3102b30ca0052a4defe807b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中信证券首席经济学家解读政治局会议，强调宏观政策协同联动，深化资本市场投融资改革，提升韧性和信心。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好资本市场，提升投资者信心，券商板块直接受益。",
+    "catalyst": "政治局会议定调资本市场改革，政策协同预期增强。"
+  },
+  "a41c28c88557e914adf143bd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "港交所获批推出五年期国债期货，8月3日交易，补齐境外投资者利率风险管理工具，助力人民币枢纽。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好香港金融基础设施，提升中国债市吸引力，对券商板块有间接提振。",
+    "catalyst": "国债期货推出，完善离岸人民币风险管理生态。"
+  },
+  "2892d9101f6434bb9e1b8e00": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "幸福人寿管理层持续洗牌，王文祥获批副总经理及审计责任人，旧团队多人退场。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "保险行业人事变动，对上市公司影响有限，不进入交易池。",
+    "catalyst": "管理层变动，关注后续经营策略调整。"
+  }
+}
