@@ -1,0 +1,537 @@
+{
+  "5a24e90b1b4c2d501da49562": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "余承东称内存涨价将导致手机大规模涨价，否则亏损销售。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "内存涨价利好半导体存储板块，但未点名具体公司，影响偏行业层面。",
+    "catalyst": "存储芯片涨价周期，带动产业链盈利预期提升。"
+  },
+  "38125271c76c93043e3aabaa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "段永平减持泡泡玛特，持股比例降至5.55%，但此前表示长期看好。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及港股公司，未点名A股个股，但消费板块情绪或受关注。",
+    "catalyst": "大股东减持但长期看好，短期情绪或波动。"
+  },
+  "a40becee082c9b575c786755": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "苹果压价长鑫存储遭拒，因华为小米等已锁定产能，内存价格获支撑。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好国产存储议价能力，半导体板块受关注，但未点名A股个股。",
+    "catalyst": "长鑫拒绝苹果压价，存储涨价预期升温。"
+  },
+  "5eb9abee4fd76718d0d7c6d5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "广发基金联合主办厦门站系列活动，组织投资者走进特宝生物、鼎熔岩，聚焦新质生产力与价值投资。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "特宝生物",
+        "code": "688278"
+      }
+    ],
+    "reason": "新闻明确提及特宝生物，且活动强调价值投资，可能提升关注度。",
+    "catalyst": "投资者实地调研，展示公司创新实力，增强市场信心。"
+  },
+  "56f4fe98f9ac751c1f4ac453": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "泰航拒绝20多名中国乘客登机引发热议，专家预测泰航订单将受冲击。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "航空",
+    "stocks": [],
+    "reason": "事件涉及航空服务，但未点名A股公司，对A股影响间接，重要性中等。",
+    "catalyst": "泰航服务争议或影响中国乘客出行选择，利好国内航空替代需求。"
+  },
+  "e90ddd3cfdefb8894fbe3116": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "尊界V800和V680正式上市，起售价64.8万至101.6万元，搭载华为巨鲸电池，支持L3自动驾驶架构。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "华为系高端MPV上市，提升新能源车智能化水平，带动产业链关注，但未点名具体A股公司。",
+    "catalyst": "华为新车发布，L3自动驾驶架构和巨鲸电池平台技术领先。"
+  },
+  "70daea63c09e352c4e0026ac": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "段永平减持泡泡玛特，持仓比例从7.65%降至5.55%。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "知名投资人减持，可能影响市场情绪，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "减持行为或引发对消费板块估值担忧。"
+  },
+  "7cd8eec6788ea36d54d3d4a3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "段永平减持泡泡玛特，此前曾称大概率10年不卖，引发市场关注。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "知名投资人减持，影响市场情绪，但未点名A股公司，不进入交易池。",
+    "catalyst": "减持行为或引发消费板块估值担忧。"
+  },
+  "af4809833c201cc9926511a6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "港股IPO募资时隔五年突破3000亿港元，中资投行主导，A+H热潮持续。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "券商",
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "立讯精密",
+        "code": "002475"
+      },
+      {
+        "name": "胜宏科技",
+        "code": "300476"
+      },
+      {
+        "name": "领益智造",
+        "code": "002600"
+      },
+      {
+        "name": "澜起科技",
+        "code": "688008"
+      },
+      {
+        "name": "晶合集成",
+        "code": "688249"
+      },
+      {
+        "name": "东鹏饮料",
+        "code": "605499"
+      },
+      {
+        "name": "大金重工",
+        "code": "002487"
+      }
+    ],
+    "reason": "港股IPO活跃利好券商投行业务，半导体和AI硬件公司募资扩张，相关A股受提振。",
+    "catalyst": "港股IPO募资创新高，A+H上市热潮，中资投行主导，市场情绪提振。"
+  },
+  "6ae95a1b4e41628f9f0b9182": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "余承东称内存涨价将导致手机大规模涨价，否则亏损销售。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "内存涨价利好半导体板块，手机涨价或影响消费电子，但未点名具体公司。",
+    "catalyst": "内存价格持续上涨，手机厂商成本压力传导至终端售价。"
+  },
+  "776921672729cd1eec80e3c6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部宣布对6家美国实体采取反制措施，禁止与其交易合作，自2026年8月5日起施行。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "反制概念",
+    "stocks": [],
+    "reason": "地缘政治风险升级，影响中美贸易关系，但未直接点名A股公司，市场情绪或受压制。",
+    "catalyst": "中美博弈加剧，涉疆制裁反制，或引发相关板块波动。"
+  },
+  "6765ac0dd2940c7d1fd3358e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "段永平减持泡泡玛特，多头持仓比例从7.65%降至5.55%，上个月刚增持并称10年内大概率不卖。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "泡泡玛特为港股，非A股，但减持消息影响消费板块情绪，可关注相关A股消费股。",
+    "catalyst": "大股东减持，短期利空消费板块情绪。"
+  },
+  "e1666a719e406c3e125b8c97": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "脑机接口产业热度高，多地政策支持，融资火热但商业化早期，面临临床、成本、舒适度三大约束。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "脑机接口",
+    "stocks": [],
+    "reason": "新闻聚焦脑机接口产业，政策利好，融资活跃，但未点名具体A股公司，板块整体受益。",
+    "catalyst": "脑机接口写入政府工作报告，多地出台产业政策，一级市场融资火热。"
+  },
+  "f327e6147dae367a0b8166bb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "京沪同日土拍揽超174亿，北京地块创年内纪录，上海分化明显，核心区稀缺地块受追捧。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "土拍热度提升，核心区地块高溢价成交，利好房地产板块，但未点名具体个股。",
+    "catalyst": "核心区稀缺地块高溢价成交，土地市场热度回升。"
+  },
+  "b5f4516eea5d5db699fc3e58": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "四大行及部分股份行重启五年期大额存单，利率最高1.8%，旨在应对存款流失和锁定长期资金。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行负债结构优化，长期限存单回归有助于稳定存款，对银行板块构成利好。",
+    "catalyst": "银行重启五年期大额存单，优化负债结构，应对存款流失。"
+  },
+  "55a6d942be00bde34d8f408d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "段永平减持泡泡玛特，称系衍生工具履约，不影响长期判断。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "泡泡玛特为港股，非A股，但涉及消费板块，可关注情绪影响。",
+    "catalyst": "知名投资人减持，但解释为被动调仓，影响有限。"
+  },
+  "f56a110a813d84660c261c62": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "幻方量化多只产品7月回撤超20%，年内收益转负，量化私募遭遇重挫。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "量化私募",
+    "stocks": [],
+    "reason": "新闻涉及头部量化私募业绩大幅回撤，反映市场波动加剧，但未直接点名A股上市公司，对具体个股影响有限。",
+    "catalyst": "量化产品集中回撤，可能引发市场对量化策略风险的担忧。"
+  },
+  "633cb521145cec26d0959162": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部宣布加强无人机相关两用物项对美国出口管制，逐案从严审核，不适用许可便利措施。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "军工",
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "出口管制影响无人机相关企业出口业务，但可能刺激国产替代和军工自主可控，需关注具体公司影响。",
+    "catalyst": "地缘政治紧张，出口管制升级，军工和低空经济板块受关注。"
+  },
+  "8f2edf283d7f791331cb061a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "幻方量化多只产品收益转负，单月跌幅超20%，业绩表现不佳。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "量化私募",
+    "stocks": [],
+    "reason": "新闻涉及头部量化私募业绩大幅回撤，可能引发市场对量化投资风险的关注，但未直接点名A股上市公司，影响有限。",
+    "catalyst": "量化产品业绩大幅回撤，引发市场对量化投资风险的担忧。"
+  },
+  "362bd3eb7ef84dea0a76cd48": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储新掌门沃什面临紧缩或宽松两难，或引发金融危机或美元危机，市场不确定性增加。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及美联储政策不确定性，可能引发全球市场动荡，影响A股金融板块，但未点名具体公司。",
+    "catalyst": "美联储政策转向或引发全球资产价格波动"
+  },
+  "f5a7e0b2b05c2ae341d661e6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "淡水泉认为AI行情未结束，但极致抱团松动，市场机会走向多元，关注半年报业绩。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "头部私募看好AI长期趋势，但短期调整，建议关注业绩验证的多元机会，可进入观察池。",
+    "catalyst": "AI产业趋势未变，半年报业绩披露或带来新方向。"
+  },
+  "3a0d8c5916b5a180ede3ea84": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部宣布对美国FCC及国土安全部涉华消极措施实施反制，包括加强无人机对美出口管制、将美国合规性测试公司等列入反制清单。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "低空经济",
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "中美贸易摩擦升级，涉及无人机出口管制，对相关板块情绪有负面影响，但未点名具体A股公司。",
+    "catalyst": "中美博弈加剧，无人机等出口管制或影响相关产业链，关注后续反制措施。"
+  },
+  "417ee7443687ce95b0ef499b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI应用概念股集体爆发，受OpenAI降价、软件企业知识产权布局等多重利好驱动，新开普等涨停。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新开普",
+        "code": "300248"
+      },
+      {
+        "name": "德生科技",
+        "code": "002908"
+      },
+      {
+        "name": "泛微网络",
+        "code": "603039"
+      },
+      {
+        "name": "博彦科技",
+        "code": "002649"
+      },
+      {
+        "name": "软通动力",
+        "code": "301236"
+      },
+      {
+        "name": "润和软件",
+        "code": "300339"
+      },
+      {
+        "name": "深信服",
+        "code": "300454"
+      },
+      {
+        "name": "同花顺",
+        "code": "300033"
+      }
+    ],
+    "reason": "AI应用板块受多重利好催化，个股涨停潮，市场关注度高，具备交易价值。",
+    "catalyst": "OpenAI大幅降价80%，AI应用成本降低，加速商业化落地。"
+  },
+  "32ab46b2286b52c4858cd2f0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026上半年中国汽车出口531万辆，三家自主品牌进全球前十，欧美车企份额下滑，东升西降趋势明显。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源车",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "code": "002594"
+      },
+      {
+        "name": "上汽集团",
+        "code": "600104"
+      },
+      {
+        "name": "长安汽车",
+        "code": "000625"
+      },
+      {
+        "name": "长城汽车",
+        "code": "601633"
+      }
+    ],
+    "reason": "新闻明确提及比亚迪、上汽、长安、长城等A股车企，且行业趋势利好，进入交易池。",
+    "catalyst": "中国车企全球销量提升，出海加速，新能源车产业链受益。"
+  },
+  "5c387600c177d5220a00b83f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股放量大涨，电子、有色领涨，工业富联涨停，成交额创天量。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "工业富联",
+        "code": "601138"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "寒武纪",
+        "code": "688256"
+      }
+    ],
+    "reason": "市场放量普涨，电子、有色领涨，工业富联涨停，成交额创新高，情绪高涨。",
+    "catalyst": "市场放量上涨，AI算力及半导体板块获资金追捧。"
+  },
+  "da109e6a1640375e0a330456": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "湊湊火锅因食品安全问题登上热搜，母公司呷哺集团上半年预亏，品牌面临信任危机。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "食品安全事件影响品牌声誉，但未点名具体A股公司，且呷哺集团为港股，不直接涉及A股交易池。",
+    "catalyst": "食品安全问题导致品牌信任危机，可能影响消费板块情绪。"
+  },
+  "ee7aa8b24d9405ee8699af51": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普称霍尔木兹海峡通航协议最早周三达成，油价回落，但红海袭击持续，地缘风险仍存。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "航运",
+    "stocks": [],
+    "reason": "地缘事件影响全球油价与航运，但未点名A股公司，暂不进入交易池。",
+    "catalyst": "霍尔木兹海峡协议预期缓解供应担忧，油价承压，关注航运与能源板块。"
+  },
+  "94d44778fc197b3ed01c2a2d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普政府已退还约1000亿美元关税，主要流向大企业，消费者和小企业受益有限，同时开启新一轮关税征收。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "关税退还及新关税影响全球贸易，对消费和出海企业构成不确定性，但未点名具体A股公司。",
+    "catalyst": "关税政策反复，影响外贸企业成本和需求。"
+  },
+  "527b60714f9f059ffd30adab": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "韩国央行13年来首次恢复购金，全球央行增持黄金趋势延续，金价获支撑。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [],
+    "reason": "央行购金利好黄金板块，但新闻未点名A股个股，建议关注黄金ETF及山东黄金等。",
+    "catalyst": "央行增持黄金，避险需求提升，金价有望上涨。"
+  },
+  "dc37f75c95dd438f4491c5c1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部宣布对美国FCC及国土安全部涉华消极措施实施反制，包括无人机出口管制等。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "军工",
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "中美贸易摩擦升级，影响军工及低空经济板块，但未点名具体A股公司。",
+    "catalyst": "中方反制措施涉及无人机等领域，可能影响相关产业链。"
+  }
+}
