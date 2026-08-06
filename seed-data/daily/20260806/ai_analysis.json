@@ -1,0 +1,565 @@
+{
+  "9a5e817b535ebb53db332891": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "算力需求旺盛，多家上市公司披露大额合同，行业进入订单兑现期。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "蜂助手",
+        "code": "301382"
+      },
+      {
+        "name": "高乐股份",
+        "code": "002348"
+      },
+      {
+        "name": "东阳光",
+        "code": "600673"
+      }
+    ],
+    "reason": "算力合同密集落地，验证行业高景气，相关公司业绩确定性增强。",
+    "catalyst": "AI大模型迭代与智能化改造需求释放，算力订单爆发。"
+  },
+  "758598f226b53f42d420e893": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月恒生科技逆势涨8%，南向资金涌入，AI叙事从硬件转向应用端，港股互联网领涨。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻聚焦港股，但AI应用扩散和资金再平衡利好A股AI应用及互联网板块，半导体调整或影响相关A股。",
+    "catalyst": "AI叙事从硬件向应用端扩散，南向资金涌入港股互联网，全球资金再平衡。"
+  },
+  "239a34db438501b466d2cf22": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "汪峰谈消费观，称买衣服80%来自淘宝，不追求奢侈品，强调教育孩子理性消费。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "娱乐新闻，与财经市场关联度低，不构成投资催化。",
+    "catalyst": "无明确财经催化。"
+  },
+  "7857088a658418e932a29d6f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家网信办对派拓公司在华销售产品启动网络安全审查，以保障关键信息基础设施安全。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "网络安全",
+    "stocks": [],
+    "reason": "涉及外资网络安全产品审查，可能影响相关企业，但未点名A股公司，暂不进入交易池。",
+    "catalyst": "网络安全审查趋严，国产替代预期增强。"
+  },
+  "60be5cb24acf701a0747e8b7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "高盛、摩根大通大幅加仓中际旭创H股，持仓翻倍，看好AI光互联龙头。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      }
+    ],
+    "reason": "国际投行大幅加仓，目标价上调，AI光模块需求强劲，利好公司股价。",
+    "catalyst": "AI算力需求增长，光模块升级迭代，机构增持。"
+  },
+  "a7b52cf2fb06be3b94e7bc82": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多地兰州拉面改名青海拉面，青海省推进三店合一项目，涉及餐饮品牌调整。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及餐饮行业品牌调整，但未点名上市公司，对A股影响有限。",
+    "catalyst": "青海拉面品牌整合，可能影响相关餐饮消费板块。"
+  },
+  "c6bc00a6577e2c2699597bd0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沪深两市主力资金净流出207亿元，通信行业获净流入居首，天孚通信等个股获抢筹，宁德时代遭净流出。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      },
+      {
+        "name": "胜宏科技",
+        "code": "300476"
+      },
+      {
+        "name": "长电科技",
+        "code": "600584"
+      },
+      {
+        "name": "多氟多",
+        "code": "002407"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "风华高科",
+        "code": "000636"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "蓝色光标",
+        "code": "300058"
+      }
+    ],
+    "reason": "资金流向反映市场热点，通信、半导体获关注，但整体净流出，影响中性。",
+    "catalyst": "主力资金抢筹通信、半导体个股，CPO、封测概念活跃。"
+  },
+  "a8cc95ddc3d48a7b8d2db2f5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "前小鹏副总裁陈永海加入众擎机器人任运营总裁，公司冲刺万台量产，行业转向订单和交付。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "机器人行业头部公司人事变动及量产进展，反映行业景气度提升，但未点名A股公司，影响间接。",
+    "catalyst": "行业从科研转向规模化量产，订单和交付成为竞争焦点。"
+  },
+  "4a03683f7ea63c658f61b2c6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "刚果（金）禁止出口铜精矿和钴精矿，新税制三个月后生效，矿企需立即申报副产品。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "有色金属",
+    "stocks": [],
+    "reason": "铜钴供应收紧利好资源价格，但未点名具体A股公司，暂不纳入交易池。",
+    "catalyst": "刚果（金）出口禁令推升铜钴价格预期。"
+  },
+  "413288846586f460f1cdcc80": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "再生铜原料紧缺，需求旺盛，高端产品获低碳溢价，政策支持，进口增长，全球供应格局变化。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "再生资源",
+    "stocks": [],
+    "reason": "新闻聚焦再生铜行业，涉及资源循环利用，政策利好，但未点名具体上市公司，建议关注相关板块。",
+    "catalyst": "政策支持循环经济，再生铜需求增长，高端产品溢价。"
+  },
+  "1385238e11e6fde4e75059ec": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金融监管局整治汽车金融乱象，剑指高息高返，规范商用车金融业务，保护消费者权益。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "保险",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "监管收紧影响汽车金融相关业务，但未点名具体公司，整体偏负面，暂不进入交易池。",
+    "catalyst": "监管整治高息高返，规范商用车金融，强化风控和消费者保护。"
+  },
+  "f07d9b06aa2a8af396092d7e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美股存储芯片股盘前大跌，闪迪、西部数据等因业绩指引不及预期重挫，SK海力士、美光跟跌，中概股多数下跌。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "存储芯片板块受海外龙头业绩指引拖累，情绪面利空A股半导体相关标的，但未点名具体A股公司。",
+    "catalyst": "闪迪、西部数据业绩指引不及预期，引发存储芯片需求担忧。"
+  },
+  "63dc56d26e08fd172fbeee44": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "5年期大额存单重返国有大行，银行应对存款到期、优化负债结构，但放量可能性低。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及银行负债管理策略，对银行板块有情绪影响，但无具体个股点名，不构成直接交易信号。",
+    "catalyst": "银行重启5年期大额存单，优化负债久期，但息差压力限制放量。"
+  },
+  "4380117a94951080300ae46c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股分化，煤炭石油大涨，多股尾盘拉升，上证指数站上3900点。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "煤炭",
+    "stocks": [
+      {
+        "name": "多氟多",
+        "code": "002407"
+      },
+      {
+        "name": "昊华能源",
+        "code": "601101"
+      },
+      {
+        "name": "潞安环能",
+        "code": "601699"
+      },
+      {
+        "name": "淮北矿业",
+        "code": "600985"
+      },
+      {
+        "name": "平煤股份",
+        "code": "601666"
+      },
+      {
+        "name": "兖矿能源",
+        "code": "600188"
+      },
+      {
+        "name": "辽宁能源",
+        "code": "600758"
+      },
+      {
+        "name": "中曼石油",
+        "code": "603619"
+      }
+    ],
+    "reason": "煤炭石油板块大涨，多股涨停，市场情绪积极，相关个股有交易机会。",
+    "catalyst": "焦炭焦煤期货连续上涨，资源板块受资金追捧。"
+  },
+  "6f21d31d0034c4d8ba310b00": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "幺正量子完成数亿元A轮融资，加速QCCD离子阱量子计算研发，对标国际龙头。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "量子计算",
+    "stocks": [],
+    "reason": "量子计算是前沿科技，融资事件提升板块关注度，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "量子计算融资加速，技术突破预期升温。"
+  },
+  "436b2b7da7474eea18a73eca": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普24小时动态：与伊朗对话、油价言论、弹药短缺争议、直升机安全事件、与美联储主席通话等。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及地缘政治和军事，但未点名A股公司，对A股影响间接，暂不进入交易池。",
+    "catalyst": "地缘政治风险与油价波动可能影响军工和能源板块。"
+  },
+  "3dffabe91472b287a6b3fc28": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "葛卫东增持兆易创新，坚定看多AI，存储芯片龙头获知名投资人加仓。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      }
+    ],
+    "reason": "知名投资人加仓并看多AI，存储芯片景气度提升，利好相关板块。",
+    "catalyst": "葛卫东增持及AI产业前景看好，存储芯片需求增长预期。"
+  },
+  "21dfaa70d02bdb18c9dd2401": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家险企披露代理合同纠纷，代理人违规展业被追偿，行业转向合规立身。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻反映保险行业监管趋严，对险企长期利好，但短期影响中性，不涉及具体个股。",
+    "catalyst": "监管要求建立佣金追索扣回机制，险企追偿违规代理人常态化。"
+  },
+  "5c1d367daa084913e4750813": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "贵金属市场反弹，A股贵金属板块连续上涨，受美国就业数据疲软和避险情绪升温影响。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "贵金属",
+    "stocks": [
+      {
+        "name": "盛达资源",
+        "code": "000603"
+      },
+      {
+        "name": "招金黄金",
+        "code": ""
+      },
+      {
+        "name": "山金国际",
+        "code": ""
+      },
+      {
+        "name": "西部黄金",
+        "code": "601069"
+      }
+    ],
+    "reason": "贵金属板块受多重利好驱动，短期强势，但需关注后续数据及地缘变化，可短线参与。",
+    "catalyst": "美国就业数据不及预期，美元走弱，避险情绪升温，央行购金增加。"
+  },
+  "1a90c038e0413a60e2c45f30": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国际金价单日涨超4%，重返4200美元上方，多家黄金品牌金饰克价大幅跳涨。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [],
+    "reason": "金价大涨利好黄金板块，但新闻未点名具体A股公司，暂不进入交易池。",
+    "catalyst": "美元走软、美债收益率下降及中东局势进展推动金价跳涨。"
+  },
+  "5b0979bce0017d4c7ad709e5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "东珠生态上半年中标2.32亿项目，但业绩变脸触发退市风险警示，投资者可索赔。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "环保",
+    "stocks": [
+      {
+        "name": "*ST东珠",
+        "code": "603359"
+      }
+    ],
+    "reason": "公司业绩变脸，面临退市风险及索赔，负面消息影响股价。",
+    "catalyst": "业绩预告更正，营收低于红线，触发退市风险警示。"
+  },
+  "c46679de284f209c768cdf41": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "阿斯利康与百时美施贵宝洽谈合并，或打破药企十年并购策略，但面临反垄断和整合风险。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及国际药企并购，对A股医药板块影响间接，无明确点名个股，暂不进入交易池。",
+    "catalyst": "国际药企并购动向可能引发行业整合预期，但需观察后续进展。"
+  },
+  "7c37a5c216d7a050f14a52c0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "券商资管大集合产品整改接近尾声，仅剩一只产品再次延期至2027年，行业正式清零。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及券商资管业务整改，但未点名具体上市公司，对行业影响中性，不进入交易池。",
+    "catalyst": "券商大集合产品整改收官，关注券商资管业务转型。"
+  },
+  "97483b3ce6fb371efd7da786": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "爱丽家居复牌涨停10连板，公司提示风险；贵金属板块走强，AI应用端活跃。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "家居",
+    "stocks": [
+      {
+        "name": "爱丽家居",
+        "code": "603221"
+      },
+      {
+        "name": "金一文化",
+        "code": "002721"
+      },
+      {
+        "name": "盛达资源",
+        "code": "000603"
+      },
+      {
+        "name": "晓程科技",
+        "code": "300139"
+      },
+      {
+        "name": "中金黄金",
+        "code": "600489"
+      },
+      {
+        "name": "赤峰黄金",
+        "code": "600988"
+      },
+      {
+        "name": "四川黄金",
+        "code": "001337"
+      },
+      {
+        "name": "西部黄金",
+        "code": "601069"
+      }
+    ],
+    "reason": "爱丽家居连续涨停但基本面差，风险高；贵金属和AI应用板块活跃，但整体市场影响中性。",
+    "catalyst": "爱丽家居收购意向；现货黄金突破4300美元；阿里云Agent商业化。"
+  },
+  "d3c9f02d84e60ca8ba38e64a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "帕西尼完成10亿元战略轮融资，累计35亿元，创触觉感知领域纪录，获国家级资本和产业巨头加持。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "融资利好具身智能产业链，但未点名A股公司，不直接构成个股催化。",
+    "catalyst": "具身智能赛道资本热度提升，触觉感知技术受关注。"
+  },
+  "67636d00242d5f8d34bbcff7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "赛力斯7月销量同比暴跌45.65%，核心问界系列销量下滑，业绩承压。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "赛力斯",
+        "code": "601127"
+      }
+    ],
+    "reason": "销量大幅下滑，直接影响公司业绩和市场信心，属于重大利空。",
+    "catalyst": "销量暴跌，基本面恶化，股价承压。"
+  },
+  "287802ba0d50051725d8cb96": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "信用卡核心客群向95-05代际转移，AI信用卡成为银行深耕新世代的首块试验田，平安银行推出AI信用卡。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻聚焦信用卡行业代际转移与AI信用卡创新，利好银行板块，但未点名具体A股公司。",
+    "catalyst": "AI信用卡新权益，吸引年轻客群，提升银行竞争力。"
+  },
+  "eb29ca911b6ff7f3aca88ed3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中通快递员因未通知用户导致投诉后辱骂用户，官方暂停其工作，网友质疑处罚过轻。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "快递物流",
+    "stocks": [],
+    "reason": "事件涉及快递服务纠纷，非财经重大事件，对上市公司影响有限，不进入交易池。",
+    "catalyst": "快递服务质量问题引发舆论关注，但无直接财务影响。"
+  },
+  "5e319c47ff3c489088a1f036": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美股AI应用巨头Applovin财报不及预期，盘前暴跌17%，引发市场对AI应用前景担忧。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "AI应用",
+    "stocks": [],
+    "reason": "新闻涉及美股公司，未点名A股个股，但可能影响A股AI应用板块情绪，建议关注相关标的。",
+    "catalyst": "AI应用业绩不及预期，市场担忧行业增长放缓。"
+  },
+  "5b3257b4bc9fd1551cf65c29": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "猪价反弹后回落，供大于求，三季度反转预期落空，四季度或温和抬升。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "养殖业",
+    "stocks": [
+      {
+        "name": "温氏股份",
+        "code": "300498"
+      }
+    ],
+    "reason": "新闻明确提及温氏股份，猪价下跌利空养殖板块，但产能去化或带来长期机会。",
+    "catalyst": "猪价止涨回落，产能去化加速，关注四季度需求旺季。"
+  }
+}
