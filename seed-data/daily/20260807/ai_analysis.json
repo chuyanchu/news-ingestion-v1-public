@@ -1,0 +1,621 @@
+{
+  "51a1be709b098fff4e5d4841": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "稻草熊娱乐上半年亏损扩大十倍，因剧集播映减少，行业供需双降。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "影视",
+    "stocks": [],
+    "reason": "新闻涉及港股影视公司，未点名A股，但反映影视行业下行，可关注A股影视板块风险。",
+    "catalyst": "剧集市场收缩，平台排播放缓，公司存货高企，流动性压力。"
+  },
+  "d1787d2df94278d8a8291e7e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "信托业转型成效显现，营收利润双增，标品信托和资产服务信托成增长引擎，行业集中度提升。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "信托",
+    "stocks": [],
+    "reason": "信托行业基本面改善，盈利修复，转型方向明确，利好信托板块及相关金融股。",
+    "catalyst": "信托三分类新规过渡期结束，行业转型加速，标品投资和资产服务信托驱动增长。"
+  },
+  "98aad0a3f95c2e8438625c16": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华帝借势张凌赫主演热剧《这一秒过火》进行品牌营销，实现年轻化破圈，品牌声量提升。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "华帝品牌营销成功，提升品牌知名度和年轻化形象，利好消费板块，但未点名具体上市公司。",
+    "catalyst": "热剧营销带动品牌声量，提升市场关注度。"
+  },
+  "88b5f497e9700115e3cac7bd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金融监管总局原局长李云泽因严重违纪违法被罢免全国人大代表职务，丁向群接任。",
+    "impact": "neutral",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "金融监管高层变动影响金融监管政策预期，但未直接点名上市公司，对市场影响间接。",
+    "catalyst": "金融监管人事变动，关注政策连续性。"
+  },
+  "f5c6d325d1c41eb6fae5d63a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行连续21个月增持黄金，7月外汇储备增加25亿美元，黄金储备增持规模扩大。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "黄金",
+    "stocks": [],
+    "reason": "央行增持黄金利好黄金板块，外汇储备稳定反映经济韧性，但未点名具体个股。",
+    "catalyst": "央行连续增持黄金，黄金储备规模扩大。"
+  },
+  "8811097b46b17bd683b0bada": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "网红牙膏品牌BOP因虚假宣传再被罚，行业乱象频出，监管趋严但违法成本低。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及消费行业虚假宣传，影响行业声誉，但未点名A股公司，不进入交易池。",
+    "catalyst": "监管处罚或引发行业整顿，关注合规风险。"
+  },
+  "b9bc8a05d73f9e46c477593a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数均涨超1%，CRO、CPO、PCB等概念走强，超2800只个股上涨，成交额逾2.6万亿。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "义翘神州",
+        "code": "301047"
+      },
+      {
+        "name": "沃格光电",
+        "code": "603773"
+      },
+      {
+        "name": "景旺电子",
+        "code": "603228"
+      },
+      {
+        "name": "中国稀土",
+        "code": "000831"
+      }
+    ],
+    "reason": "市场普涨，热点明确，成交活跃，涉及多个强势板块，具备交易机会。",
+    "catalyst": "CRO、CPO、PCB等概念领涨，市场情绪高涨，资金涌入。"
+  },
+  "16e4f16dd378fb5e2e5271d8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技IPO定价150.8元，预计募资61亿，市值610亿，成A股人形机器人第一股，行业从技术转向商业化。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "宇树科技上市将重塑机器人板块估值，带动产业链关注，但未点名具体A股公司，故不进入个股池。",
+    "catalyst": "人形机器人第一股上市，行业盈利验证开启，商业化能力成核心。"
+  },
+  "210bfa845c821463ca8833dc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "摩根士丹利改口看好存储板块，认为估值具吸引力，AI需求是结构性改变，存储芯片股大涨。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "红板科技",
+        "code": ""
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "德福科技",
+        "code": ""
+      },
+      {
+        "name": "国科微",
+        "code": "300672"
+      },
+      {
+        "name": "正帆科技",
+        "code": "688596"
+      }
+    ],
+    "reason": "大行转多，存储板块催化明确，相关个股活跃，可关注交易机会。",
+    "catalyst": "摩根士丹利改口看好存储，AI需求驱动，估值具吸引力。"
+  },
+  "b6bf37766dc014ebd0f7be40": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "大东方因信披违规收警示函，2025年预亏1.75-2.35亿，投资者可索赔。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "大东方",
+        "code": "600327"
+      }
+    ],
+    "reason": "公司信披违规且业绩预亏，负面消息或致股价承压，暂不进入交易池。",
+    "catalyst": "信披违规警示函及业绩亏损，引发投资者维权索赔。"
+  },
+  "1468b7d21074e7350ccaabf7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "存储芯片板块迎来利好消息，海力士盘后发布积极信息，市场情绪回暖，股指收涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "存储芯片利好直接提振半导体板块，市场情绪积极，但未点名具体A股公司，影响偏板块性。",
+    "catalyst": "海力士盘后利好消息，存储芯片需求预期改善。"
+  },
+  "5045cb69c41bcd4ed9312b84": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股PCB、6G、创新药概念活跃，宝鼎科技6天5板，高盛上调AI服务器PCB预测，创新药业绩向好。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宝鼎科技",
+        "code": "002552"
+      },
+      {
+        "name": "景旺电子",
+        "code": "603228"
+      },
+      {
+        "name": "逸豪新材",
+        "code": "301176"
+      },
+      {
+        "name": "胜宏科技",
+        "code": "300476"
+      },
+      {
+        "name": "生益科技",
+        "code": "600183"
+      },
+      {
+        "name": "通宇通讯",
+        "code": "002792"
+      },
+      {
+        "name": "武汉凡谷",
+        "code": "002194"
+      },
+      {
+        "name": "广哈通信",
+        "code": "300711"
+      }
+    ],
+    "reason": "PCB和6G受AI算力需求驱动，创新药业绩改善，板块活跃度高，有持续催化。",
+    "catalyst": "高盛上调AI服务器PCB预测，创新药业绩超预期。"
+  },
+  "e8b3cdf3a3ba92e73338aef6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国央行连续第21个月增持黄金，7月末黄金储备增至7608万盎司。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [],
+    "reason": "央行持续增持黄金，利好黄金板块，但新闻未点名具体A股公司。",
+    "catalyst": "央行连续增持黄金，凸显避险需求，提振金价预期。"
+  },
+  "a30f6ad999e784ea07041bd6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国际金价大涨，现货黄金突破4300美元，中国央行连续21个月增持黄金，7月增持64万盎司。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [],
+    "reason": "央行增持黄金显示避险需求，金价上涨利好黄金板块，但新闻未点名具体A股公司，建议关注黄金股。",
+    "catalyst": "央行连续增持黄金，国际金价突破4300美元"
+  },
+  "3057ee3c14cbd25fc77d1391": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "民航局等三部门联合印发《民用航空发展“十五五”规划》，明确2030年发展目标。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "规划利好民航及低空经济，政策催化明确，但未点名具体公司，影响偏中长期。",
+    "catalyst": "十五五规划明确民航发展目标，推动低空经济基础设施建设。"
+  },
+  "292e14a3667662b2fc3be975": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普签令对进口多晶硅及衍生产品设最低进口价并加征15%关税，短期利多长期利空，关注出口数据及期货表现。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策影响多晶硅市场，短期抢装利多，长期价格承压，方向不明，暂不进入交易池。",
+    "catalyst": "美国关税政策引发抢装，关注出口数据及期货验证。"
+  },
+  "c2022de64efa415a7c1d2cc0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "百川股份2026年上半年净利润增长31%，锂电新材料业务高速增长，收入占比提升，毛利率改善。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "百川股份",
+        "code": "002455"
+      }
+    ],
+    "reason": "业绩增长超预期，新材料业务高增长，盈利能力提升，利好股价。",
+    "catalyst": "锂电新材料业务高速增长，毛利率提升，结构转型见效。"
+  },
+  "8ef1c4de05fcdc6db57b4399": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "开源证券股东曲江金控拟2.1亿元清仓转让全部股份，曲江金控连续两年亏损。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "券商股权变动，但规模小，对行业影响有限，曲江金控亏损或引发关注。",
+    "catalyst": "股东清仓转让，可能反映中小券商股权流动性问题。"
+  },
+  "cd21221ed92dec276e8a9115": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "龙源技术展示火电节能环保与数字化改造技术，强调存量机组改造市场空间。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "龙源技术",
+        "code": "300105"
+      }
+    ],
+    "reason": "新闻明确点名龙源技术，展示其技术优势与市场前景，可能吸引市场关注。",
+    "catalyst": "火电低碳改造与智能化升级需求释放。"
+  },
+  "2b573770d6039d2dd42b4a5b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "创新药板块持续走强，多家企业业绩预喜，政策与BD交易利好共振。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "百花医药",
+        "code": "600721"
+      },
+      {
+        "name": "毕得医药",
+        "code": ""
+      },
+      {
+        "name": "凯莱英",
+        "code": ""
+      },
+      {
+        "name": "哈药股份",
+        "code": ""
+      },
+      {
+        "name": "哈三联",
+        "code": ""
+      },
+      {
+        "name": "康龙化成",
+        "code": ""
+      },
+      {
+        "name": "药明康德",
+        "code": ""
+      },
+      {
+        "name": "泽璟制药-U",
+        "code": ""
+      }
+    ],
+    "reason": "创新药板块受政策、业绩和BD交易多重利好驱动，景气度高，个股活跃，值得关注。",
+    "catalyst": "创新药业绩预喜，BD交易额超千亿美元，政策支持，板块持续走强。"
+  },
+  "91a976641356fba9850efe60": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股8月7日震荡反弹，沪指涨1.02%，成交放量，本周四连涨为下半年首次，创新药、PCB等板块活跃。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场整体上涨，成交放量，板块活跃，但未点名具体个股，影响偏正面。",
+    "catalyst": "市场情绪回暖，成交放量，板块轮动活跃。"
+  },
+  "b5d8d9a8d8379b6dcd63237d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三峡能源发行东北首单能源公募REITs，募资40亿元，底层资产为大连庄河海上风电项目，成功上市。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "三峡能源",
+        "code": "600905"
+      }
+    ],
+    "reason": "利好原始权益人三峡能源，盘活存量资产，降低杠杆，提升绿色资产流转效率。",
+    "catalyst": "公募REITs上市，盘活存量资产，拓宽融资渠道。"
+  },
+  "890f7c3b27009a1bf59d7d81": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "前7个月我国进口增速快于出口8个百分点，大宗商品和机电产品进口增长显著，已对63国实施零关税。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "进口增长反映内需强劲，利好消费和进口相关板块，但无直接点名个股，整体影响偏正面。",
+    "catalyst": "主动扩大进口，零关税政策促进贸易平衡，进口增速快于出口。"
+  },
+  "e64369a70dfa9000cd3bda5d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "市场监管总局上半年审查政策措施3万余件，修改调整6600余件，推进全国统一大市场建设。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策监管动态，对市场整体中性，无直接板块或个股影响。",
+    "catalyst": "公平竞争审查制度专项行动推进，优化市场环境。"
+  },
+  "6d5f42a9b1cd8155540c327d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "创新药板块午后大涨，六大龙头业绩超预期，AI制药带来重估，CXO景气度提升。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "药明康德",
+        "code": "603259"
+      },
+      {
+        "name": "百济神州",
+        "code": "688235"
+      },
+      {
+        "name": "百奥赛图",
+        "code": "688331"
+      },
+      {
+        "name": "昭衍新药",
+        "code": "603127"
+      },
+      {
+        "name": "赛分科技",
+        "code": "688758"
+      },
+      {
+        "name": "康龙化成",
+        "code": "300759"
+      },
+      {
+        "name": "美迪西",
+        "code": "688202"
+      },
+      {
+        "name": "百普赛斯",
+        "code": "301080"
+      }
+    ],
+    "reason": "新闻明确点名多家A股创新药及CXO公司，业绩超预期且板块大涨，催化明确。",
+    "catalyst": "六大龙头业绩超预期，AI制药放大需求，CXO景气度提升。"
+  },
+  "5765802c4c1e563cce642fb5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "创新药板块午后大涨，六大龙头业绩超预期，AI制药带来重估，CXO景气度提升。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "药明康德",
+        "code": "603259"
+      },
+      {
+        "name": "百济神州",
+        "code": "688235"
+      },
+      {
+        "name": "百奥赛图",
+        "code": ""
+      },
+      {
+        "name": "昭衍新药",
+        "code": "603127"
+      },
+      {
+        "name": "赛分科技",
+        "code": ""
+      },
+      {
+        "name": "百普赛斯",
+        "code": "301080"
+      },
+      {
+        "name": "美迪西",
+        "code": "688202"
+      },
+      {
+        "name": "康龙化成",
+        "code": "300759"
+      }
+    ],
+    "reason": "创新药业绩超预期，AI制药放大需求，板块景气度提升，龙头股受益明显。",
+    "catalyst": "业绩超预期+AI制药重估+订单改善传导"
+  },
+  "b7b8eeb67fb4b13f975e928f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "八大多晶硅企业签署反内卷倡议，承诺不得低于成本价销售，并主动出清高耗能落后产能。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "通威股份",
+        "code": "600438"
+      },
+      {
+        "name": "协鑫科技",
+        "code": ""
+      },
+      {
+        "name": "大全能源",
+        "code": "688303"
+      },
+      {
+        "name": "新特能源",
+        "code": ""
+      }
+    ],
+    "reason": "行业龙头联合限价保价，利好光伏硅料板块盈利修复，相关上市公司直接受益。",
+    "catalyst": "反内卷倡议落地，硅料价格有望企稳回升。"
+  },
+  "3f732b87eb7a774b2459506a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "来福车Q2订单增长超预期，但Q3指引放缓，股价涨6%。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "网约车",
+    "stocks": [],
+    "reason": "涉及美股来福车，未点名A股公司，但行业趋势可关注。",
+    "catalyst": "来福车Q2业绩超预期，自动驾驶合作推进。"
+  },
+  "75b7cb5e4befcd0b9b5bb26e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "频准激光今日科创板申购，发行价186.88元，募资18.69亿，主营精准激光器，用于量子科技和半导体领域。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新股申购，未上市，但涉及半导体和量子科技，对相关板块有情绪提振。",
+    "catalyst": "科创板新股申购，量子科技与半导体概念受关注。"
+  },
+  "759fe82e8d3438bd1d1861f1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华帝两度押中世界杯冠军，营销转向文化驱动，品牌曝光显著，展现行业转型与硬实力。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "华帝营销成功提升品牌价值，利好消费板块，但未点名具体A股公司，不直接进入交易池。",
+    "catalyst": "世界杯营销提升品牌曝光，文化驱动策略增强竞争力。"
+  }
+}
