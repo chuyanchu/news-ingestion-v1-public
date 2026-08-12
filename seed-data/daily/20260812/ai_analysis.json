@@ -1,0 +1,542 @@
+{
+  "33de0b261501aa1f407d6046": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华裔加密货币投资人叶俊德在巴拉圭坠亡，其旗下管理资产24亿美元，事件引发市场关注。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "加密货币",
+    "stocks": [],
+    "reason": "新闻涉及加密货币行业人物意外事件，但未直接关联A股上市公司，对A股影响有限。",
+    "catalyst": "加密货币行业风险事件，可能引发对虚拟资产监管的讨论。"
+  },
+  "f98bd5ac35cbeb79eb61c0c4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "东方电热子公司温擎智控机器人热管理基地投产，进入规模化交付，覆盖头部客户。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "东方电热",
+        "code": "300217"
+      }
+    ],
+    "reason": "公司率先实现机器人液冷方案批量交付，技术壁垒高，客户覆盖广，业绩弹性大。",
+    "catalyst": "机器人热管理刚需爆发，公司进入规模化交付阶段。"
+  },
+  "d5254b91e78d3da92a183d87": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "名创优品就一次性内裤破损舆情发布说明，但具体内容未披露，影响有限。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻未点名具体A股公司，且内容不明确，对市场影响小，不进入交易池。",
+    "catalyst": "舆情应对，但缺乏实质信息。"
+  },
+  "01ee103b02bc972e1d99d7a4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "腾讯2027校招全面拥抱AI，新增AI原生岗位，人才标准迭代，AI投入持续加大。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "腾讯AI战略加码，利好AI产业链，但未点名具体A股公司，不直接构成个股催化。",
+    "catalyst": "AI人才争夺战升级，腾讯AI投入持续增长，行业景气度提升。"
+  },
+  "aced12335984c24a23ec879c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "市场监管总局整治驾培行业垄断，查处多起抱团涨价、协会串谋案件，涉及多地驾校。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "驾培",
+    "stocks": [],
+    "reason": "新闻涉及驾培行业监管，但未点名上市公司，对A股影响有限，不进入交易池。",
+    "catalyst": "反垄断执法加强，驾培行业规范化，但无直接受益标的。"
+  },
+  "d9441f9f049ec5a972df7cdb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "四大行重启5年期大额存单，利率高于定期，但或为阶段性揽储，非利率触底信号。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及银行业负债管理，对银行股影响中性，未点名具体公司，不进入交易池。",
+    "catalyst": "银行重启长期存单，反映负债成本压力与利率下行预期。"
+  },
+  "23bb08ce8edff5a0a4ef3e0f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国政府撤销联邦设备TikTok禁令，因重组后不再构成威胁。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "互联网",
+    "stocks": [],
+    "reason": "利好TikTok及出海互联网企业，但未点名A股公司，影响间接。",
+    "catalyst": "美国政策松绑，TikTok业务重组后风险解除。"
+  },
+  "d430a8a2e7ec456b6ec35fcd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "腾讯Q2营收2047.9亿元同比增11%，资本开支大增176%加码AI，游戏和营销服务增长强劲。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "腾讯业绩超预期，AI投入加大，利好AI算力产业链，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "腾讯资本开支大增，AI模型迭代，云服务受惠AI增量，带动AI算力需求。"
+  },
+  "1333ba30856f4ec55933d3ab": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "氢能产业加速商业化，蓝盾光电连续涨停，国家能源局发布氢能报告，15只概念股业绩报喜。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "蓝盾光电",
+        "code": "300862"
+      },
+      {
+        "name": "潞化科技",
+        "code": ""
+      },
+      {
+        "name": "龙蟠科技",
+        "code": ""
+      },
+      {
+        "name": "厚普股份",
+        "code": ""
+      }
+    ],
+    "reason": "氢能产业政策利好，商业化加速，相关概念股业绩增长，蓝盾光电涨停，具备交易机会。",
+    "catalyst": "国家能源局发布氢能报告，氢能产业进入商业化加速期。"
+  },
+  "e8a57aea7c0eaebdc71bfa96": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国7月CPI今晚公布，市场预期温和，或影响9月加息预期，数据超预期将令美联储承压。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "宏观",
+    "stocks": [],
+    "reason": "宏观数据影响全球市场，但未直接关联A股板块，需观察数据结果及市场反应。",
+    "catalyst": "CPI数据或改变美联储加息预期，影响全球风险偏好。"
+  },
+  "228d715f522cbaa7eb5a5869": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "ST逸飞摘帽，股票停牌一天后复牌，撤销其他风险警示，证券简称变更为逸飞激光。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "激光设备",
+    "stocks": [
+      {
+        "name": "逸飞激光",
+        "code": "688646"
+      }
+    ],
+    "reason": "摘帽利好，公司基本面改善，但业绩亏损，需关注后续经营。",
+    "catalyst": "撤销其他风险警示，股票简称变更，流动性改善。"
+  },
+  "4535feb7acdd2ea23f5d2308": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国研发投入首超美国居全球第一，AI算力、人形机器人等领域领先，国产AI芯片份额有望提升。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻显示中国科技创新实力增强，利好AI、半导体、机器人等板块，但未点名具体个股。",
+    "catalyst": "研发投入全球第一，AI芯片国产化加速，人形机器人出货量占全球97%。"
+  },
+  "f20075c68e666638a9219c05": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股小幅走高，房地产、光通信板块走强，主力资金净流入电子、通信等行业。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "通信",
+    "stocks": [
+      {
+        "name": "永鼎股份",
+        "code": "600105"
+      },
+      {
+        "name": "亚泰集团",
+        "code": ""
+      },
+      {
+        "name": "首开股份",
+        "code": ""
+      },
+      {
+        "name": "荣盛发展",
+        "code": ""
+      },
+      {
+        "name": "城建发展",
+        "code": ""
+      },
+      {
+        "name": "滨江集团",
+        "code": ""
+      },
+      {
+        "name": "新城控股",
+        "code": ""
+      },
+      {
+        "name": "联瑞新材",
+        "code": ""
+      }
+    ],
+    "reason": "房地产政策利好及光通信资金流入，市场情绪积极，相关个股活跃。",
+    "catalyst": "北京房地产政策优化，光通信板块资金大幅流入。"
+  },
+  "b71ec372c2995517358a4b93": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沪深交易所将机房内交易行情接入方式由局域网统一变更为广域网，量化交易速度优势被拉平，高频交易受影响。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "监管政策调整影响量化交易生态，但未点名具体上市公司，对券商影响中性。",
+    "catalyst": "交易接入方式统一，量化交易速度竞赛拉平，监管趋严。"
+  },
+  "3e14ea5aad9e30051fa97e1e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "DeepSeek Harness团队公众号注册，V4-Flash模型登顶全球调用榜，标志其向AI工作流解决方案转型。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "DeepSeek技术进展和商业化转型利好AI算力产业链，但未点名具体A股公司。",
+    "catalyst": "DeepSeek Harness内测及V4-Flash登顶，提升AI应用预期。"
+  },
+  "fc2c93261173229597614510": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技IPO获机构热捧，62家百亿私募获配3.44亿元，公募获配18.2亿元，人形机器人业务成增长引擎。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "人形机器人龙头IPO获机构抢筹，显示行业高景气，但未点名具体A股公司，不直接构成个股催化。",
+    "catalyst": "宇树科技IPO获热捧，人形机器人产业化加速，带动板块关注度提升。"
+  },
+  "368e6002e8a9fca04a14ffd2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "蓝盾光电连续三天20%涨停，因拟收购岚创科技布局光通信上游镀膜设备，市场反应积极。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "光通信",
+    "stocks": [
+      {
+        "name": "蓝盾光电",
+        "code": "300862"
+      }
+    ],
+    "reason": "重组利好，光通信上游设备稀缺，连续涨停显示资金追捧，可关注。",
+    "catalyst": "收购岚创科技切入光通信上游，受益算力基建扩产潮。"
+  },
+  "b2afe4fcb5278b7443f058b8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "阿里千问前技术负责人林俊旸在上海创办语用科技，获高榕、红杉等投资，估值20亿美元，聚焦下一代智能体。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI明星创业者获巨额融资，显示资本对AI智能体赛道看好，利好AI算力及大模型产业链。",
+    "catalyst": "顶级AI人才创业获高估值融资，催化AI应用及算力需求预期。"
+  },
+  "07e3b83c10dfbf2a2f6f3ddb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行将在8月14日及17-19日开展隔夜逆回购操作，每日不超过6000亿元，以匹配短期流动性需求。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "央行逆回购操作释放流动性，利好银行板块，但未点名具体个股，重要性中等偏高。",
+    "catalyst": "央行公开市场操作，增加短期流动性，稳定资金面。"
+  },
+  "08d93e60632a859d74fdb3bb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "光通信板块爆发，炬光科技涨停，AI服务器资本开支上修，行业景气度高。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "通信",
+    "stocks": [
+      {
+        "name": "炬光科技",
+        "code": "688167"
+      },
+      {
+        "name": "长盈通",
+        "code": ""
+      },
+      {
+        "name": "至纯科技",
+        "code": ""
+      },
+      {
+        "name": "通鼎互联",
+        "code": ""
+      },
+      {
+        "name": "长光华芯",
+        "code": ""
+      }
+    ],
+    "reason": "光通信板块领涨，AI资本开支上修，龙头涨停，行业景气度提升，可关注。",
+    "catalyst": "AI服务器需求爆发，光互联价值量提升，资本开支超预期。"
+  },
+  "225463322a5a6b9506a81202": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普政府面临降息与长债收益率上行的政策困境，10年期美债收益率逼近5%，CPI数据成关键。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "债券市场",
+    "stocks": [],
+    "reason": "新闻聚焦美债收益率与美联储政策，对A股无直接点名个股，但影响全球风险偏好，可能压制A股估值。",
+    "catalyst": "美债收益率上行、通胀预期升温、美联储政策不确定性"
+  },
+  "02c46a61855eb3e9693e9223": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国7月CPI数据将影响美联储9月加息预期，核心通胀是关键，市场关注通胀能否回落至2%目标。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻聚焦美国宏观数据，对A股无直接点名个股，但可能影响全球风险偏好，间接影响A股市场。",
+    "catalyst": "美国CPI数据公布，影响美联储加息预期，进而影响全球资本市场。"
+  },
+  "095b9ed53b3aed63d0a4ef2c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "创新药概念活跃，百花医药7连板提示风险；影视院线、算力租赁等板块走强。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "百花医药",
+        "code": "600721"
+      },
+      {
+        "name": "万邦医药",
+        "code": ""
+      },
+      {
+        "name": "誉衡药业",
+        "code": ""
+      },
+      {
+        "name": "哈药股份",
+        "code": ""
+      },
+      {
+        "name": "美迪西",
+        "code": ""
+      },
+      {
+        "name": "百诚医药",
+        "code": ""
+      },
+      {
+        "name": "皇氏集团",
+        "code": ""
+      },
+      {
+        "name": "今世缘",
+        "code": ""
+      }
+    ],
+    "reason": "新闻涉及多个热点板块，创新药、影视、算力等，市场情绪积极，但个股风险提示需注意。",
+    "catalyst": "上海政策支持生物医药创新，暑期档电影票房预期，算力集群规划等。"
+  },
+  "43bd5c57a35cb745babfbea2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中银基金执行总裁张家文卸任，陈卫星代履职，下半年公募高管变动频繁。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "公募基金",
+    "stocks": [],
+    "reason": "新闻涉及基金公司高管变动，对A股市场影响中性，不直接关联具体板块或个股。",
+    "catalyst": "高管变动可能影响公司治理，但短期对市场无直接催化。"
+  },
+  "1d44e14ab821ff9ea4ed9990": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI挤占存储产能致电脑涨价，国产存储扩产或明年下半年缓解。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻提及长鑫科技、长江存储但未上市，无明确A股标的，影响行业但非直接交易信号。",
+    "catalyst": "AI需求挤占存储产能，国产存储扩产预期。"
+  },
+  "1939a0ad63c1048662bbedfc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "阿联酋提出短途转运策略，将伊拉克原油运出霍尔木兹海峡，以应对伊朗战争风险，有助于抑制油价上涨。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "原油供应增加预期压制油价，利空新能源替代逻辑，但未点名A股公司。",
+    "catalyst": "中东原油运输新通道，缓解供应担忧，油价承压。"
+  },
+  "307fca20b2e72f4bd0e96048": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "高德发布扫街榜2026，上榜商家订单量大幅增长，覆盖城市扩大，新增品类。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "高德榜单促进线下消费，利好消费板块，但未点名具体A股公司。",
+    "catalyst": "高德扫街榜发布，上榜商家订单量增长，带动消费。"
+  },
+  "9eecfbe5495c03b6d4d68e47": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中央安全生产考核巡查组暗访云南，发现施工隐患扎堆，部分项目查而不改、停而不纠，问题突出。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "安全生产",
+    "stocks": [],
+    "reason": "新闻涉及安全生产监管，对相关行业有警示作用，但未点名具体公司，不直接进入交易池。",
+    "catalyst": "安全生产检查趋严，可能影响相关企业运营。"
+  },
+  "dc603910d01ff8c4a0efeb0c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "鲁抗医药甲磺酸仑伐替尼、布瑞哌唑原料药上市申请获批，利好公司发展。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "鲁抗医药",
+        "code": "600789"
+      }
+    ],
+    "reason": "公司获得原料药批准，增强产品线，提升竞争力，属于实质性利好。",
+    "catalyst": "原料药获批，有望贡献业绩增量。"
+  },
+  "33c4ba5f54c3164e6703c594": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "创业板改革加速，聚焦优质创新，推动技术势能向产业动能转化，构建多层次资本市场体系。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "新能源",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      }
+    ],
+    "reason": "新闻强调创业板改革利好创新企业，提及宁德时代、中际旭创等龙头，相关板块受益。",
+    "catalyst": "创业板改革深化，优质创新企业获资本支持，技术转化加速。"
+  }
+}

@@ -1,0 +1,4 @@
+{"source": "新浪财经", "source_id": "sina_finance", "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytm3591282.shtml", "error": "HTTP Error 404: Not Found", "crawled_at": "2026-08-12T17:35:28.310443+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4070368.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-08-12T17:39:24.737558+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4070306.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-08-12T17:39:24.737558+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4048082.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-08-12T17:39:24.737558+08:00"}
