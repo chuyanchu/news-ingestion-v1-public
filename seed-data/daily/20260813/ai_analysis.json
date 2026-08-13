@@ -1,0 +1,629 @@
+{
+  "0334e2af1e39210a889070e1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "康师傅上半年业绩稳健，即饮茶增长9.1%，方便面重回增长，高端化策略显效。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "消费龙头业绩超预期，显示行业韧性，利好消费板块情绪。",
+    "catalyst": "即饮茶和方便面业务增长，高端化策略成功。"
+  },
+  "5bf84848e5af1cebdbc12eed": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股冲高回落，三大指数收跌，超4300股下跌，成交额放量，医药、算力等板块活跃。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场情绪转弱，尾盘跳水，但医药和算力板块有结构性机会，可关注相关个股。",
+    "catalyst": "市场放量调整，资金博弈加剧，关注医药和算力板块的持续性。"
+  },
+  "4f5f9c66161c68d53c3a3e8d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行发布二季度货币政策报告，强调加大逆周期调节力度，谋划增量政策，扩大内需。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险",
+      "房地产",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "央行释放宽松信号，利好金融、地产及消费板块，政策预期提升市场风险偏好。",
+    "catalyst": "增量政策与逆周期调节，流动性宽松预期增强。"
+  },
+  "da5d23a4fe0582d3023a637b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技市值超越腾讯，成为中国市值最大上市公司，半导体行业地位凸显。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "长鑫科技为未上市或非A股，但事件凸显半导体行业景气，利好相关板块。",
+    "catalyst": "长鑫科技市值登顶，半导体国产替代加速。"
+  },
+  "fe0b8fd8fe8764f4bdd5d495": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "郭德纲武汉演出改编红歌未报备，被文旅局立案调查，德云社未回应。",
+    "impact": "negative",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "文化传媒",
+    "stocks": [],
+    "reason": "事件涉及演艺行业监管，但未点名A股公司，对市场影响有限。",
+    "catalyst": "演出内容合规风险，可能影响相关演艺公司估值。"
+  },
+  "6027dd35290426c504cb7c53": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "MSCI中国指数调整，纳入33股剔除32股，涉及AI、医药等，8月31日生效。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "凯莱英",
+        "code": "002821"
+      },
+      {
+        "name": "铜冠铜箔",
+        "code": "301217"
+      },
+      {
+        "name": "屹唐股份",
+        "code": "688478"
+      },
+      {
+        "name": "华峰测控",
+        "code": "688200"
+      }
+    ],
+    "reason": "指数调整带来被动资金调仓，相关个股短期或有交易性机会，但影响有限。",
+    "catalyst": "MSCI指数纳入，被动资金配置需求增加。"
+  },
+  "cde04ed0a8a3ba41f33c6206": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日本政府支持央行近期加息，概率达74%，可能影响全球流动性及风险资产。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "外汇与利率",
+    "stocks": [],
+    "reason": "日本加息可能引发套息交易逆转，导致全球风险资产承压，A股或受流动性冲击。",
+    "catalyst": "日本央行9月或10月加息预期升温"
+  },
+  "f548ce92ba4ac68a23bb1dd3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行将于8月14日开展10000亿元买断式逆回购操作，期限6个月，以保持银行体系流动性充裕。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "大规模流动性投放利好银行板块，提升市场资金面预期，但未点名具体个股。",
+    "catalyst": "央行大额逆回购释放流动性，利好银行资金成本与信贷投放。"
+  },
+  "443790938a917e048f578ede": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部裁定继续对原产于印度的进口单模光纤征收反倾销税，实施期限5年。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "通信"
+    ],
+    "suggested_sector": "通信",
+    "stocks": [],
+    "reason": "反倾销利好国内光纤产业，但新闻未点名具体A股公司，影响板块整体。",
+    "catalyst": "贸易保护措施延续，国内光纤企业受益于竞争减少。"
+  },
+  "6ba95cc852cf68dde6cf097d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股高开，算力租赁、食品饮料、PCB等板块活跃，蓝盾光电4连板。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "城地香江",
+        "code": "603887"
+      },
+      {
+        "name": "群兴玩具",
+        "code": "002575"
+      },
+      {
+        "name": "中鼎股份",
+        "code": "000887"
+      },
+      {
+        "name": "宏景科技",
+        "code": "301396"
+      },
+      {
+        "name": "鸿博股份",
+        "code": "002229"
+      },
+      {
+        "name": "同力天启",
+        "code": ""
+      },
+      {
+        "name": "金开新能",
+        "code": "600821"
+      },
+      {
+        "name": "晶科科技",
+        "code": "601778"
+      }
+    ],
+    "reason": "新闻涉及多个热点板块，个股涨停潮，市场情绪积极，有明确催化剂。",
+    "catalyst": "AI算力需求爆发，美股算力租赁业绩超预期，带动A股相关概念。"
+  },
+  "55b29d2facb4bec8fdbf9f2c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普宣布白宫新闻秘书莱维特8月底卸任，转任首席外部顾问并助共和党备战中期选举。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政治人事变动，与A股市场无直接关联，不进入交易池。",
+    "catalyst": "无"
+  },
+  "158186fa60e785a5bd9ffc8e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国楼市销量降至2008年危机初期水平，AI繁荣或掩盖经济衰退风险，传统经济疲弱。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及美国楼市风险及经济衰退担忧，对A股房地产板块情绪有负面影响，但无直接点名个股。",
+    "catalyst": "美国楼市低迷及AI掩盖衰退风险，可能引发全球市场避险情绪。"
+  },
+  "472b2238de91c8e8f389707a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "寒武纪业绩说明会回应存货高企、供应链及新产品进展，上半年营收净利大增。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "寒武纪",
+        "code": "688256"
+      }
+    ],
+    "reason": "公司业绩高增，AI芯片龙头，但存货风险需关注，整体利好。",
+    "catalyst": "AI算力需求旺盛，新产品研发推进，业绩超预期。"
+  },
+  "051a7d49329e7821669d7c22": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日韩股市大幅高开，存储芯片股大涨，黄金白银拉升，美国CPI降温降低加息预期。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "存储芯片涨价预期升温，利好半导体板块，但未点名A股个股。",
+    "catalyst": "美国CPI降温，美联储加息预期降低，全球风险偏好提升，存储芯片需求旺盛。"
+  },
+  "c7fe14b2609572d97129f3db": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普对伊朗经济制裁与海上封锁，专家认为难以打破僵局，伊朗反制封锁霍尔木兹海峡，影响全球油气运输。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油天然气",
+    "stocks": [],
+    "reason": "地缘政治事件影响全球能源供应，但未直接点名A股公司，对A股影响间接，暂不进入交易池。",
+    "catalyst": "美伊对峙升级，霍尔木兹海峡封锁风险推升油价，关注能源板块。"
+  },
+  "38b9c9bd21e7d01d11190bd0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海发布算力补贴政策，支持民企租用智算资源，算力租赁概念股集体涨停。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "立昂技术",
+        "code": "300603"
+      },
+      {
+        "name": "中鼎股份",
+        "code": "000887"
+      },
+      {
+        "name": "群兴玩具",
+        "code": "002575"
+      },
+      {
+        "name": "利通电子",
+        "code": "603629"
+      },
+      {
+        "name": "宁波建工",
+        "code": "601789"
+      },
+      {
+        "name": "佳力图",
+        "code": "603912"
+      },
+      {
+        "name": "金开新能",
+        "code": "600821"
+      },
+      {
+        "name": "宏景科技",
+        "code": "301396"
+      }
+    ],
+    "reason": "政策利好叠加美股映射，算力租赁板块景气度高，相关个股活跃，可关注。",
+    "catalyst": "上海算力补贴政策发布，美股算力租赁股大涨，AI算力需求旺盛。"
+  },
+  "288e650d02514d300e5ab796": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "算力租赁概念爆发，龙头20cm涨停，行业进入业绩释放红利期，多股业绩大增。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "城地香江",
+        "code": "603887"
+      },
+      {
+        "name": "立昂技术",
+        "code": "300603"
+      },
+      {
+        "name": "佳力图",
+        "code": "603912"
+      },
+      {
+        "name": "利通电子",
+        "code": "603629"
+      },
+      {
+        "name": "欧陆通",
+        "code": "300870"
+      },
+      {
+        "name": "润泽科技",
+        "code": "300442"
+      },
+      {
+        "name": "莲花控股",
+        "code": "600186"
+      },
+      {
+        "name": "盛弘股份",
+        "code": "300693"
+      }
+    ],
+    "reason": "算力租赁行业景气度高，业绩释放，龙头涨停，政策催化明确，建议进入交易池。",
+    "catalyst": "美股AI算力租赁商业绩超预期，国内算力租赁涨价，行业进入量价齐升阶段。"
+  },
+  "01aae8061c7ea46e0e7ed96f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "新能源汽车行业被指“速成车”问题，官方出台新国标和监管措施，提高测试标准，行业面临规范化调整。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及行业监管收紧，对新能源车板块短期有负面影响，但长期利好行业健康发展，需关注相关车企。",
+    "catalyst": "新国标实施和测试里程提高，增加车企成本，短期利空，长期促进行业洗牌。"
+  },
+  "f481d7d3244fc9dc1706b312": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "伊朗将加入金砖国家新开发银行，推动本币贸易和货币合作，寻求美元替代。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "金砖银行扩容利好人民币国际化，对银行板块有正面催化，但无直接点名A股公司。",
+    "catalyst": "金砖国家本币结算和货币合作深化，人民币跨境使用预期增强。"
+  },
+  "21bce760c6560126410cda4e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行将开展隔夜逆回购操作，以匹配短期流动性需求，每日操作量不超过6000亿元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "央行流动性投放利好银行间市场，提升银行体系流动性，对银行板块构成积极影响。",
+    "catalyst": "央行逆回购操作增加流动性，利好银行板块。"
+  },
+  "1c695269daac2a31e014c1fb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "大空头Michael Burry警告英伟达AI扩张堪比安然，危害更大，引发市场对AI泡沫担忧。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "知名投资者看空AI龙头，可能引发市场对AI板块估值担忧，短期情绪利空。",
+    "catalyst": "大空头炮轰AI泡沫，市场情绪受挫。"
+  },
+  "e273e53c9f9da07e8e85d04a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股冲高回落，医药股领涨，电力股逆市拉升，资金流向医药、电力，AI科技行情未结束。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "电力",
+    "stocks": [
+      {
+        "name": "兰卫医学",
+        "code": "301060"
+      },
+      {
+        "name": "誉衡药业",
+        "code": "002437"
+      },
+      {
+        "name": "大唐发电",
+        "code": "601991"
+      },
+      {
+        "name": "京能电力",
+        "code": "601578"
+      },
+      {
+        "name": "梅雁吉祥",
+        "code": "600868"
+      },
+      {
+        "name": "华电辽能",
+        "code": "600396"
+      },
+      {
+        "name": "协鑫能科",
+        "code": "002015"
+      },
+      {
+        "name": "粤电力A",
+        "code": "000539"
+      }
+    ],
+    "reason": "医药板块资金持续流入，电力受高温催化，个股涨停或异动，具备交易机会。",
+    "catalyst": "高温用电负荷创新高，医药板块资金持续净流入。"
+  },
+  "0c18d874799791950af5946f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "春风动力获2.62亿元美国关税退税，预计增厚2026年净利1.83亿元，为A股最大规模退税。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "春风动力",
+        "code": "603129"
+      }
+    ],
+    "reason": "大额退税直接增厚利润，提升业绩确定性，且公司北美布局受益关税缓和，利好明显。",
+    "catalyst": "美国IEEPA法案退税落地，公司获2.62亿元退款，增厚净利超1.8亿元。"
+  },
+  "b5b623eda22cdec4bc27424a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国际金价反弹至4400美元，黄金ETF资金流入，央行连续增持，但短期追高风险需警惕。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "黄金",
+    "stocks": [
+      {
+        "name": "赤峰黄金",
+        "code": "600988"
+      }
+    ],
+    "reason": "金价上涨利好黄金板块，但短期涨幅大，注意回调风险。",
+    "catalyst": "美联储加息预期减弱，央行购金，避险需求升温。"
+  },
+  "1698fbaf2f9857e2a478ce34": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中芯国际二季度销售收入30亿美元，环比增20%，毛利率25.3%，三季度指引乐观，AI需求持续。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中芯国际",
+        "code": "688981"
+      }
+    ],
+    "reason": "业绩超预期且指引强劲，AI驱动半导体需求，龙头公司利好板块。",
+    "catalyst": "AI需求带动晶圆代工景气，业绩高增验证行业复苏。"
+  },
+  "d69d03e6de47d405ef292ace": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日本加息预期引发全球风险资产波动，A股午后跳水，创新药逆势活跃。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "陇神戎发",
+        "code": "300534"
+      },
+      {
+        "name": "万邦医药",
+        "code": "301520"
+      },
+      {
+        "name": "博济医药",
+        "code": "300404"
+      },
+      {
+        "name": "新里程",
+        "code": "002219"
+      },
+      {
+        "name": "药易购",
+        "code": "300937"
+      },
+      {
+        "name": "神奇制药",
+        "code": "600613"
+      },
+      {
+        "name": "佛慈制药",
+        "code": "002644"
+      },
+      {
+        "name": "晓程科技",
+        "code": "300139"
+      }
+    ],
+    "reason": "日本加息预期引发全球风险资产波动，A股放量下跌，短期承压，但创新药板块逆势活跃，可关注结构性机会。",
+    "catalyst": "日本央行加息预期引发套息交易平仓，全球风险资产承压，A股获利盘集中兑现。"
+  },
+  "03a0bdcbe5e05a5540a6348e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "马士基上调业绩指引，股价大涨，显示全球贸易需求强劲，航运景气度提升。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "航运巨头业绩超预期，反映全球贸易活跃，利好出海链相关公司。",
+    "catalyst": "马士基上调业绩指引，全球集装箱需求强劲。"
+  },
+  "4b83fc73d44c527eebc2e134": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "联想集团最新财季业绩超预期，AI服务器储备订单达3600亿元，股价大涨17%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI服务器订单激增，业绩超预期，利好AI算力产业链，但未点名A股公司。",
+    "catalyst": "AI服务器需求爆发，订单储备大幅增长，业绩超预期。"
+  },
+  "e841ef3b5fc29b90f228d847": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日本政府支持央行近期加息，9月加息概率74%，日元走强，日债收益率上升。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "日本货币政策",
+    "stocks": [],
+    "reason": "日本加息预期升温，可能引发全球资金流向变化，对A股流动性或有一定负面影响，但非直接关联。",
+    "catalyst": "日本央行加息预期升温，日元升值，全球风险偏好或受压制。"
+  },
+  "fc2285e8b124579d1790b068": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "盈方微拟8.97亿元收购上海肖克利，标的估值激增，关联交易引关注。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "盈方微",
+        "code": "000670"
+      }
+    ],
+    "reason": "重大资产重组，涉及估值和关联交易，影响公司基本面，但风险待考。",
+    "catalyst": "收购半导体标的，估值溢价高，关注后续审核及业绩承诺。"
+  }
+}
