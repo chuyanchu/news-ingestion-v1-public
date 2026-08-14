@@ -1,0 +1,606 @@
+{
+  "4dd4635c4513cda9a1131743": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "岚图汽车回应追光S隧道大回环视频质疑，称真实完成挑战，技术细节待披露。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及新能源车品牌营销事件，但未点名A股上市公司，对板块影响有限。",
+    "catalyst": "岚图汽车技术展示，可能提升品牌关注度，但缺乏直接投资催化。"
+  },
+  "83b6d8af7ae8456ef4575988": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "盈康生命2026半年报营收增20.56%，肿瘤业务高增，AI平台商业化，经营韧性凸显。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "盈康生命",
+        "code": "300143"
+      }
+    ],
+    "reason": "业绩增长超预期，肿瘤业务和AI平台进展积极，提升公司价值，建议关注。",
+    "catalyst": "半年报业绩高增，肿瘤业务放量，AI主动健康管理平台商业化验证。"
+  },
+  "7c875a96bc05b3598292c977": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "天微智能股权捐赠电子科技大学，加入成电品牌加持计划，深化产学研合作。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天微电子",
+        "code": "688511"
+      }
+    ],
+    "reason": "股权捐赠体现公司治理与社会责任，产学研合作利好长期发展，但短期业绩影响有限。",
+    "catalyst": "校企合作深化，品牌赋能，技术转化预期。"
+  },
+  "9af316de71b511a0a687533c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "片仔癀获2026中国中成药企业综合竞争力50强前五及医药工业综合竞争力百强，彰显行业领先地位。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "片仔癀",
+        "code": "600436"
+      }
+    ],
+    "reason": "公司获权威榜单认可，品牌与竞争力提升，利好股价表现。",
+    "catalyst": "荣登权威榜单，品牌价值凸显，业绩稳健增长。"
+  },
+  "05a5f06815d2ce7ce9f8246e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股高开，液冷服务器和CRO概念活跃，皇氏集团和同力天启跌停，博济医药连板。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "博济医药",
+        "code": "300404"
+      },
+      {
+        "name": "皇氏集团",
+        "code": "002329"
+      },
+      {
+        "name": "同力天启",
+        "code": "605286"
+      },
+      {
+        "name": "中石科技",
+        "code": "300684"
+      },
+      {
+        "name": "康盛股份",
+        "code": "002418"
+      },
+      {
+        "name": "共进股份",
+        "code": "603118"
+      },
+      {
+        "name": "星网锐捷",
+        "code": "002396"
+      },
+      {
+        "name": "紫光股份",
+        "code": "000938"
+      }
+    ],
+    "reason": "液冷服务器和CRO概念有政策及业绩催化，相关个股活跃，但需注意高位股风险。",
+    "catalyst": "液冷国家标准发布，CRO企业业绩超预期"
+  },
+  "359513187ae8f6b824deaec9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普指示第四艘福特级航母改用蒸汽弹射，弃用电磁弹射，或耗资数十亿美元。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及美国航母技术变更，对A股军工板块影响间接，无明确个股点名，重要性中等。",
+    "catalyst": "美国航母技术路线调整，可能影响相关产业链预期。"
+  },
+  "19dc867f2eec81be22c91a47": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多地婚姻登记点进驻银行、地铁、景区等，并出台结婚奖励政策，提升婚育便利度。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策鼓励婚育，利好婚庆、旅游等消费领域，但未点名具体上市公司。",
+    "catalyst": "婚姻登记便利化及奖励政策，刺激婚庆消费需求。"
+  },
+  "b5bdcedb1e10d696a3e5e457": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "甘肃省委常委、副省长程晓波涉嫌严重违纪违法，主动投案，接受审查调查。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政治事件，对A股市场无直接关联，不进入交易池。",
+    "catalyst": "无"
+  },
+  "26c31fbfa8345c96365f09bd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "岚图汽车高管回应360°隧道大回环挑战质疑，强调是实测，展现中国车底盘实力。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及新能源车技术展示，提升品牌形象，但未点名具体上市公司，影响有限。",
+    "catalyst": "岚图汽车技术实测，展示底盘性能，可能提振新能源车板块情绪。"
+  },
+  "5f5e5233233782841111b031": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "英伟达CPO交换机全面量产，利好光模块及供应链。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      }
+    ],
+    "reason": "英伟达CPO量产，天孚通信作为供应商直接受益，产业链景气提升。",
+    "catalyst": "英伟达CPO交换机量产，光模块需求增长"
+  },
+  "e2105009c354c96109dc5408": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月A股调整，私募五大策略收益格局重塑，期货及衍生品策略领跑，股票策略回撤大，量化多头跌幅最深。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "私募基金",
+    "stocks": [],
+    "reason": "新闻聚焦私募基金业绩，对A股市场情绪有负面影响，但未直接涉及具体行业或个股，不进入交易池。",
+    "catalyst": "市场调整导致私募策略分化，量化多头回撤大，关注后续市场风格切换。"
+  },
+  "8691862e690f3784652cc83a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沪指守住3900点，午后翻红，创业板指涨1.12%，CPO、算力租赁等活跃，高位股下挫。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "秦安股份",
+        "code": "603758"
+      },
+      {
+        "name": "宝鹰股份",
+        "code": "002047"
+      },
+      {
+        "name": "德龙汇能",
+        "code": "000593"
+      },
+      {
+        "name": "京投发展",
+        "code": "600683"
+      },
+      {
+        "name": "同力天启",
+        "code": ""
+      },
+      {
+        "name": "皇氏集团",
+        "code": "002329"
+      }
+    ],
+    "reason": "市场情绪回暖，AI算力等板块活跃，但高位股风险需警惕，关注结构性机会。",
+    "catalyst": "CPO概念拉升，算力租赁回暖，医药活跃。"
+  },
+  "5119b50df9b96df3357b4514": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中际旭创拟17.47亿元受让中石科技10.47%股份，后者一字涨停，散热业务协同。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中石科技",
+        "code": "300684"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      }
+    ],
+    "reason": "光模块龙头入股散热公司，强化AI算力散热逻辑，利好相关个股。",
+    "catalyst": "中际旭创入股中石科技，高端光模块散热需求增长。"
+  },
+  "e56253911981c5c2fd8e074b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国海警在钓鱼岛领海维权巡航，维护主权。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治事件，对军工板块有情绪提振，但无直接业绩影响，重要性中等。",
+    "catalyst": "维权巡航彰显主权，可能刺激军工主题投资。"
+  },
+  "46b26c9e0b626beede0951e8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "德龙汇能股价异动，澄清半导体资产注入传闻，提示估值过高风险。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "德龙汇能",
+        "code": "000593"
+      }
+    ],
+    "reason": "公司澄清无资产注入计划，股价严重偏离基本面，存在下跌风险，不建议追高。",
+    "catalyst": "澄清传闻，估值过高，风险提示。"
+  },
+  "a6245fa9f835edd9edcee963": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国海警舰艇编队在钓鱼岛领海内维权巡航，系依法开展的正常活动。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治事件，对A股直接影响有限，但可能提升军工板块关注度。",
+    "catalyst": "海警维权巡航，强化海洋权益主张。"
+  },
+  "2319ffd8bdeecdba48e32c5e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "通信板块领涨，业绩报喜公司股价大涨，多只连板股跌停。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "通信",
+    "stocks": [
+      {
+        "name": "阿莱德",
+        "code": "301419"
+      },
+      {
+        "name": "共进股份",
+        "code": "603118"
+      },
+      {
+        "name": "剑桥科技",
+        "code": "603083"
+      },
+      {
+        "name": "太辰光",
+        "code": "300570"
+      },
+      {
+        "name": "中瓷电子",
+        "code": "003031"
+      },
+      {
+        "name": "大豪科技",
+        "code": "603025"
+      },
+      {
+        "name": "新产业",
+        "code": "300832"
+      },
+      {
+        "name": "有研硅",
+        "code": "688432"
+      }
+    ],
+    "reason": "通信板块领涨，业绩预增个股表现强势，但连板股风险提示，市场分化，存在交易机会。",
+    "catalyst": "半年报业绩超预期，通信板块景气度提升。"
+  },
+  "a23814c004419cfdb4bfdb51": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "段永平提议以1亿元十年之约重仓茅台，挑战国内基金，引发市场关注。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "贵州茅台",
+        "code": "600519"
+      }
+    ],
+    "reason": "知名投资人公开看好并重仓，提振市场信心，利好茅台及白酒板块。",
+    "catalyst": "段永平亿元赌约，彰显长期价值投资信心。"
+  },
+  "5fc335c842bc91e91de40709": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数高开震荡，创业板指涨1.12%，通信设备、稀土、互联网等板块表现强势，电力、文化传媒等回调。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "通信",
+    "stocks": [
+      {
+        "name": "共进股份",
+        "code": "603118"
+      },
+      {
+        "name": "亨通光电",
+        "code": "600487"
+      },
+      {
+        "name": "中国稀土",
+        "code": "000831"
+      },
+      {
+        "name": "华宏科技",
+        "code": "002645"
+      },
+      {
+        "name": "数据港",
+        "code": "603881"
+      },
+      {
+        "name": "网宿科技",
+        "code": "300017"
+      }
+    ],
+    "reason": "通信设备、稀土、互联网等板块活跃，多股涨停，市场情绪积极，但指数涨幅有限，重要性中等偏高。",
+    "catalyst": "通信设备板块强势，CPO概念领涨，稀土活跃，互联网午后发力。"
+  },
+  "45211981b7fe50ab9f54d672": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "贵州茅台集团党委原副书记赵书跃因涉嫌严重违纪违法被查，接受纪律审查和监察调查。",
+    "impact": "negative",
+    "importance": 30,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及茅台集团高管被查，可能短期影响茅台品牌形象，但公司经营层面影响有限，不构成重大交易信号。",
+    "catalyst": "高管被查，反腐事件，短期情绪扰动。"
+  },
+  "6cfc07abe55f308d794e6fa2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国内成品油价格下调，92号汽油每升降0.18元，私家车加满一箱少花9元。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价下调影响广泛但直接关联A股标的有限，对炼化企业利润影响中性，不构成明确交易机会。",
+    "catalyst": "国际油价回落，国内成品油价格下调，利好下游消费但利空上游炼化。"
+  },
+  "0d9e3d81c0c08c7494b1bea3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中际旭创入股中石科技，CPO概念活跃；新一代人造太阳加快建设，核聚变概念股表现强势。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中石科技",
+        "code": "300684"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "杭电股份",
+        "code": "603618"
+      },
+      {
+        "name": "金田股份",
+        "code": "601609"
+      },
+      {
+        "name": "艾华集团",
+        "code": "603989"
+      },
+      {
+        "name": "康盛股份",
+        "code": "002418"
+      },
+      {
+        "name": "思泉新材",
+        "code": "301489"
+      },
+      {
+        "name": "奕东电子",
+        "code": "301123"
+      }
+    ],
+    "reason": "新闻涉及AI算力（CPO）和新能源（核聚变）两大热点，且点名多家公司，市场关注度高，可能带动相关板块炒作。",
+    "catalyst": "中际旭创入股中石科技；可控核聚变装置建设加速，政策支持，资本开支上行。"
+  },
+  "18abed93514ee93cf879e975": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中信建投设立全球首席经济学家岗位，何海峰任职，旨在加码国际业务，形成双首席格局。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "券商加码国际业务，提升盈利能力，行业利好，但无具体个股点名。",
+    "catalyst": "券商国际业务拓展，打造第二增长曲线"
+  },
+  "d1093b01166b33ac9101b76b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "声网母公司二季度营收同比增长18%，连续七季度盈利，AI业务强劲。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "声网为美股，未点名A股公司，但AI业务增长利好相关板块。",
+    "catalyst": "对话式AI需求增长，推动营收超预期。"
+  },
+  "f1ba4b6390077a2eeeda1eb0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "协创数据上半年净利增331%，AI算力业务驱动，业绩逐季加速，并布局光芯片。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "协创数据",
+        "code": "300857"
+      }
+    ],
+    "reason": "业绩高增且AI算力业务景气，公司转型明确，但需注意股价已反映预期。",
+    "catalyst": "AI算力需求旺盛，公司订单充裕，光芯片布局完善产业链。"
+  },
+  "1cb69742cde454173685977c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "亮源新创完成数亿元Pre-A轮融资，创始人曾任OpenAI算法专家，资金用于具身智能模型训练等。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "机器人",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "具身智能领域获大额融资，显示资本关注，但未点名A股公司，影响有限。",
+    "catalyst": "具身智能融资热度提升，AI与机器人结合成趋势。"
+  },
+  "868790976cf26d141746c298": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "江苏印发商业航天三年行动计划，支持龙头企业上市，培育配套企业，组建工作专班争取政策支持。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "商业航天",
+    "stocks": [],
+    "reason": "政策明确支持商业航天发展，利好相关军工及航天产业链，但未点名具体个股。",
+    "catalyst": "政策支持龙头企业上市及配套企业培育，推动商业航天产业发展。"
+  },
+  "15a609ce98ad720333a6113c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国内成品油零售价预计下调，私家车加满一箱油少花9元，新一轮调价或上调。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价下调利空石油板块，但影响有限；未点名个股，不进入交易池。",
+    "catalyst": "国际油价波动，成品油价格下调，后续或上调。"
+  },
+  "ac29271726e57c373251cdf9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国内成品油价今晚下调，汽油降230元/吨，柴油降220元/吨，私家车加满一箱油少花9元。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价下调利好下游消费，但对石油开采及炼化企业利润构成压力，影响中性偏负面。",
+    "catalyst": "国际油价波动及国内调价机制触发下调"
+  },
+  "98c5eaea36c27a58ecc0d079": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "期货公司监督管理办法拟将风险管理子公司的做市和衍生品业务归入期货公司，带来迁移成本和资金体系重构挑战。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "监管政策调整增加期货公司运营成本和流动性压力，短期影响行业盈利预期。",
+    "catalyst": "业务归母带来迁移成本和资金效率下降"
+  }
+}
