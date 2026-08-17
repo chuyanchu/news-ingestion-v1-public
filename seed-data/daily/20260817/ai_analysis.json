@@ -1,0 +1,538 @@
+{
+  "fd3b2aff3dea729440d84b08": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数集体上涨，主力资金净流入超601亿元，市场情绪高涨。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商",
+      "保险",
+      "银行",
+      "新能源",
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场整体上涨，资金大幅流入，利好多个板块，但未点名具体个股，建议关注券商、科技等受益方向。",
+    "catalyst": "主力资金大幅流入，市场信心增强，推动指数上涨。"
+  },
+  "c7e57183150987ebace513bd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "外交部谴责日本首相高市早苗在战殁者追悼会致辞回避反省，并参拜靖国神社，敦促其深刻反省罪责。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治紧张可能影响军工板块情绪，但无直接经济影响，重要性中等。",
+    "catalyst": "中日关系紧张，军工板块或受情绪提振。"
+  },
+  "834427c6a720a3f8de1ab672": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "吉利汽车宣布管理层调整，李书福辞任董事会主席，安聪慧接任，淦家阅任行政总裁。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "管理层调整旨在完善治理，强化协同，利好公司长期发展，但未点名A股公司。",
+    "catalyst": "治理结构优化，职业经理人授权，提升运营效率。"
+  },
+  "41407c90ea2679ddecc03fd6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家发改委部署加快2026年新型政策性金融工具投放，加大对民间投资项目支持力度。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策性金融工具投放利好银行板块，但未点名具体个股，进入交易池关注板块机会。",
+    "catalyst": "政策性金融工具投放加速，利好银行信贷投放和基建投资。"
+  },
+  "f486d56f52c2abd17b15e295": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "工业母机获税收优惠，AI融合加速，14只概念股成交活跃。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "工业母机",
+    "stocks": [
+      {
+        "name": "一鸣食品",
+        "code": "605179"
+      }
+    ],
+    "reason": "政策利好工业母机，AI融合提升产业，相关概念股活跃，但一鸣食品属消费板块，非直接受益。",
+    "catalyst": "税收优惠+AI赋能，工业母机产业升级加速。"
+  },
+  "375c8b39bca3f17d325e1fd5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "CPO概念活跃，中石科技、天洋新材涨停，英伟达硅光交换机量产，中际旭创入股中石科技。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中石科技",
+        "code": "300684"
+      },
+      {
+        "name": "天洋新材",
+        "code": "603330"
+      },
+      {
+        "name": "共进股份",
+        "code": "603118"
+      },
+      {
+        "name": "沃格光电",
+        "code": "603773"
+      },
+      {
+        "name": "太辰光",
+        "code": "300570"
+      },
+      {
+        "name": "仕佳光子",
+        "code": "688313"
+      },
+      {
+        "name": "阿莱德",
+        "code": "301419"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      }
+    ],
+    "reason": "CPO、PCB、存储等板块活跃，英伟达量产催化，中际旭创入股，市场热度高，建议关注。",
+    "catalyst": "英伟达硅光交换机量产，中际旭创入股中石科技，AI算力需求爆发。"
+  },
+  "81d8dff59ec10f202c0f097a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行7月金融数据：贷款降速提质，存款向非银迁移，居民存款减少，企业存款下降。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "金融数据反映经济转型和融资结构变化，对银行、券商板块有间接影响，但无直接点名个股。",
+    "catalyst": "存款搬家至理财基金，贷款利率低位，关注银行息差和券商资管业务。"
+  },
+  "6854d977025b641b5d613b82": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "纪念江泽民同志诞辰100周年大会举行，习近平发表重要讲话，强调学习其崇高风范，推进中国特色社会主义事业。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政治纪念活动，非经济政策或市场相关，对A股无直接影响。",
+    "catalyst": "无"
+  },
+  "00b4148b55d67307a362bd72": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家银行推出算力贷产品，以算力Token等作为授信依据，探索科技金融新模式。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行创新信贷模式利好AI算力产业链，但未点名具体上市公司，影响偏主题性。",
+    "catalyst": "银行布局算力金融，算力资产纳入信用体系，利好算力企业融资。"
+  },
+  "ce060da3bdf620b26532c43c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数集体上涨，创业板指涨3.14%，半导体板块走强，超4300只个股上涨，成交额超2.4万亿元。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力",
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "通富微电",
+        "code": "002156"
+      },
+      {
+        "name": "有研新材",
+        "code": "600206"
+      },
+      {
+        "name": "华正新材",
+        "code": "603186"
+      },
+      {
+        "name": "共进股份",
+        "code": "603118"
+      }
+    ],
+    "reason": "市场普涨，半导体等科技板块领涨，成交额放大，情绪积极，可关注相关个股。",
+    "catalyst": "半导体板块走强，算力硬件拉升，市场风险偏好提升。"
+  },
+  "8ea36e380565c5e48bef6173": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家发改委、能源局印发石油天然气发展“十五五”规划，强调深层超深层、非常规油气开发，海洋油气亿吨级，老油田稳产。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "油气开采",
+    "stocks": [],
+    "reason": "政策明确支持油气开发，利好油气开采及服务板块，但新闻未点名具体A股公司。",
+    "catalyst": "十五五规划强调增储上产，非常规油气和海洋油气开发提速。"
+  },
+  "ab03b807bd63f69ecf3bb93f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "外交部批评日本首相致辞回避反省，模糊侵略罪责，引发谴责。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "外交事件，与A股市场关联度低，不进入交易池。",
+    "catalyst": "无直接财经影响。"
+  },
+  "a666023fc41a747495f1629f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "地缘风险未推高油价，因中东产油国隐秘运输对冲及市场观望，油价平稳。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "新闻涉及地缘政治与油价，但未点名A股公司，对A股相关板块影响间接且有限。",
+    "catalyst": "霍尔木兹海峡风险与产油国对冲操作，油价短期平稳。"
+  },
+  "cb813fbb28c46dde71f4df57": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "蚂蚁集团CEO韩歆毅在支付宝AI生态大会上表示，智能体商业将在6至12个月内爆发，呼吁行业共建。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "AI应用",
+    "stocks": [],
+    "reason": "新闻涉及AI智能体商业趋势，对AI应用板块有催化，但未点名具体A股公司。",
+    "catalyst": "智能体商业爆发预期，AI应用落地加速。"
+  },
+  "d106d196e306639527f0b0d5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股上午上涨，电子、机械设备板块涨停潮，长鑫科技大涨市值重回4万亿，贵州茅台下跌。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力",
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中石科技",
+        "code": "300684"
+      },
+      {
+        "name": "苏州天脉",
+        "code": "301626"
+      },
+      {
+        "name": "盈方微",
+        "code": "000670"
+      },
+      {
+        "name": "盛洋科技",
+        "code": "603703"
+      },
+      {
+        "name": "宏昌电子",
+        "code": "603002"
+      },
+      {
+        "name": "天通股份",
+        "code": "600330"
+      },
+      {
+        "name": "博敏电子",
+        "code": "603936"
+      },
+      {
+        "name": "华正新材",
+        "code": "603186"
+      }
+    ],
+    "reason": "电子、机械设备板块涨停潮，市场情绪高涨，长鑫科技大涨，但白酒龙头下跌，整体偏多。",
+    "catalyst": "电子、机械设备板块涨停潮，长鑫科技市值重回4万亿，市场做多情绪升温。"
+  },
+  "d6cc849d7efcb0d30fbcaec3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "本周33只新基金启动募集，权益类占主导，固收+和FOF热度持续。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "公募基金",
+    "stocks": [],
+    "reason": "新基金发行反映市场资金流入，利好股市整体，但无具体个股催化。",
+    "catalyst": "新基金密集发行，增量资金入市预期。"
+  },
+  "c09a5135861fafce9bf54033": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "公募基金新发市场生态重构，高位发行现象或缓解，行业警钟再响。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "公募基金",
+    "stocks": [],
+    "reason": "新闻讨论基金发行生态，不直接涉及具体板块或个股，但影响市场情绪和资金流向。",
+    "catalyst": "监管倡导逆周期思维，基金公司自我克制，买方投顾推进。"
+  },
+  "8c5524e0f79cc6e959aeae8f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "海鸥住工和中南文化因筹划控制权变更及重大事项临时停牌，中南文化正推进重大资产重组。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "海鸥住工",
+        "code": "002084"
+      },
+      {
+        "name": "中南文化",
+        "code": "002445"
+      }
+    ],
+    "reason": "两股停牌涉及控制权变更和重组，事件驱动但影响不确定，暂不进入交易池。",
+    "catalyst": "控制权变更及重组进展"
+  },
+  "f1f9ea781961c2506efce9b8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "恒兴股份登陆北交所，首日涨87.58%，募资用于扩产及研发，业绩稳健。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "UV固化涂料",
+    "stocks": [],
+    "reason": "新股上市，行业细分，但未涉及候选板块，建议关注其产业链。",
+    "catalyst": "北交所上市，募投项目扩产，业绩稳健增长。"
+  },
+  "dec7baf4ef3a8f5a28cade3b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "电商平台存在线上线下、不同地区发货同款不同质的“AB货”现象，涉嫌误导消费者，引发信任危机。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻揭露电商乱象，可能影响电商平台及品牌商声誉，但未点名具体公司，对交易池影响有限。",
+    "catalyst": "消费者权益保护关注度提升，可能引发监管加强，影响电商板块情绪。"
+  },
+  "97c2c1e70bf7c3fd41e0eb7e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "1-7月社零总额同比增长1.2%，7月增长0.6%，消费增速放缓。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "消费数据整体平稳但增速偏低，对消费板块影响中性，无明确个股催化。",
+    "catalyst": "消费复苏力度不及预期，关注后续政策刺激。"
+  },
+  "7e1dc2f0083aba40db8a58a9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年暑期档票房突破100亿元，同比增长，优质影片和降价推动，总票房超257亿元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "影视",
+    "stocks": [],
+    "reason": "电影票房增长利好影视行业，但未点名具体A股公司，建议关注影视板块。",
+    "catalyst": "暑期档票房超预期，优质影片供应和票价下降刺激观影需求。"
+  },
+  "d66bfbb9584d806ae00aee11": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技午后大涨超11%，业绩预增超22倍，AI算力需求爆发带动存储芯片龙头价值重估。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "长鑫科技",
+        "code": ""
+      }
+    ],
+    "reason": "存储芯片龙头业绩爆发，AI算力需求驱动，产业生态成型，长期确定性增强，建议进入交易池。",
+    "catalyst": "业绩预增超22倍，AI算力需求爆发，国产半导体价值重估。"
+  },
+  "eda9ba88b560d10ae247cb7f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "八国外长谴责以色列拒绝加沙和平计划，称其破坏和平努力，美国应介入确保落实。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国际政治事件，与A股市场关联度低，不进入交易池。",
+    "catalyst": "地缘政治风险，但无直接A股影响。"
+  },
+  "f02cf57e2d87033fc7f1da23": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "吉利汽车上半年营收1736亿元创新高，核心归母净利润96.8亿元同比增46%，毛利率提升，高端化与全球化成果显著。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "吉利汽车业绩超预期，显示新能源车行业景气，但未点名A股公司，相关产业链或受益，可关注。",
+    "catalyst": "吉利汽车中报业绩高增，新能源车高端化与出海加速，提振板块情绪。"
+  },
+  "28f8bc6fd32c2dbfe29b520e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股科技股尾盘拉升，半导体芯片股集体大涨，长鑫科技涨12%市值破4万亿，摩根大通看好行业需求。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "长鑫科技",
+        "code": ""
+      },
+      {
+        "name": "通富微电",
+        "code": "002156"
+      },
+      {
+        "name": "盈方微",
+        "code": "000670"
+      },
+      {
+        "name": "宏昌电子",
+        "code": "603002"
+      },
+      {
+        "name": "有研新材",
+        "code": "600206"
+      }
+    ],
+    "reason": "半导体板块大涨，新闻明确点名多只涨停股，行业景气度高，催化明确，进入交易池。",
+    "catalyst": "摩根大通看涨半导体，存储涨价扩散，长鑫科技创新高带动板块。"
+  },
+  "cea4a756789efd23e53d7138": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "字节跳动旗下付费阅读APP红烛故事关停，仅存活8个月，反映付费网文市场困境，字节重心转向免费平台番茄小说。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "数字阅读",
+    "stocks": [],
+    "reason": "新闻涉及字节跳动旗下产品关停，未点名A股上市公司，对A股相关板块影响有限，但反映在线阅读行业格局，可关注数字阅读概念。",
+    "catalyst": "字节付费阅读试错失败，行业免费模式占优，可能影响市场对在线阅读板块的预期。"
+  },
+  "c28347225df5a23e5551a408": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "银行理财加码打新理财赛道，低门槛分享新股红利，但收益分化，投研实力成关键。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻聚焦银行理财业务创新，利好银行板块，但未点名具体个股，故不进入个股交易池。",
+    "catalyst": "银行理财布局打新，提升财富管理业务吸引力。"
+  },
+  "395868e98a883f65a5ab3618": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "港股下跌，科网股、PCB、黄金、内房股普跌，PCB产能过剩担忧，美债收益率上升，地产筑底。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "PCB",
+    "stocks": [],
+    "reason": "新闻提及港股下跌及PCB产能过剩，但未点名A股公司，影响有限。",
+    "catalyst": "PCB产能过剩担忧，美债收益率上升"
+  },
+  "28aeb7236005a8c5047cc493": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI算力需求旺盛，CoreWeave等供应商受益，但面临SpaceX、Meta等新竞争者，行业格局或生变。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻聚焦海外AI算力市场，未点名A股公司，但行业景气对A股算力板块有正面催化。",
+    "catalyst": "AI算力供不应求，价格上调，新竞争者入局，行业高景气持续。"
+  }
+}
