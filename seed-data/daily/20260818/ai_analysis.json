@@ -1,0 +1,707 @@
+{
+  "84a080be4eaeb8203b184ea1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "骏成科技筹划重大资产重组涨停，73股上半年业绩超预期，AI硬件等板块表现亮眼。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "医药生物",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "骏成科技",
+        "code": "301106"
+      },
+      {
+        "name": "工业富联",
+        "code": "601138"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "生益科技",
+        "code": "600183"
+      },
+      {
+        "name": "沪电股份",
+        "code": "002463"
+      },
+      {
+        "name": "锐捷网络",
+        "code": "301165"
+      },
+      {
+        "name": "大族数控",
+        "code": "301200"
+      },
+      {
+        "name": "富春染织",
+        "code": "605189"
+      }
+    ],
+    "reason": "重大资产重组及业绩超预期个股集中，市场关注度高，影响广泛。",
+    "catalyst": "资产重组、业绩超预期、AI算力需求爆发。"
+  },
+  "e9713378b559e809ec8bd95a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家能源局称煤电发电量占比首次低于50%，新能源占比超四成，南网科技在煤电转型中发挥技术支撑作用。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "南网科技",
+        "code": "688248"
+      }
+    ],
+    "reason": "新闻聚焦煤电转型与新能源发展，南网科技作为技术提供商直接受益，行业趋势利好。",
+    "catalyst": "煤电清洁低碳转型与新型电力系统构建，南网科技深度调峰及CCUS技术储备。"
+  },
+  "0397480e229bfef5382aa189": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股尾盘探底回升，沪指涨0.19%，国产替代消息提振市场情绪。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国产替代消息提升市场风险偏好，尾盘回升显示韧性，但未点名具体个股。",
+    "catalyst": "国产替代小作文引发市场关注，半导体板块受益。"
+  },
+  "a9a2b4f98bdf5f10d5584f70": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "汇丰要求部分内地存量投资客户提交资金来源声明，未及时提交或终止投资服务，源于香港金管局新规。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及香港银行监管政策，对内地银行板块影响间接，不构成直接交易催化。",
+    "catalyst": "香港金管局加强KYC及反洗钱监管，银行合规成本上升。"
+  },
+  "e3ae93cbbfcc2880146406a7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "阿里云韩国第三座数据中心上线，全球基础设施覆盖30地域104可用区，并推出Agentic AI服务。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "阿里云扩建数据中心，反映AI算力需求增长，利好相关产业链，但未点名具体A股公司。",
+    "catalyst": "AI算力需求持续攀升，云厂商加速全球基础设施布局。"
+  },
+  "a13f1c667c44f9e3cd46462a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "招商证券年内第二次增资国际业务子公司，年内多家头部券商合计增资超500亿港元，加码国际化。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "券商国际化加速，利好行业估值提升，但新闻未点名具体A股公司，暂不进入个股池。",
+    "catalyst": "券商加码国际业务，提升盈利增长预期"
+  },
+  "4becf4e55a7277ba1e3b6847": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "7月一线城市房价环比上涨，二三线下降，同比降幅收窄，楼市现积极信号。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "房价数据改善，政策效果显现，房地产板块或受提振，但需观察持续性。",
+    "catalyst": "一线城市房价环比上涨，同比降幅收窄，市场预期改善。"
+  },
+  "9b49cfe8ddfa41be1dfe17bf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "近期多家上市公司因信披违法违规被证监会立案，监管密集执法释放零容忍信号，ST股成重灾区。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "*ST航图",
+        "code": ""
+      },
+      {
+        "name": "*ST实达",
+        "code": ""
+      },
+      {
+        "name": "联创光电",
+        "code": ""
+      },
+      {
+        "name": "ST恒信",
+        "code": ""
+      },
+      {
+        "name": "*ST萃华",
+        "code": ""
+      },
+      {
+        "name": "天力锂能",
+        "code": ""
+      },
+      {
+        "name": "ST文峰",
+        "code": ""
+      },
+      {
+        "name": "南威软件",
+        "code": ""
+      }
+    ],
+    "reason": "监管密集立案打击信披违规，相关个股风险高，短期回避，但长期利于市场净化。",
+    "catalyst": "证监会密集立案调查，强化信息披露监管，ST股风险集中暴露。"
+  },
+  "61d86c9f2b8f8353d0e45a63": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "天洋新材4连板后上演天地板，爱丽家居复牌涨停，水产概念走高。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天洋新材",
+        "code": "603330"
+      },
+      {
+        "name": "爱丽家居",
+        "code": "603221"
+      },
+      {
+        "name": "中水渔业",
+        "code": "000798"
+      },
+      {
+        "name": "蔚蓝生物",
+        "code": "603739"
+      },
+      {
+        "name": "佳沃食品",
+        "code": "300268"
+      },
+      {
+        "name": "獐子岛",
+        "code": "002069"
+      }
+    ],
+    "reason": "涉及多只个股异动，但无明确板块联动，重要性中等。",
+    "catalyst": "个股炒作及水产概念活跃。"
+  },
+  "03978247c4704454176c5698": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "外交部回应帕劳总统关于中国洲际弹道导弹试射的言论，称其毫无根据、用心险恶。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及外交与军事，但未直接影响A股上市公司，市场影响有限。",
+    "catalyst": "地缘政治紧张可能短期提振军工板块情绪。"
+  },
+  "3d46e6873f344d224c34cb7b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家险企起诉代理人追讨佣金，监管推动佣金追索机制，保险销售转向责任约束。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及保险行业制度变革，影响行业长期模式，但未点名具体上市公司，短期市场影响有限。",
+    "catalyst": "监管要求建立佣金追索扣回机制，推动行业转型。"
+  },
+  "a5054da3d5290ca9e8fd43de": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海银行获批全资收购上银国际，加强并表管理，上银国际亏损收窄。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行整合子公司，提升协同效率，但上银国际业绩承压，影响有限。",
+    "catalyst": "全资收购获批，强化跨境投行业务，风险处置推进。"
+  },
+  "2aa3c41879980e2e49641567": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股小幅震荡，农业股大涨，玻璃基板概念获主力资金加仓，京东方A获大额净流入。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "农林牧渔",
+    "stocks": [
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "中石科技",
+        "code": "300684"
+      },
+      {
+        "name": "博敏电子",
+        "code": "603936"
+      },
+      {
+        "name": "旭光电子",
+        "code": "600353"
+      },
+      {
+        "name": "金螳螂",
+        "code": "002081"
+      },
+      {
+        "name": "彩虹股份",
+        "code": "600707"
+      },
+      {
+        "name": "神农种业",
+        "code": "300189"
+      },
+      {
+        "name": "秋乐种业",
+        "code": "831087"
+      }
+    ],
+    "reason": "农业股大涨，主力资金流入，政策催化，但需注意追高风险，建议关注龙头。",
+    "catalyst": "厄尔尼诺导致全球粮食减产预期，农业板块受资金追捧。"
+  },
+  "d7f6763eaabb7313f5b1a9ba": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全球国债收益率飙升，美债突破40万亿，市场担忧债务失控，股市债市齐跌。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "银行",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "全球债市动荡，风险偏好下降，利空股市，但可能利好避险资产，银行券商或受波及。",
+    "catalyst": "美债收益率飙升，债务担忧加剧，全球市场承压。"
+  },
+  "51d4cad2485870a5a948bdd8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "朱镕基同志遗体在京火化，习近平等党和国家领导人送别，胡锦涛送花圈。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政治新闻，对A股市场无直接影响，不进入交易池。",
+    "catalyst": "无"
+  },
+  "9ba1b39111816308c695fb7b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全球国债收益率飙升，美债30年期收益率创2007年来新高，市场担忧债务失控及通胀压力，全球股市下跌。",
+    "impact": "negative",
+    "importance": 90,
+    "sectors": [],
+    "suggested_sector": "债券市场",
+    "stocks": [],
+    "reason": "新闻涉及全球债市动荡，影响广泛，但未点名A股个股，且板块不明确，暂不进入交易池。",
+    "catalyst": "美债收益率飙升，债务担忧加剧，全球风险资产承压。"
+  },
+  "ffcfd585ff7e811357c64e0c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "农业板块逆市走强，金健米业两连涨停，多只业绩报喜股大涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "农业",
+    "stocks": [
+      {
+        "name": "金健米业",
+        "code": "600127"
+      },
+      {
+        "name": "秋乐种业",
+        "code": "831087"
+      },
+      {
+        "name": "神农种业",
+        "code": "300189"
+      },
+      {
+        "name": "康农种业",
+        "code": "837403"
+      },
+      {
+        "name": "ST荃银",
+        "code": "300087"
+      },
+      {
+        "name": "农发种业",
+        "code": "600313"
+      },
+      {
+        "name": "万向德农",
+        "code": "600371"
+      },
+      {
+        "name": "登海种业",
+        "code": "002041"
+      }
+    ],
+    "reason": "农业板块受消息刺激走强，多股涨停，且业绩报喜股表现强势，市场热点明确，可关注。",
+    "catalyst": "摩根大通预测全球食品价格通胀率上升，农业板块受关注。"
+  },
+  "17ba8bd1c7bb7de290f5f49e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "山西前首富张新明涉黑案被公诉，涉黑金、赌局等，曾涉煤炭行业。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为个人涉黑案，与A股上市公司无直接关联，不进入交易池。",
+    "catalyst": "无直接市场催化。"
+  },
+  "1f2664efb487bad1084512a0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股震荡，农林牧渔大涨，种业板块飙升，京东方A获巨额资金流入，市场成交2.42万亿。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "农业",
+    "stocks": [
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "秋乐种业",
+        "code": "920087"
+      },
+      {
+        "name": "神农种业",
+        "code": "300189"
+      },
+      {
+        "name": "华绿生物",
+        "code": "300970"
+      },
+      {
+        "name": "天山生物",
+        "code": "300313"
+      },
+      {
+        "name": "敦煌种业",
+        "code": "600354"
+      },
+      {
+        "name": "隆平高科",
+        "code": "000998"
+      },
+      {
+        "name": "新农开发",
+        "code": "600359"
+      }
+    ],
+    "reason": "农业板块受全球粮食减产预期催化，资金流入明显，但需关注持续性；京东方A获大额资金流入，面板行业景气。",
+    "catalyst": "厄尔尼诺导致全球粮食减产预期，粮价上涨，农业板块受益。"
+  },
+  "bc672f3d835ab858bc27aa07": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "北京消协约谈20家儿童寝具企业，通报警示标识缺失、结构隐患、有害物质超标等问题。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "儿童寝具质量安全问题引发监管关注，短期利空相关企业，但未点名上市公司，影响有限。",
+    "catalyst": "消费者协会通报及约谈，可能引发行业整顿和消费者信任下降。"
+  },
+  "521e6d95e9f8621e3e7d556b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "贝达药业因合作方EyePoint新药试验失败跌停，创新药板块受挫，但行业基本面仍向好。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "贝达药业",
+        "code": "300558"
+      },
+      {
+        "name": "太龙药业",
+        "code": "600222"
+      },
+      {
+        "name": "百普赛斯",
+        "code": "301080"
+      },
+      {
+        "name": "三力制药",
+        "code": "603439"
+      },
+      {
+        "name": "复旦张江",
+        "code": "688505"
+      },
+      {
+        "name": "万邦医药",
+        "code": "301520"
+      }
+    ],
+    "reason": "新闻点名贝达药业等个股，且涉及创新药板块重大利空，影响明确，进入交易池。",
+    "catalyst": "EyePoint新药试验失败导致合作方贝达药业跌停，引发板块调整。"
+  },
+  "c759b7d1046a5520a25f1ba3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "骏成科技筹划重大资产重组涨停，73股半年报业绩超预期，多集中于电子、机械等，工业富联等AI硬件股表现突出。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "电子"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "骏成科技",
+        "code": "301106"
+      },
+      {
+        "name": "工业富联",
+        "code": "601138"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "生益科技",
+        "code": "600183"
+      },
+      {
+        "name": "沪电股份",
+        "code": "002463"
+      },
+      {
+        "name": "锐捷网络",
+        "code": "301165"
+      },
+      {
+        "name": "大族数控",
+        "code": "301200"
+      },
+      {
+        "name": "富春染织",
+        "code": "605189"
+      }
+    ],
+    "reason": "业绩超预期股表现强势，AI硬件等板块景气度高，骏成科技重组利好，具备交易价值。",
+    "catalyst": "半年报业绩超预期，AI算力需求爆发，重大资产重组提升盈利能力。"
+  },
+  "61e3c131bda1bec6cbe118aa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "年内最贵新股频准激光上市首日暴涨超595%，中一签最高浮盈55.66万元，刷新纪录。公司主营精准激光器，业绩高增长。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新股暴涨显示市场对激光器及半导体设备关注度高，但未点名具体A股公司，仅作为情绪催化。",
+    "catalyst": "最贵新股上市首日暴涨，带动半导体设备及激光器板块情绪。"
+  },
+  "26f85476255e52e79c7cad44": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国城矿业拟收购国城实业剩余40%股权，实现全资控股大苏计钼矿，钼价创三年新高，业绩承诺高。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "有色金属",
+    "stocks": [
+      {
+        "name": "国城矿业",
+        "code": "000688"
+      }
+    ],
+    "reason": "公司整合钼矿资源，受益钼价上涨，业绩承诺明确，利好公司长期发展。",
+    "catalyst": "钼价创三年新高，公司全资控股核心钼矿，业绩承诺保障。"
+  },
+  "6a92bed52fa8f0136d65a0cc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年新型政策性金融工具规模达8000亿元，重点支持民间投资和产业升级。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策性金融工具扩容利好银行、券商等金融板块，且支持基建和产业升级，但未点名具体个股。",
+    "catalyst": "8000亿政策性金融工具投放，加大民间投资支持"
+  },
+  "480824f43ba4b87576589460": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "厄尔尼诺快速发展或成历史最强，影响我国气候，东部多雨带、台风活跃。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "农业",
+    "stocks": [],
+    "reason": "气候事件影响农业、水利等，但未明确利好板块，暂不进入交易池。",
+    "catalyst": "厄尔尼诺峰值临近，关注农业、防汛相关主题。"
+  },
+  "650d52887f685429d845f6d7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "挚达科技海外收入占比升至29.7%，聚焦AI能源与机器人，Robotaxi场景落地，资金充裕。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车",
+      "机器人",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "公司海外高增长且布局AI能源机器人，但未点名A股公司，行业景气利好相关板块。",
+    "catalyst": "海外扩张及Robotaxi无人充电布局"
+  },
+  "e9d1b6a4bd1ad0a5271cdf94": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "春风动力2026半年报显示营收增35.82%，全地形车、摩托、电动业务均两位数增长，海外产能释放。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "出海链",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "春风动力",
+        "code": "603129"
+      }
+    ],
+    "reason": "业绩超预期，海外产能落地，多业务增长，利好公司股价。",
+    "catalyst": "海外产能释放，全地形车量价齐升，电动业务增长。"
+  },
+  "10b8c541e1fa946b346a6154": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "百亿私募二季度调仓：高毅减持海康，重阳增持，睿郡加码乐鑫，聚鸣增持鸿仕达。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体",
+      "高端制造"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "海康威视",
+        "code": "002415"
+      },
+      {
+        "name": "传音控股",
+        "code": "688036"
+      },
+      {
+        "name": "福元医药",
+        "code": "601089"
+      },
+      {
+        "name": "乐鑫科技",
+        "code": "688018"
+      },
+      {
+        "name": "芯朋微",
+        "code": "688508"
+      },
+      {
+        "name": "鸿仕达",
+        "code": "872931"
+      }
+    ],
+    "reason": "百亿私募调仓动向反映机构偏好，涉及半导体、高端制造等热点，个股关注度提升。",
+    "catalyst": "私募增持半导体和高端制造，显示对科技成长板块的看好。"
+  },
+  "a5b7e942a4844145f9149731": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普拒绝延长美伊停火协议，霍尔木兹海峡冲突持续，油价上涨，中东局势紧张。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "石油天然气",
+    "stocks": [],
+    "reason": "地缘冲突升级，油价上涨，利好军工和石油板块，但未点名A股个股。",
+    "catalyst": "霍尔木兹海峡封锁，油价上涨，地缘政治风险溢价。"
+  }
+}
