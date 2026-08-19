@@ -1,0 +1,524 @@
+{
+  "73d184b349ed1ab9dfcd55ef": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股8月19日大跌，沪指跌2.4%，创业板指跌6.26%，超5000股下跌，逾百股跌停，成交额放量。",
+    "impact": "negative",
+    "importance": 90,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "市场大幅下跌，情绪悲观，但未提及具体个股，不构成个股交易信号。",
+    "catalyst": "隔夜美股走弱，日韩股市低开，市场缺乏抵抗单边下行。"
+  },
+  "e03ff216b26ddd2110111806": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "柚家壁挂厨房纸巾因丙烯酰胺含量超标被召回，涉及健康隐患。",
+    "impact": "negative",
+    "importance": 30,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "消费品召回事件，影响单一公司，不涉及A股上市公司，市场影响有限。",
+    "catalyst": "产品质量问题引发召回，短期或影响品牌声誉。"
+  },
+  "5bb55678ba537b9cf50a6b71": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中金公司、东兴证券、信达证券披露重组问询回复，整合方案及异议股东价格调整，市场关注。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中金公司",
+        "code": "601995"
+      },
+      {
+        "name": "东兴证券",
+        "code": "601198"
+      },
+      {
+        "name": "信达证券",
+        "code": "601059"
+      }
+    ],
+    "reason": "券商并购重组重大进展，提升行业整合预期，相关个股受关注。",
+    "catalyst": "三合一重组问询回复，整合方案明确，价格调整落地。"
+  },
+  "42309e52bfe36f9c751ac47b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "厄尔尼诺预期推升原糖期货创一年新高，北半球减产预期升温，但国内影响有限，糖价涨势或难持续。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "糖价上涨利好制糖企业，但新闻未点名具体A股公司，且国内影响有限，谨慎关注。",
+    "catalyst": "厄尔尼诺导致印度、泰国减产，原糖期货大涨，或带动国内糖价跟涨。"
+  },
+  "d78cc40666d693c22a262de1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "爱丽家居、一鸣食品跌停，煤炭、房地产、创新药板块活跃，上交所对爱丽家居异常交易采取监管措施。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "房地产",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "爱丽家居",
+        "code": "603221"
+      },
+      {
+        "name": "一鸣食品",
+        "code": "605179"
+      }
+    ],
+    "reason": "新闻点名两只跌停股，涉及风险警示和监管，影响市场情绪，但其他板块活跃，整体中性偏空。",
+    "catalyst": "一鸣食品严重异常波动风险提示，爱丽家居遭上交所自律监管。"
+  },
+  "6bfe916e35a36a0767ee322a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长江存储IPO辅导验收，国产闪存龙头冲刺上市，估值1600亿元，存储芯片市场迎机遇。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "长江存储IPO提升半导体板块关注度，但未点名A股上市公司，不直接构成个股催化。",
+    "catalyst": "长江存储IPO进程加速，存储芯片需求旺盛。"
+  },
+  "69a8b087ba19acaa1b1e4204": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技上市首日暴涨460%，市值超3400亿，美团红杉等股东浮盈巨大。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宇树科技",
+        "code": "688836"
+      }
+    ],
+    "reason": "人形机器人第一股上市暴涨，带动板块情绪，但估值过高需警惕回调。",
+    "catalyst": "人形机器人概念热度高，上市首日资金追捧。"
+  },
+  "0b13e3bb69b9c68d5d15fe35": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日韩股市受美债收益率飙升和AI担忧影响大跌，韩股触发熔断机制，半导体股重挫。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及海外市场大跌，对A股半导体和AI算力板块情绪有负面影响，但未点名A股公司，建议观望。",
+    "catalyst": "美债收益率飙升引发AI资本开支担忧，全球半导体股承压。"
+  },
+  "c1edc8bc85ea3167e314fe19": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "SK海力士宣布回购286亿美元股票并承诺高分红，提振芯片股情绪，A股半导体板块或受带动。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "SK海力士回购显示存储行业景气，利好A股半导体产业链，但未点名具体公司。",
+    "catalyst": "存储芯片龙头回购+高分红，提振板块信心"
+  },
+  "d6bb57d72d58f52f74abf827": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "平安银行2026年半年报显示营收净利双增，息差企稳，财富管理收入高增，资产质量总体稳定。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "平安银行",
+        "code": "000001"
+      }
+    ],
+    "reason": "首份银行半年报验证基本面改善，财富管理转型成效显著，利好银行板块。",
+    "catalyst": "营收净利重回增长，息差企稳，财富管理收入大增。"
+  },
+  "11c3be66cc8c07edcf558962": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国务院修改住房公积金管理条例，拓宽提取使用范围，新增装修、物业费等，支持灵活就业人员参加，优化服务流程。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好房地产及住房消费相关板块，但未点名具体上市公司，影响广泛但非直接。",
+    "catalyst": "公积金政策放宽，支持住房消费，利好房地产行业。"
+  },
+  "b214d7c2146ab211a1ef0f83": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "监管一日三罚单直指银行考核机制，从罚业务转向罚机制，2026年以来12家银行因考核违规被罚，虚增存贷罚单密度骤升。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "监管重拳整治银行考核机制，对银行板块形成负面压力，但未点名具体个股，影响行业整体。",
+    "catalyst": "监管从罚业务转向罚机制，银行合规成本上升，规模情结受抑。"
+  },
+  "46b5dc8adc9cbc408edecd00": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股大跌，高股息逆市走强，看跌期权暴涨，市场震荡。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "银行",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "山东黄金",
+        "code": "600547"
+      },
+      {
+        "name": "宝泰隆",
+        "code": "601011"
+      },
+      {
+        "name": "陕西黑猫",
+        "code": "601015"
+      },
+      {
+        "name": "美锦能源",
+        "code": "000723"
+      },
+      {
+        "name": "大有能源",
+        "code": "600403"
+      },
+      {
+        "name": "中信银行",
+        "code": "601998"
+      },
+      {
+        "name": "恒力石化",
+        "code": "600346"
+      }
+    ],
+    "reason": "市场大跌，但高股息和避险板块逆势，关注结构性机会。",
+    "catalyst": "全球股市震荡，地缘风险，政策托底，高股息防御属性。"
+  },
+  "e9aeddb36274279ec21e6982": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "外交部反对在人工智能问题上搞选边站队和阵营对抗，呼吁国际合作。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "人工智能",
+    "stocks": [],
+    "reason": "政策表态影响AI国际合作预期，但未直接涉及具体公司，市场影响中性。",
+    "catalyst": "AI治理国际合作与数字主权议题"
+  },
+  "f26bb1842315a650a8a7cf51": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技上市首日暴涨460%，创始人王兴兴身价超千亿成90后新首富。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "宇树科技为机器人领域明星公司，上市首日暴涨，带动板块情绪，但未点名其他A股公司。",
+    "catalyst": "宇树科技科创板上市，首日涨幅巨大，机器人板块关注度提升。"
+  },
+  "b6ed1e5fe8e7534a07ade89f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "苹果调整欧盟应用商店费率，以核心技术佣金取代核心技术费，解决与欧盟委员会的分歧。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及苹果与欧盟监管，对A股无直接关联，不进入交易池。",
+    "catalyst": "苹果欧盟费率调整，影响全球科技监管环境。"
+  },
+  "cf14022a5d8fb2f4e6ad785a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美银调查显示印度取代印尼成为亚洲最不受青睐股市，投资者担忧AI布局不足、经济疲软等，印尼情绪好转。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要涉及印度和印尼股市，对A股无直接关联，但可能影响新兴市场情绪，故不进入交易池。",
+    "catalyst": "印度股市受冷，资金或流向其他亚洲市场，但无明确A股催化。"
+  },
+  "3bdd62d3562df7fc39487084": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "立信中联会计所因审计违规被财政部暂停业务6个月并罚没435.8万元，涉及宁波工投等三个项目。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "会计所受罚影响审计行业信誉，但未点名具体上市公司，对交易池影响有限。",
+    "catalyst": "监管处罚加强，审计行业整顿预期。"
+  },
+  "efed2a57896aab9e708248c5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中国联通上半年营收微增，利润下滑，Token业务进展受关注，算力引领转型。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国联通",
+        "code": "600050"
+      }
+    ],
+    "reason": "联通Token业务高增长，算力转型明确，利好AI算力板块。",
+    "catalyst": "Token日调用量超400亿次，算力业务成第一引擎。"
+  },
+  "59c9b25e50888b9823c60e82": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股上午走低，银行煤炭逆市上涨，大有能源涨停，小米业绩后港股大涨。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "煤炭"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "大有能源",
+        "code": "600403"
+      },
+      {
+        "name": "中信银行",
+        "code": "601998"
+      },
+      {
+        "name": "渝农商行",
+        "code": "601077"
+      },
+      {
+        "name": "成都银行",
+        "code": "601838"
+      },
+      {
+        "name": "南京银行",
+        "code": "601009"
+      },
+      {
+        "name": "宝泰隆",
+        "code": "601011"
+      },
+      {
+        "name": "陕西黑猫",
+        "code": "601015"
+      },
+      {
+        "name": "美锦能源",
+        "code": "000723"
+      }
+    ],
+    "reason": "新闻提及银行煤炭板块逆市上涨，相关个股活跃，但市场整体下跌，影响中性偏多，可关注板块轮动机会。",
+    "catalyst": "银行煤炭防御属性凸显，资金避险需求推动板块逆市走强。"
+  },
+  "3298a149ff4f8c766e00cd91": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "监管持续推动公募行业去明星化，转向平台化投研体系，行业告别爆款基金时代。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "公募基金",
+    "stocks": [],
+    "reason": "新闻涉及公募行业监管导向变化，对具体上市公司无直接影响，但影响基金行业生态。",
+    "catalyst": "监管政策推动行业转型，关注基金公司平台化建设。"
+  },
+  "cc4a7a39caa1286d9d6e8099": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "仿生人形机器人热销引发监管关注，强调隐私保护与情感陪伴边界，政策支持补位严禁越位。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及机器人行业监管与伦理，未点名具体公司，但影响行业预期，可关注相关标的。",
+    "catalyst": "监管政策明确边界，机器人应用场景受限，但长期利好合规企业。"
+  },
+  "7bb7550375191e4804990fee": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海柚家科技召回丙烯酰胺超标的厨房纸巾，已售5.6万件，涉事公司曾获多轮融资。",
+    "impact": "negative",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "日用品",
+    "stocks": [],
+    "reason": "事件涉及日用品安全，但未点名A股上市公司，对市场影响有限，不进入交易池。",
+    "catalyst": "产品质量问题引发召回，可能影响相关行业监管预期。"
+  },
+  "2ee51fc1209ef4ebc5163216": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央视网财经推出《不凡之路》节目，中国国家游泳队与高途老师对话，探讨成长与冠军精神。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "教育",
+    "stocks": [],
+    "reason": "新闻为体育与教育类软性内容，无直接财经影响，不进入交易池。",
+    "catalyst": "无直接市场催化，仅品牌宣传。"
+  },
+  "22a37ad9b9aa786387beedb8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技上市首日大涨，单签浮盈超47万元，科创板新股表现亮眼。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宇树科技",
+        "code": "688777"
+      }
+    ],
+    "reason": "宇树科技上市大涨，带动机器人板块关注度提升，但个股已上市，需关注后续走势。",
+    "catalyst": "宇树科技上市首日大涨，机器人行业景气度高。"
+  },
+  "a27d56535390a4dd2e449e9e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "怡俊集团控股获AI公司光特元智入股25%，成为第二大股东，交易价值约70亿港元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI公司入股港股上市公司，体现AI资产与资本平台结合，利好AI算力板块情绪。",
+    "catalyst": "AI公司成为港股公司第二大股东，提供资本通道，强化AI算力主题。"
+  },
+  "635ae4c88f9b82399f1e53ce": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "世纪互联Q2营收增14.2%，经调整净利润扭亏为盈，获头部云客户大单，与宁德时代合作算电融合。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "世纪互联为美股，未点名A股公司，但业绩和合作利好AI算力及新能源板块，提升市场情绪。",
+    "catalyst": "世纪互联业绩超预期，与宁德时代合作算电融合，AI算力需求增长。"
+  },
+  "b256afdff959e74c59bca5d4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国柴油价格飙升逼近历史高点，特朗普支持率跌至33%，中期选举前经济压力增大，农民等群体承压。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "新闻聚焦美国柴油危机，对A股无直接关联，但可能影响全球能源价格，需关注相关板块。",
+    "catalyst": "柴油供应紧张，裂解价差创新高，或引发能源价格波动。"
+  },
+  "12d4661c118c8924ab2256fc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "正丹股份发布半年报，业绩下滑但财务稳健，行业周期调整，长期成长逻辑不变。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "正丹股份",
+        "code": "300641"
+      }
+    ],
+    "reason": "公司业绩下滑但财务稳健，行业周期影响，长期逻辑未变，可关注但非重大利好。",
+    "catalyst": "行业周期调整，但全球供给收缩及产能扩张带来长期机遇。"
+  },
+  "05534bf377d884180da1653c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技上市首日高开低走，机器人概念股全线大跌，资金虹吸、估值过高及利好兑现是主因。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻明确点名埃斯顿等A股公司，但未给出具体代码，且板块整体承压，建议观望。",
+    "catalyst": "宇树科技上市估值过高，资金虹吸效应导致板块回调。"
+  }
+}
