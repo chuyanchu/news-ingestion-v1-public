@@ -1,0 +1,573 @@
+{
+  "86a4c94e60493870cb874727": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "下半年82家银行获批增资，农商行占八成，资本充足率低于行业均值，地方国资托底。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行增资提升资本实力，利好银行板块，但未点名具体上市公司。",
+    "catalyst": "中小银行资本补充常态化，地方国资注入提升风险抵御能力。"
+  },
+  "814bd29c259dc4930ac07024": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "恒大集团及许家印因财务造假、非法集资等罪一审宣判，许家印获无期徒刑，恒大被罚巨额罚金。",
+    "impact": "negative",
+    "importance": 90,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "恒大系非上市或已退市，但事件重创房地产板块信心，相关个股承压。",
+    "catalyst": "恒大处罚落地，房地产风险出清预期，但短期情绪利空。"
+  },
+  "d581de66f6b2a7f80a1f73a9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "智界RX开启预售，首发华为智擎新一代高性能电驱，预售价29.98万元起。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "华为智界新车发布，提升智能电动车热度，利好新能源车产业链，但未点名具体A股公司。",
+    "catalyst": "华为新车预售，搭载先进电驱和智驾技术，带动新能源车板块关注。"
+  },
+  "78f5811d6bedfb4e719eb3f7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "享界G9正式上市，定位科技豪华硬派越野SUV，售价42.98万元起，搭载智能全地形系统等。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "享界G9发布利好新能源车板块，但未点名具体A股公司，故不进入个股交易池。",
+    "catalyst": "新车发布，智能越野SUV新品类，提升品牌竞争力。"
+  },
+  "8b6a5d8ccf3b6ff6541f84cb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "广告业智能化转型加速，因赛集团垂类AI营销体系落地，服务腾讯游戏等客户，提效显著。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "因赛集团",
+        "code": "300781"
+      }
+    ],
+    "reason": "新闻点名因赛集团，其AI营销商业化落地，业绩有望提升，属于AI应用受益标的。",
+    "catalyst": "AI营销商业化落地，降本增效，客户拓展。"
+  },
+  "be385a8a582f430b5ef9760d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "介绍消费者投诉企业的多种途径，包括12315、行业热线、企业客服和互联网平台，并给出选择建议。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为消费者维权指南，不涉及具体上市公司，对股市无直接影响，不进入交易池。",
+    "catalyst": "无明确市场催化逻辑。"
+  },
+  "dedbf57b67d0258ecd64275e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华为余承东宣布鸿蒙智行全系累计交付突破150万台，新势力品牌交付速度领先。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "鸿蒙智行交付量突破显示华为汽车生态强劲，利好新能源车产业链，但未点名具体A股公司。",
+    "catalyst": "鸿蒙智行交付量突破，华为汽车生态加速发展。"
+  },
+  "8baf7729a31ef1d9eebc3e99": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沪市化工企业半年报亮眼，34家净利润增幅超100%，行业景气度回升，预计下半年延续。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "化工",
+    "stocks": [
+      {
+        "name": "新凤鸣",
+        "code": "603225"
+      },
+      {
+        "name": "东材科技",
+        "code": "601208"
+      },
+      {
+        "name": "合盛硅业",
+        "code": "603260"
+      }
+    ],
+    "reason": "化工行业景气度回升，多家公司业绩大幅增长，板块效应明显，可关注相关标的。",
+    "catalyst": "行业反内卷、需求复苏、AI等高端材料需求增长。"
+  },
+  "58ed0b227132039dde5c2698": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股尾盘反弹，三大指数收涨，市场情绪有所修复。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻仅描述大盘走势，未涉及具体板块或个股，对交易指导意义有限。",
+    "catalyst": "尾盘资金回流，市场情绪修复。"
+  },
+  "b77840bfeaf37a49c10f90e4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日本消费者排队5小时购买中国相机，中国影像品牌在海外受热捧，显示中国消费电子出海潜力。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "中国品牌海外热销，利好消费电子出海链，但未点名具体A股公司，故不进入交易池。",
+    "catalyst": "中国影像品牌海外扩张，消费电子出海逻辑强化。"
+  },
+  "cb8235b360d86a6c0f848c32": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "摩根大通认为美国财政部扩大回购仅短期利好，长期受高赤字和融资需求制约，长端收益率或持续走高。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "美债",
+    "stocks": [],
+    "reason": "美债收益率上行压力可能影响全球风险资产，但A股相关板块间接，暂不进入交易池。",
+    "catalyst": "美债长端利率走高或压制全球估值，关注外资流向。"
+  },
+  "c8e43060e9a015f2978a8f5e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "泡泡玛特2026半年报营收171.7亿元增23.8%，THE MONSTERS等IP表现强劲，全球扩张。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "泡泡玛特为港股，非A股，但消费板块受提振，可关注相关IP经济概念。",
+    "catalyst": "业绩超预期，IP变现能力强，全球化扩张加速。"
+  },
+  "b2d095e5f8e3350009a24c9c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华为发布享界G9，定位科技豪华硬派越野SUV，搭载电动顶帐等配置，余承东称能替代民宿和房车。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "享界G9发布提升华为汽车生态关注度，利好新能源车板块，但未点名具体A股公司。",
+    "catalyst": "华为新车发布，配置创新，有望带动智能汽车产业链热度。"
+  },
+  "dea61409319712d4e4cc1102": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "机构认为市场调整是情绪扰动，8月修复可期，建议布局科技成长与低估值板块。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人",
+      "银行",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "机构观点积极，看好科技与低估值，市场情绪有望修复，相关板块存在机会。",
+    "catalyst": "机构看好8月修复，科技成长与低估值板块获关注。"
+  },
+  "03a8787bd1ff106719a8ae15": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "SK海力士发布CPO论文，韩半导体转向三层晶圆厂，存储市场预期大幅增长。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "存储行业景气度提升，CPO技术利好AI算力，但未点名A股公司，建议关注相关产业链。",
+    "catalyst": "存储超级周期，CPO技术突破，晶圆厂扩产。"
+  },
+  "79b6a6ce7cb8e83085b2080e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国宣布对伊朗实施毁灭性经济行动，中方呼吁通过政治外交途径解决问题。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "地缘政治事件影响能源供应预期，但未直接点名A股公司，需观察后续油价走势。",
+    "catalyst": "美伊冲突升级可能推升油价，利好石油板块。"
+  },
+  "50083e78fd9c96a9d3a27aa8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "二季度人身险偿付能力企稳，权益投资成关键变量，行业分化加剧。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "行业偿付能力整体改善，权益投资利好头部险企，但未点名具体公司，影响偏行业层面。",
+    "catalyst": "权益市场回暖提升投资收益，改善偿付能力，利好保险板块。"
+  },
+  "ce95d32881daba0b36e3f620": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "莫德纳mRNA癌症疫苗临床试验成功，股价大涨177%，展示颠覆性突破潜力。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "mRNA癌症疫苗进展利好医药生物板块，但未点名A股个股，暂不进入交易池。",
+    "catalyst": "mRNA癌症疫苗临床试验成功，颠覆性疗法前景。"
+  },
+  "5566312c19c83c4ce14a2161": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部回应美对华无人机征收232关税，坚决反对并敦促撤销，认为损害中国企业利益。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美关税措施利空无人机出口，但国内政策或加码支持，影响偏负面但有限。",
+    "catalyst": "美方关税壁垒，中方反对，可能引发行业政策对冲。"
+  },
+  "4743365baa1c7430b923d436": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "磷酸铁锂行业复苏，龙头湖南裕能上半年净利暴增超8倍，行业涨价扩产并行。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "湖南裕能",
+        "code": "301358"
+      },
+      {
+        "name": "龙蟠科技",
+        "code": "603906"
+      },
+      {
+        "name": "丰元股份",
+        "code": "002805"
+      },
+      {
+        "name": "安达科技",
+        "code": "830809"
+      }
+    ],
+    "reason": "行业景气度上行，龙头业绩大增，涨价扩产催化，相关个股受益明显。",
+    "catalyst": "磷酸铁锂涨价、高端产能紧缺、业绩超预期。"
+  },
+  "404d8898a7c7de3313521f07": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海出台“沪八条”优化房地产政策，包括公积金提取、信贷、购房补贴、房票安置及收购二手住房等。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好房地产行业，但未点名具体上市公司，影响广泛，可关注房地产板块。",
+    "catalyst": "上海楼市新政，刺激购房需求，利好房地产板块。"
+  },
+  "556984b0964868e6ea03951c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "快手二季度收入355亿元，可灵AI收入超8.5亿元，同比增长超200%，全球用户破亿。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "快手业绩超预期，可灵AI商业化加速，利好AI应用及算力产业链，但未点名A股公司。",
+    "catalyst": "可灵AI收入高增，融资落地，AI商业化提速。"
+  },
+  "ec1cd91b0159fcf90ecb2ad9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技上市后王兴兴首亮相，称重点投入AI模型，推动物理AI机器人自进化，机器人落地仍需时间。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宇树科技",
+        "code": "688077"
+      }
+    ],
+    "reason": "宇树科技上市后首次公开表态，聚焦具身智能AI模型，产业前景明确，但短期业绩不确定，需关注技术进展。",
+    "catalyst": "具身智能AI模型投入，物理AI机器人自进化，产业爆发临界点预期。"
+  },
+  "53a45e1b044aba55bec4e8f2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数集体上涨，医药板块走强，多股涨停，全市场近4100只个股上涨，成交额约2.09万亿元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "百克生物",
+        "code": "688276"
+      },
+      {
+        "name": "石药创新",
+        "code": ""
+      },
+      {
+        "name": "莱美药业",
+        "code": "300006"
+      },
+      {
+        "name": "南京商旅",
+        "code": "600250"
+      }
+    ],
+    "reason": "市场普涨，医药板块领涨，多股涨停，成交额放大，情绪积极，可关注相关个股。",
+    "catalyst": "医药板块走强，市场情绪回暖，成交额放大。"
+  },
+  "609ecbc7c5234912fb80d91b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宝马副总裁呼吁行业抵制压缩验证周期和测试偷工减料，强调安全底线，宝马在华加大研发投入。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及汽车行业安全与研发，但未点名具体A股公司，对交易池影响有限。",
+    "catalyst": "行业安全标准提升，可能影响新能源车测试环节，但无直接个股催化。"
+  },
+  "bdd08b617aa8cad3fc885844": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海发布房地产新政，降低首付比例，扩大公积金提取范围，实施购房补贴，地产股午后爆发。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "城投控股",
+        "code": "600649"
+      },
+      {
+        "name": "信达地产",
+        "code": "600657"
+      },
+      {
+        "name": "特发服务",
+        "code": "300917"
+      },
+      {
+        "name": "金地集团",
+        "code": "600383"
+      },
+      {
+        "name": "华发股份",
+        "code": "600325"
+      },
+      {
+        "name": "光明地产",
+        "code": "600708"
+      },
+      {
+        "name": "新黄浦",
+        "code": "600638"
+      }
+    ],
+    "reason": "政策利好房地产板块，明确提及相关个股，市场反应积极，建议进入交易池。",
+    "catalyst": "上海优化房地产政策，降低首付比例，实施购房补贴，刺激购房需求。"
+  },
+  "f231f2d5e8da57f97442bb7e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国财政部扩大国债回购以压低收益率，引发美元走弱担忧，市场关注政策干预风险。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "外汇/国债",
+    "stocks": [],
+    "reason": "新闻涉及美国财政政策，对A股无直接关联，但可能影响全球风险偏好，需关注。",
+    "catalyst": "美国国债回购扩大，美元走弱预期升温。"
+  },
+  "593fb7c04c7ff09051f1e741": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "医药生物板块涨停潮，黄金概念股大涨，新股绿控传动涨超300%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "优宁维",
+        "code": "301166"
+      },
+      {
+        "name": "百克生物",
+        "code": "688276"
+      },
+      {
+        "name": "博腾股份",
+        "code": "300363"
+      },
+      {
+        "name": "近岸蛋白",
+        "code": "688137"
+      },
+      {
+        "name": "石药创新",
+        "code": "300765"
+      },
+      {
+        "name": "华大智造",
+        "code": "688114"
+      },
+      {
+        "name": "沃森生物",
+        "code": "300142"
+      },
+      {
+        "name": "莱美药业",
+        "code": "300006"
+      }
+    ],
+    "reason": "医药板块涨停潮，黄金受金价大涨刺激，新股表现强势，市场情绪积极，可关注相关板块。",
+    "catalyst": "医药板块反弹，金价大涨，新股上市首日大涨。"
+  },
+  "8d0e64e4343f1cdcba89fbe8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "创新药板块受mRNA癌症疫苗和基因疗法获批两大利好刺激，多股涨停，行业盈利拐点显现。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "三元基因",
+        "code": "837344"
+      },
+      {
+        "name": "键凯科技",
+        "code": "688356"
+      },
+      {
+        "name": "沃森生物",
+        "code": "300142"
+      },
+      {
+        "name": "莱美药业",
+        "code": "300006"
+      },
+      {
+        "name": "康希诺",
+        "code": "688185"
+      },
+      {
+        "name": "悦康药业",
+        "code": "688658"
+      },
+      {
+        "name": "双鹭药业",
+        "code": "002038"
+      },
+      {
+        "name": "百克生物",
+        "code": "688276"
+      }
+    ],
+    "reason": "重大行业利好，多股涨停，板块效应强，盈利拐点确认，可关注持续性。",
+    "catalyst": "mRNA癌症疫苗三期成功及FDA批准基因疗法，创新药国际化加速。"
+  },
+  "c7cc90437f76eacad197cef8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技创始人王兴兴称人形机器人规模化应用需2-10年，公司推进物理AI机器人自进化体系，提升开发效率。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻提及宇树科技但未上市，未点名A股公司，但机器人板块受关注，可关注相关概念股。",
+    "catalyst": "人形机器人技术突破预期，物理AI自进化体系提升行业效率。"
+  }
+}
