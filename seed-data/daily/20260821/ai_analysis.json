@@ -1,0 +1,476 @@
+{
+  "c72f7111af1704e2fdad3925": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "菲律宾飞机非法侵入黄岩岛领空，南部战区警告驱离，地区局势紧张。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治紧张提升军工板块关注度，但未点名具体公司，暂不进入交易池。",
+    "catalyst": "南海争端升级，国防安全需求增强。"
+  },
+  "2131fe773f686b82c8a062da": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "LV回应起诉国家知识产权局遭驳回传闻，称案件仍在法定程序中，尚未有最终结论。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "该新闻为法律纠纷进展，不涉及具体上市公司业绩或行业政策，对A股影响有限。",
+    "catalyst": "无明确催化逻辑，仅为商标诉讼程序性消息。"
+  },
+  "507bc701f866ce1f1cfcc599": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "泡泡玛特CEO王宁称今年大概率完不成增长20%目标，上半年业绩不及预期，海外市场收缩，公司进入内部调整期。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "泡泡玛特为港股，非A股，但业绩预警影响消费板块情绪，故进入交易池。",
+    "catalyst": "公司下调增长目标，海外市场下滑，内部调整期，短期业绩承压。"
+  },
+  "6993146398775cf5bc3d7be9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三星电子或公布超100万亿韩元股东回报计划，受AI芯片需求推动业绩创新高，股价上涨。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "三星股东回报计划反映半导体行业景气，利好A股半导体及AI算力板块，但未点名具体A股公司。",
+    "catalyst": "AI芯片需求旺盛，三星巨额股东回报计划提振行业信心。"
+  },
+  "a17b7c8895b6f3a9fbdce210": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "LV回应起诉国家知识产权局遭驳回传闻，称不实，案件仍在程序中。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及LV商标诉讼，但未点名A股公司，对A股市场影响有限。",
+    "catalyst": "LV商标诉讼进展，但非A股直接相关。"
+  },
+  "69d7f4930f9166b615a7d87d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股成交量跌破2万亿，沪指微涨，创业板指涨1.43%，市场窄幅震荡。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻仅描述市场整体走势，未涉及具体板块或个股，缺乏交易信号。",
+    "catalyst": "无明确催化事件。"
+  },
+  "f612396307a2dcac241f0ce1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国国债突破40万亿美元，两党互相指责，副总统称有审慎计划，财长称靠经济增长化解。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要涉及美国财政政策，对A股无直接关联，不进入交易池。",
+    "catalyst": "美国债务问题或影响全球风险偏好，但无直接A股催化。"
+  },
+  "904f8133d69a7b7654d9a45c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "财政部公布1-7月财政收支，全国一般公共预算收入同比增长5.8%，证券交易印花税大增99.2%，土地出让收入下降30.8%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "证券交易印花税大增反映市场活跃，利好券商；但土地财政疲弱，整体影响偏正面。",
+    "catalyst": "印花税大增显示交易活跃，券商受益；财政数据整体平稳。"
+  },
+  "97c5e8164b903266cf4b4918": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "LV回应称起诉国家知识产权局被驳回为不实信息，案件仍在法定程序中。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及奢侈品品牌法律纠纷，与A股市场关联度低，不进入交易池。",
+    "catalyst": "无明确A股相关催化"
+  },
+  "03cdab6542b0a120ea72a91f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "毅达资本旗下毅达汇顺深耕大湾区8年，管理规模23亿，投出50余项目，41家专精特新，目标5年达50亿。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "创投",
+    "stocks": [],
+    "reason": "新闻聚焦创投机构投资业绩，未直接涉及A股上市公司，对二级市场影响有限。",
+    "catalyst": "毅达汇顺大湾区投资布局及未来扩张计划。"
+  },
+  "cc42b6fcfeadade6e820a68b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三星电子宣布2026年股东回报计划，总额最高达110万亿韩元，创韩国历史新高，包括现金股息和股票回购。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "三星作为全球半导体龙头，高额股东回报显示其现金流充裕，利好半导体行业情绪，但未点名A股公司。",
+    "catalyst": "三星巨额股东回报计划，彰显行业景气度，提振半导体板块信心。"
+  },
+  "556fdef58492cf7232401769": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股成交额时隔19个交易日再度跌破2万亿，年内已有9次，市场活跃度下降。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "成交额萎缩反映市场情绪低迷，可能影响券商等板块，但未点名具体公司，暂不进入交易池。",
+    "catalyst": "市场缩量，资金观望，风险偏好下降。"
+  },
+  "bcaded09aebe4106f066a90d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宁波银行上半年营收净利双位数增长，拨备覆盖率提升，中收大增，资产质量稳健。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宁波银行",
+        "code": "002142"
+      }
+    ],
+    "reason": "业绩超预期，增长质量高，资产质量优异，对银行板块有提振作用。",
+    "catalyst": "营收净利双提速，中收大增，负债成本优化，资产质量稳健。"
+  },
+  "e5340ea892eba4d3bf3af2f9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "税友股份半年报净利增32%，AI产品回款占比升至33%，数智财税业务稳健增长。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "财税数字化",
+    "stocks": [
+      {
+        "name": "税友股份",
+        "code": "603171"
+      }
+    ],
+    "reason": "业绩超预期，AI驱动增长，合同负债高增，具备持续增长潜力。",
+    "catalyst": "AI产品渗透率提升，数智财税业务增长，合同负债支撑下半年收入。"
+  },
+  "484e9b33e92fb4885dab9e50": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月LPR保持不变，符合预期，年内降准降息仍有可能，关注政策窗口。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "LPR不变影响中性，但提及未来降息可能，对银行和房地产有潜在影响，可关注。",
+    "catalyst": "LPR维持不变，未来降准降息预期，政策窗口或三季度末开启。"
+  },
+  "713667da11ec3d33baa1aca4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股冲高回落，资金涌入有色金属、电子等，贵金属、航运港口表现亮眼，关注科技与顺周期。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "有色金属",
+      "新能源",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "赤峰黄金",
+        "code": "600988"
+      },
+      {
+        "name": "西部黄金",
+        "code": "601069"
+      },
+      {
+        "name": "山东黄金",
+        "code": "600547"
+      },
+      {
+        "name": "中远海控",
+        "code": "601919"
+      },
+      {
+        "name": "中谷物流",
+        "code": "603565"
+      },
+      {
+        "name": "锦江航运",
+        "code": "601083"
+      }
+    ],
+    "reason": "新闻明确提及资金流入和个股表现，涉及有色、航运、电子等，有明确催化，可关注。",
+    "catalyst": "资金流入、金价上涨、航运价格高位"
+  },
+  "4fc6adf8cf9175b9be8eba2b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美债风暴再袭，美股大跌，美财长贝森特发声安抚市场，称财政部工具箱强大，可能进一步干预。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "美债",
+    "stocks": [],
+    "reason": "新闻主要影响美股及美债市场，对A股影响间接，未点名A股公司，暂不进入交易池。",
+    "catalyst": "美债收益率飙升，美联储政策不确定性，国际油价上涨。"
+  },
+  "fccb6d8f3ad3a1674e34b8ef": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "英伟达正与韩国AI芯片初创企业Rebellions洽谈潜在合作，可能涉及技术合作、投资或收购。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "英伟达布局AI芯片，利好AI算力和半导体板块，但未点名A股公司，暂不进入个股交易池。",
+    "catalyst": "英伟达与AI芯片初创合作，强化AI算力产业链预期。"
+  },
+  "3f82231521c384719594c6c7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "贵州茅台董事长回应上半年增收不增利，称改革转型取得成效，业绩波动属正常。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "贵州茅台",
+        "code": "600519"
+      }
+    ],
+    "reason": "公司正面回应业绩波动，强调改革成效，但未提供超预期信息，影响中性。",
+    "catalyst": "市场化改革推进，市场体系优化，长期基本面稳健。"
+  },
+  "c698349d249b45e8c57ea488": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "跨维智能创始人提出世界模型是下一代AI统一中枢，可驱动实体智能体，覆盖工业与家庭场景。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "机器人",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "世界模型概念利好AI与机器人产业，但未点名具体公司，主题性催化。",
+    "catalyst": "世界模型统一AI中枢，驱动实体智能体应用"
+  },
+  "6b9768d1767e74089422490c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Lazada推出全域出海生态，近万家天猫品牌入驻，东南亚电商市场高速增长，平台格局集中。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "东南亚电商增长利好出海链，但未点名具体A股公司，影响间接。",
+    "catalyst": "Lazada出海生态助力品牌出海，东南亚电商高增长。"
+  },
+  "44d7d15e5c7cc708194ffa97": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股有色金属板块大涨，白银有色涨停，医药生物回调，新股信胜科技大涨，港股恒基地产因业绩大增上涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "有色金属",
+    "stocks": [
+      {
+        "name": "白银有色",
+        "code": "601212"
+      },
+      {
+        "name": "融捷股份",
+        "code": "002192"
+      }
+    ],
+    "reason": "有色金属板块领涨，多股涨停，市场热度高，但持续性待观察，可关注龙头股。",
+    "catalyst": "有色金属板块走强，资金关注，白银有色涨停带动板块情绪。"
+  },
+  "7d713e076aa73b991363063c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "比亚迪大汉EV预售，搭载第二代刀片电池，续航超1000公里，闪充技术加速上车，年底建两万座闪充站。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "code": "002594"
+      }
+    ],
+    "reason": "比亚迪新车发布及闪充技术进展，提升产品竞争力，有望提振销量，利好公司股价。",
+    "catalyst": "第二代刀片电池及闪充技术加速上车，年底建成两万座闪充站。"
+  },
+  "7a8e17d77588e21fa74749c7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国财政部扩大国债回购规模，黄金大涨后回落，美债信用受损，全球央行增持黄金，黄金成多极时代新底仓。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [],
+    "reason": "新闻聚焦黄金避险价值，但未点名A股公司，黄金板块或受益，但需关注市场情绪。",
+    "catalyst": "美债信用下降，全球央行增持黄金，黄金避险需求提升。"
+  },
+  "36c1c6737aa9cbb44dd24be7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "银行代理保险业务升温，中年客户为主力，银保保费大增，但理财经理压力大，行业向专业转型。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银保业务增长利好银行和保险板块，但新闻未点名具体个股，影响偏行业层面。",
+    "catalyst": "存款利率下行，保险产品收益优势凸显，银保保费高增。"
+  },
+  "49087f18440e6283c8221aea": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "浙商期货完成我国期货市场首次跨境交割，打通境外产区至国内终端产业链路。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "期货",
+    "stocks": [],
+    "reason": "期货市场创新事件，提升行业服务能力，但未点名A股公司，直接关联度低。",
+    "catalyst": "跨境交割机制贯通，期货公司国际化业务突破。"
+  },
+  "b81f8a3dee20189d4d43a20c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "广州中院裁定受理恒大地产破产清算申请，房地产行业风险持续出清。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "恒大破产清算对房地产板块情绪有负面影响，但市场已有预期，影响有限。",
+    "catalyst": "房地产风险出清，行业整合加速。"
+  },
+  "6eae644bdd424b98d99f82fe": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "李子园2026半年报营收降2.69%，净利6503万，成本上升挤压利润，但新业务高增，中期分红率76.59%。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "李子园",
+        "code": "605337"
+      }
+    ],
+    "reason": "业绩承压但分红高、新业务增长，股价或受分红和转型预期支撑，可关注。",
+    "catalyst": "中期高分红、新品类及渠道拓展、产业链延伸"
+  },
+  "aa27418d3f5188316de32376": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "泡泡玛特星星人农场系列秒罄，隐藏款溢价高，但财报不及预期，股价下跌。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及泡泡玛特，但未点名A股上市公司，且公司业绩不及预期，股价承压，但消费板块受关注。",
+    "catalyst": "泡泡玛特新品热销但财报不及预期，股价下跌，关注消费板块调整。"
+  },
+  "a61e3d2509adfcdf8d4c6368": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "永茂泰上半年净利增306.94%，铝合金液放量，镁合金业务加速，机器人零部件布局。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车",
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "永茂泰",
+        "code": "605208"
+      }
+    ],
+    "reason": "业绩大幅增长，铝合金液和镁合金业务高增，机器人零部件带来想象空间，但公司体量较小。",
+    "catalyst": "铝合金液业务增长27.82%，镁合金收入翻倍，机器人零部件交付。"
+  }
+}
