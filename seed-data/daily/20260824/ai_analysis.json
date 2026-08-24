@@ -1,0 +1,587 @@
+{
+  "02363627cdfeaaf351401c8d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "新版基药目录将施行，调脂类中成药仅新增荷丹片/胶囊，沃华医药受益，形成双基药格局。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "沃华医药",
+        "code": "002107"
+      }
+    ],
+    "reason": "新闻明确点名沃华医药，其产品进入基药目录，政策利好，影响正面。",
+    "catalyst": "新版基药目录施行，荷丹片/胶囊新增为调脂类中成药，独家品种，具备调脂减重双重功效。"
+  },
+  "898e99408bdcf0bcd0cd5d0c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "顺鑫农业2026上半年业绩承压，但白酒低度创新、猪肉渠道拓展等新实践积蓄穿越周期力量。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "顺鑫农业",
+        "code": "000860"
+      }
+    ],
+    "reason": "公司业绩短期承压但战略清晰，基本面稳健，可关注其转型进展。",
+    "catalyst": "白酒低度新品及猪肉业务减亏，有望受益于消费复苏。"
+  },
+  "e1de1aa68148535ae736578d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数集体下跌，沪指失守3900点，宇树科技暴跌10.31%，主力资金净流出超900亿元。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "机器人",
+      "银行",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宇树科技",
+        "code": ""
+      }
+    ],
+    "reason": "市场整体下跌，资金流出，机器人板块龙头暴跌，影响市场情绪，但银行保险逆势上涨，存在结构性机会。",
+    "catalyst": "市场调整，资金避险，机器人板块回调，金融板块护盘。"
+  },
+  "5371ce5860a5323818b8c000": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "今日A股跳水大跌，双创指数跌超3%，市场情绪低迷。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻仅描述市场整体下跌，未涉及具体板块或个股，缺乏交易信号。",
+    "catalyst": "市场整体风险偏好下降，无明确催化事件。"
+  },
+  "0106d3663e61927ff9908636": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "小米发布新一代旗舰SoC玄戒O3，小米18 Fold将首发，9月上市。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "小米自研芯片发布，利好半导体产业链，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "小米自研芯片发布，带动国产芯片关注度提升。"
+  },
+  "9d73b1ad032bbb40981575ec": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "焦炭价格月内涨超20%，煤炭板块走强，焦煤供应偏紧，焦炭供需改善，预计9月价格偏强。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "煤炭",
+    "stocks": [
+      {
+        "name": "大有能源",
+        "code": "600403"
+      },
+      {
+        "name": "上海能源",
+        "code": "600508"
+      },
+      {
+        "name": "美锦能源",
+        "code": "000723"
+      },
+      {
+        "name": "新集能源",
+        "code": "601918"
+      },
+      {
+        "name": "昊华能源",
+        "code": "601101"
+      }
+    ],
+    "reason": "焦炭价格上涨利好煤炭板块，相关个股涨停或大涨，短期有交易机会。",
+    "catalyst": "焦煤供应偏紧，焦炭供需收紧，价格上行，行业景气提升。"
+  },
+  "cebbc552c6472fc62de84232": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "开源大模型密集发布，带动AI产业生态繁荣，开源成中国AI行业默认选项，企业通过开源实现商业变现。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "开源模型生态繁荣利好AI产业，但新闻未点名具体A股公司，故不进入交易池。",
+    "catalyst": "开源模型下载量激增，产业增长新空间打开。"
+  },
+  "25e28e74830d478ea24fcaf7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家上市银行半年报显示营收净利双增，净息差企稳回升，负债成本管控成效显现，银行业经营回暖。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "平安银行",
+        "code": "000001"
+      },
+      {
+        "name": "南京银行",
+        "code": "601009"
+      },
+      {
+        "name": "江苏银行",
+        "code": "600919"
+      },
+      {
+        "name": "宁波银行",
+        "code": "002142"
+      },
+      {
+        "name": "浦发银行",
+        "code": "600000"
+      },
+      {
+        "name": "重庆银行",
+        "code": "601963"
+      },
+      {
+        "name": "渝农商行",
+        "code": "601077"
+      }
+    ],
+    "reason": "银行板块业绩回暖，息差企稳，负债成本改善，基本面利好，催化板块估值修复。",
+    "catalyst": "半年报业绩超预期，净息差环比回升，资产质量稳健。"
+  },
+  "094ced873b94f0caa0f7b223": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月以来多只绩优主动权益基金放开大额限购，覆盖科技、医药、消费等多方向，反映市场情绪回暖。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物",
+      "消费",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "鼎通科技",
+        "code": "688668"
+      }
+    ],
+    "reason": "基金放开限购显示市场信心增强，利好相关板块及重仓股，资金流入预期提升。",
+    "catalyst": "绩优基金放开申购，吸引增量资金入场，提振市场情绪。"
+  },
+  "72877933c232c9ecdcca68ff": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "市场震荡调整，科技权重股走弱拖累指数，黄金、煤炭、农业等防御板块活跃，成交额放量。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻描述市场整体下跌，科技股走弱，但未明确点名个股，对交易池无直接指引。",
+    "catalyst": "科技权重股调整，市场情绪偏弱，防御板块受青睐。"
+  },
+  "d096c11df8d2009bb42880ee": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "历史数据显示中期选举后美股通常上涨，当前市场波动属正常，未来12个月环境积极，但需警惕利率风险。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻聚焦美股历史规律，未涉及A股具体板块或个股，对A股交易池无直接关联。",
+    "catalyst": "中期选举不确定性消退，历史规律支持美股上涨，但需关注利率变化。"
+  },
+  "22b8768b01e638ac5f1bf2a2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股大跌，受美债收益率上行、科技龙头融资、CPO技术路线扰动三大利空影响，AI硬件重挫，红利防御板块走强。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      }
+    ],
+    "reason": "新闻明确点名AI硬件龙头股，且板块大跌，影响市场情绪，建议关注但短期谨慎。",
+    "catalyst": "科技龙头融资、CPO技术路线图引发产业格局担忧，AI硬件遭抛售。"
+  },
+  "60879b8867de456457cbcb4f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "小米发布新一代自研处理器玄戒O3，采用3nm工艺，集成240亿晶体管，安兔兔跑分超522万。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "小米自研芯片突破，利好半导体产业链，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "小米自研芯片进展，提升国产芯片自主可控预期。"
+  },
+  "af7539c6100de0699dcb4f96": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "工信部首提算力超市和算力银行，旨在盘活闲置算力，降低中小企业用算门槛，多地已探索实践。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好算力产业链，但未点名具体公司，板块整体受益。",
+    "catalyst": "算力普惠政策推动算力资源灵活调度，降低用算成本。"
+  },
+  "666b63f7d3bca00a8b22d4fb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技上市三日市值蒸发近千亿，高估值引发市场担忧，人形机器人板块承压。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻点名宇树科技，但未明确A股代码，且公司未上市，故不进入交易池。",
+    "catalyst": "高估值泡沫担忧，人形机器人概念炒作降温。"
+  },
+  "59a4bc326171495e09a19b49": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "光模块板块今日大跌，受SK海力士押注下一代CPO技术及英伟达量产影响，但券商认为产业链核心受益环节仍为光模块等。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      },
+      {
+        "name": "源杰科技",
+        "code": "688498"
+      },
+      {
+        "name": "长光华芯",
+        "code": "688048"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "光迅科技",
+        "code": "002281"
+      }
+    ],
+    "reason": "新闻直接点名光模块相关个股，且板块短期承压，但长期逻辑未变，需关注技术迭代风险。",
+    "catalyst": "SK海力士发布CPO技术路线图，英伟达CPO量产，引发市场对技术迭代的担忧。"
+  },
+  "7f5a0b12ca86315cc7002530": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "9家车企召回427万辆汽车，特斯拉占七成，因门把手安全冗余不足，新国标禁止全隐藏式门把手。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "召回事件短期利空新能源车板块，但新国标推动安全升级，长期利好行业规范化。",
+    "catalyst": "大规模召回引发安全担忧，新国标强制机械把手，促进行业技术迭代。"
+  },
+  "b5f1deb64786488bb094382b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "智光电气上半年扭亏为盈，储能业务放量，营收增长38%，净利润增长179%，独立储能电站盈利能力强。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "智光电气",
+        "code": "002169"
+      }
+    ],
+    "reason": "业绩扭亏为盈，储能业务高增长，政策利好，技术领先，具备投资价值。",
+    "catalyst": "储能订单增长，独立储能电站投产，AI+能源布局，政策支持。"
+  },
+  "2614c16edf6e28e610a7d367": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "银行加速裁撤总行级专营机构和信用卡分中心，行业降本增效，信用卡规模下滑。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻反映银行业收缩趋势，对银行板块整体偏负面，但未点名具体上市公司，不进入交易池。",
+    "catalyst": "银行降本增效，裁撤低效专营机构，信用卡业务收缩。"
+  },
+  "8fbb6f38b76ec3f9f46ae4ab": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "阿里巴巴完成800亿港元新股配售，用于AI投资，港股大跌，互联网巨头AI资本开支竞赛升级。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "阿里配售加大AI投入，利好AI算力板块，但港股大跌或影响情绪，未点名A股个股。",
+    "catalyst": "阿里配售资金投入AI基础设施，巨头资本开支竞赛升级。"
+  },
+  "2eaef4c2955da7ed493943e7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国财长贝森特警告对伊朗发动经济D日，亚太股市集体回调，美元信心危机显现，资金转向HALO资产。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "地缘政治风险升级，市场避险情绪升温，利空股市，但未点名具体A股公司。",
+    "catalyst": "美国对伊朗经济制裁升级，伊朗威胁封锁霍尔木兹海峡，油价可能上涨。"
+  },
+  "8b0c5eabc55478db452a8ecc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美加贸易谈判破裂，加拿大将对美国商品实施等额报复性关税，9月8日生效。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "贸易摩擦",
+    "stocks": [],
+    "reason": "贸易摩擦升级，影响全球市场风险偏好，但未直接点名A股公司，暂不进入交易池。",
+    "catalyst": "加拿大报复性关税实施，加剧贸易紧张局势。"
+  },
+  "23d274c9668df4a44e904f31": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "外交部驳斥美方攻击中国科技企业，称其是科技霸凌与单边胁迫，中方坚决反对。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为外交表态，无具体公司或行业直接影响，但涉及科技企业国际环境，重要性中等。",
+    "catalyst": "中美科技摩擦，可能影响市场情绪，但无直接催化。"
+  },
+  "1cd5615e761734e2dc6dd443": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股整体调整，通信电子领跌，种业概念大涨，贵州茅台涨超3%，港股趣致集团大涨。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "种业",
+    "stocks": [
+      {
+        "name": "贵州茅台",
+        "code": "600519"
+      },
+      {
+        "name": "秋乐种业",
+        "code": "831087"
+      },
+      {
+        "name": "登海种业",
+        "code": "002041"
+      },
+      {
+        "name": "康农种业",
+        "code": "837403"
+      },
+      {
+        "name": "神农种业",
+        "code": "300189"
+      },
+      {
+        "name": "隆平高科",
+        "code": "000998"
+      },
+      {
+        "name": "敦煌种业",
+        "code": "600354"
+      },
+      {
+        "name": "万向德农",
+        "code": "600371"
+      }
+    ],
+    "reason": "新闻提及多个种业股和贵州茅台，但整体市场调整，影响中性，可关注消费和种业板块。",
+    "catalyst": "厄尔尼诺影响农产品供应，茅台投放时段优化提升消费预期。"
+  },
+  "2bbd7505d2af123b13a725c1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "松原安全2026年上半年营收增长21%，获137个新定点，布局HOD方向盘，海外产能释放。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "松原安全",
+        "code": "300893"
+      }
+    ],
+    "reason": "公司业绩增长，订单充足，受益于汽车安全法规升级和国产替代，行业景气度高。",
+    "catalyst": "L2+强制标准落地，HOD方向盘渗透率提升，海外市场拓展。"
+  },
+  "005d030fc1d12336856da8e4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "希音启动全球发售，拟募资131亿港元，预计9月1日港交所上市，用于技术、品牌等。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "希音为港股IPO，未点名A股公司，但出海链相关，可关注其供应链合作企业。",
+    "catalyst": "希音港股上市，提升出海链关注度，可能带动相关供应链公司估值。"
+  },
+  "7edf835d2cd27668c4ee1d19": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中际旭创称订单能见度高，部分客户已给到2027年订单，下半年资本开支继续增加，扩产备料支撑未来增长。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      }
+    ],
+    "reason": "光模块龙头订单饱满至2027年，资本开支加大，预示AI算力需求持续高景气，利好产业链。",
+    "catalyst": "订单能见度提升，资本开支增加，扩产备料支撑业绩增长。"
+  },
+  "f909c7656a13bc2fc2e6e136": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行将于8月27日至9月1日开展隔夜逆回购操作，每日操作量不超过6000亿元，以匹配银行体系短期流动性需求。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "央行逆回购操作释放流动性，利好银行板块，但未点名具体个股，故不进入交易池。",
+    "catalyst": "央行流动性投放，缓解短期资金压力，利好银行股。"
+  },
+  "047d4a71514a520330c98eea": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三星电子股价大跌，高盛称AI交易进入基本面阶段，存储和数据中心板块估值缺口最具吸引力。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "高盛观点影响AI板块情绪，但未点名A股公司，三星事件对A股半导体影响有限。",
+    "catalyst": "高盛建议关注存储和数据中心板块估值错配机会。"
+  },
+  "d19c16a20734dc75bd85b095": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "港股三大指数集体下跌，科网股、光通信等板块普跌，阿里巴巴跌超8%，市场担忧PCB产能过剩及美联储加息。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "光通信",
+    "stocks": [],
+    "reason": "新闻提及港股下跌及光通信板块下挫，但未点名A股公司，且板块不在候选列表中，建议关注光通信板块。",
+    "catalyst": "PCB产能过剩风险及美联储加息预期压制市场情绪。"
+  }
+}
