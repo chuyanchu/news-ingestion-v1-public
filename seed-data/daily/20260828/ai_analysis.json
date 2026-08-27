@@ -1,0 +1,476 @@
+{
+  "63b33162aee0b5935c489b55": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "蓝科高新半年报净利增153%，战略重组落地，转型能源装备整体解决方案服务商。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "蓝科高新",
+        "code": "601798"
+      }
+    ],
+    "reason": "业绩大增且战略重组落地，转型新能源装备，具备催化效应。",
+    "catalyst": "半年报净利大增，控股股东变更，新能源项目落地。"
+  },
+  "aeb4bc59223d4d82fa3d1f8f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "爱柯迪上半年营收增24.42%，新获订单超百亿，海外市场亮眼，研发投入加码，全球化布局推进。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源车",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "爱柯迪",
+        "code": "600933"
+      }
+    ],
+    "reason": "业绩增长强劲，订单充足，海外扩张和具身智能布局带来新增长点，利好公司股价。",
+    "catalyst": "新获订单超百亿，海外收入占比过半，具身智能和光模块散热件订单提升估值。"
+  },
+  "a8e1330d472ab8864aea84e7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国7年期国债中标收益率创2024年12月以来新高，符合预期，市场反应平淡。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国债拍卖结果符合预期，对A股影响中性，无明确板块或个股催化。",
+    "catalyst": "美债收益率高位，但市场已消化，无新增边际变化。"
+  },
+  "d657e07508247a232957b6b8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "加拿大调整反制关税，对美国铜线、木炭等征50%关税，替代鱼类海产品，9月8日实施。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "贸易摩擦",
+    "stocks": [],
+    "reason": "涉及中美贸易摩擦，影响市场情绪，但无直接A股标的，暂不进入交易池。",
+    "catalyst": "加拿大对美加征关税，贸易紧张升级，关注相关板块波动。"
+  },
+  "bdb5d8cefd802b339a196de7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "天目药业半年报显示经营现金流转正，新业务放量，产能技改推进，但净利润下滑。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "天目药业",
+        "code": "600671"
+      }
+    ],
+    "reason": "公司基本面改善，新业务贡献利润，产能升级，但利润下滑，整体偏正面。",
+    "catalyst": "新业务放量、经营现金流转正、产能技改推进"
+  },
+  "e18c65d1ef294812eac676b3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "涪陵榨菜上半年净利4.09亿元，第二增长曲线初见成效，拟派现2.31亿元。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "涪陵榨菜",
+        "code": "002507"
+      }
+    ],
+    "reason": "业绩稳健，新品及渠道拓展成效显著，高分红提振信心，消费板块受益。",
+    "catalyst": "半年报业绩稳健，第二增长曲线及高分红方案。"
+  },
+  "f13c327fcb9b37570e84a73e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普放宽牛绞肉进口关税以降低消费者成本，但引发牧场主不满。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "农业",
+    "stocks": [],
+    "reason": "新闻涉及美国农业政策，对A股无直接关联，不进入交易池。",
+    "catalyst": "美国牛肉进口关税调整，影响有限。"
+  },
+  "9aca95c18e2f62e4c3492488": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "拓普集团上半年营收增长9.78%，汽车电子量产，机器人执行器小批量交付，液冷订单17.5亿，海外收入增长14.41%。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车",
+      "机器人",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "拓普集团",
+        "code": "601689"
+      }
+    ],
+    "reason": "业绩增长，新业务加速落地，海外拓展，催化明确，进入交易池。",
+    "catalyst": "机器人执行器量产，液冷订单增长，海外客户拓展。"
+  },
+  "8ade116972d037cb665785b1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "海湾产油国增加出口，霍尔木兹海峡原油运输回升，有助于抑制油价上涨。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价下跌利空石油板块，但新闻未点名具体A股公司，暂不进入交易池。",
+    "catalyst": "原油供应增加，油价承压"
+  },
+  "d37b11e0c9a9bfebd9f5f754": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "敦煌种业半年报营收增20.93%，净利增165.68%，种子主业量利齐升，经营现金流改善。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "农业"
+    ],
+    "suggested_sector": "种业",
+    "stocks": [
+      {
+        "name": "敦煌种业",
+        "code": "600354"
+      }
+    ],
+    "reason": "业绩超预期，种子主业高增长，行业景气，但需关注持续性。",
+    "catalyst": "转基因玉米品种审定加速，种业振兴政策利好。"
+  },
+  "3395e2ff9c7ea4ea002a52cb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "双良节能2026年上半年营收30.7亿元，归母净利润亏损7.66亿元，但经营性现金流同比增长18.21%，氢能海外项目落地。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "双良节能",
+        "code": "600481"
+      }
+    ],
+    "reason": "公司业绩亏损但现金流改善，氢能突破带来催化，关注行业周期底部反转机会。",
+    "catalyst": "氢能海外项目落地，光伏供需修复预期，空冷技术升级。"
+  },
+  "33bcd1b70d6d12331661150d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "克利夫兰联储行长哈马克重申应加息以遏制通胀，认为当前利率限制性不足。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储官员鹰派言论可能引发市场对流动性收紧担忧，对股市整体偏空，但无直接关联板块。",
+    "catalyst": "美联储加息预期升温"
+  },
+  "87d37bed210d586874f23520": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "俄罗斯因流动性危机被迫削减支出，暴露战争高昂成本，但预算仍可维持数年。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "俄罗斯财政紧张可能影响全球地缘政治，但未直接涉及A股公司，军工板块或受情绪影响。",
+    "catalyst": "俄罗斯财政紧缩，地缘风险加剧，军工关注度提升。"
+  },
+  "359fde14da7beb63abe9431d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "恒帅股份上半年营收增长22%，电机业务与新能源赛道持续放量，海外市场拓展顺利。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "恒帅股份",
+        "code": "300969"
+      }
+    ],
+    "reason": "公司业绩增长强劲，新能源车零部件业务占比高，电机技术突破带来想象空间，值得关注。",
+    "catalyst": "新能源车零部件放量，谐波磁场电机技术突破，海外基地建设推进。"
+  },
+  "c572c99a34690aefa32ea104": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "交易员加码对冲美元反弹风险，聚焦美联储主席沃什杰克逊霍尔讲话，市场预期鹰派或中性。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "外汇",
+    "stocks": [],
+    "reason": "新闻主要影响外汇市场，对A股板块无直接关联，重要性中等。",
+    "catalyst": "美联储主席讲话可能影响美元走势，间接影响全球风险偏好。"
+  },
+  "22df20a9afddfa1676438213": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Alphabet股价因AI竞争、人才流失及模型延迟下跌，市值蒸发逾7000亿美元，但过去一年仍涨65%。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及海外科技巨头AI竞争，对A股AI算力板块有情绪影响，但未点名具体A股公司，暂不进入交易池。",
+    "catalyst": "AI模型竞争加剧，算力需求持续，关注国内AI产业链。"
+  },
+  "5cec614423cdb165f88cd6b1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "西班牙小镇博物馆遭窃，青铜时代黄金文物被盗，属文化事件，对A股无直接影响。",
+    "impact": "neutral",
+    "importance": 10,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为海外文化事件，与A股市场无关联，不进入交易池。",
+    "catalyst": "无"
+  },
+  "db73984e07d17f99fdeb59bb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "塞力医疗发布半年报，聚焦SPD、IVD、医疗数智化三大赛道，AI医疗与创新药布局进展，减亏14.76%。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "塞力医疗",
+        "code": "603716"
+      }
+    ],
+    "reason": "公司业务聚焦医药生物，AI医疗与创新药布局有进展，但业绩亏损，重要性中等。",
+    "catalyst": "AI医疗模型发布、降压疫苗临床推进、SPD业务拓展。"
+  },
+  "ab0de6e6f5eb3ecae67ba3ea": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Citrini称财政部与美联储新协议将减少长债供应，利好30年期美债，建议做多30年做空5年。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "债券",
+    "stocks": [],
+    "reason": "主要影响美债市场，对A股无直接关联，但可能影响全球风险偏好，暂不进入交易池。",
+    "catalyst": "财政部-美联储协议预期，长债供应减少，收益率曲线平坦化。"
+  },
+  "e8fad1e489796fed225c0e09": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "欧央行纪要显示官员讨论温和限制性政策，通胀仍高，市场预期两周后加息。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "欧洲货币政策",
+    "stocks": [],
+    "reason": "欧央行政策影响欧洲经济，对A股间接影响，不直接关联候选板块。",
+    "catalyst": "欧央行加息预期，关注全球流动性变化。"
+  },
+  "994713f983a406bdd15c7fbf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "九部门发布意见，支持航空保税维修高质量发展，扩大产品目录，取消区域限制，明确出口退税和内销政策。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好航空维修产业，但未点名具体公司，板块影响有限，暂不进入交易池。",
+    "catalyst": "政策支持航空保税维修，扩大目录和区域，利好相关企业。"
+  },
+  "6c0291ba10a8d508b56c546e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Anthropic考虑允许现有股东在IPO中出售部分持股，并设置更长锁定期，计划9月底或10月初上市。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "AI大模型",
+    "stocks": [],
+    "reason": "Anthropic为海外AI公司，未点名A股公司，但AI大模型主题可能间接影响相关概念股。",
+    "catalyst": "AI大模型公司IPO进展，或提升AI板块关注度。"
+  },
+  "602877d154db73551ca310dc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "志高机械2026年上半年营收4.17亿元，毛利率提升，配件业务增长，加快海外布局。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "志高机械",
+        "code": "920101"
+      }
+    ],
+    "reason": "公司业绩稳健，毛利率提升，海外扩张，但市值较小，影响有限。",
+    "catalyst": "海外子公司设立，配件业务高增长，毛利率提升。"
+  },
+  "fb1b9f5173b2f605c45dc650": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "红蜻蜓上半年扭亏为盈，品牌焕新与数智化转型成效初显。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "红蜻蜓",
+        "code": "603116"
+      }
+    ],
+    "reason": "公司扭亏为盈，品牌年轻化与AI应用提升效率，业绩改善，可关注。",
+    "catalyst": "品牌代言人签约、AI设计系统应用、渠道优化。"
+  },
+  "468619c36e5cfa2f4a30327a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "维科精密上半年营收净利双增，扣非净利增17.7%，拟10派0.53元，并发行可转债扩产。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "维科精密",
+        "code": "301499"
+      }
+    ],
+    "reason": "业绩增长且分红，可转债募资扩产，利好公司发展，可关注。",
+    "catalyst": "业绩增长+中期分红+可转债扩产"
+  },
+  "62a0c587da8b97a8da480b99": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "波士顿联储行长柯林斯表示利率仍具温和限制性，有助于通胀降温，但需更多证据支持。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储官员表态影响全球流动性预期，但未直接涉及A股板块，重要性中等。",
+    "catalyst": "美联储利率政策预期变化"
+  },
+  "c828f20f357404cbe9457c8a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国盛智科上半年营收净利双增，在人形机器人、AI液冷、半导体等新兴领域拓展应用，研发投入增长。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "机器人",
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "国盛智科",
+        "code": "688558"
+      }
+    ],
+    "reason": "公司业绩增长且布局热门新兴领域，具备成长性，可关注。",
+    "catalyst": "新兴领域定制化开发，人形机器人、AI液冷、半导体需求驱动。"
+  },
+  "0c46a8210b02d71a50c48e92": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "新朋股份上半年净利增316%，金属及通信零部件营收占比提升，液冷产品小批量交付。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "新朋股份",
+        "code": "002328"
+      }
+    ],
+    "reason": "业绩大增且涉及液冷数据中心，符合AI算力热点，但个股影响有限。",
+    "catalyst": "液冷数据中心产品验证并小批量交付，业绩高增长。"
+  },
+  "4489954336eb0c80915ca02d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Hugging Face发布售价400美元的会唱歌双足机器人Microduck，推动AI与机器人技术普及。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及机器人新品发布，但未点名A股公司，对板块有情绪提振，可关注相关概念股。",
+    "catalyst": "AI+机器人新品发布，提升行业关注度。"
+  },
+  "841c980f12867ce13db57c93": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "英伟达加大派息回购，或推动股价估值扩张，类似苹果2015年行情。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "英伟达资本回报计划利好AI算力与半导体板块情绪，但未点名A股个股，可关注相关产业链。",
+    "catalyst": "英伟达巨额回购派息，或带动AI芯片估值提升。"
+  }
+}
