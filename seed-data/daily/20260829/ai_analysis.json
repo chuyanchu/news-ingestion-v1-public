@@ -1,0 +1,483 @@
+{
+  "dcf27046c505d3ad09c53f97": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "化纤行业上半年显著回暖，龙头企业盈利大幅修复，氨纶与生物质纤维素长丝成核心引擎。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "化纤",
+    "stocks": [
+      {
+        "name": "新乡化纤",
+        "code": "000949"
+      },
+      {
+        "name": "华峰化学",
+        "code": "002064"
+      }
+    ],
+    "reason": "行业景气回升，龙头业绩超预期，供需格局改善，旺季需求有望释放，具备投资价值。",
+    "catalyst": "氨纶价格上行，库存低位，金九银十旺季需求集中释放。"
+  },
+  "98646bdd7e4f4eb5d5f135d5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储主席沃什讲话后，市场对9月加息概率上升至48%，影响全球市场情绪。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "宏观",
+    "stocks": [],
+    "reason": "美联储加息预期升温，可能压制A股风险偏好，但未直接点名行业，暂不进入交易池。",
+    "catalyst": "美联储主席鹰派讲话，加息概率上升"
+  },
+  "909f414367a91f929a8ae092": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储主席沃什承诺抗通胀，缓解债市疑虑，美债收益率曲线趋平，短期收益率走高。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储政策影响全球流动性，但未直接点名A股公司，对A股影响间接，重要性中等。",
+    "catalyst": "美联储抗通胀承诺，影响全球利率预期"
+  },
+  "038058daabe41ab0e1663141": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "哈森股份上半年扭亏为盈，精密制造业务成新增长引擎。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "哈森股份",
+        "code": "603958"
+      }
+    ],
+    "reason": "公司业绩扭亏为盈，业务转型初见成效，利好股价。",
+    "catalyst": "精密制造业务增长，消费电子需求回暖。"
+  },
+  "0649ee4c02bc9ad04a174725": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "SuperX获澳大利亚算力服务器订单，并接连斩获海外AI基建订单，有望带动国内产业链公司。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中恒电气",
+        "code": "002364"
+      },
+      {
+        "name": "澄天伟业",
+        "code": "300689"
+      },
+      {
+        "name": "华胜天成",
+        "code": "600410"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      }
+    ],
+    "reason": "新闻明确点名相关A股公司，且AI算力出海主题热度高，具备交易价值。",
+    "catalyst": "海外AI基建订单落地，带动国内产业链公司业绩预期。"
+  },
+  "b406a02a236a9f46e28b92a3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "苹果上调美国市场Apple TV及Apple One订阅价格，月费涨至14.99美元。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及苹果海外订阅涨价，与A股无直接关联，不进入交易池。",
+    "catalyst": "苹果服务业务提价，对国内相关产业链影响有限。"
+  },
+  "9ab5b493eddaddca5903090e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "九毛九上半年营收降13.2%，净利增24.9%，主品牌大规模闭店阶段结束，太二翻台率提升。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "餐饮消费个股，业绩分化，太二改善但怂火锅下滑，整体中性，可关注消费板块。",
+    "catalyst": "主品牌闭店结束，太二翻台率提升，外卖增长。"
+  },
+  "3d8be0c691b3c7d022949549": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "周六福上半年营收同比降24.9%，净利润降8.9%，加盟和线上收入下滑，自营逆势增长，门店总数减少。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "公司业绩下滑，但自营和海外扩张有亮点，消费板块受关注，但非A股公司，不进入交易池。",
+    "catalyst": "金价波动影响黄金珠宝销售，公司优化产品结构，拓展海外市场。"
+  },
+  "9d6170e3c3d8ec3bcb1d754a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "新奥能源上半年营业额570.21亿元，天然气零售量增长，电力业务快速发展，新增装机容量430兆瓦。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "公司业绩稳健，新能源业务增长显著，但未点名A股公司，影响有限。",
+    "catalyst": "电力市场化改革推进，泛能业务扩张，光伏储能装机增长。"
+  },
+  "c5dc7447426717107f16a660": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "神州数码上半年营收净利双增，AI业务收入大增74.9%，自有品牌算力产品高增。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "神州数码",
+        "code": "000034"
+      }
+    ],
+    "reason": "AI业务高增，算力产品放量，业绩超预期，利好公司股价。",
+    "catalyst": "AI算力需求爆发，公司产品升级，业绩增长强劲。"
+  },
+  "634b2cdf91baff7fc91ee227": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "东方盛虹上半年净利润45亿元，同比增1065%，受益于油价上涨和一体化布局。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "东方盛虹",
+        "code": "000301"
+      }
+    ],
+    "reason": "业绩超预期，一体化优势凸显，新材料布局打开成长空间，值得关注。",
+    "catalyst": "油价上涨带动炼化价差扩大，POE等新材料投产贡献增量。"
+  },
+  "cc1324b33adc80b3cf0c647a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "春兰股份上半年营收增长65%但净利润降17%，空调业务委外生产竞争力弱，房地产去库存压力大，依赖电厂投资收益。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "春兰股份",
+        "code": "600854"
+      }
+    ],
+    "reason": "公司主营空心化，业绩依赖投资收益，风险较大，但营收增长和分红提供一定支撑。",
+    "catalyst": "空调业务委外生产竞争力弱，房地产去化压力大，电力改革影响投资收益。"
+  },
+  "eaa4006d0c64b159b8731d44": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金融监管总局发布五项房地产贷款及信托业务管理办法，规范融资制度。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好房地产行业，规范融资有助于行业健康发展，但未点名具体公司。",
+    "catalyst": "房地产融资制度规范化，利好行业长期发展。"
+  },
+  "4987fe5e98872ef4a03eb101": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "安路科技上半年营收增93%，亏损收窄，FPGA行业景气上行，国产替代加速。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "安路科技",
+        "code": "688107"
+      },
+      {
+        "name": "复旦微电",
+        "code": "688385"
+      }
+    ],
+    "reason": "业绩高增，行业景气，国产替代逻辑强化，龙头受益。",
+    "catalyst": "FPGA涨价、交期延长，国产替代加速。"
+  },
+  "bdbd72326c291b53b7c2a8d6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "欧洲央行管委称经济动能增强，通胀仍高，讨论继续收紧货币政策。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "欧洲央行政策对A股影响间接，不直接关联候选板块，重要性中等。",
+    "catalyst": "欧央行加息预期影响全球流动性，但无直接A股催化。"
+  },
+  "0a32bf517c6231fe9c441a90": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "鼎智科技上半年营收增58.92%，净利降11.61%，拟回购2000-2800万元股份。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "机器人",
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "鼎智科技",
+        "code": "873593"
+      }
+    ],
+    "reason": "营收高增，机器人项目转批量生产，回购彰显信心，但净利下滑需关注。",
+    "catalyst": "机器人项目批量生产及精密丝杠产能建设推进。"
+  },
+  "4d54875c169f4afa71dc317f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "神州信息上半年营收41.25亿元，软件开发和技术服务占比超74%，AI相关签约1.96亿元，数字人民币业务推进。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "神州信息",
+        "code": "000555"
+      }
+    ],
+    "reason": "营收结构优化，AI和数字人民币业务进展积极，金融科技领域重要标的。",
+    "catalyst": "AI for Process战略落地，数字人民币试点推进。"
+  },
+  "a945580ff31c8bb3be023de3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行等发文改革房地产信贷管理，优化开发贷款和个人住房贷款制度，建立主办银行制度，确保购房人权益。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "房地产",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好房地产行业，改善信贷环境，银行相关业务或受益，但未点名具体公司。",
+    "catalyst": "房地产信贷政策改革，优化贷款制度，促进市场稳定。"
+  },
+  "b93eceb74299af880167f531": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "星华新材上半年营收增长35.3%，进入lululemon供应链，并收购东旺科技布局AI算力。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "星华新材",
+        "code": "301077"
+      }
+    ],
+    "reason": "公司进入国际品牌供应链，营收增长，且布局AI算力，业务多元化，利好股价。",
+    "catalyst": "进入lululemon供应链，收购东旺科技切入AI算力领域。"
+  },
+  "232c21becc1732f2cdde1bcf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "曲奇烘焙连锁经营20年后关闭全部线下门店，因财务困境、破产申请及经营压力。",
+    "impact": "negative",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "烘焙食品",
+    "stocks": [],
+    "reason": "新闻涉及美国烘焙品牌，与A股无直接关联，不进入交易池。",
+    "catalyst": "无A股相关催化"
+  },
+  "89e6e9dd6fa0bda5e22343dd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "五粮液2026年上半年营收284亿增20.87%，净利增89.3%，核心产品批价回升至800元，渠道改善。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "五粮液",
+        "code": "000858"
+      }
+    ],
+    "reason": "业绩超预期，价格回升，渠道健康，消费板块关注度高，可进入交易池。",
+    "catalyst": "中秋国庆旺季临近，批价回升，渠道改善，业绩高增。"
+  },
+  "cb7bd807b8f83a16453b4849": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "68岁女性起诉温迪汉堡，称其餐品致肠道感染，医疗费近10万美元，案件已移送联邦法院。",
+    "impact": "negative",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "餐饮",
+    "stocks": [],
+    "reason": "新闻涉及美国快餐企业诉讼，与A股关联度低，不进入交易池。",
+    "catalyst": "食品安全诉讼或影响快餐行业声誉，但无A股直接标的。"
+  },
+  "4b1b16f34892afe8702dc9c2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日元兑美元跌破160关口，此前美日联合干预的涨幅已回吐过半，市场关注日本当局是否再次干预。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "外汇",
+    "stocks": [],
+    "reason": "新闻主要影响外汇市场，对A股直接影响有限，但可能引发避险情绪，间接影响风险资产。",
+    "catalyst": "日元贬值加剧，可能引发日本央行干预，影响全球风险偏好。"
+  },
+  "f6d4c45c0c387d182cbdeed4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "英国央行行长贝利淡化第二轮通胀效应，赞同沃什对前瞻指引的观点，市场关注其政策立场。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及英国央行政策，与A股关联度低，不进入交易池。",
+    "catalyst": "英国央行政策动向影响全球市场情绪。"
+  },
+  "928b859c7808da3eeb31c7f1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "欧洲股市上涨，汽车股领涨，美联储主席重申遏制通胀，市场关注欧央行加息。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要涉及欧洲市场，对A股影响间接，无明确A股标的。",
+    "catalyst": "欧洲央行加息预期及美联储政策表态"
+  },
+  "4ef2db1372a73ea638a2f002": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "欧洲债市收益率曲线趋平，市场笃定欧洲央行下月加息25基点，美联储9月加息概率上升。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "欧洲加息预期影响全球流动性，但未直接涉及A股板块，银行板块或受情绪影响。",
+    "catalyst": "欧洲央行加息预期升温，全球利率上行压力。"
+  },
+  "b6eb9c9ac81787d28b670e04": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "优必选上半年营收12.7亿元，同比增104.2%，人形机器人收入大增1445%，推出三款新品，研发投入超3亿元。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "优必选为港股，未点名A股公司，但机器人行业景气度高，相关A股公司或受带动，可关注产业链。",
+    "catalyst": "人形机器人收入爆发式增长，新品发布，行业前景广阔。"
+  },
+  "8a3e838f542c0707c71ee5c1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "摩根士丹利看好AI主权主题，推荐SpaceX、安靠科技等，认为各国政府将扶持本土AI基础设施，相关企业受益。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻提及的均为美股，未点名A股公司，但AI主权主题利好国内AI算力与半导体自主可控，相关板块值得关注。",
+    "catalyst": "各国政府推动AI基础设施本土化，国产替代需求增强。"
+  },
+  "b94b1d33ea3850de584ff498": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国财长贝森特为干预日元辩护，称日元极端波动可能推高美国利率，影响全球市场。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "外汇",
+    "stocks": [],
+    "reason": "新闻涉及国际汇率政策，未直接关联A股板块或个股，但可能影响市场情绪，暂不进入交易池。",
+    "catalyst": "日元波动或影响全球利率预期，需关注后续市场反应。"
+  },
+  "3897fed6f3b26b3db64c6888": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "云南元谋县连续23年领跑楚雄州农村居民收入，旅居人口大幅增长，展现红色热土发展新貌。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "乡村振兴",
+    "stocks": [],
+    "reason": "新闻聚焦地方发展成就，无直接上市公司关联，不进入交易池。",
+    "catalyst": "红色旅游与乡村振兴政策支持"
+  }
+}
