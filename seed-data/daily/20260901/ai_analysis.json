@@ -1,0 +1,133 @@
+{
+  "85a4df469cda23daf74d97fc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "智谱上半年收入增近400%，API收入占比升至86.5%，业务结构转向云端MaaS。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "智谱业绩增长强劲，业务转型成功，利好AI算力及大模型产业链，但未点名A股公司。",
+    "catalyst": "智谱API收入激增，验证大模型商业化，带动AI算力需求。"
+  },
+  "9bdd2b384c47dea4ee5a67dc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Kalshi平台因桑托斯押注国情咨文出席而永久封禁其账户，此前CFTC已罚款。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及美国政治人物和预测平台，与A股市场无直接关联，不进入交易池。",
+    "catalyst": "无A股相关催化。"
+  },
+  "b841d1f7e3c97f9e53a9dfe2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "摩根大通推演非农数据后美股表现，认为标普500走弱概率更大，市场加息预期升温。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及美股及美联储政策，对A股无直接点名影响，但可能影响全球风险偏好，暂不进入交易池。",
+    "catalyst": "非农数据及美联储加息预期变化"
+  },
+  "d4701936a0fb2bf013d90abf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行等将个人住房贷款最长期限延至40年，多家银行支持存量房贷延期，利好房地产。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "房地产",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "建设银行",
+        "code": "601939"
+      },
+      {
+        "name": "交通银行",
+        "code": "601328"
+      },
+      {
+        "name": "工商银行",
+        "code": "601398"
+      }
+    ],
+    "reason": "政策直接利好房地产销售和银行信贷，但银行息差可能承压，整体影响偏正面。",
+    "catalyst": "房贷期限延长至40年，存量可申请延期，刺激购房需求，改善地产预期。"
+  },
+  "76defd0648c0f3933a9977f4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中控技术工业AI业务上半年营收3.85亿元，同比增长229%，成为核心增长引擎，公司转型工业AI价值服务商。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中控技术",
+        "code": "688777"
+      }
+    ],
+    "reason": "工业AI业务高增，转型成功，估值体系有望重塑，利好公司股价。",
+    "catalyst": "工业AI规模化商业化，MaaS/RaaS订阅模式落地。"
+  },
+  "8783dd805ff2a81a5f347832": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "慈文传媒2026半年报显示营收降九成，亏损扩大，但现金流改善，精品剧集和微短剧获认可，布局AIGC平台。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "影视传媒",
+    "stocks": [
+      {
+        "name": "慈文传媒",
+        "code": "002343"
+      }
+    ],
+    "reason": "业绩亏损但内容储备和AIGC布局带来想象空间，关注订单转化和技术进展。",
+    "catalyst": "在手订单2.9亿，AIGC平台建设，精品剧集播出反响好。"
+  },
+  "369a96182b2d7571193c3b8d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家推进全国一体化算力网建设，目标实现算力使用像用电一样方便，利好算力基础设施产业链。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策明确支持算力网络建设，提升算力基础设施需求，相关板块受益。",
+    "catalyst": "全国一体化算力网政策推进，算力需求增长。"
+  },
+  "4d0b68a8d09e5c2fe355f3de": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "政策强调稳资金、稳投资、稳机制，引导短期交易转向长期配置，利好资本市场长期健康发展。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "券商",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策导向利好资本市场，提升长期资金入市预期，券商和银行受益。",
+    "catalyst": "稳市场政策引导长期投资，改善市场生态。"
+  }
+}
