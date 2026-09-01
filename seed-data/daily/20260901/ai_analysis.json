@@ -129,5 +129,663 @@
     "stocks": [],
     "reason": "政策导向利好资本市场，提升长期资金入市预期，券商和银行受益。",
     "catalyst": "稳市场政策引导长期投资，改善市场生态。"
+  },
+  "1462e0656b89b66cf90f965e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "五大险企上半年净利润大增78%，投资端驱动，持续加码权益资产。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国人寿",
+        "code": "601628"
+      },
+      {
+        "name": "中国平安",
+        "code": "601318"
+      },
+      {
+        "name": "中国人保",
+        "code": "601319"
+      },
+      {
+        "name": "中国太保",
+        "code": "601601"
+      },
+      {
+        "name": "新华保险",
+        "code": "601336"
+      }
+    ],
+    "reason": "险企盈利大增且增持权益资产，利好保险板块及市场情绪，但需注意高位风险。",
+    "catalyst": "投资端收益提升，权益资产加码，新会计准则放大效应。"
+  },
+  "6364acd7384224774a7f322e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年暑期档票房近125亿元，同比增长4.4%，观影人次3.4亿，优质内容带动市场热度提升。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "电影市场回暖，消费板块受益，但未点名具体A股公司，整体利好行业情绪。",
+    "catalyst": "暑期档票房增长，观影人次提升，行业信心增强。"
+  },
+  "907892fc98df94b899263d55": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家大基金减持芯原股份，持股比例降至5%以下，不再为持股5%以上股东。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "芯原股份",
+        "code": "688521"
+      }
+    ],
+    "reason": "大基金减持显示产业资本态度谨慎，短期或影响市场情绪，但公司基本面未变，需关注后续走势。",
+    "catalyst": "大基金减持，持股比例降至5%以下，可能引发市场对半导体板块的担忧。"
+  },
+  "c800bfee432c8a2a6de3b1af": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "高盛和大摩减持中际旭创H股，持股比例分别降至9.31%和6.55%。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "外资减持可能引发市场对AI算力板块的担忧，但中际旭创为A股公司，H股减持影响有限。",
+    "catalyst": "外资减持，短期情绪承压。"
+  },
+  "d0d3f1e9b89d05b26f61ad05": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中证协拟将账户管理功能优化试点转常规，并征求意见，旨在提升券商财富管理服务水平。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好券商行业，提升客户体验和运营效率，但未点名具体个股，影响广泛。",
+    "catalyst": "账户管理试点转常规，券商财富管理业务升级"
+  },
+  "0eaf609562d52b6039abe335": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "今日主力资金净流出140.93亿元，农林牧渔净流入居首，电子净流出最多，中际旭创获主力净流入14.79亿元。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "医药生物",
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "长川科技",
+        "code": "300604"
+      },
+      {
+        "name": "协鑫能科",
+        "code": "002015"
+      },
+      {
+        "name": "神农种业",
+        "code": "300189"
+      },
+      {
+        "name": "光迅科技",
+        "code": "002281"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "国际复材",
+        "code": "301526"
+      },
+      {
+        "name": "胜宏科技",
+        "code": "300476"
+      }
+    ],
+    "reason": "新闻为资金流向数据，反映市场情绪，但未提供明确利好或利空信号，重要性中等。",
+    "catalyst": "主力资金流向及个股资金净流入排名，可能影响短期市场情绪。"
+  },
+  "e59c7080b6475177164efdba": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月多家车企销量出炉，新势力交付量维持高位，比亚迪、奇瑞、吉利等出海表现亮眼。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "新能源车",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "code": "002594"
+      },
+      {
+        "name": "吉利汽车",
+        "code": ""
+      }
+    ],
+    "reason": "新能源车销量数据强劲，出海创新高，利好板块及个股，但部分个股非A股。",
+    "catalyst": "8月销量超预期，出海高增长，金九银十预期。"
+  },
+  "5408cdc31c47bf8253487209": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "光伏装机首超煤电，新能源可靠替代成首要议题，规划提出置信出力目标。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "光伏装机超越煤电标志性事件，政策推动新能源可靠替代，利好光伏及储能产业链。",
+    "catalyst": "光伏装机超煤电，规划提出可靠替代目标，储能和电网消纳受关注。"
+  },
+  "8255a4b3588b5d184d370e46": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "希音在港交所上市，市值超2000亿港元，募资132亿港元，用于技术、品牌和全球布局。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "希音上市利好跨境电商出海链，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "希音港股上市，显示中国跨境电商全球竞争力，带动出海链关注。"
+  },
+  "745dc3205d1fda555c2502b2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "海鸥住工连续7涨停，涨幅95.54%，公司提示风险，控制权拟变更给博泰车联，基本面未变。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "智能家居",
+    "stocks": [
+      {
+        "name": "海鸥住工",
+        "code": "002084"
+      }
+    ],
+    "reason": "股价严重偏离基本面，风险提示，可能停牌核查，不建议追高。",
+    "catalyst": "控制权变更预期，但基本面未变，炒作风险大。"
+  },
+  "1f908fed9095023dc09272c2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "海鸥住工7连板累计涨95.54%，公司提示风险，称股价严重偏离基本面，可能申请停牌核查。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "海鸥住工",
+        "code": "002084"
+      }
+    ],
+    "reason": "股价异常上涨，公司发布风险提示，可能停牌核查，短期风险大，不宜追高。",
+    "catalyst": "连续涨停引发监管关注，公司主动提示风险。"
+  },
+  "925e91ec3ed8f7dd7ab6e79e": {
+    "enabled": false,
+    "error": "Extra data: line 1 column 713 (char 712)"
+  },
+  "00c868d0b8314552b936378f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国股指期货走低，油价上涨推高债券收益率，标普500面临季节性压力。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "外围市场风险偏好下降，可能影响A股情绪，但无直接关联板块。",
+    "catalyst": "油价上涨、美债收益率上升、地缘风险。"
+  },
+  "93d6e9d78153cc9ff20b6ad2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "远东股份8月订单增长，智能电池储能/算力AI业务同比大增1629.48%。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "远东股份",
+        "code": "600869"
+      }
+    ],
+    "reason": "公司订单大幅增长，尤其AI算力业务爆发，业绩预期提升，利好股价。",
+    "catalyst": "AI算力及储能订单激增，业务转型见效。"
+  },
+  "d4a27cb02f4d9d0c0701fa4e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "伊朗称当前形势不允许讨论重返与美国的谅解备忘录，并提及巴基斯坦陆军参谋长访伊以防紧张升级。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘政治新闻，对A股无直接关联，不进入交易池。",
+    "catalyst": "地缘政治风险，但无明确A股催化。"
+  },
+  "04c9caa609c091ca7d0b8e91": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "苹果CEO换帅，约翰·特努斯接任，库克转任执行董事长。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "苹果高管变动对A股无直接点名影响，但可能间接影响产业链预期，暂不进入交易池。",
+    "catalyst": "苹果管理层变动，关注后续产品策略及供应链变化。"
+  },
+  "d8c709453aea979b3fd73108": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "六大行上半年房贷余额减少超5000亿，个人住房贷款余额下降，银行转向非房信贷。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "房贷缩量反映房地产调整，银行面临资产端压力，但银行转型非房信贷，影响偏负面但可控。",
+    "catalyst": "提前还贷潮持续，个人房贷余额下降，银行加速布局消费贷等非房业务。"
+  },
+  "e9dc92e2d41f0e83f472271d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Meta收购Manus交易撤销，Manus恢复独立运营，创始团队继续领导。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "人工智能",
+    "stocks": [],
+    "reason": "涉及AI领域重大并购变动，但未点名A股公司，影响间接。",
+    "catalyst": "AI行业并购动态，关注独立运营后发展。"
+  },
+  "fc1e4c395d9c2ecc46455d8f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "渤海银行2026年中报显示净利润增长8.37%，息差企稳，中收大增，资产质量稳定，价值银行战略显效。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行板块业绩稳健，盈利结构优化，但个股未点名，板块整体受益，可关注银行ETF。",
+    "catalyst": "渤海银行中报超预期，息差企稳，中收高增，显示银行业转型成效。"
+  },
+  "c2d7448c5db188c1d3eec138": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "牛散章建平二季度大举建仓AI算力产业链，持仓近167亿元，其他牛散也纷纷布局AI相关个股。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "亨通光电",
+        "code": "600487"
+      },
+      {
+        "name": "杭电股份",
+        "code": "603618"
+      },
+      {
+        "name": "云南锗业",
+        "code": "002428"
+      },
+      {
+        "name": "科翔股份",
+        "code": "300903"
+      },
+      {
+        "name": "寒武纪",
+        "code": "688256"
+      },
+      {
+        "name": "民生银行",
+        "code": "600016"
+      },
+      {
+        "name": "德明利",
+        "code": "001309"
+      }
+    ],
+    "reason": "新闻聚焦牛散重仓AI产业链，显示市场资金关注，可能带动相关板块热度，但需注意风险。",
+    "catalyst": "牛散大举建仓AI算力硬件，显示产业景气度获认可，或引发市场跟风。"
+  },
+  "13af449fe160ec4753ef33f7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "李强总理会见美中贸易全国委员会董事会代表团，强调中美经贸合作互利共赢，欢迎美企深耕中国市场。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "消费",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "中美关系缓和信号，利好外贸及消费板块，但无具体公司点名，整体影响偏正面。",
+    "catalyst": "中美经贸合作预期改善，提振市场风险偏好。"
+  },
+  "4823d3d7f4244a1851c2f7b5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "染料龙头浙江龙盛上调活性染料价格，H酸价格创历史新高，行业库存低位，需求旺季来临，染料概念股表现良好。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "染料",
+    "stocks": [
+      {
+        "name": "浙江龙盛",
+        "code": "600352"
+      },
+      {
+        "name": "闰土股份",
+        "code": "002440"
+      },
+      {
+        "name": "锦鸡股份",
+        "code": "300798"
+      },
+      {
+        "name": "建新股份",
+        "code": "300107"
+      },
+      {
+        "name": "亚邦股份",
+        "code": "603188"
+      },
+      {
+        "name": "百合花",
+        "code": "603823"
+      },
+      {
+        "name": "万丰股份",
+        "code": "603172"
+      },
+      {
+        "name": "雅运股份",
+        "code": "603790"
+      }
+    ],
+    "reason": "染料涨价利好相关公司，且新闻点名多只概念股，业绩改善预期强，可进入交易池。",
+    "catalyst": "H酸价格暴涨，染料提价，行业库存低位，需求旺季补库预期。"
+  },
+  "ff6c06d5c854d6e402d53808": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多家A股公司披露回购进展，中际旭创首日回购超3亿元，中国石化等累计回购金额超1亿元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "医药生物",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "中国石化",
+        "code": "600028"
+      },
+      {
+        "name": "九洲药业",
+        "code": "603456"
+      },
+      {
+        "name": "华大智造",
+        "code": "688114"
+      },
+      {
+        "name": "大博医疗",
+        "code": "002901"
+      },
+      {
+        "name": "健盛集团",
+        "code": "603558"
+      },
+      {
+        "name": "小熊电器",
+        "code": "002959"
+      }
+    ],
+    "reason": "多家公司回购显示信心，中际旭创大额回购利好AI算力板块，整体提振市场情绪。",
+    "catalyst": "上市公司密集回购，彰显信心，吸引资金关注。"
+  },
+  "d971836c1b47ec9a1a228566": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "时代天使发布中期业绩，案例数增长40.2%，海外市场亮眼并盈利，收入净利大增。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "公司业绩增长强劲，海外扩张顺利，但未点名A股公司，且港股上市，对A股医药板块有间接提振。",
+    "catalyst": "隐形矫治案例数高增长，海外市场盈利，业绩超预期。"
+  },
+  "f6166745d274fadfaf292f5c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "万向德农、金健米业因股价大涨发布风险提示，称涨幅与业绩严重偏离。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "农业",
+    "stocks": [
+      {
+        "name": "万向德农",
+        "code": "600371"
+      },
+      {
+        "name": "金健米业",
+        "code": "600127"
+      }
+    ],
+    "reason": "风险提示公告，短期涨幅过大，存在回调风险，但农业板块受关注，可关注回调后机会。",
+    "catalyst": "超强厄尔尼诺、粮食概念炒作，但公司业绩承压。"
+  },
+  "76092573ba3c1037d3fc339b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "海银系集资诈骗案开庭，约200人旁听，韩宏伟父子称不知情，案件涉及数百亿资金。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "金融监管",
+    "stocks": [],
+    "reason": "涉及非法集资，对金融监管和投资者信心有负面影响，但无直接相关A股公司。",
+    "catalyst": "案件审理进展及后续判决可能引发金融风险担忧。"
+  },
+  "0c56a3edc7faf8d3ca68a0a0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国民技术拟6000万元参股南京优存，补强NOR Flash外置存储配套能力，存储行业景气度高。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "国民技术",
+        "code": "300077"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "普冉股份",
+        "code": "688766"
+      },
+      {
+        "name": "东芯股份",
+        "code": "688110"
+      }
+    ],
+    "reason": "存储芯片涨价潮持续，公司投资布局受益，行业景气度高，相关个股有催化。",
+    "catalyst": "存储芯片涨价，AI需求驱动，公司投资补强NOR Flash业务。"
+  },
+  "603492f5b23c4f58355aad00": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多只连续涨停牛股发布风险提示，称股价严重偏离基本面，存在快速下跌风险。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [
+      "农业"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "万向德农",
+        "code": "600371"
+      },
+      {
+        "name": "海鸥住工",
+        "code": "002084"
+      },
+      {
+        "name": "一鸣食品",
+        "code": "605179"
+      },
+      {
+        "name": "时代出版",
+        "code": "600551"
+      },
+      {
+        "name": "国芳集团",
+        "code": "601086"
+      }
+    ],
+    "reason": "多只高位股集中提示风险，短期炒作情绪受抑，相关个股面临回调压力，建议规避。",
+    "catalyst": "监管风险提示，股价严重偏离基本面，存在泡沫破裂风险。"
+  },
+  "21479a86ed81ec8cc4637afc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "习近平出席上合组织峰会，提出发展、安全、人文、治理四点主张，强调区域合作与共同发展。",
+    "impact": "neutral",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为外交政策表态，未涉及具体上市公司或行业，对A股直接影响有限，但可能影响区域合作相关主题。",
+    "catalyst": "上合组织合作深化，关注后续具体合作项目落地。"
+  },
+  "16e7bab6efe8cc30e6f84d9c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "粮食概念爆发，种业领涨，银行创新高，大金融走强，市场震荡。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "农业",
+    "stocks": [
+      {
+        "name": "神农种业",
+        "code": "300189"
+      },
+      {
+        "name": "万向德农",
+        "code": "600371"
+      },
+      {
+        "name": "新农开发",
+        "code": "600359"
+      },
+      {
+        "name": "金健米业",
+        "code": "600127"
+      },
+      {
+        "name": "新赛股份",
+        "code": "600540"
+      },
+      {
+        "name": "深粮控股",
+        "code": "000019"
+      },
+      {
+        "name": "国投丰乐",
+        "code": "000713"
+      },
+      {
+        "name": "芒果超媒",
+        "code": "300413"
+      }
+    ],
+    "reason": "粮食安全与厄尔尼诺催化，农业板块爆发；大金融走强，市场情绪积极。",
+    "catalyst": "厄尔尼诺预期引发粮食危机担忧，粮食板块大涨；银行创新高带动大金融。"
   }
 }
