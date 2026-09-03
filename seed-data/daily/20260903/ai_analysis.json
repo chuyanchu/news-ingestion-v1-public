@@ -1,0 +1,668 @@
+{
+  "b8ceedca0649276399e7d96a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "小米汽车宣布2027年进入欧洲市场，与德国八家经销商签约，推进国际化。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源车",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "小米汽车出海利好新能源车产业链及出海主题，但未点名A股公司，不直接进入交易池。",
+    "catalyst": "小米汽车欧洲扩张，提升产业链预期。"
+  },
+  "710a96039f77caa53017e07f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "利元亨上半年业绩稳健增长，在手订单超50亿元，但毛利率承压，将多措并举提升毛利水平。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "利元亨",
+        "code": "688499"
+      }
+    ],
+    "reason": "公司订单充沛，业绩增长，但毛利率压力需关注，整体利好。",
+    "catalyst": "储能及锂电设备需求放量，在手订单充足，固态电池等新业务拓展。"
+  },
+  "a58233ca2a8e38f2cb8e51eb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "机票价格进入淡季低位，9月错峰赏秋游热度攀升，银发族主导，国庆出游高峰前移。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "旅游消费数据积极，但未点名具体上市公司，对板块有提振，可关注旅游相关标的。",
+    "catalyst": "错峰游性价比高，机票降价刺激出行，国庆预订提前。"
+  },
+  "d911b39676f4999094591629": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "博时基金半年报显示94只基金盈利投资者占比超90%，业绩亮眼，体现持有人盈利体验提升。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "公募基金",
+    "stocks": [],
+    "reason": "新闻聚焦博时基金业绩与持有人盈利，对公募行业有正面信号，但未点名个股，不直接构成交易催化。",
+    "catalyst": "基金中期报告首次披露盈利投资者占比，凸显行业价值导向转变。"
+  },
+  "8894ff5f353a47eff2eef22d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全国首单科技创新+城市更新REIT在深交所上市，底层资产为北京隆福寺和人工智能产业基地，募集28.31亿元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "REITs",
+    "stocks": [],
+    "reason": "REITs上市利好房地产和城市更新，但未点名个股，主题新颖，可关注相关板块。",
+    "catalyst": "REITs创新品种上市，拓宽资产边界，利好城市更新和科创园区运营。"
+  },
+  "5127592518f2db2df75e80d1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储褐皮书显示经济温和增长但通胀顽固，ADP就业数据疲软，金价上涨，日韩股市跳水。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "贵金属",
+    "stocks": [],
+    "reason": "新闻主要影响黄金等贵金属，但候选板块无相关，建议新增贵金属板块。",
+    "catalyst": "美国ADP就业数据不及预期，美联储加息预期降温，金价上涨。"
+  },
+  "0dca704df198d16657b5168a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "43家上市券商上半年业绩普增，营收净利同比大增超四成，但行业分化加剧，头部券商优势明显。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中信证券",
+        "code": "600030"
+      },
+      {
+        "name": "国泰海通",
+        "code": "601211"
+      },
+      {
+        "name": "华泰证券",
+        "code": "601688"
+      },
+      {
+        "name": "广发证券",
+        "code": "000776"
+      },
+      {
+        "name": "招商证券",
+        "code": "600999"
+      },
+      {
+        "name": "中金公司",
+        "code": "601995"
+      },
+      {
+        "name": "中信建投",
+        "code": "601066"
+      },
+      {
+        "name": "申万宏源",
+        "code": "000166"
+      }
+    ],
+    "reason": "券商板块业绩整体向好，行业景气度提升，但个股分化，需精选头部及业绩超预期标的。",
+    "catalyst": "市场交投活跃，两融扩张，自营业务弹性释放，券商业绩普遍增长。"
+  },
+  "d443f5813f65b49fe43ad563": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家体育总局提出2030年体育产业总规模超7万亿，聚焦赛事经济、户外运动、科技创新，并强调科技自立自强和竞技体育转型。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "体育产业",
+    "stocks": [],
+    "reason": "体育产业政策利好，但未点名具体上市公司，相关板块如体育器材、赛事运营等可能受益。",
+    "catalyst": "体育产业政策支持，赛事经济与户外运动发展，科技赋能体育。"
+  },
+  "9b15638f1e1d1a36f2f487e0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "今日主力资金净流出59亿，电力设备、机械设备获净流入，三安光电因控股股东撤回破产重整申请涨停，获主力净买入8亿元。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "三安光电",
+        "code": "600703"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "香农芯创",
+        "code": "300475"
+      },
+      {
+        "name": "麦格米特",
+        "code": "002851"
+      },
+      {
+        "name": "黄河旋风",
+        "code": "600172"
+      },
+      {
+        "name": "巨轮智能",
+        "code": "002031"
+      },
+      {
+        "name": "博云新材",
+        "code": "002297"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      }
+    ],
+    "reason": "三安光电获主力大幅买入且有利好，半导体板块活跃，但整体资金流出，需关注持续性。",
+    "catalyst": "三安光电控股股东撤回破产重整申请，利好股价涨停。"
+  },
+  "ff9e80e0d33300dc0dba2e57": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI主线暂歇，市场迷茫，资金轮动至小盘股，量化策略回暖，CTA承压。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为市场综述，未明确点名个股，无直接交易标的。",
+    "catalyst": "市场等待新主线，量化超额持续累积。"
+  },
+  "4cfd257e5dbc6143557348da": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中方回应尼泊尔气候赔偿要求，强调合作应对气候变化，尼外长感谢中国援助。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及外交与气候政策，无直接A股相关公司或板块，影响有限。",
+    "catalyst": "气候合作与援助，无明确市场催化。"
+  },
+  "29ca0dfc763a4e59ff5cbd77": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "浦发银行2026年中报显示营收净利双增，息差回升，数智化战略成效显现，资产质量平稳。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "浦发银行",
+        "code": "600000"
+      }
+    ],
+    "reason": "业绩超预期，息差企稳，数智化转型见效，利好银行板块，浦发银行直接受益。",
+    "catalyst": "中报业绩增长，息差回升，数智化战略进入收获期。"
+  },
+  "90c77ce7a773f68024467986": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中科院理化所研制出高温超导带材新型铁基合金基带，成本低性能优，超导概念股受关注，13只上半年业绩增长。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "冰轮环境",
+        "code": "000811"
+      },
+      {
+        "name": "中天科技",
+        "code": "600522"
+      },
+      {
+        "name": "法尔胜",
+        "code": "000890"
+      },
+      {
+        "name": "汉缆股份",
+        "code": "002498"
+      },
+      {
+        "name": "东方钽业",
+        "code": "000962"
+      },
+      {
+        "name": "永鼎股份",
+        "code": "600105"
+      },
+      {
+        "name": "中孚实业",
+        "code": "600595"
+      },
+      {
+        "name": "综艺股份",
+        "code": "600770"
+      }
+    ],
+    "reason": "超导技术突破利好相关概念股，且多股业绩增长，具备炒作题材，可关注。",
+    "catalyst": "高温超导带材新型基带研制成功，推动超导产业国产化，市场空间广阔。"
+  },
+  "e326c55fef32ea4f3155b958": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月以来北京上海等核心城市出台楼市新政，优化公积金政策、发放购房补贴，促进楼市健康发展。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好房地产行业，但未点名具体上市公司，影响板块整体情绪。",
+    "catalyst": "多地公积金贷款额度提升、购房补贴等政策密集落地，提振楼市信心。"
+  },
+  "618f7e53023ace633852b7e4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上市银行半年报显示AI应用规模化提速，Token消耗量激增，智能体批量上岗，AI成为价值引擎。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI在银行领域规模化落地，提升效率，利好银行及AI算力板块，但未点名具体个股。",
+    "catalyst": "银行AI应用规模化，Token消耗量激增，智能体批量上岗。"
+  },
+  "17e82e6b078eb56c9fc65ef7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "氩气价格4个月涨超240%，供应紧张，AI和半导体需求拉动，工业气体概念股大涨。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "郴电国际",
+        "code": "600969"
+      },
+      {
+        "name": "侨源股份",
+        "code": "301286"
+      },
+      {
+        "name": "杭氧股份",
+        "code": "002430"
+      },
+      {
+        "name": "至纯科技",
+        "code": "603690"
+      },
+      {
+        "name": "金宏气体",
+        "code": "688106"
+      },
+      {
+        "name": "中船特气",
+        "code": "688146"
+      },
+      {
+        "name": "中巨芯",
+        "code": "688549"
+      },
+      {
+        "name": "华特气体",
+        "code": "688268"
+      }
+    ],
+    "reason": "氩气涨价直接利好相关上市公司，且AI和半导体需求增长提供持续催化，板块热度高。",
+    "catalyst": "氩气价格暴涨，供应紧张，AI算力与半导体扩产拉动电子气体需求。"
+  },
+  "220a0e740a5b4c559d614367": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家队二季度增持科技领域，包括光学光电子、IT服务等，金融仍为重仓。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "医药生物",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国家队增持科技股，显示政策支持，利好相关板块，但未点名个股。",
+    "catalyst": "国家队增持科技领域，扩大至AI+行业。"
+  },
+  "ca95b73fd4cba8cd2d0e7c16": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股中期分红创新高，856家公司计划分红7166.7亿元，稳定性增强，体现上市公司回报股东和抗风险能力。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中国移动",
+        "code": "600941"
+      },
+      {
+        "name": "工商银行",
+        "code": "601398"
+      },
+      {
+        "name": "建设银行",
+        "code": "601939"
+      },
+      {
+        "name": "中国神华",
+        "code": "601088"
+      },
+      {
+        "name": "农业银行",
+        "code": "601288"
+      },
+      {
+        "name": "中国石油",
+        "code": "601857"
+      },
+      {
+        "name": "中国人寿",
+        "code": "601628"
+      },
+      {
+        "name": "中国电信",
+        "code": "601728"
+      }
+    ],
+    "reason": "分红创新高显示企业盈利和现金流稳健，增强市场信心，利好高分红蓝筹股。",
+    "catalyst": "中期分红规模创新高，提升上市公司投资价值，吸引长期资金。"
+  },
+  "d9da2d416af7833f170c2ad3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股震荡，液冷服务器概念爆发，贵金属走强，成交萎缩至1.8万亿。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "大元泵业",
+        "code": "603757"
+      },
+      {
+        "name": "集泰股份",
+        "code": "002909"
+      },
+      {
+        "name": "湖南白银",
+        "code": "002716"
+      },
+      {
+        "name": "湖南黄金",
+        "code": "002155"
+      },
+      {
+        "name": "中金黄金",
+        "code": "600489"
+      }
+    ],
+    "reason": "液冷服务器和贵金属板块强势，相关个股涨停或大涨，有明确催化，可关注。",
+    "catalyst": "AI算力功耗推动液冷需求，贵金属受国际金价上涨带动。"
+  },
+  "f91b387b0591884ec8e33d57": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "*ST仕净预重整投资人招募首轮遇冷后重启，门槛高，公司财务恶化且面临多重风险。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "环保"
+    ],
+    "suggested_sector": "环保",
+    "stocks": [
+      {
+        "name": "*ST仕净",
+        "code": "301030"
+      }
+    ],
+    "reason": "公司重整不确定性高，风险大，但事件影响股价，可关注但不宜进入交易池。",
+    "catalyst": "预重整投资人招募重启，但门槛高且风险多，或影响股价波动。"
+  },
+  "0e7b579c0c29a2fe28010e60": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "亚康股份下属公司签订9.22亿元算力租赁合同，此前已签9.25亿元算力服务协议，算力业务持续扩张。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "亚康股份",
+        "code": "301085"
+      }
+    ],
+    "reason": "亚康股份连续签订大额算力合同，金额巨大，直接利好公司业绩预期，且行业景气度高。",
+    "catalyst": "算力需求向运营延伸，公司获大额订单，业绩确定性增强。"
+  },
+  "f2350ece3097b10a5ef89fdb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "光洋股份、金帝股份因机器人概念连续涨停，紧急公告提示风险，相关业务尚处早期，对业绩影响有限。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "光洋股份",
+        "code": "002708"
+      },
+      {
+        "name": "金帝股份",
+        "code": "603270"
+      }
+    ],
+    "reason": "机器人概念热度高，但公司提示业务尚处早期，短期业绩影响有限，需关注后续订单落地。",
+    "catalyst": "人形机器人概念板块异动，多股涨停，公司公告提示风险。"
+  },
+  "be5320ac0729cfb4c5d04083": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "协鑫集团董事长朱共山宣布正极材料C20供货宁德时代，并计划在四川建75万吨产能，称材料革命将重新定义电池产业链。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源车",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "协鑫集团",
+        "code": ""
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      }
+    ],
+    "reason": "涉及电池材料重大进展及大客户合作，影响新能源产业链，但协鑫集团未上市，宁德时代为明确受益方。",
+    "catalyst": "协鑫正极材料供货宁德时代，产能扩张，材料技术突破。"
+  },
+  "f165fc42b68865bdda7e7d02": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "锦龙股份1800万股司法拍卖二拍全部成交，牛散钟革以1.9亿元竞得，此前已拍600万股，合计持股2400万股。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "锦龙股份",
+        "code": "000712"
+      }
+    ],
+    "reason": "涉及券商股司法拍卖，牛散高价竞拍显示看好，股价连续涨停，市场关注度高，可能带动板块情绪。",
+    "catalyst": "牛散竞拍及股价涨停，反映市场对券商板块回暖预期。"
+  },
+  "564742bfe690e1b70a202825": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "市场监管总局公布传统工艺市场打假清源案例，打击虚假证书、虚假宣传等违法行为。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及市场监管和执法，对珠宝、红木等行业有规范作用，但未直接点名上市公司，影响有限。",
+    "catalyst": "监管执法加强，短期可能影响相关行业不规范企业，但无明确投资催化。"
+  },
+  "9430365ed842ee2b7bdfcd21": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股主要指数上涨，地产股强势，三安光电放量涨停，新股金钛股份大涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "信达地产",
+        "code": "600657"
+      },
+      {
+        "name": "三安光电",
+        "code": "600703"
+      },
+      {
+        "name": "金钛股份",
+        "code": ""
+      }
+    ],
+    "reason": "地产板块拉升，三安光电涨停，市场情绪积极，可关注相关个股。",
+    "catalyst": "地产政策预期及三安光电控股股东撤回破产重整申请。"
+  },
+  "a2ced20278162dbc26427c3a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "*ST康佳A拟主动终止上市，9月4日起停牌，待股东会审议。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "家电",
+    "stocks": [
+      {
+        "name": "*ST康佳A",
+        "code": "000016"
+      }
+    ],
+    "reason": "主动退市事件，影响公司股价及投资者，但非行业性利好，不进入交易池。",
+    "catalyst": "主动终止上市，股东会审议退市议案。"
+  },
+  "9d512f4947bfcd5886529819": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "安联控股上半年净利润同比增157%，寿险、财险、资管子公司均表现亮眼，新业务价值大增81%。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "安联控股业绩强劲，但未点名A股上市公司，对保险板块有正面情绪影响。",
+    "catalyst": "安联控股净利润大增，子公司全线跑赢预期，提振保险板块信心。"
+  },
+  "a3f4a8331f7f698fc681ba6b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "《富爸爸穷爸爸》作者罗伯特·清崎被曝背负12亿美元债务，其激进投资建议引发争议。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及个人财务，与A股市场关联度低，不构成交易信号。",
+    "catalyst": "个人债务曝光，可能影响其言论公信力，但无直接市场催化。"
+  },
+  "a2329b4992faaa14fb494a4a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "一品红痛风创新药AR882国内Ⅲ期临床达主要终点，有效率显著优于对照，安全性良好。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "一品红",
+        "code": "300723"
+      }
+    ],
+    "reason": "创新药临床重大进展，显著提升公司管线价值，利好股价。",
+    "catalyst": "AR882Ⅲ期成功，痛风药市场潜力大。"
+  }
+}
