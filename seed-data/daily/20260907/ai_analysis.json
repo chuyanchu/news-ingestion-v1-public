@@ -1,0 +1,695 @@
+{
+  "bf95c79ea62d6485f96b5ca0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "泰金新能与宁德时代签战略协议，股价20%涨停，公司提示风险，估值高、流通盘小。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "泰金新能",
+        "code": "688813"
+      }
+    ],
+    "reason": "重大合作催化，但业绩下滑、估值高，短期波动大，可关注但需谨慎。",
+    "catalyst": "与宁德时代战略合作，推动装备降本与技术升级。"
+  },
+  "cfb5b3bdc1515442fdbcdf01": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "小米发布澎程N90 Max增程SUV，续航1705km，售价26.99万起，定位大七座旗舰。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "小米新车发布提升新能源车板块热度，但未点名A股公司，故不进入个股交易池。",
+    "catalyst": "小米增程SUV发布，续航超长，或带动产业链关注。"
+  },
+  "0b84172d4148517eeb69e08a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "小米发布增程SUV澎程N70，续航最高1461km，售价20.99万起，主打智能与安全。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "小米新车发布利好新能源车产业链，但未点名具体A股公司，影响偏板块整体。",
+    "catalyst": "小米汽车新品发布，提升市场对新能源车及智能驾驶关注度。"
+  },
+  "2226cf244d16270e9b9733d8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "古越龙山上半年营收被会稽山反超，总经理回应称希望良性竞争，正推进结构调整。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "古越龙山",
+        "code": "600059"
+      },
+      {
+        "name": "会稽山",
+        "code": "601579"
+      }
+    ],
+    "reason": "黄酒行业竞争格局变化，公司业绩承压但战略调整，关注后续成效。",
+    "catalyst": "公司主动调结构，高端产品控量稳价，长期品牌价值提升。"
+  },
+  "a7296b33c72b29f46688aba5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "多地市场监管部门对量贩零食门店进行计量专项整治，好想来、赵一鸣等品牌被查并致歉，行业计量管理问题暴露。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及消费行业监管问题，可能影响相关品牌声誉，但未点名A股上市公司，暂不进入交易池。",
+    "catalyst": "量贩零食行业计量监管趋严，消费者权益保护加强。"
+  },
+  "609ca62ce510bcaf6a14b522": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "青鸟消防更名青鸟智控，从产品公司向安全整合平台升级，业务扩展至工业、海外等。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "智慧消防",
+    "stocks": [
+      {
+        "name": "青鸟智控",
+        "code": "002960"
+      }
+    ],
+    "reason": "公司战略升级，业务多元化，盈利能力提升，但新闻未涉及热门板块，建议关注智慧消防主题。",
+    "catalyst": "更名体现战略转型，整合能力提升，有望带来估值重塑。"
+  },
+  "a981e17a0d005d79a8822fa9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI长剧和AI漫剧市场爆发，影视板块大涨，预计2026年国内AI剧漫剧市场规模达400亿元，机构看好相关绩优股。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "AI影视",
+    "stocks": [
+      {
+        "name": "芒果超媒",
+        "code": "300413"
+      },
+      {
+        "name": "欢瑞世纪",
+        "code": "000892"
+      },
+      {
+        "name": "博纳影业",
+        "code": "001330"
+      },
+      {
+        "name": "上海电影",
+        "code": "601595"
+      },
+      {
+        "name": "协创数据",
+        "code": "300857"
+      },
+      {
+        "name": "昆仑万维",
+        "code": "300418"
+      },
+      {
+        "name": "三七互娱",
+        "code": "002555"
+      },
+      {
+        "name": "易点天下",
+        "code": "301171"
+      }
+    ],
+    "reason": "AI影视产业高速增长，政策与技术催化，相关公司业绩和前景看好，但需注意短期涨幅过大风险。",
+    "catalyst": "国内首部AIGC长剧上线，AI剧漫市场规模预计达400亿元，机构调研绩优股。"
+  },
+  "9af9c4df7e785eed3ef7509d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股主要指数全线飘红，科技板块业绩兑现，制造业龙头出海效果突出，市场基本面稳健支撑向好。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "医药生物",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "科沃斯",
+        "code": "603486"
+      },
+      {
+        "name": "石头科技",
+        "code": "688169"
+      }
+    ],
+    "reason": "新闻强调科技板块业绩增长和制造业出海，涉及AI算力、半导体、医药等，点名科沃斯和石头科技，影响积极，重要性高。",
+    "catalyst": "科技板块业绩兑现，AI算力政策支持，制造业出海盈利增长。"
+  },
+  "81c50dfe5ad6692c0d8c1b1d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "神剑股份副总经理因涉嫌内幕交易被证监会立案，公司股价前期暴涨后回落，上半年亏损。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "神剑股份",
+        "code": "002361"
+      }
+    ],
+    "reason": "高管涉嫌内幕交易，公司治理风险上升，且业绩亏损，股价高位回落，短期承压。",
+    "catalyst": "证监会立案调查，内幕交易风险暴露。"
+  },
+  "ed711fb5a3d4360d82c2e35e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会同意中金公司吸收合并东兴证券、信达证券，核准东方资产、信达资产成为主要股东。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中金公司",
+        "code": "601995"
+      },
+      {
+        "name": "东兴证券",
+        "code": "601198"
+      },
+      {
+        "name": "信达证券",
+        "code": "601059"
+      }
+    ],
+    "reason": "券商行业重大并购重组，提升行业集中度，利好相关公司股价。",
+    "catalyst": "证监会批复吸收合并，整合预期明确。"
+  },
+  "39e0096677a9d3c400b07bcc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "液冷概念股大涨，中石科技20cm涨停创新高，政策支持液冷散热，英伟达新平台全面采用液冷，行业拐点将至。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中石科技",
+        "code": "300684"
+      },
+      {
+        "name": "中远通",
+        "code": "301516"
+      },
+      {
+        "name": "盾安环境",
+        "code": "002011"
+      },
+      {
+        "name": "豪尔赛",
+        "code": "002963"
+      },
+      {
+        "name": "集泰股份",
+        "code": "002909"
+      },
+      {
+        "name": "高澜股份",
+        "code": "300499"
+      },
+      {
+        "name": "金帝股份",
+        "code": "603270"
+      },
+      {
+        "name": "申菱环境",
+        "code": "301018"
+      }
+    ],
+    "reason": "政策与英伟达催化，液冷行业拐点，业绩兑现预期强，龙头涨停带动板块，可关注。",
+    "catalyst": "政策支持液冷散热，英伟达Vera Rubin全面液冷，行业渗透率提升。"
+  },
+  "9633a26423727d5cd71eb5b1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月猪价弱势，多家猪企销量增但收入降，行业整体承压。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "克明食品",
+        "code": "002661"
+      },
+      {
+        "name": "正虹科技",
+        "code": "000702"
+      },
+      {
+        "name": "天域生物",
+        "code": "603717"
+      },
+      {
+        "name": "神农集团",
+        "code": "605296"
+      }
+    ],
+    "reason": "猪价低迷影响企业盈利，但销量增长部分对冲，关注成本控制。",
+    "catalyst": "猪价持续弱势，行业产能去化预期。"
+  },
+  "63f1d47ae931ecc26b1c664a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "神剑股份副总经理吴德清因涉嫌内幕交易被证监会立案调查。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "神剑股份",
+        "code": "002361"
+      }
+    ],
+    "reason": "高管被立案调查，公司声誉受损，股价可能承压，需关注后续进展。",
+    "catalyst": "内幕交易立案调查"
+  },
+  "89207c71addbab1ff0284f62": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普提议将新墨西哥州改名为“新美国州”，引发争议，但未涉及经济政策或市场。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻为政治性话题，不涉及A股上市公司或行业，无直接财经影响。",
+    "catalyst": "无明确市场催化逻辑。"
+  },
+  "c176c6d20254c64774ce3da7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海发布三年行动计划，支持量子、光子等前沿技术，加快自动驾驶、脑机接口等标准制定，推动集成电路、低空经济等产业发展。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人",
+      "新能源车",
+      "新能源",
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好多个科技产业，涉及AI、半导体、机器人等，但未点名具体公司，影响广泛，重要性较高。",
+    "catalyst": "上海政策支持前沿技术和新兴产业标准制定，推动相关产业发展。"
+  },
+  "89b83b8a62e0a7ea9cd6a0a6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "9月7日盘后，12家A股公司披露拟减持，森特股份拟增持。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "登康口腔",
+        "code": "001328"
+      },
+      {
+        "name": "宿迁联盛",
+        "code": "603065"
+      },
+      {
+        "name": "力诺药包",
+        "code": "301188"
+      },
+      {
+        "name": "利和兴",
+        "code": "301013"
+      },
+      {
+        "name": "亚香股份",
+        "code": "301220"
+      },
+      {
+        "name": "*ST禾信",
+        "code": "688622"
+      },
+      {
+        "name": "晨丰科技",
+        "code": "603685"
+      },
+      {
+        "name": "国科军工",
+        "code": "688543"
+      }
+    ],
+    "reason": "多家公司集中减持，市场情绪偏空，但个股影响需区分，整体重要性中等。",
+    "catalyst": "股东减持计划披露，可能引发短期抛压。"
+  },
+  "0db0db606cd6f19d40e31056": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "读者传媒午后涨停，龙版传媒6连板，受OpenAI发布GPT-6及AI影视应用催化，传媒板块活跃。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "传媒",
+    "stocks": [
+      {
+        "name": "读者传媒",
+        "code": "603999"
+      },
+      {
+        "name": "龙版传媒",
+        "code": "605577"
+      },
+      {
+        "name": "上海电影",
+        "code": "601595"
+      },
+      {
+        "name": "中国出版",
+        "code": "601949"
+      },
+      {
+        "name": "读客文化",
+        "code": "301025"
+      },
+      {
+        "name": "博纳影业",
+        "code": "001330"
+      }
+    ],
+    "reason": "AI应用催化传媒板块，龙头连板带动情绪，新闻明确点名多只个股，具备交易价值。",
+    "catalyst": "OpenAI发布GPT-6，AI影视应用加速，传媒板块受益。"
+  },
+  "c68ac6f639567ef43ae90622": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "新华传媒拟发行股份购买界面财联社控股权，构成重大资产重组，股票继续停牌。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "传媒",
+    "stocks": [
+      {
+        "name": "新华传媒",
+        "code": "600825"
+      }
+    ],
+    "reason": "重大资产重组，注入金融信息服务资产，提升公司价值，但停牌期间无法交易。",
+    "catalyst": "发行股份购买界面财联社控股权，构成重大资产重组。"
+  },
+  "d0a1eceb0d33ca53541d396f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "蒙草生态中标乌拉特后旗“三北”工程9540万元项目，依托种源基地保障修复用种。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "生态修复",
+    "stocks": [
+      {
+        "name": "蒙草生态",
+        "code": "300355"
+      }
+    ],
+    "reason": "中标金额较大，政策支持明确，公司技术优势可复制，利好业绩。",
+    "catalyst": "中标“三北”工程重点项目，订单落地增厚业绩。"
+  },
+  "156ea69813ad9af2d556fa94": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "财政部向8家国有金融机构注资3000亿元，补充核心一级资本，提升信贷投放和偿付能力。",
+    "impact": "positive",
+    "importance": 90,
+    "sectors": [
+      "银行",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "重大政策利好，直接提升银行和保险资本实力，增强服务实体经济能力，市场信心提振。",
+    "catalyst": "国家注资夯实资本，打开信贷和业务扩张空间。"
+  },
+  "0d1e828fb4904dc8da4fcb50": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "投资者诉徐翔案二审判决，58名投资者获赔859.78万元，ST文峰承担连带责任，另有2起改判徐翔个人赔偿。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "ST文峰",
+        "code": "601010"
+      }
+    ],
+    "reason": "ST文峰承担连带赔偿责任，虽已计提预计负债，但案件持续发酵，可能影响公司声誉和股价。",
+    "catalyst": "操纵市场民事赔偿案判决落地，ST文峰需承担连带责任。"
+  },
+  "816b2c754497dbaec00d9d5a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "江特电机加码低空产业，与院士团队合作设立电推进系统公司，并发布重载无人机动力系统。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "江特电机",
+        "code": "002176"
+      }
+    ],
+    "reason": "公司深化低空经济布局，产业化落地预期增强，利好公司长期发展。",
+    "catalyst": "低空经济政策支持，公司技术合作与产品发布。"
+  },
+  "533d3c233c8942fcd7174902": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股高开震荡，创业板指涨逾3%，科技股爆发，芯片、机器人涨停潮，通信设备、CPO等板块领涨。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人",
+      "军工",
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "沪电股份",
+        "code": "002463"
+      },
+      {
+        "name": "综艺股份",
+        "code": "600770"
+      },
+      {
+        "name": "崇达技术",
+        "code": "002815"
+      },
+      {
+        "name": "禾盛新材",
+        "code": "002290"
+      },
+      {
+        "name": "顺络电子",
+        "code": "002138"
+      },
+      {
+        "name": "华兴源创",
+        "code": "688001"
+      },
+      {
+        "name": "铂科新材",
+        "code": "300811"
+      }
+    ],
+    "reason": "新闻明确点名多只涨停或大涨个股，且涉及科技主线，市场情绪积极，建议关注。",
+    "catalyst": "科技股王者归来，芯片、机器人涨停潮，资金大幅流入电子、通信等行业。"
+  },
+  "b55d0b5ca3e004891dbf2767": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长鑫科技半年报亮眼，股价大涨6.7%，LPDDR6量产，境外收入大增，DRAM市场景气。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "长鑫科技业绩超预期，存储行业景气，国产替代加速，利好半导体板块。",
+    "catalyst": "AI需求推动DRAM涨价，公司产能扩张与产品升级。"
+  },
+  "8edc38b4a1570ee38ff75946": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年上半年，15家国有大行和股份行存款利息支出同比减少超2100亿元，存款成本率普遍下降，但内部分化明显。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "存款成本下降利好银行净息差，改善盈利预期，板块有正面催化。",
+    "catalyst": "存款重定价红利释放，负债成本降低"
+  },
+  "79711fcc86881abf2d51c4e9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "鼎阳科技发布新一代旗舰任意波形发生器，股价大涨7.68%，公司上半年营收净利双增。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "鼎阳科技",
+        "code": "688112"
+      }
+    ],
+    "reason": "新产品发布提升公司竞争力，业绩增长，股价反应积极，但需注意市场推广风险。",
+    "catalyst": "高端产品发布，业绩增长，市场看好。"
+  },
+  "fe6eb1af50dcd8c25139d9ad": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部将发挥国家服务贸易创新发展引导基金撬动作用，带动社会资本投资数字贸易相关企业，支持数字贸易发展。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策明确支持数字贸易，引导基金带动社会资本，利好相关企业，但未点名具体个股。",
+    "catalyst": "商务部引导基金带动社会资本投资数字贸易企业"
+  },
+  "0747cdbddbbcb6837f6c54c5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "折叠屏手机超级发布周开启，华为、小米、苹果等密集发布新品，带动折叠屏概念股受关注，多股获机构调研。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "摩尔线程-U",
+        "code": "688795"
+      },
+      {
+        "name": "联得装备",
+        "code": "300545"
+      },
+      {
+        "name": "维信诺",
+        "code": "002387"
+      }
+    ],
+    "reason": "折叠屏发布周催化，概念股业绩预期增长，但需注意个股风险。",
+    "catalyst": "折叠屏新品密集发布，头部品牌放量带动产业链需求。"
+  },
+  "142f9a8b9c1e15eae09603be": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "龙版传媒六连板后澄清AI视频业务收入极微，遭上交所监管警示，信息披露前后不一致。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "传媒",
+    "stocks": [
+      {
+        "name": "龙版传媒",
+        "code": "605577"
+      }
+    ],
+    "reason": "公司澄清AI视频业务影响极小，且因信披违规被监管警示，短期炒作风险高，不建议追高。",
+    "catalyst": "AI视频概念炒作，但公司澄清收入占比不足0.01%，监管警示信披违规。"
+  },
+  "38cb95bfb80f3a004725ec77": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "星宇股份因调岗减员争议三次道歉，处理管理人员并补偿应届生，时薪上调。",
+    "impact": "negative",
+    "importance": 60,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "星宇股份",
+        "code": "601799"
+      }
+    ],
+    "reason": "负面舆情影响公司声誉，但处理措施可能缓解，短期股价承压。",
+    "catalyst": "劳动纠纷及补偿措施，关注后续用工稳定。"
+  }
+}
