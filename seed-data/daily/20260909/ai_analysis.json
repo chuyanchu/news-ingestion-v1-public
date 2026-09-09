@@ -1,0 +1,596 @@
+{
+  "24f6c3ec417f8e7c215954ca": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2026年基金半年报显示，17只主动权益基金连续三年获员工增持，其中12只年化回报超10%，内部人持仓与业绩正相关。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "公募基金",
+    "stocks": [],
+    "reason": "新闻反映基金内部人增持与业绩正相关，但未点名具体个股，对交易池无直接影响。",
+    "catalyst": "基金员工自购新规及业绩验证，或提升市场对绩优基金的关注。"
+  },
+  "0e5b6a1f295b5efac753fb40": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "欧洲股市全线暴跌，美股期货盘前跳水，全球市场情绪紧张。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻主要涉及欧洲市场，未直接关联A股板块或个股，但全球风险偏好下降可能间接影响A股，暂不进入交易池。",
+    "catalyst": "欧洲股市暴跌引发全球避险情绪"
+  },
+  "5a9910b5a8a0ae971ffc1d9a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股窄幅震荡，主力资金净流出14亿，电子通信获净流入，科技股受追捧，华工科技净流入居首。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华工科技",
+        "code": "000988"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "光迅科技",
+        "code": "002281"
+      },
+      {
+        "name": "长飞光纤",
+        "code": "601869"
+      },
+      {
+        "name": "胜宏科技",
+        "code": "300476"
+      },
+      {
+        "name": "湖南黄金",
+        "code": "002155"
+      },
+      {
+        "name": "紫金矿业",
+        "code": "601899"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      }
+    ],
+    "reason": "新闻显示科技板块获主力资金抢筹，光通信、PCB等方向活跃，相关个股有资金流入，可关注。",
+    "catalyst": "主力资金净流入，光通信、PCB板块走强，苹果折叠屏手机发布预期。"
+  },
+  "4398465e9ba8b7cb66f9a510": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "黄金概念午后异动拉升，莱绅通灵、湖南黄金涨停，国际金价站上4400美元，高盛预计2026年底金价升至4900美元。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [
+      {
+        "name": "莱绅通灵",
+        "code": "603900"
+      },
+      {
+        "name": "湖南黄金",
+        "code": "002155"
+      },
+      {
+        "name": "中信金属",
+        "code": "601061"
+      },
+      {
+        "name": "北方铜业",
+        "code": "000737"
+      },
+      {
+        "name": "中金黄金",
+        "code": "600489"
+      }
+    ],
+    "reason": "黄金板块异动，金价上涨利好相关个股，但需关注持续性，建议纳入观察。",
+    "catalyst": "国际金价突破4400美元，高盛上调金价预期至4900美元。"
+  },
+  "c05ddc939b9f6c2bef4bf9fe": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普施压美联储降息，通胀高企下市场预期加息，美联储面临信誉危机，下周决议存变数。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储政策不确定性影响全球市场，但未直接点名A股公司，宏观情绪偏负面。",
+    "catalyst": "美联储利率决议及特朗普施压可能引发市场波动。"
+  },
+  "356f3a0a5f8033ffc33543f4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "湖南黄金重大资产重组获湖南省国资委批复，今日股价涨停，上半年业绩增长。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "黄金",
+    "stocks": [
+      {
+        "name": "湖南黄金",
+        "code": "002155"
+      }
+    ],
+    "reason": "重大资产重组获批，整合金矿资源，提升竞争力，业绩增长，股价涨停，催化明确。",
+    "catalyst": "重大资产重组获批，整合产业链，增厚盈利空间。"
+  },
+  "d0f5b8f2aeb18139e9182dae": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "*ST卓然因涉嫌信披违规被立案调查，初步查明财务虚假记载，可能触及重大违法强制退市。",
+    "impact": "negative",
+    "importance": 90,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "*ST卓然",
+        "code": "688121"
+      }
+    ],
+    "reason": "重大违法强制退市风险极高，个股风险巨大，不进入交易池。",
+    "catalyst": "证监会立案调查，财务造假可能触发强制退市。"
+  },
+  "fbe78b998b08d7a8cc2cbb63": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "星宇股份因年报披露副董事长年龄错误收监管函，此前因批量劝退毕业生被问责，股价近腰斩。",
+    "impact": "negative",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "星宇股份",
+        "code": "601799"
+      }
+    ],
+    "reason": "公司治理问题频发，业绩下滑，股价大跌，负面舆情影响投资者信心。",
+    "catalyst": "监管函及年报更正，叠加批量解约毕业生事件，公司声誉受损。"
+  },
+  "7ddc833471a5a6f251f99a2c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国新办明日召开发布会，央行、金融监管总局、证监会、外汇局负责人介绍金融领域落实‘十五五’规划及金融强国建设情况。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "多部委联合发布会释放政策信号，利好金融板块整体预期，提升市场信心。",
+    "catalyst": "金融监管高层集体发声，政策预期升温。"
+  },
+  "32af13ee853b2c0ffe6bf3de": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普石油投资在伊朗战争期间获利数百万美元，账户持续交易能源股，但无证据表明其直接干预。",
+    "impact": "neutral",
+    "importance": 40,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "新闻涉及美国政治人物投资，未直接关联A股市场或明确板块，影响有限。",
+    "catalyst": "地缘政治风险或影响油价，但无直接A股催化。"
+  },
+  "9d817a1a33a77edb7f3779ef": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中油资本上半年归母净利润同比增长29.35%，产投融协同显效，布局科技金融。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中油资本",
+        "code": "000617"
+      }
+    ],
+    "reason": "业绩增长超预期，产融协同与科技金融布局提升估值，利好银行板块。",
+    "catalyst": "归母净利润高增长，科技金融新赛道布局。"
+  },
+  "e19ef1ec2e3c015b08903dda": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "长沙银行2026年上半年营收净利双增，息差企稳，深耕实体与零售转型成效显现。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "长沙银行业绩稳健，息差降幅收窄，资产质量向好，对银行板块有正面提振。",
+    "catalyst": "业绩超预期，息差企稳，零售与县域业务增长。"
+  },
+  "99d3537d006370c6d40a4ad8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "习近平在教师节向全国教师致贺，强调教育强国建设，重视教师队伍。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "教育",
+    "stocks": [],
+    "reason": "新闻为政治性事件，对A股市场无直接关联，但教育政策可能影响教育板块，故不进入交易池。",
+    "catalyst": "教育政策导向，教师地位提升，可能利好教育服务类公司。"
+  },
+  "0d05fe465a181ed022f458d7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中东局势紧张，国际油价突破100美元/桶，创数月新高，高盛等上调油价预期。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价上涨利好石油开采、油服及煤化工等板块，但新闻未点名具体A股公司。",
+    "catalyst": "美伊冲突升级，原油供应风险溢价提升。"
+  },
+  "89ecfe9ab9c6e3c54d76f263": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月PPI环比转涨，同比涨幅扩大，受国际大宗商品和产业升级带动，煤炭、有色等行业价格上涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "PPI上涨利好上游资源及部分制造业，但新闻未点名具体公司，影响偏宏观，可关注相关板块。",
+    "catalyst": "大宗商品价格上行及产业升级带动部分行业需求增加。"
+  },
+  "513178864f925dfa86fcd12b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "众泰汽车两连涨停，披露复工复产进展，全新A0级车型进入批量试制，但资金压力仍存。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "众泰汽车",
+        "code": "000980"
+      }
+    ],
+    "reason": "公司复工复产取得阶段性进展，股价连续涨停，市场关注度高，但资金压力提示风险。",
+    "catalyst": "复工复产推进，新车型进入批量试制阶段。"
+  },
+  "22bc4f62c56d73f5ce2dab9f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "*ST卓然因财务造假可能被强制退市，股价暴跌超80%，上半年亏损扩大，银行账户被冻结。",
+    "impact": "negative",
+    "importance": 80,
+    "sectors": [],
+    "suggested_sector": "退市风险",
+    "stocks": [
+      {
+        "name": "*ST卓然",
+        "code": "688121"
+      }
+    ],
+    "reason": "重大违法强制退市风险，基本面恶化，股价持续下跌，风险极高。",
+    "catalyst": "财务造假被查，可能触及重大违法退市。"
+  },
+  "c629d60ed1cc1f710dc39ce4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "橡胶股放量走高，黑猫股份两连板；黄金股午后爆发，湖南黄金涨停；市场震荡，资金流向资源股。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "橡胶、黄金",
+    "stocks": [
+      {
+        "name": "黑猫股份",
+        "code": "002068"
+      },
+      {
+        "name": "彤程新材",
+        "code": "603650"
+      },
+      {
+        "name": "科创新源",
+        "code": "300731"
+      },
+      {
+        "name": "太力科技",
+        "code": "300670"
+      },
+      {
+        "name": "莱绅通灵",
+        "code": "603900"
+      },
+      {
+        "name": "湖南黄金",
+        "code": "002155"
+      },
+      {
+        "name": "晓程科技",
+        "code": "300139"
+      },
+      {
+        "name": "华钰矿业",
+        "code": "601020"
+      }
+    ],
+    "reason": "橡胶和黄金板块表现强势，有明确个股涨停，且资金流入明显，具备交易机会。",
+    "catalyst": "橡胶涨价及轮胎提价，黄金避险需求及资金流入。"
+  },
+  "2405c2c96cc82988fc8806c4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "广州港上半年营收降4.99%，净利微增，外贸集装箱增长13.5%，净增4条外贸航线，计划投资150亿建码头。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "广州港",
+        "code": "601228"
+      }
+    ],
+    "reason": "公司外贸业务增长强劲，投资计划明确，利好港口航运板块，但整体业绩平淡。",
+    "catalyst": "外贸航线增加及港口投资计划提升未来吞吐能力。"
+  },
+  "821dcafec8b7f400764d560e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "汉得信息终止发行H股，称不影响经营，上半年AI业务收入增长超100%。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "AI应用",
+    "stocks": [
+      {
+        "name": "汉得信息",
+        "code": "300170"
+      }
+    ],
+    "reason": "终止H股上市短期或影响情绪，但AI业务高增长提供支撑，关注后续订单转化。",
+    "catalyst": "AI业务加速落地，订单逐季向好"
+  },
+  "09dea8ac6e83f452b8a05624": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海亚虹控股股东再度筹划控制权变更，股票停牌，公司业绩承压，上半年亏损扩大。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "上海亚虹",
+        "code": "603159"
+      }
+    ],
+    "reason": "控制权变更存在不确定性，公司基本面不佳，但事件驱动可能带来短期波动，需关注后续进展。",
+    "catalyst": "控股股东筹划重大事项，可能导致控制权变更，股票停牌。"
+  },
+  "99e0308d2044078f316934bb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "法国AI公司Mistral AI完成30亿欧元D轮融资，欧盟基金参与，估值210亿欧元，欧洲AI自主可控加速。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "欧盟基金投资欧洲AI，强化AI自主可控，利好国内AI算力及国产替代板块。",
+    "catalyst": "欧盟基金投资欧洲AI，全球AI竞争加剧，国产AI算力需求提升。"
+  },
+  "f3c45809e1a9c7d85b045eff": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "阿里否认钉钉创始人陈航回归千问办公，此前其已卸任钉钉CEO，千问办公用户增长迅速。",
+    "impact": "neutral",
+    "importance": 30,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "消息不实，且未点名具体上市公司，对交易池无直接影响。",
+    "catalyst": "无明确催化，仅涉及公司内部人事传闻。"
+  },
+  "f0323fe378a55ec2dee0333d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "煤炭、国防军工板块盘中大幅拉升，多股涨停，两只新股洛轴股份和百迈科上市大涨。",
+    "impact": "positive",
+    "importance": 70,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "煤炭",
+    "stocks": [
+      {
+        "name": "云煤能源",
+        "code": "600792"
+      },
+      {
+        "name": "郑州煤电",
+        "code": "600121"
+      },
+      {
+        "name": "大有能源",
+        "code": "600403"
+      },
+      {
+        "name": "晋控煤业",
+        "code": "601001"
+      },
+      {
+        "name": "华阳股份",
+        "code": "600348"
+      },
+      {
+        "name": "山煤国际",
+        "code": "600546"
+      },
+      {
+        "name": "盘江股份",
+        "code": "600395"
+      },
+      {
+        "name": "辽宁能源",
+        "code": "600758"
+      }
+    ],
+    "reason": "板块拉升和个股涨停显示市场热点，但需关注持续性，可短线参与。",
+    "catalyst": "板块资金流入，政策预期或行业利好驱动。"
+  },
+  "e56da142c5e5cdabbbac61dc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "北京发布高精尖产业和数字经济发展规划，聚焦AI算力、国产算力集群等，推动产业升级。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好AI算力、半导体等板块，但未点名具体个股，相关概念股或受益。",
+    "catalyst": "北京政策支持国产算力、AI应用，提升算力集群建设能力。"
+  },
+  "b6a43b257746d1d268cb5442": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "OpenAI预计到2030年算力支出约7500亿美元，仍感算力不足。",
+    "impact": "positive",
+    "importance": 80,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "OpenAI巨额算力投资预示AI算力需求持续高增，利好相关产业链。",
+    "catalyst": "AI算力需求扩张，带动半导体及算力基础设施投资。"
+  },
+  "86ef71ab8f6d6f52f185a241": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "龙建股份上半年营收降但净利增，新增订单增42%，现金流波动系行业共性问题，融资结构优化。",
+    "impact": "neutral",
+    "importance": 60,
+    "sectors": [],
+    "suggested_sector": "建筑",
+    "stocks": [
+      {
+        "name": "龙建股份",
+        "code": "600853"
+      }
+    ],
+    "reason": "公司业绩稳健，订单增长，但现金流波动，行业共性，无重大利好利空，可关注。",
+    "catalyst": "新增订单增长，融资结构优化，现金流改善趋势。"
+  },
+  "2470233c898fc0d1a1a901c1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "北交所股王蘅东光创新高，华工科技涨停，科技股反弹引关注，但机构称拐点未确认，部分高成长科技股回调深。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "蘅东光",
+        "code": ""
+      },
+      {
+        "name": "华工科技",
+        "code": "000988"
+      },
+      {
+        "name": "长飞光纤",
+        "code": "601869"
+      }
+    ],
+    "reason": "科技股反弹且机构看好，但需观察拐点，建议关注龙头及超跌高成长股。",
+    "catalyst": "AI算力需求激增，光通信景气，科技股超跌反弹。"
+  },
+  "ec915aed0c39bbd30b9669dd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "深圳连续第六年赴港发行离岸人民币地方政府债券，中国银行担任联席全球协调人，获超9倍认购。",
+    "impact": "positive",
+    "importance": 60,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及跨境金融和人民币国际化，利好银行板块，但非直接个股催化，重要性中等。",
+    "catalyst": "深圳赴港发债，中国银行承销，体现跨境金融实力。"
+  },
+  "2c133395d21f09ac4904cdbb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "铜价创历史新高，AI算力需求推动全球抢铜，冶炼加工费转负，下游电缆企业成本承压。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "洛阳钼业",
+        "code": "603993"
+      },
+      {
+        "name": "紫金矿业",
+        "code": "601899"
+      }
+    ],
+    "reason": "铜价上涨利好上游矿企，洛阳钼业和紫金矿业被点名，业绩弹性大。",
+    "catalyst": "AI算力需求爆发，铜供应偏紧，铜价创新高。"
+  }
+}
