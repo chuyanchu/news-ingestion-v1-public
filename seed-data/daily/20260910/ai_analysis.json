@@ -1,0 +1,596 @@
+{
+  "66ce0d0206d64d3fe570ad30": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "维他动力机器狗预售6540台并量产交付，联合创始人称具身智能'福特时刻'将从机器狗开始，预计2027-2028年迎转折。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "机器人",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "消费级机器狗量产落地，验证具身智能C端商业化路径，利好机器人板块情绪。",
+    "catalyst": "机器狗量产交付及线下渠道扩张，2027-2028年消费级爆发预期。"
+  },
+  "93a82c1f9b5e1b1d7c85dfe1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中电港携AI算力与机器人方案亮相深圳国际电子展，展示端侧AI及具身智能成果。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中电港",
+        "code": "001287"
+      }
+    ],
+    "reason": "事件为展会产品展示，对中电港构成主题催化，但无实质订单或业绩增量。",
+    "catalyst": "AI算力与机器人方案集中亮相，强化端侧AI及具身智能布局预期。"
+  },
+  "3d6a941ddebfa1c7cabfb85a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "青岛北海造船厂外籍货轮维修期间起火，25人遇难，12人安全撤出。",
+    "impact": "negative",
+    "importance": 35,
+    "sectors": [],
+    "suggested_sector": "船舶制造",
+    "stocks": [],
+    "reason": "事故为安全生产事件，涉及造船企业，但未点名A股上市公司，影响有限。",
+    "catalyst": "货轮火灾致25人遇难，或引发造船业安全监管关注。"
+  },
+  "3e793a363c2f7e6adc1594b9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "久量股份拟不超2.75亿现金收购海帝新能源不低于51%股权，构成重大资产重组且不停牌。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "久量股份",
+        "code": "300808"
+      }
+    ],
+    "reason": "公司跨界切入储能赛道，业绩承诺三年累计净利不低于1.7亿，构成重大重组。",
+    "catalyst": "现金收购海帝新能源控股权，切入工商业储能领域。"
+  },
+  "6a27093ffff0170fea89f03d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "主力资金净流出131亿，中际旭创、新易盛等CPO股遭抛售，N电科思上市获13.88亿净流入。",
+    "impact": "negative",
+    "importance": 65,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "新能源车",
+      "医药生物",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "比亚迪",
+        "code": "002594"
+      },
+      {
+        "name": "华工科技",
+        "code": "000988"
+      },
+      {
+        "name": "立讯精密",
+        "code": "002475"
+      },
+      {
+        "name": "飞龙股份",
+        "code": "002536"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      },
+      {
+        "name": "金安国纪",
+        "code": "002636"
+      }
+    ],
+    "reason": "主力资金整体净流出，CPO等高位科技股遭抛售，短期情绪偏空。",
+    "catalyst": "CPO概念股主力资金大幅出逃，市场资金转向低位板块。"
+  },
+  "dd618c4a9c5ff55356b01cc2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "远望谷筹划收购光通信设备企业光泰通信100%股权，股价盘中创近月新高。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "光通信",
+    "stocks": [
+      {
+        "name": "远望谷",
+        "code": "002161"
+      }
+    ],
+    "reason": "小市值公司跨界并购光通信标的，短期题材催化，但公司上半年亏损且交易存不确定性。",
+    "catalyst": "收购光通信自动化设备企业，拓展新业务方向。"
+  },
+  "11b888788ffbaf98daab7309": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "两部门印发通知，明确重要工业品低价无序竞争成本核算要求，治理内卷式竞争。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "成本核算划定竞争底线，利好行业龙头，但无具体A股公司点名，属政策主题催化。",
+    "catalyst": "反内卷政策落地，成本核算成通用标尺，推动行业从拼价格转向拼质量。"
+  },
+  "95f1638cf8ba28173cf440de": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国8月PPI环比涨0.4%符合预期，同比涨5.4%略超预期，核心PPI环比低于预期。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美国通胀数据影响美联储加息预期，间接影响A股风险偏好，但无直接关联板块。",
+    "catalyst": "PPI同比略超预期，强化美联储紧缩预期，压制全球风险资产。"
+  },
+  "a9c067cece383c65721f9983": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "先惠技术股价腰斩，董事长等拟增持4000万至8000万元，上半年营收净利双增。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "新能源车",
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "先惠技术",
+        "code": "688155"
+      },
+      {
+        "name": "辉煌科技",
+        "code": "002296"
+      }
+    ],
+    "reason": "高管增持提振信心，但股价趋势弱，属事件驱动型交易机会。",
+    "catalyst": "董事长等拟增持不超8000万元，叠加半年报业绩高增。"
+  },
+  "5a5e0085fae5a7cbccd1dd74": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国际油价破100美元，明晚国内成品油价或二连涨，预计上调约0.35元/升。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "新能源",
+      "新能源车"
+    ],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价上涨利好油气产业链，但新闻未点名A股个股，candidate中无直接石油板块。",
+    "catalyst": "中东地缘冲突升级叠加原油去库，国际油价大涨，成品油限价上调。"
+  },
+  "ccbd52582bc3e659797926c8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会明确未来五年资本市场八大方向，推进投融资改革与长钱入市",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "券商",
+      "保险",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策定调利好资本市场中长期发展，券商保险等直接受益，但无具体个股点名",
+    "catalyst": "新国九条落地、长钱长投机制、券商监管条例将出台"
+  },
+  "0f3aa31b06ec94d6c15b9071": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "星宇股份因年报年龄乌龙收上交所监管函，同日发布更正公告，此前校招劝退事件持续发酵。",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "星宇股份",
+        "code": "601799"
+      }
+    ],
+    "reason": "监管函叠加信披乌龙与劳资争议，公司治理风险上升，短期情绪偏空。",
+    "catalyst": "上交所监管函及年报信息更正，治理与声誉风险发酵。"
+  },
+  "f67d3ad63b5fae50ffc76a3f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华瓷股份越南东盟陶瓷谷项目点火投产，海外产能布局落地，科技陶瓷与高端电瓷同步推进。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "出海链",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华瓷股份",
+        "code": "001216"
+      },
+      {
+        "name": "湖南裕能",
+        "code": "301358"
+      },
+      {
+        "name": "潮州三环",
+        "code": ""
+      }
+    ],
+    "reason": "公司海外产能落地叠加第二曲线突破，事件明确利好，但体量有限，属主题性机会。",
+    "catalyst": "越南基地点火投产，2027年一季度一期满产，氧化锆业务高增。"
+  },
+  "c981e150361ab13ad44ce6f2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "水发燃气上半年扭亏为盈，庆阳提氦项目预计2026年底投产，外延并购审慎推进。",
+    "impact": "positive",
+    "importance": 45,
+    "sectors": [],
+    "suggested_sector": "天然气",
+    "stocks": [
+      {
+        "name": "水发燃气",
+        "code": "603318"
+      }
+    ],
+    "reason": "公司扭亏为盈且提氦项目年底投产，但体量小、行业关注度低，影响有限。",
+    "catalyst": "庆阳天然气提氦与储备调峰一体化项目2026年底建成投产。"
+  },
+  "1485e5d43715c19c9e0b0e7a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "平安养老险获2026金牌年金管理方舟奖，企业年金管理规模破万亿。",
+    "impact": "positive",
+    "importance": 35,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "行业荣誉类新闻，对保险板块情绪偏正面但缺乏业绩实质催化。",
+    "catalyst": "年金管理规模破万亿，养老金融政策主题受关注。"
+  },
+  "924e55a8a7db10dec209be09": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美伊战争致美国消费者能源支出增1009亿美元，推升通胀压力",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "地缘冲突推高油价，利好油气板块，但新闻未点名A股公司，属海外宏观事件",
+    "catalyst": "美伊冲突持续，油价高企推升通胀，利好油气产业链"
+  },
+  "fd1554bbd6997adeb87c792e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华东医药HDM2005入选国家重大科技专项，为国内首款ROR1靶向ADC，获FDA快速通道资格。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华东医药",
+        "code": "000963"
+      }
+    ],
+    "reason": "创新药获国家级认可，ADC平台价值提升，利好公司估值与研发管线预期。",
+    "catalyst": "入选国家重大科技专项+FDA快速通道资格认定"
+  },
+  "7c9f1c4a7903dcf8dd4fab85": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股缩量震荡，大金融强势领涨，银行股批量创新高，电力多股涨停。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险",
+      "新能源"
+    ],
+    "suggested_sector": "电力",
+    "stocks": [
+      {
+        "name": "南京银行",
+        "code": "601009"
+      },
+      {
+        "name": "江苏银行",
+        "code": "600919"
+      },
+      {
+        "name": "杭州银行",
+        "code": "600926"
+      },
+      {
+        "name": "成都银行",
+        "code": "601838"
+      },
+      {
+        "name": "苏州银行",
+        "code": "002966"
+      },
+      {
+        "name": "宁波银行",
+        "code": "002142"
+      },
+      {
+        "name": "齐鲁银行",
+        "code": "601665"
+      },
+      {
+        "name": "华金资本",
+        "code": "000532"
+      }
+    ],
+    "reason": "大金融与电力逆市走强，资金持续净流入，具备结构性交易机会。",
+    "catalyst": "银行股批量创新高，电力迎峰度夏负荷创新高，资金抱团大金融。"
+  },
+  "d208c502d2f525534b1efa29": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中东局势升级，布伦特原油突破105美元，能源价格推升通胀担忧。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价大涨利好石油石化板块，但候选板块无直接对应，仅新能源间接相关。",
+    "catalyst": "中东冲突升级叠加供应担忧，油价持续走高。"
+  },
+  "4c1f656e52c9b10d077aa83a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中秋国庆双节旅游预订迎高峰，秋假叠加拼假激活文旅消费，机票酒店预订量大幅增长。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "双节预订高峰叠加秋假政策，直接利好旅游出行消费链，但未点名具体A股公司。",
+    "catalyst": "双节预订量环比增119%，秋假拼假拉长出行半径，激活文旅消费。"
+  },
+  "c3ab3301a7dbbae42d50bd57": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行科普存款保险制度，保费由银行承担，储户无需付费，50万以内7个工作日偿付。",
+    "impact": "neutral",
+    "importance": 35,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "属金融知识宣传，非新增政策，对银行板块影响中性，无实质交易催化。",
+    "catalyst": "存款保险制度科普，稳定存款人预期，防范银行挤兑风险。"
+  },
+  "4aeaa3814c33411216ec4b0f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金融强国建设十五五规划出炉，2035年建成现代金融体系，推进人民币国际化。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国家级金融顶层规划，利好大金融板块，但无具体个股点名，属主题性催化。",
+    "catalyst": "十五五金融规划发布，人民币国际化与金融开放提速。"
+  },
+  "467976b6d51f6e0121644b3a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "中坚科技推115.63万股限制性股票激励，绑定核心团队，锚定三年营收增长目标，加速具身智能布局。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "中坚科技",
+        "code": "002779"
+      }
+    ],
+    "reason": "股权激励绑定核心团队，具身智能业务加速，但短期利润承压，属个股事件。",
+    "catalyst": "股权激励落地叠加具身智能研发投入高增，强化转型预期。"
+  },
+  "a1de72aa148dcd3527e5518e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行9月中旬连续开展隔夜逆回购，每日不超6000亿，呵护税期流动性，引导DR001围绕政策利率运行。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "银行",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "流动性精准呵护利好资金面，银行券商受益于利率平稳与市场活跃度提升。",
+    "catalyst": "隔夜逆回购连续投放，缓解税期与政府债供给扰动"
+  },
+  "70f28451787471afee82e003": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "*ST启环全资子公司合加新能源因未清偿到期债务被法院裁定受理破产重整。",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "*ST启环",
+        "code": "000826"
+      }
+    ],
+    "reason": "子公司破产重整，涉及债务4.87亿元，利空母公司*ST启环，影响有限。",
+    "catalyst": "子公司破产重整申请获法院受理，债务风险暴露。"
+  },
+  "af633dc9911f688c04681c42": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三人行拟出资4.71亿元携手中联数据切入AIDC赛道，完善芯片-算力-AI模型布局。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "三人行",
+        "code": "605168"
+      }
+    ],
+    "reason": "数字营销公司跨界AIDC，财务稳健，合作方为算力头部企业，主题催化明确。",
+    "catalyst": "AI算力需求激增，公司4.71亿切入数据中心赛道。"
+  },
+  "16a6f6d66556f37bab5cb0a6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "星宇股份港股上市进程受阻，叠加裁员风波、监管函及年报披露错误，面临多重考验。",
+    "impact": "negative",
+    "importance": 65,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "星宇股份",
+        "code": "601799"
+      }
+    ],
+    "reason": "公司被发监管函、承认年报错误，港股上市受阻，短期负面情绪压制股价。",
+    "catalyst": "港股上市审查受阻及监管函、年报披露错误引发合规担忧。"
+  },
+  "f54f5486cd55529cbcc459b8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "桂林旅游澄清未参与平陆运河，无低空经济项目，AI文旅不直接产生收入。",
+    "impact": "neutral",
+    "importance": 35,
+    "sectors": [
+      "低空经济"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "桂林旅游",
+        "code": "000978"
+      }
+    ],
+    "reason": "公司主动澄清市场炒作概念，短期炒作预期降温，影响有限。",
+    "catalyst": "概念炒作被证伪，相关题材预期回落。"
+  },
+  "718c51324ec355e2e16b678c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "信用卡总量连续15季度下滑，上半年日均减超10万张，银行主动缩量提质，转向优质客群。",
+    "impact": "negative",
+    "importance": 72,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "工商银行",
+        "code": "601398"
+      },
+      {
+        "name": "平安银行",
+        "code": "000001"
+      },
+      {
+        "name": "招商银行",
+        "code": "600036"
+      },
+      {
+        "name": "农业银行",
+        "code": "601288"
+      },
+      {
+        "name": "建设银行",
+        "code": "601939"
+      },
+      {
+        "name": "中信银行",
+        "code": "601998"
+      }
+    ],
+    "reason": "信用卡规模与手续费收入双降、不良率抬头，银行零售业务承压，短期偏空。",
+    "catalyst": "信用卡缩量提质，发卡与手续费收入下滑，资产质量风险上升。"
+  },
+  "9433b2672662c86602ed0563": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "习近平将于9月12日至13日赴印度新德里出席金砖国家领导人第十八次会晤。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "外交事件，对A股具体板块无直接映射，仅具主题情绪扰动。",
+    "catalyst": "金砖峰会召开，关注一带一路、跨境支付等主题情绪。"
+  }
+}
