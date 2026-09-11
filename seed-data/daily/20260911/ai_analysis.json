@@ -1,0 +1,493 @@
+{
+  "417967060fce978788cf5720": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "浦江创新论坛研讨一带一路AI治理，呼吁建立跨区域协作机制，推动全球治理共识。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策面利好AI治理与算力合作，但无具体订单或个股，短期主题性催化有限。",
+    "catalyst": "一带一路AI治理合作机制推进，利好算力与AI出海生态。"
+  },
+  "37187b5674151eaed85a2169": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "服贸会多家头部旅游企业亮相，入境游、出境游与数字文旅成热点，携程计划五年投入150亿元。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "消费",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好旅游及文旅消费板块，但新闻未点名A股上市公司，缺乏直接个股催化。",
+    "catalyst": "免签政策落地叠加AI重塑旅游全流程，头部企业加码入境游与数字文旅投入。"
+  },
+  "5038e42267e97dfca89ade2e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "苹果首款折叠屏iPhone Duo预订价达39999元，较官方起售价溢价2.4万元，关注度高涨。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "消费电子",
+    "stocks": [],
+    "reason": "苹果新机溢价热销，利好消费电子产业链情绪，但新闻未点名A股公司。",
+    "catalyst": "苹果折叠屏新机预订火爆，溢价150%，产业链关注度提升。"
+  },
+  "5dce8462771c2314f189ed04": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三部门印发数字乡村行动计划，部署智慧农业、卫星互联网、低空经济等应用。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人",
+      "新能源车",
+      "新能源",
+      "低空经济"
+    ],
+    "suggested_sector": "通信",
+    "stocks": [],
+    "reason": "政策级利好，覆盖数字基建、智慧农业、卫星互联网等多主题，但未点名个股。",
+    "catalyst": "三部门联合发文推进数字乡村高质量发展，明确2030年目标与24项举措。"
+  },
+  "b7ea2697b66b0986ea6c42ca": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国8月CPI环比涨0.4%，核心CPI环比0.3%超预期，通胀信号分化，加大美联储9月议息决策难度。",
+    "impact": "neutral",
+    "importance": 72,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美国宏观通胀数据，间接影响全球流动性与A股风险偏好，无直接对应板块。",
+    "catalyst": "美联储9月议息前最后核心通胀数据，加息预期博弈。"
+  },
+  "cfe42277f45580af0b8a80fa": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会发布修订后《期货公司监督管理办法》，强化全过程监管，明确业务分类与准入。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "期货行业监管规则完善，利好合规头部期货及券商系期货公司，但未点名个股。",
+    "catalyst": "期货公司监管新规落地，行业规范化与集中度提升预期。"
+  },
+  "525ffcf72d73b989cb172c86": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "商务部就美中情局高官公开称对中国企业开展间谍活动答记者问，中方坚决反对并警告反制。",
+    "impact": "negative",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美方将AI、半导体、生物技术企业列为间谍目标，地缘风险升温，短期情绪利空相关科技板块。",
+    "catalyst": "中美科技博弈升级，反间谍法强化，自主可控逻辑强化。"
+  },
+  "93bbe434aaef859ad8c7cec9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "园林股份拟发行股份及现金收购华澜微控股权，构成重大资产重组，股票停牌。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "园林股份",
+        "code": "605303"
+      }
+    ],
+    "reason": "重大资产重组并购存储芯片公司，跨界半导体，短期事件驱动强。",
+    "catalyst": "并购华澜微切入存储芯片，停牌重组预期。"
+  },
+  "02df045cd5aad70d62354c0a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国际油价9月10日大涨超6%，美伊冲突升级与供需变化推升油价至数月高位。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价暴涨利好石油石化板块，但候选板块无直接对应，新能源替代逻辑间接受益。",
+    "catalyst": "美伊冲突升级叠加供需变化，国际油价单日大涨超6%。"
+  },
+  "6a6d422a97cdc91415dd707b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "园林股份拟发行股份及现金收购存储芯片公司华澜微控股权，9月14日起停牌。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "园林股份",
+        "code": "605303"
+      }
+    ],
+    "reason": "重大资产重组切入存储芯片，停牌前有博弈价值，但估值未定存不确定性。",
+    "catalyst": "并购华澜微控股权，加码存储芯片与信息安全赛道。"
+  },
+  "17ba021af64f9d8111654b14": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "燧原科技科创板上市开盘涨188%，上海国投8年种子轮布局获约237倍回报，AI芯片IPO再落一子。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国产AI芯片龙头上市，验证国资投资范式，提振AI算力与半导体板块情绪。",
+    "catalyst": "燧原科技科创板上市首日大涨，国产算力芯片资本化加速。"
+  },
+  "edf9bb7cf8cbc869e00165f2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国8月CPI环比涨0.4%，同比涨3.4%，核心CPI同比涨2.4%，能源与住房推升通胀。",
+    "impact": "neutral",
+    "importance": 75,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美国通胀数据影响美联储加息预期，间接影响A股风险偏好，但无直接关联板块。",
+    "catalyst": "通胀数据影响美联储政策预期，扰动全球流动性。"
+  },
+  "8931baf4da7977c2e536faff": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行、金融监管总局、外汇局介绍十五五金融规划，央行出台9份行动方案，优化货币政策框架。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "金融强国顶层规划落地，利好大金融板块，但无具体个股点名，偏政策面催化。",
+    "catalyst": "金融强国十五五规划及央行9份行动方案出台"
+  },
+  "30a77fe69ce979176f2f4019": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "农发行参展2026年服贸会，展示数智赋能三农成果，聚焦政策性金融支农。",
+    "impact": "neutral",
+    "importance": 25,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "属机构参展宣传，无具体业务或业绩增量，对银行板块影响有限。",
+    "catalyst": "服贸会金融服务专题展示，强化农发行支农品牌形象。"
+  },
+  "9fb2e0c99b3c00aa40edfcc3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会处罚4人编造传播虚假税率调整信息，其中含百万粉丝财经博主及证券从业人员。",
+    "impact": "neutral",
+    "importance": 45,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "属监管执法个案，涉及证券从业人员合规，对券商板块情绪影响有限，无个股点名。",
+    "catalyst": "证监会集中处罚虚假信息传播，强化市场监管预期。"
+  },
+  "02e1753bf0474fcd04299bc5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "MLCC概念异动双星新材涨停，旅游、电力、光纤局部走强，传媒板块下挫。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "MLCC",
+    "stocks": [
+      {
+        "name": "双星新材",
+        "code": "002585"
+      },
+      {
+        "name": "昀冢科技",
+        "code": ""
+      },
+      {
+        "name": "风华高科",
+        "code": ""
+      },
+      {
+        "name": "国瓷材料",
+        "code": ""
+      },
+      {
+        "name": "洁美科技",
+        "code": ""
+      },
+      {
+        "name": "曲江文旅",
+        "code": ""
+      },
+      {
+        "name": "桂林旅游",
+        "code": ""
+      },
+      {
+        "name": "天目湖",
+        "code": ""
+      }
+    ],
+    "reason": "题材多点异动但主线分散，MLCC与光纤有产业催化，可跟踪。",
+    "catalyst": "村田停产部分MLCC转向AI服务器高阶产品，康宁光纤大单。"
+  },
+  "74b7e03397c0feda8c5296dd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国8月通胀率持平于3.4%，汽油价格高企，数据对美联储政策意义重大。",
+    "impact": "neutral",
+    "importance": 65,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美国通胀数据影响美联储加息预期，间接影响A股风险偏好，但无直接关联板块。",
+    "catalyst": "美国通胀高企，美联储政策预期波动，影响全球资金流向。"
+  },
+  "162e45dd2f3963886625f60c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "日韩股市开盘大跌，芯片股重挫，费城半导体指数跌超2%，油价大涨8.2%。",
+    "impact": "negative",
+    "importance": 78,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "外围芯片股集体重挫，A股半导体板块承压，但新闻未点名A股公司。",
+    "catalyst": "日韩芯片股大跌叠加费城半导体指数走弱，存储板块领跌。"
+  },
+  "e3e9782b17e47a8cde0ff4c9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "博敏电子上半年营收18.64亿增9.35%，净亏5129万，行业订单分化，加码AI算力高端PCB。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "博敏电子",
+        "code": "603936"
+      }
+    ],
+    "reason": "公司阶段性亏损但高端PCB布局明确，行业分化信息有参考价值，个股业绩承压。",
+    "catalyst": "AI算力、光通信高端PCB需求爆发，新工厂产能爬坡。"
+  },
+  "01d27b27a4fa853c34dd8234": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会对*ST卓然财务造假作出处罚，拟罚款并启动强制退市程序。",
+    "impact": "negative",
+    "importance": 72,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "*ST卓然",
+        "code": ""
+      }
+    ],
+    "reason": "个股重大违法退市事件，对大盘无系统性影响，不进入交易池。",
+    "catalyst": "监管严打财务造假，强化退市执行。"
+  },
+  "3f7cde579ee05bd4345b82f9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国常会部署安全生产、算力网建设、老旧水库改造及教育强国等工作",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "算力网建设获政策定调，利好AI算力板块；其余为安全、水利、教育等主题",
+    "catalyst": "国常会研究算力网建设，推动算电协同与算网融合"
+  },
+  "74bd658504493060cc5a4e45": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "浙商银行半年报营收净利双增，结构优化对冲息差压力，六大特色业务打开增长空间",
+    "impact": "positive",
+    "importance": 45,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行业绩改善但属个股基本面，对板块情绪影响有限，无明确个股点名",
+    "catalyst": "负债成本管控与收入结构优化，特色业务矩阵贡献增量"
+  },
+  "3e6b958aff05896998a231e7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三部门印发数字乡村行动计划，部署卫星互联网、智慧农业、智能农机等任务",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人",
+      "新能源车",
+      "低空经济"
+    ],
+    "suggested_sector": "卫星互联网",
+    "stocks": [],
+    "reason": "政策级别高、覆盖数字基建与智慧农业，利好科技与农机主题，但无点名个股",
+    "catalyst": "三部门联合发文推进十五五数字乡村建设"
+  },
+  "c7a4123d8074f0814f41e619": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国8月CPI同比涨3.4%，油价破百叠加PPI高企，美联储下周议息，市场押注加息概率67.4%。",
+    "impact": "negative",
+    "importance": 78,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储加息预期升温，全球流动性收紧，压制A股风险偏好，利空利率敏感板块。",
+    "catalyst": "美国通胀反弹、油价破百，美联储加息预期升温"
+  },
+  "ba0016d63378516a7879e5ad": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国际油价跳水，布伦特跌超4%，WTI跌破100美元，中东局势突变扰动市场",
+    "impact": "neutral",
+    "importance": 78,
+    "sectors": [
+      "新能源",
+      "新能源车"
+    ],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "油价波动影响通胀与货币政策，A股无直接点名个股，油气板块需关注",
+    "catalyst": "中东地缘冲突与红海航运风险推高油价，CPI数据待公布"
+  },
+  "808434647e83795e0bea4495": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宏昌电子拟定增募资不超18亿元，投建高端覆铜板、半固化片及先进封装膜材项目。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宏昌电子",
+        "code": "603002"
+      }
+    ],
+    "reason": "定增扩产高端覆铜板，直接受益AI服务器与数据中心需求，公司明确点名。",
+    "catalyst": "AI算力基建拉动高频高速覆铜板需求，公司产能扩张。"
+  },
+  "e636158d3a9695b14f3f4b5c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国柴油均价首破6美元创历史新高，运输与食品成本承压。",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "柴油价格新高推升通胀与运输成本，对A股整体偏负面，无直接对应板块。",
+    "catalyst": "国际原油供应受扰，柴油市场偏紧推高终端成本。"
+  },
+  "c46b439bba85ed3cd016e4de": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华锡有色因广西国资与五矿集团筹划重大合作或致控制权变更，下周一停牌。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [],
+    "suggested_sector": "有色金属",
+    "stocks": [
+      {
+        "name": "华锡有色",
+        "code": "600301"
+      }
+    ],
+    "reason": "央企五矿入主预期，控制权变更或带来资源整合与估值重估，停牌前值得关注。",
+    "catalyst": "广西关键金属集团与五矿集团筹划重大合作，可能导致控制权变更。"
+  },
+  "34505e8f6a5aace4fa4eeacf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "九部门印发智能网联新能源汽车产业十五五规划，2030年自动驾驶汽车规模应用。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源车",
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国家级产业规划落地，明确2030年目标与重大工程，利好智能网联汽车产业链。",
+    "catalyst": "九部门联合印发十五五规划，自动驾驶规模化应用目标明确。"
+  },
+  "fbf8c0349b156ba97cc53b7e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "四部门印发农业保险高质量发展方案，明确2030年目标及覆盖率、费用率等指标。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好农业保险长期发展，保险板块受益，但未点名个股，短期催化有限。",
+    "catalyst": "农业保险顶层设计落地，2030年目标明确，提升保险板块预期。"
+  }
+}
