@@ -1,0 +1,634 @@
+{
+  "a959678de42e850df4ab6630": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "第二届长三角国家高新区联盟大会举行，设立集成电路专委会，启动新赛道培育先锋行动。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "长三角集成电路协同机制落地，利好半导体产业链，但无明确A股个股点名。",
+    "catalyst": "长三角集成电路专委会设立，推动跨区域产业链协同与资源共享。"
+  },
+  "b2146a240d022c7f5a44d516": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美股三大股指齐跌，费城半导体指数重挫近6%，摩根大通逆势看多。",
+    "impact": "negative",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美股科技与半导体大跌，情绪面利空A股AI算力、半导体板块，短期承压。",
+    "catalyst": "AI巨头呼吁降速叠加通胀加息担忧，美股科技股遭抛售。"
+  },
+  "9528e7b4f0bbf97f4b0cb211": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美妆行业营销费用持续膨胀，多家国货品牌营销翻车，流量换增长模式亟待转型。",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "珀莱雅",
+        "code": "603605"
+      },
+      {
+        "name": "上海家化",
+        "code": "600315"
+      }
+    ],
+    "reason": "美妆营销费用高企、翻车频发，反映行业盈利承压，消费板块情绪偏负面。",
+    "catalyst": "营销费用增速超营收，流量成本上升挤压利润。"
+  },
+  "cbd53b19e9d3b34e42c6cb61": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "9月14日主力资金净流出59.42亿元，电力设备、医药生物获加仓，通信净流出54.66亿元居首，尾盘3股遭大举出逃。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "新能源",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "黄河旋风",
+        "code": "600172"
+      },
+      {
+        "name": "豫能控股",
+        "code": "001896"
+      },
+      {
+        "name": "莲花控股",
+        "code": "600186"
+      },
+      {
+        "name": "国瓷材料",
+        "code": "300285"
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "贤丰控股",
+        "code": "002141"
+      },
+      {
+        "name": "中京电子",
+        "code": "002579"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      }
+    ],
+    "reason": "资金流向数据反映板块轮动，通信、电子遭抛售，电力设备、医药获加仓，可跟踪结构性机会。",
+    "catalyst": "金刚石半导体散热产业化预期及AI算力散热需求，电力设备与医药资金回流。"
+  },
+  "4117772fe27fde73a0c4abdb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "八部门发布促进智能家居消费行动方案，扩供给、完善标准、加大财政金融支持，推动全屋智能。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "智能家居",
+    "stocks": [],
+    "reason": "政策利好智能家居消费链，但未点名具体A股公司，属主题性催化。",
+    "catalyst": "八部门联合发文促智能家居消费，以旧换新扩围至智能家居品类。"
+  },
+  "37667f4ed84889be0c6d0d76": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国10年期国债收益率升破5%，为2023年10月以来首次，油价飙升加剧通胀担忧。",
+    "impact": "negative",
+    "importance": 78,
+    "sectors": [
+      "银行",
+      "保险",
+      "券商",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美债收益率破5%压制全球风险偏好，利空高估值成长股，利好银行保险等利率敏感板块。",
+    "catalyst": "油价飙升推升通胀预期，美债收益率上行"
+  },
+  "63d8f1b16f54e9fe04bc2d0b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "广汽集团拟发行股份购买一汽股份持有的某整车合资公司部分股权，A股9月14日起停牌。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "广汽集团",
+        "code": "601238"
+      }
+    ],
+    "reason": "央企与地方国企整车资源整合，构成重大资产重组，短期停牌催化明确。",
+    "catalyst": "发行股份收购一汽股份旗下整车合资公司股权，一汽将成第二大股东。"
+  },
+  "e818b5747cc90b99c802cd25": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上海金融监管局发文引导银行保险业加强对中小及硬科技企业金融支持，鼓励建设AI平台。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "银行",
+      "保险",
+      "券商",
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好科技金融，银行保险券商及硬科技板块受益，但无具体个股点名，属主题性利好。",
+    "catalyst": "上海发文推动科技金融提质增效，引导信贷和保险资金支持硬科技。"
+  },
+  "ec50516203943f29434c6174": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行通报治理中小企业回款难，账款凭证余额较峰值降20%，核心企业两头吃受遏制。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "改善中小企业现金流与货币政策传导，利好银行资产质量，但无具体个股点名。",
+    "catalyst": "账款凭证规范治理，缓解中小企业融资成本转嫁。"
+  },
+  "ffbd1bfcf94d5bb325c6f7db": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "9月14日盘后8家A股公司披露拟减持，包括美年健康、莱茵生物等，当日无公司拟增持。",
+    "impact": "negative",
+    "importance": 35,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "美年健康",
+        "code": "002044"
+      },
+      {
+        "name": "誉衡药业",
+        "code": "002437"
+      },
+      {
+        "name": "莱茵生物",
+        "code": "002166"
+      },
+      {
+        "name": "奥浦迈",
+        "code": "688293"
+      },
+      {
+        "name": "江河集团",
+        "code": "601886"
+      },
+      {
+        "name": "东来技术",
+        "code": "688129"
+      },
+      {
+        "name": "山东玻纤",
+        "code": "605006"
+      },
+      {
+        "name": "楚天龙",
+        "code": "003040"
+      }
+    ],
+    "reason": "减持属个股利空，涉及多股但整体影响有限，板块联动弱。",
+    "catalyst": "多家公司集中披露减持计划，短期抛压预期。"
+  },
+  "203af7a94b920a467735945d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月社融增1.66万亿，债券股票融资占比超贷款，M2增7.5%，利率处历史低位，信贷结构持续优化。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "银行",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "社融总量合理增长、利率低位，融资结构转向债券股票，利好银行券商等金融板块。",
+    "catalyst": "社融结构优化、直接融资占比提升，货币环境宽松"
+  },
+  "46ef365c0af444dcf8dadfab": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国新办发布十五五健康中国规划，完善医疗服务体系、生育支持与老年健康，人均预期寿命提至80岁。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国家级民生健康规划，利好医疗服务、康复护理、疫苗及妇幼健康产业链，但未点名具体公司。",
+    "catalyst": "十五五医疗卫生强基工程、康复护理扩容、HPV疫苗免费接种及育儿补贴落地。"
+  },
+  "3f13e712cdb0e964b7beef32": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "江西深化校服采购改革，家长可自主选购，打破学校包办，整治采购腐败。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "属地方民生治理新闻，无上市公司点名，对A股板块无直接交易影响。",
+    "catalyst": "校服采购规范化治理，与资本市场关联度低。"
+  },
+  "fbf63363a0dd0d68e35b371a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "广汽集团筹划发行股份购买一汽股份持有的整车合资公司股权，一汽将成第二大股东，A股停牌。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "广汽集团",
+        "code": "601238"
+      }
+    ],
+    "reason": "重大资产重组叠加一汽战略入股，直接利好广汽，汽车板块关注度提升。",
+    "catalyst": "一汽战略入股广汽，发行股份购买合资整车股权。"
+  },
+  "89323a9e8baf894a7a042f12": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "金橙子因核心条款未达成一致，终止收购智博泰克控股权，股票9月15日复牌。",
+    "impact": "negative",
+    "importance": 45,
+    "sectors": [],
+    "suggested_sector": "激光设备",
+    "stocks": [
+      {
+        "name": "金橙子",
+        "code": "688291"
+      }
+    ],
+    "reason": "重组终止属利空，但公司称不影响经营，短期情绪扰动为主。",
+    "catalyst": "重大资产重组终止，业务向振镜硬件延伸预期落空。"
+  },
+  "9ffb87c7a26cfc8a5d6b18d6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "香山股份拟8亿收购武珞智慧100%股权，跨界AI算力，9月15日复牌。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "香山股份",
+        "code": "002870"
+      }
+    ],
+    "reason": "跨界AI算力重组复牌，双轮驱动预期，业绩承诺4亿，题材催化明确。",
+    "catalyst": "8亿收购AI算力标的，复牌叠加跨界转型预期。"
+  },
+  "0ae2e0650068fb3bd34f8d4d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美股保证金债务14个月暴涨77%至1.5万亿美元，叠加美债收益率破5%和AI放缓，半导体股重挫。",
+    "impact": "negative",
+    "importance": 82,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美股AI与半导体暴跌，美债收益率破5%，对A股AI算力、半导体板块形成情绪压制。",
+    "catalyst": "保证金债务泡沫+美债收益率破5%+AI放缓三重利空"
+  },
+  "a4417c4627aca3a880dc6f02": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "Anthropic筹备IPO，CEO阿莫代伊却呼吁放缓AI发展，奥特曼称当前非上市好时机。",
+    "impact": "neutral",
+    "importance": 45,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "海外AI公司IPO与言论，对A股无直接业绩影响，仅情绪层面扰动。",
+    "catalyst": "AI龙头上市进程与行业监管节奏预期变化。"
+  },
+  "93fb523a96cb22b1e2a5f480": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行数据显示前8月社融增量23.91万亿，债券股票融资占比升至约50%，融资结构优化。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "银行",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "社融结构转向债券股票融资，利好券商投行与银行资产配置，总量宽松信号偏正面。",
+    "catalyst": "债券股票融资占比超贷款，直接融资扩容利好券商。"
+  },
+  "97841246d46608717802900f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "博俊科技拟6亿元扩建汽车轻量化零部件项目，并合资布局半固态镁合金。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "博俊科技",
+        "code": "300926"
+      }
+    ],
+    "reason": "公司自身扩产及切入镁合金新赛道，属个股利好，对板块带动有限。",
+    "catalyst": "6亿元轻量化零部件扩产+半固态镁合金合资布局"
+  },
+  "5b0be3e1f77f27bf57b826f2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "众泰汽车5天4板后公告异动，A0级车型试制但未销售，仍面临资金压力及证监会立案。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "众泰汽车",
+        "code": "000980"
+      }
+    ],
+    "reason": "短期炒作明显，基本面弱且存立案风险，公告提示不确定性，宜谨慎观望。",
+    "catalyst": "整车复工复产及A0级新车批量试制，但尚未形成销售。"
+  },
+  "b5b7d0a20e1f12ac9b83e89d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "联科科技拟10亿元在埃及建二氧化硅-炭黑基地，并变更2.36亿元募资投向该项目。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "出海链",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "联科科技",
+        "code": "001207"
+      },
+      {
+        "name": "赛轮轮胎",
+        "code": "601058"
+      },
+      {
+        "name": "玲珑轮胎",
+        "code": "601966"
+      },
+      {
+        "name": "三角轮胎",
+        "code": "601163"
+      },
+      {
+        "name": "风神轮胎",
+        "code": ""
+      },
+      {
+        "name": "贵州轮胎",
+        "code": "000589"
+      },
+      {
+        "name": "森麒麟",
+        "code": "002984"
+      }
+    ],
+    "reason": "轮胎配套材料龙头出海埃及，绑定下游轮胎厂海外扩产，订单确定性较强。",
+    "catalyst": "埃及10亿海外基地落地，募资变更加速全球化布局"
+  },
+  "7091581f07801d2ff13a290a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "PCB板块多股涨停，AI高端新品出货与涨价传导驱动下半年业绩加速，机构看好板块高增长。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "科翔股份",
+        "code": ""
+      },
+      {
+        "name": "满坤科技",
+        "code": ""
+      },
+      {
+        "name": "超声电子",
+        "code": ""
+      },
+      {
+        "name": "中京电子",
+        "code": ""
+      },
+      {
+        "name": "澳弘电子",
+        "code": ""
+      },
+      {
+        "name": "贤丰控股",
+        "code": ""
+      },
+      {
+        "name": "英诺激光",
+        "code": ""
+      },
+      {
+        "name": "威尔高",
+        "code": ""
+      }
+    ],
+    "reason": "PCB板块受AI拉货与涨价双重利好，机构看好业绩加速，资金加仓明显，具备交易机会。",
+    "catalyst": "AI高端新品出货、PCB涨价传导、下半年拉货旺季产能紧张"
+  },
+  "8e7f85f0e6f202084845e660": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "香山股份拟8亿元收购武珞智慧100%股权，切入AI算力设备赛道，形成双轮驱动。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "香山股份",
+        "code": "002870"
+      }
+    ],
+    "reason": "跨界并购AI算力资产，交易对价明确，构成业务转型催化。",
+    "catalyst": "8亿收购武珞智慧，新增AI算力设备业务"
+  },
+  "c8387a66172496cfbfe9eaa1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会将细化披露要求，引导上市公司压缩账期、及时支付中小企业款项，并加大走访力度。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好中小企业现金流，但未点名具体板块和个股，缺乏直接交易标的。",
+    "catalyst": "证监会细化披露要求，治理中小企业回款难问题。"
+  },
+  "4836dd30316162d99d425c63": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "也门胡塞武装袭击沙特空军基地，油价飙升，欧美股市、黄金白银集体跳水，AI担忧加剧科技股下跌。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "石油天然气",
+    "stocks": [],
+    "reason": "中东地缘冲突升级推高油价，避险情绪升温，全球风险资产承压，利好军工板块。",
+    "catalyst": "中东冲突升级致原油供应受扰，油价大涨，风险偏好下降。"
+  },
+  "8cddb6303f84eed034350118": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "工信部推动治理中小企业回款难，引导龙头企业带头60日付款，改善中小企业现金流。",
+    "impact": "positive",
+    "importance": 65,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好中小企业现金流与行业生态，但未点名具体板块或个股，属宏观制度性利好。",
+    "catalyst": "国办发文治理回款难，龙头带头及时付款。"
+  },
+  "565e876ad053ed0838705248": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "欧洲天然气价格突破1000美元/千立方米，创2022年12月以来新高，储气低位叠加中东冲突推涨。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "天然气",
+    "stocks": [],
+    "reason": "气价飙升利好天然气及替代能源板块，但新闻未点名A股个股，需关注相关标的。",
+    "catalyst": "欧洲储气低位、采暖季临近及中东冲突推升气价。"
+  },
+  "0d13bb093c434aa2e7d6e30e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股三大指数震荡收跌，创业板指跌1.1%，CRO、MLCC概念逆市走强，成交额逾1.6万亿。",
+    "impact": "neutral",
+    "importance": 45,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "近岸蛋白",
+        "code": ""
+      },
+      {
+        "name": "万邦医药",
+        "code": ""
+      },
+      {
+        "name": "双星新材",
+        "code": ""
+      },
+      {
+        "name": "博汇科技",
+        "code": ""
+      },
+      {
+        "name": "永信至诚",
+        "code": ""
+      }
+    ],
+    "reason": "大盘震荡分化，仅CRO等少数概念活跃，缺乏整体方向性机会。",
+    "catalyst": "CRO、MLCC、数据安全等概念板块逆市活跃。"
+  },
+  "8762763be22f9306b5751bee": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "豆包手机二代9月16日发售，搭载努比亚NaviX Ultra，推出屏幕自动化操作声明协议。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "AI手机",
+    "stocks": [
+      {
+        "name": "中兴通讯",
+        "code": "000063"
+      },
+      {
+        "name": "舜宇光学",
+        "code": ""
+      }
+    ],
+    "reason": "AI手机新品落地，供应链及AI应用生态受关注，但舜宇为港股，A股直接标的有限。",
+    "catalyst": "豆包手机二代发售及SAEP协议推出，AI智能体手机商业化提速。"
+  }
+}
