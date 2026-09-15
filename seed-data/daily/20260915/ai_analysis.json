@@ -1,0 +1,584 @@
+{
+  "0e42c7cac0ac633919b09b92": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "众合科技推进“3+1”战略，轨交出海与半导体材料布局并进，上半年营收增28.6%。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "半导体",
+      "低空经济",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "众合科技",
+        "code": "000925"
+      }
+    ],
+    "reason": "公司战略升级明确，轨交出海与半导体材料双轮驱动，业绩增长可期。",
+    "catalyst": "阿斯塔纳轻轨开通树立出海标杆，半导体产能落地。"
+  },
+  "dee43e36f190dde1c55e3a32": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华为郭平谈AI、大模型、6G战略，称AI是最大机遇，聚焦连接与计算",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "通信",
+    "stocks": [],
+    "reason": "华为高层明确AI为最大机遇并聚焦算力，利好AI算力与半导体板块情绪",
+    "catalyst": "华为AI战略定调，昇腾生态与算力需求预期升温"
+  },
+  "93210b3c642e4d0af4b568b0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国首次承认在轨部署太空控制武器，太空军备竞赛升温，利好军工航天板块。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "太空武器部署强化全球军备竞赛预期，A股军工航天板块情绪面受益。",
+    "catalyst": "美国公开承认太空部署武器，太空军事化提速"
+  },
+  "80bf8eec59fd11d30bea21df": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "支付宝、美团、抖音、京东等平台否认月付产品将退出支付选项，称业务正常开展。",
+    "impact": "neutral",
+    "importance": 25,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "仅涉及支付产品展示形式传闻澄清，无实质业务变化，对A股板块影响有限。",
+    "catalyst": "支付选项调整传闻被平台否认，短期情绪扰动有限。"
+  },
+  "7bac4003884b32f0a3fa8162": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "蓝箭航天朱雀二号改进型火箭成功发射10颗千帆星座卫星，民营火箭首次承接大型星座组网任务。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "商业航天",
+    "stocks": [],
+    "reason": "民营商业航天首次承担国家级星座组网，标志产业规模化落地，利好商业航天产业链。",
+    "catalyst": "民营火箭首次批量组网发射，商业航天运力商业化验证"
+  },
+  "0582581814e6a736258d90b0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "娃哈哈虎林生产基地因欠缴员工公积金200余万元被查封办公楼，沈阳娃哈哈亦被责令补缴超1350万元。",
+    "impact": "negative",
+    "importance": 35,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "娃哈哈非A股上市公司，事件仅涉其内部劳资纠纷，对A股消费板块无直接传导。",
+    "catalyst": "欠缴公积金引发资产查封，反映企业经营与关停压力。"
+  },
+  "76974c1ffa4a4cd4a134b387": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "具身智能热度高但未规模化，技术路线未收敛、高质量物理数据稀缺，商业模式待探索。",
+    "impact": "neutral",
+    "importance": 62,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "行业论坛讨论具身智能卡点，无具体公司或订单落地，属主题性讨论，短期难形成交易催化。",
+    "catalyst": "外滩大会具身智能论坛聚焦技术路线与数据瓶颈，行业规模化预期升温。"
+  },
+  "9d78afe9c0c8dd6e446ecd02": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "调查显示美联储未来一年至少加息两次，通胀预期升温，油价走高是主因。",
+    "impact": "negative",
+    "importance": 75,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储加息预期升温，全球流动性收紧，压制A股风险偏好，利空金融地产。",
+    "catalyst": "美联储加息预期强化，美债利率上行，资金面承压。"
+  },
+  "b944b592479cbf7bd970b329": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "富时罗素与中证指数、深证信息联合推出中国A股绿色收入指数，覆盖A股市值约9.6万亿元。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "新能源",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "绿色收入指数发布，利好绿色经济相关板块，但无具体个股点名，短期交易催化有限。",
+    "catalyst": "三方联合推出A股绿色收入指数，未来或催生ETF产品。"
+  },
+  "b149a8c64cb13bb0f28a21cc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "10年期美债收益率破5%创2007年新高，全球资产跳水，美联储加息概率超90%，风险资产估值承压。",
+    "impact": "negative",
+    "importance": 88,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美债利率飙升压制全球风险偏好，A股高估值成长板块承压，金融地产受利率与流动性预期扰动。",
+    "catalyst": "美债收益率破5%叠加美联储加息预期升温，全球流动性收紧预期强化。"
+  },
+  "b0118e00120d19444b9c87d7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "统计局首公布二手房网签面积同比增10.6%，新房住宅库存2021年9月来首次下降。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "库存首降与二手房交易活跃，释放地产企稳信号，但无个股点名，属板块性利好。",
+    "catalyst": "二手房网签连续多月超新房，住宅库存首次收缩，政策去库存见效。"
+  },
+  "910200cdb3fa8e9f3d839350": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "香港iPhone预售期信用卡集体盗刷，1209人报案涉2500万港元，多家银行回应。",
+    "impact": "neutral",
+    "importance": 45,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "涉及香港银行信用卡风控事件，对A股银行板块影响有限，无点名A股公司。",
+    "catalyst": "信用卡盗刷暴露支付认证漏洞，或推动支付安全与风控升级。"
+  },
+  "5596e4ca6027637bf64c7ecd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月一线城市新房价格环比转涨0.1%，二三线降幅收窄，楼市修复信号显现，金九银十有望升温。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "房价数据改善叠加金九银十预期，利好地产链情绪修复，但无个股点名。",
+    "catalyst": "一线房价环比转涨、同比降幅收窄，稳地产新政落地。"
+  },
+  "1f2f39dc00e38026c9fb3bd3": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "主力资金净流出103.87亿，光纤龙头通鼎互联获净流入19.62亿涨停，宁德时代净流出34.77亿居首。",
+    "impact": "neutral",
+    "importance": 62,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "通信",
+    "stocks": [
+      {
+        "name": "通鼎互联",
+        "code": ""
+      },
+      {
+        "name": "华正新材",
+        "code": ""
+      },
+      {
+        "name": "诺德股份",
+        "code": ""
+      },
+      {
+        "name": "生益科技",
+        "code": ""
+      },
+      {
+        "name": "宏和科技",
+        "code": ""
+      },
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      }
+    ],
+    "reason": "光纤与PCB概念获资金加仓，但大盘整体净流出、科技股分化，仅结构性机会。",
+    "catalyst": "康宁与Verizon签数十亿美元光纤供应协议，光纤及PCB需求预期升温。"
+  },
+  "05ffbb4eef6d014d50d6e09d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AI叙事转向风险，半导体回调，科技股估值收缩，但过热情绪释放，现金流公司受捧",
+    "impact": "neutral",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "AI板块叙事转空但情绪已释放，短期中性，关注现金流标的",
+    "catalyst": "AI放缓担忧压制估值，资金转向自由现金流优质公司"
+  },
+  "4f663c19921ceab7638a88d6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "钛白粉龙头龙佰集团带头涨价700元/吨，十余家企业跟进，年内第六轮涨价潮开启。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [],
+    "suggested_sector": "钛白粉/化工",
+    "stocks": [
+      {
+        "name": "龙佰集团",
+        "code": "002601"
+      },
+      {
+        "name": "安纳达",
+        "code": "002136"
+      },
+      {
+        "name": "国城矿业",
+        "code": "000688"
+      }
+    ],
+    "reason": "行业集体涨价提振情绪，但需求偏弱、供应宽松，涨价持续性存疑，宜短线关注。",
+    "catalyst": "金九旺季备货叠加限产，龙头带头涨价，成本托底价格触底反弹。"
+  },
+  "b45d0069cdc8b2df67480f04": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "字节跳动因加大AI投入，2026上半年净利润率降至16.7%，海外收入占比创新高。",
+    "impact": "neutral",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "字节非A股上市，但AI投入与海外扩张趋势对A股AI算力及出海链有映射效应。",
+    "catalyst": "字节AI资本开支加码、海外收入占比创新高，强化AI算力与出海逻辑。"
+  },
+  "09d1b10d2638456c186a5f7d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "一品红AR882痛风创新药国内Ⅲ期试验结果理想，将争取早日申报上市。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "一品红",
+        "code": "300723"
+      }
+    ],
+    "reason": "创新药关键临床数据积极，属个股催化，对板块整体带动有限。",
+    "catalyst": "AR882国内Ⅲ期达预期，痛风石消退数据积累，推进上市申报。"
+  },
+  "866b42d699759363b00f5dca": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "两部门印发电子信息制造业十五五规划，2030年营收目标突破30万亿元",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "消费",
+      "低空经济",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "国家级产业规划明确30万亿营收目标，利好电子制造全产业链，但未点名具体上市公司",
+    "catalyst": "十五五规划出台，集成电路、先进计算、消费电子等获政策支持"
+  },
+  "8df16eda8c1c757e258e8a7d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "五大券商首席认为外部扰动难改A股中期逻辑，下半年盈利、流动性、政策多重支撑，韧性凸显。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "消费",
+      "新能源",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "券商首席集体看多下半年A股，强调盈利修复与政策支撑，利好市场情绪与成长、消费板块。",
+    "catalyst": "盈利改善、流动性合理充裕、政策持续发力及科技产业趋势延续。"
+  },
+  "520a6e91c199c31c3c75c8e7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华瓷股份澄清MLCC粉体等传闻，称对潮州三环供货仅小量验证，陶瓷新材料收入占比1.15%。",
+    "impact": "negative",
+    "importance": 45,
+    "sectors": [],
+    "suggested_sector": "陶瓷材料",
+    "stocks": [
+      {
+        "name": "华瓷股份",
+        "code": "001216"
+      }
+    ],
+    "reason": "公司主动澄清题材炒作，相关业务贡献有限，短期利空概念炒作。",
+    "catalyst": "MLCC粉体、氧化锆等题材被证伪，业务尚未批量供货。"
+  },
+  "0b6eafa21067b70887568d92": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "杭叉集团拟发可转债募资不超22.59亿元，投向叉车机器人智慧工厂、新能源叉车及机器人研发等项目。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "机器人",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "杭叉集团",
+        "code": "603298"
+      }
+    ],
+    "reason": "大额募资加码叉车机器人与智能物流，机器人业务高增长，主题催化明确。",
+    "catalyst": "22.59亿可转债募资投向叉车机器人及智能物流项目"
+  },
+  "f84c18dcf63154bfa8fe6f57": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股震荡分化，电子化学品、半导体获资金大幅流入，光刻胶及电子布涨价催化。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "电子化学品",
+    "stocks": [
+      {
+        "name": "西陇科学",
+        "code": ""
+      },
+      {
+        "name": "海星股份",
+        "code": ""
+      },
+      {
+        "name": "广信材料",
+        "code": ""
+      },
+      {
+        "name": "中石科技",
+        "code": ""
+      },
+      {
+        "name": "宏和科技",
+        "code": ""
+      },
+      {
+        "name": "中国巨石",
+        "code": ""
+      },
+      {
+        "name": "国际复材",
+        "code": ""
+      },
+      {
+        "name": "中材科技",
+        "code": ""
+      }
+    ],
+    "reason": "光刻胶及电子布涨价催化明确，电子化学品、半导体资金大幅流入，可进交易池。",
+    "catalyst": "日本光刻胶提价15%+电子布价格环比涨10%-20%"
+  },
+  "67fd08a614b81b0796cb0820": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "两部门指导美团、抖音等在线酒店预订平台，防范独家合作、'全网最低价'等内卷竞争风险。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "监管针对平台竞争秩序，未点名A股上市公司，对消费板块影响偏中性。",
+    "catalyst": "在线酒店预订平台反内卷合规整改，规范竞争秩序。"
+  },
+  "4d2a7c8c4fc8e26ec6f27998": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "8月经济呈三稳两快，工业增5.2%，高技术制造业增16.7%，新动能贡献超六成，投资降7.2%。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "机器人",
+      "新能源车",
+      "新能源",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "经济数据稳中向好，新动能与高技术投资亮眼，利好科技成长与新能源板块。",
+    "catalyst": "高技术制造业和数字产品制造业高增长，新动能贡献超六成"
+  },
+  "5b593068623b6fd212928953": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "10年期美债收益率破5%，全球资产定价锚飙升，风险资产承压，低利率时代终结。",
+    "impact": "negative",
+    "importance": 85,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险",
+      "房地产",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美债收益率飙升压制全球风险偏好，高估值成长股承压，金融地产受利率与债务风险冲击。",
+    "catalyst": "美债收益率破5%，加息预期升温，全球资金虹吸效应。"
+  },
+  "4cf0ce287e532852457db29d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "监管鼓励健康险提质扩面，行业从赔付型向健康管理型转变，增速放缓面临同质化困境。",
+    "impact": "positive",
+    "importance": 65,
+    "sectors": [
+      "保险",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策明确支持健康险提质扩面，利好保险及健康管理相关板块。",
+    "catalyst": "金融监管总局鼓励健康险提质扩面，推动向健康管理型转型。"
+  },
+  "53229e648a90c8b363fa3800": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美图公司回购约2000万港元，创始人吴欣鸿增持100万股并澄清无减持计划。",
+    "impact": "positive",
+    "importance": 25,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "仅涉及港股美图公司，与A股候选板块无直接关联，影响有限。",
+    "catalyst": "创始人增持及公司回购提振市场信心。"
+  },
+  "0ca1bdd4c4f502bf5f3c0670": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "风电板块走高闽东电力5连板，覆铜板概念大涨，多股连续涨停提示风险",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "覆铜板",
+    "stocks": [
+      {
+        "name": "闽东电力",
+        "code": "000993"
+      },
+      {
+        "name": "天顺风能",
+        "code": "002531"
+      },
+      {
+        "name": "大金重工",
+        "code": "002487"
+      },
+      {
+        "name": "方邦股份",
+        "code": "688020"
+      },
+      {
+        "name": "华正新材",
+        "code": "603186"
+      },
+      {
+        "name": "同宇新材",
+        "code": ""
+      },
+      {
+        "name": "南亚新材",
+        "code": "688519"
+      },
+      {
+        "name": "超声电子",
+        "code": "000823"
+      }
+    ],
+    "reason": "风电与覆铜板双热点活跃，但连板股已提示风险，追高需谨慎",
+    "catalyst": "覆铜板行业高景气量价齐升，风电板块资金炒作"
+  },
+  "dbe41b6cb28eee60c0cade56": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "四川双马披露机构调研纪要，多肽产能扩容及沐曦、屹唐、昆仑芯等硬科技项目退出节奏受关注。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "AI算力",
+      "半导体",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "四川双马",
+        "code": "000935"
+      }
+    ],
+    "reason": "公司硬科技投资布局与多肽产能扩张受机构集中关注，存超额业绩报酬兑现预期。",
+    "catalyst": "硬科技项目IPO/并购退出及多肽A16车间投产带来业绩弹性。"
+  }
+}
