@@ -1,0 +1,721 @@
+{
+  "5ac5a9f9577806c4b07ae173": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "人形机器人产业链加速商业化，3D视觉等底层感知环节受资本关注，业绩分化明显。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "机器人",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "凌云光",
+        "code": "688400"
+      },
+      {
+        "name": "思特威",
+        "code": "688213"
+      },
+      {
+        "name": "奥比中光",
+        "code": "688322"
+      }
+    ],
+    "reason": "机器人产业链业绩兑现信号增强，3D视觉底层环节受关注，点名公司具交易价值。",
+    "catalyst": "人形机器人商业化落地，3D视觉感知需求提升，产业链盈利改善。"
+  },
+  "b5b51c08798e9cbe669cc9fb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华为发布昇腾960超节点，AI芯片提前发布性能翻倍，2027年起一年一代演进",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "华为AI算力与芯片路线图超预期，利好国产算力产业链，但未点名A股公司",
+    "catalyst": "昇腾960芯片提前发布、性能翻番，超节点规模商用"
+  },
+  "ef1884139805d32e6ed1f17f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "光刻胶板块午后异动，华软科技涨停，日本厂商宣布2026年10月起光刻胶涨价15%；煤炭、航运、工业母机、风电板块同步活跃。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "半导体",
+      "新能源"
+    ],
+    "suggested_sector": "煤炭",
+    "stocks": [
+      {
+        "name": "华软科技",
+        "code": "002453"
+      },
+      {
+        "name": "彤程新材",
+        "code": "603650"
+      },
+      {
+        "name": "聚和材料",
+        "code": "688503"
+      },
+      {
+        "name": "百合花",
+        "code": "603823"
+      },
+      {
+        "name": "南大光电",
+        "code": "300346"
+      },
+      {
+        "name": "云煤能源",
+        "code": "600792"
+      },
+      {
+        "name": "郑州煤电",
+        "code": "600121"
+      },
+      {
+        "name": "大有能源",
+        "code": "600403"
+      }
+    ],
+    "reason": "光刻胶涨价催化半导体材料板块，多板块共振活跃，具备短线交易机会。",
+    "catalyst": "日本光刻胶厂商宣布2026年10月起全球提价15%，现货散单涨幅达32%-38%。"
+  },
+  "f7d5a7d85b990d9954832c3e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "9月17日主力资金净流出95.88亿，汽车行业净流入27.31亿居首，京东方A获加仓19.79亿，尾盘比亚迪等3股获加仓。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [
+      "新能源车",
+      "半导体",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "沐曦股份",
+        "code": ""
+      },
+      {
+        "name": "山子高科",
+        "code": "000981"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      },
+      {
+        "name": "中材科技",
+        "code": "002080"
+      },
+      {
+        "name": "东山精密",
+        "code": "002384"
+      },
+      {
+        "name": "沪电股份",
+        "code": "002463"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      }
+    ],
+    "reason": "属日常资金流向统计，缺乏新增基本面催化，参考价值有限。",
+    "catalyst": "汽车板块资金大幅流入，京东方A获主力集中加仓。"
+  },
+  "45b07224d601ec777837f4cc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储重启加息，美债收益率回落，但长端仍受通胀与财政供给压力",
+    "impact": "neutral",
+    "importance": 72,
+    "sectors": [
+      "银行",
+      "保险",
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美债利率与美联储政策影响全球风险偏好，间接影响A股金融板块估值",
+    "catalyst": "美联储加息落地，尾部风险消退，但长端利率仍面临上行压力"
+  },
+  "46df5f54f569998d4437d05d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "9月17日午后航运板块走强，招商轮船涨停，新股N沈鼓尾盘大涨触发临停，风电设备板块拉升。",
+    "impact": "positive",
+    "importance": 65,
+    "sectors": [
+      "出海链"
+    ],
+    "suggested_sector": "航运港口",
+    "stocks": [
+      {
+        "name": "招商轮船",
+        "code": "601872"
+      },
+      {
+        "name": "中远海能",
+        "code": "600026"
+      },
+      {
+        "name": "招商南油",
+        "code": "601975"
+      },
+      {
+        "name": "宁波海运",
+        "code": "600798"
+      },
+      {
+        "name": "锡华科技",
+        "code": "603248"
+      },
+      {
+        "name": "电气风电",
+        "code": "688660"
+      },
+      {
+        "name": "大金重工",
+        "code": "002487"
+      },
+      {
+        "name": "天顺风能",
+        "code": "002531"
+      }
+    ],
+    "reason": "航运运价大涨驱动板块异动，龙头涨停，具备短线交易机会。",
+    "catalyst": "TD3C中东-中国航线TCE逼近百万美元/天，油轮运价重估。"
+  },
+  "1d4b02b3530b7d2c397b7e63": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "何小鹏宣布小鹏图灵第二代VLA首次重大升级，端侧模型参数量为主流VLA的15倍以上。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "新能源车",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "智驾模型升级利好小鹏产业链及端侧AI算力，但未点名A股公司，影响偏主题性。",
+    "catalyst": "小鹏智驾VLA模型重大升级，端侧算力需求提升"
+  },
+  "a306c7a88b1a37c188f3219e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "刘纪鹏在凤凰湾区财经论坛称AI股票太高，林园意味深长一笑，二人就AI投资交锋。",
+    "impact": "negative",
+    "importance": 45,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "专家警示AI估值过高，情绪面偏空，但无具体个股与政策落地，影响有限。",
+    "catalyst": "论坛上专家对AI高估值的公开警示引发市场情绪波动。"
+  },
+  "4400bcfe2a62240e74286fd4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技股价盘中涨超7%，市值重回2000亿元，较上市首日高点大幅回落。",
+    "impact": "positive",
+    "importance": 65,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "人形机器人龙头股价异动，市值重回2000亿，对机器人板块有情绪带动作用。",
+    "catalyst": "人形机器人龙头股价拉升，市值重回2000亿元"
+  },
+  "157199daf860f11f4921219f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国办发文加强烟花爆竹全链条安全监管，严格准入审批，打击非法违法行为。",
+    "impact": "neutral",
+    "importance": 45,
+    "sectors": [],
+    "suggested_sector": "民爆用品",
+    "stocks": [],
+    "reason": "政策针对烟花爆竹行业，与候选板块均不相关，无明确A股受益标的。",
+    "catalyst": "安全监管趋严，行业准入收紧，利好合规龙头但未点名个股。"
+  },
+  "df24981c0f096ba33078c2d4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "三季度超500亿资金涌入固收+基金，规模同比增86%，策略标签化引发赛道化争议。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "券商",
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "固收+规模高增利好资管业务，但未点名个股，属行业趋势性新闻。",
+    "catalyst": "低利率下稳健资金迁徙，固收+承接理财替代需求。"
+  },
+  "764ddc91224a8a2a889be92c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沪深北交易所发布2026年中秋、国庆休市安排，涉及9月下旬及10月初休市。",
+    "impact": "neutral",
+    "importance": 20,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "仅为例行休市安排，对市场基本面与交易逻辑无实质影响。",
+    "catalyst": "节假日休市通知，属常规信息披露。"
+  },
+  "b16fc3b09ef577a59eb6c368": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "英国央行维持利率3.75%不变，警告能源波动或需进一步加息，英镑跳水、英债收益率下挫、英股上涨。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "海外央行利率决议，对A股直接影响有限，仅间接影响全球流动性与银行板块情绪。",
+    "catalyst": "英国央行按兵不动但释放鹰派信号，能源通胀风险升温。"
+  },
+  "b6f46a5c7b9684dae15a94f6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "货拉拉公开算法治理运费拖欠与假单，超48小时未付订单占比降16%，假单量降70%。",
+    "impact": "neutral",
+    "importance": 25,
+    "sectors": [],
+    "suggested_sector": "物流",
+    "stocks": [],
+    "reason": "货拉拉为港股非上市A股标的，事件属平台治理，对A股板块无直接映射。",
+    "catalyst": "货运平台算法治理优化司机生态，间接利好物流行业规范化。"
+  },
+  "e11937e78fdb91317f7bb8a7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宁德时代减持湖南裕能1745.97万股，持股比例降至4.99999%，双方业务合作不受影响。",
+    "impact": "negative",
+    "importance": 62,
+    "sectors": [
+      "新能源车",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "湖南裕能",
+        "code": "301358"
+      },
+      {
+        "name": "比亚迪",
+        "code": "002594"
+      }
+    ],
+    "reason": "龙头减持锂电正极材料商，短期情绪偏空，但公司业绩高增，影响有限。",
+    "catalyst": "宁德时代减持落地，持股降至5%以下，后续减持压力减弱。"
+  },
+  "623a0739be67162e4e16ec88": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "诺和诺德与Anthropic合作、Anew Labs融资、药企海外获批三利好共振，AI制药板块活跃。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "山子高科",
+        "code": "000981"
+      },
+      {
+        "name": "百普赛斯",
+        "code": "301080"
+      },
+      {
+        "name": "泓博医药",
+        "code": "301230"
+      },
+      {
+        "name": "义翘神州",
+        "code": "301047"
+      },
+      {
+        "name": "华大智造",
+        "code": "688114"
+      },
+      {
+        "name": "透景生命",
+        "code": "300642"
+      },
+      {
+        "name": "华海药业",
+        "code": "600521"
+      },
+      {
+        "name": "普洛药业",
+        "code": "000739"
+      }
+    ],
+    "reason": "AI制药全球产业趋势获三事件共振，主力资金加仓，板块情绪与业绩预期双升。",
+    "catalyst": "诺和诺德联手Anthropic、Anew Labs融资2.9亿美元、药企海外获批"
+  },
+  "d91a468b4a07458c4a373267": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "万向德农股价一个月翻倍，公司公告提示风险，称股价严重偏离基本面，业绩下滑。",
+    "impact": "negative",
+    "importance": 65,
+    "sectors": [],
+    "suggested_sector": "种业",
+    "stocks": [
+      {
+        "name": "万向德农",
+        "code": "600371"
+      }
+    ],
+    "reason": "个股风险提示公告，属题材炒作降温信号，无板块级交易机会。",
+    "catalyst": "股价异动后公司主动提示风险，估值严重偏离基本面。"
+  },
+  "76897472af72adc6cb8778eb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股小幅震荡，粮食概念股全线走强，汽车行业获逾50亿主力净流入，上海亚虹现天地板后地天板。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "新能源车",
+      "医药生物"
+    ],
+    "suggested_sector": "农业种植",
+    "stocks": [
+      {
+        "name": "上海亚虹",
+        "code": "603159"
+      },
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "招商轮船",
+        "code": "601872"
+      },
+      {
+        "name": "中材科技",
+        "code": "002080"
+      },
+      {
+        "name": "亨通光电",
+        "code": "600487"
+      },
+      {
+        "name": "万向德农",
+        "code": "600371"
+      },
+      {
+        "name": "秋乐种业",
+        "code": "831087"
+      },
+      {
+        "name": "敦煌种业",
+        "code": "600354"
+      }
+    ],
+    "reason": "粮食涨价与汽车资金加仓具交易性机会，但整体震荡，关注农业与汽车链。",
+    "catalyst": "国际粮价创阶段新高叠加汽车行业主力资金大幅净流入。"
+  },
+  "e41e33a5a3d2a0ca24b0ab5e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储时隔三年加息25基点至3.75%-4.00%，点阵图显示年内或再加息，美元走强美股跳水。",
+    "impact": "negative",
+    "importance": 88,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储重启加息、紧缩周期或延续，全球流动性收紧，压制A股风险偏好与外资流入。",
+    "catalyst": "美联储加息25基点，点阵图上移，年内或再加息一次"
+  },
+  "8575c19fde68ca918d40cb10": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储鹰派加息25基点落地，公募认为后续或再加息，扰动AI科技估值但不改产业长期逻辑。",
+    "impact": "negative",
+    "importance": 78,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "加息抬升折现率压制科技股估值，但AI产业盈利端有韧性，属短期扰动。",
+    "catalyst": "美联储鹰派加息，年内或再加息，压制成长股估值"
+  },
+  "aef39757c6ce838cd00e2c46": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "恒瑞医药首次回购33.5万股，耗资1450万元，拟10亿至20亿元回购用于员工持股计划。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "恒瑞医药",
+        "code": "600276"
+      }
+    ],
+    "reason": "千亿医药龙头首次回购，彰显信心，但金额占比小，短期影响有限。",
+    "catalyst": "回购落地叠加创新药收入增长16.38%，提振市场信心。"
+  },
+  "fe05d5bbc8900980916ea07a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "澳弘电子5连板后提示风险，泰国基地短期难贡献业绩，上半年净利下滑。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "澳弘电子",
+        "code": "605058"
+      },
+      {
+        "name": "生益科技",
+        "code": "600183"
+      },
+      {
+        "name": "南亚新材",
+        "code": "688519"
+      }
+    ],
+    "reason": "题材热度高但公司基本面走弱且主动提示风险，短期博弈风险大。",
+    "catalyst": "PCB原材料覆铜板涨价、订单排满交期拉长，带动PCB板块升温。"
+  },
+  "b159fff5111b76582b559cd1": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "2025年义乌、昆山、晋江、常熟社零超千亿，县域消费成扩内需新增长点。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "县域消费数据亮眼，利好消费板块，但无明确A股个股点名，属主题性利好。",
+    "catalyst": "县域社零高增，消费品牌加速下沉布局县域市场。"
+  },
+  "dc8d48fe23e82b35b77bb3bb": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "诺思兰德与楚天科技完成塞多明基注射液产线FAT交付，并签署战略合作协议。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "诺思兰德",
+        "code": "920047"
+      },
+      {
+        "name": "楚天科技",
+        "code": "300358"
+      }
+    ],
+    "reason": "全球首款裸质粒基因治疗药物产业化落地，利好医药生物及制药装备，但短期业绩贡献有限。",
+    "catalyst": "创新基因药产线FAT交付并签战略合作，加速商业化与产能建设。"
+  },
+  "76044d9b6ebf381c74ef9bc6": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "地瓜机器人完成4亿美元C轮融资，机器人、自动驾驶、AI制药赛道融资热度持续。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "机器人",
+      "医药生物",
+      "新能源车"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "一级市场大额融资密集落地，机器人、AI制药、自动驾驶赛道景气度获资本验证。",
+    "catalyst": "一线VC/PE加码机器人、AI制药、Robotaxi，融资热度延续。"
+  },
+  "e8067e9d18e955488ca28262": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "种业概念逆市爆发，敦煌种业涨停；沐曦、摩尔线程解禁后大涨，新股沈鼓涨197%",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [],
+    "suggested_sector": "种业",
+    "stocks": [
+      {
+        "name": "敦煌种业",
+        "code": "600354"
+      },
+      {
+        "name": "秋乐种业",
+        "code": ""
+      },
+      {
+        "name": "万向德农",
+        "code": ""
+      },
+      {
+        "name": "神农种业",
+        "code": ""
+      },
+      {
+        "name": "康农种业",
+        "code": ""
+      },
+      {
+        "name": "山东黄金",
+        "code": ""
+      },
+      {
+        "name": "盛达资源",
+        "code": ""
+      },
+      {
+        "name": "山金国际",
+        "code": ""
+      }
+    ],
+    "reason": "种业受厄尔尼诺与地缘冲突催化逆市大涨，但候选板块无对应，暂不入池",
+    "catalyst": "超强厄尔尼诺叠加中东地缘冲突，全球粮食供给不确定性上升"
+  },
+  "5e44f0e11e69710fec8a63b5": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "特朗普施压未果，美联储主席沃什上任不足四个月即推动2023年以来首次加息，被指为FOMC最鹰派委员之一。",
+    "impact": "negative",
+    "importance": 78,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险",
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储加息收紧全球流动性，压制A股风险偏好，利空银行、券商、保险及房地产等利率敏感板块。",
+    "catalyst": "美联储超预期加息，全球流动性收紧预期升温"
+  },
+  "88090030316963f14d076865": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "内塔尼亚胡称将推翻伊朗政权，中东地缘风险升温。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "地缘冲突升级利好军工避险情绪，但无A股公司被点名，影响偏情绪面。",
+    "catalyst": "中东局势紧张推升军工板块避险需求。"
+  },
+  "dc49e2feee50dfe025932b01": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "五连板澳弘电子提示泰国基地尚处认证阶段，多家公司发布增减持、回购及中标合同公告。",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "澳弘电子",
+        "code": "605058"
+      },
+      {
+        "name": "万向德农",
+        "code": "600371"
+      },
+      {
+        "name": "福建高速",
+        "code": "600033"
+      },
+      {
+        "name": "赛科希德",
+        "code": "688338"
+      },
+      {
+        "name": "赤天化",
+        "code": "600227"
+      },
+      {
+        "name": "远翔新材",
+        "code": "301300"
+      },
+      {
+        "name": "江顺科技",
+        "code": "001400"
+      },
+      {
+        "name": "安凯客车",
+        "code": "000868"
+      }
+    ],
+    "reason": "公告以风险提示和增减持为主，缺乏统一主线，仅个股事件驱动，整体交易价值有限。",
+    "catalyst": "五连板澳弘电子风险提示及多家公司回购、中标合同公告。"
+  },
+  "fae904852b65067f35f34d70": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "亚马逊与Generac签数据中心备用电源协议并获认股权证，Generac盘前暴涨34.76%，美股期货拉升。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "利好AI数据中心电力配套链，但事件主体为美股，A股无直接点名个股。",
+    "catalyst": "亚马逊数据中心扩容带动备用电源需求，AI算力基建链情绪升温。"
+  }
+}
