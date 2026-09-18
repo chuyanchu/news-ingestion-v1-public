@@ -1,0 +1,699 @@
+{
+  "9647ed98cbd993ca08dee445": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沈鼓集团上市两日暴涨，上交所对异常交易投资者暂停账户，公司提示风险。",
+    "impact": "neutral",
+    "importance": 62,
+    "sectors": [],
+    "suggested_sector": "高端装备制造",
+    "stocks": [
+      {
+        "name": "沈鼓集团",
+        "code": ""
+      }
+    ],
+    "reason": "新股炒作监管出手，属个股事件，对板块整体影响有限。",
+    "catalyst": "新股非理性炒作引发交易所自律监管与风险提示。"
+  },
+  "6d963e3226db57a82f18b8bd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "9月18日主力资金净流入279亿，电子通信领涨，华天科技获加仓居首，京东方A尾盘净流入领先。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华天科技",
+        "code": "002185"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "立讯精密",
+        "code": "002475"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      },
+      {
+        "name": "通富微电",
+        "code": "002156"
+      },
+      {
+        "name": "紫光股份",
+        "code": "000938"
+      },
+      {
+        "name": "沪电股份",
+        "code": "002463"
+      }
+    ],
+    "reason": "主力资金大幅流入电子通信，半导体算力方向资金集中，可进入交易池跟踪。",
+    "catalyst": "主力资金净流入279亿，电子通信板块获资金重点加仓。"
+  },
+  "77cd76934120edebfe5e48c4": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "证监会拟对17起案件线索的吹哨人给予奖励，名单公布并开放申领登记。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "远大智能",
+        "code": "002689"
+      },
+      {
+        "name": "冠农股份",
+        "code": "600251"
+      },
+      {
+        "name": "东海A",
+        "code": "000613"
+      },
+      {
+        "name": "利源股份",
+        "code": "002501"
+      },
+      {
+        "name": "华微电子",
+        "code": "600360"
+      },
+      {
+        "name": "未名医药",
+        "code": "002581"
+      },
+      {
+        "name": "中青宝",
+        "code": "300052"
+      },
+      {
+        "name": "杉杉股份",
+        "code": "600884"
+      }
+    ],
+    "reason": "吹哨人奖励强化监管威慑，利好市场生态，但涉事公司多为旧案，交易影响有限。",
+    "catalyst": "证监会公布吹哨人奖励名单，强化信息披露监管。"
+  },
+  "45c0875d51a76a4c028fc9de": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "沙特东西输油管道遇袭修复需六周，沙特阿美通知欧洲10月原油全面断供，转增供亚洲。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "石油石化",
+    "stocks": [],
+    "reason": "原油供给突发中断推升油价，利好替代能源及油气产业链，但新闻未点名A股公司。",
+    "catalyst": "沙特对欧断供、管道修复期拉长，全球原油供给收紧预期升温。"
+  },
+  "fa9e25547b3813d955462765": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "全国碳市场累计成交量9.61亿吨，2027年基本覆盖工业主要排放行业，碳定价机制加速完善",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "碳交易",
+    "stocks": [],
+    "reason": "碳市场扩容至钢铁水泥铝冶炼，2027年覆盖工业主要行业，利好碳资产与减排相关标的",
+    "catalyst": "碳市场扩围与碳定价机制建设提速"
+  },
+  "f0afb7d095d17204fca618d0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "住建部称十五五拓宽公积金提取范围，装修、物业费可提取，支持租房购房修房养房。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "房地产",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "公积金使用范围拓宽利好住房消费链，但无具体公司点名，属政策面温和利好。",
+    "catalyst": "公积金提取情形由6种增至9种，覆盖装修、物业费，提振住房消费。"
+  },
+  "b5256f8f34d0ee8a31c3c9c9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "住建部推进现房销售制，防范交付风险，房地产进入存量时代。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "房地产"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "现房销售政策利好房地产行业长期健康发展，但短期影响有限，无明确个股点名。",
+    "catalyst": "住建部推进现房销售制，防范交付风险，构建房地产发展新模式。"
+  },
+  "3ec46f3dd6ed13113a51e7ff": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "新华传媒拟发行股份收购界面财联社100%股权，构成重大资产重组，9月21日复牌。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [],
+    "suggested_sector": "传媒",
+    "stocks": [
+      {
+        "name": "新华传媒",
+        "code": "600825"
+      }
+    ],
+    "reason": "重大资产重组注入新媒体资产，标的盈利远超上市公司，复牌或受资金关注。",
+    "catalyst": "发行股份收购界面财联社100%股权，下周一复牌。"
+  },
+  "90cdb0fc83cc0c959147267d": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "电网设备板块异动，太阳电缆直线涨停，创新药、CPO、旅游、网络安全等概念活跃。",
+    "impact": "positive",
+    "importance": 65,
+    "sectors": [
+      "医药生物",
+      "AI算力",
+      "消费"
+    ],
+    "suggested_sector": "电网设备",
+    "stocks": [
+      {
+        "name": "太阳电缆",
+        "code": "002300"
+      },
+      {
+        "name": "顺钠股份",
+        "code": ""
+      },
+      {
+        "name": "中超控股",
+        "code": ""
+      },
+      {
+        "name": "红相股份",
+        "code": ""
+      },
+      {
+        "name": "汉缆股份",
+        "code": ""
+      },
+      {
+        "name": "铭普光磁",
+        "code": ""
+      },
+      {
+        "name": "太辰光",
+        "code": ""
+      },
+      {
+        "name": "联特科技",
+        "code": ""
+      }
+    ],
+    "reason": "电网设备异动叠加医药政策利好，多板块活跃，具备短线交易机会。",
+    "catalyst": "电网基建订单放量+医药工业十五五规划+英伟达芯片销量预期"
+  },
+  "59468f2133fd19316042205f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上交所对沈鼓集团异常交易投资者采取暂停账户交易等自律监管措施，并重点监控龙版传媒。",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "龙版传媒",
+        "code": "605577"
+      }
+    ],
+    "reason": "监管出手打击新股炒作，短期利空相关个股情绪，属交易监管类新闻。",
+    "catalyst": "新股沈鼓集团上市后股价大幅波动，交易所加强异常交易监管。"
+  },
+  "2704f1aad902ba833db91f99": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国家电投举办控股上市公司2026年中期集体业绩说明会，六家上市公司集体亮相。",
+    "impact": "positive",
+    "importance": 45,
+    "sectors": [
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "电投能源",
+        "code": "002128"
+      },
+      {
+        "name": "电投水电",
+        "code": "600292"
+      },
+      {
+        "name": "上海电力",
+        "code": "600021"
+      },
+      {
+        "name": "电投产融",
+        "code": "000958"
+      },
+      {
+        "name": "电投绿能",
+        "code": "000875"
+      }
+    ],
+    "reason": "业绩说明会属常规投资者关系活动，无实质业绩或重组新信息，影响有限。",
+    "catalyst": "央企市值管理与清洁能源转型预期"
+  },
+  "86c13f6f251a095aebec7807": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "巴菲特卸任伯克希尔董事长，其子霍华德接任，阿贝尔任CEO负责经营。",
+    "impact": "neutral",
+    "importance": 45,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "属海外公司治理交接，与A股无直接关联，仅情绪面参考。",
+    "catalyst": "巴菲特交班落地，伯克希尔治理结构明确。"
+  },
+  "ec030d26781d72242eee294f": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "年内超10家银行关停或收紧个人贵金属代理业务，清退炒金通道，引导转向低风险配置。",
+    "impact": "neutral",
+    "importance": 62,
+    "sectors": [
+      "银行"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "银行收缩高风险零售衍生品业务，属合规风控调整，对银行基本面影响有限，主题性偏中性。",
+    "catalyst": "金价剧烈波动叠加监管压降高风险业务，银行主动清退个人贵金属代理通道。"
+  },
+  "4b1a4a0a430b7d87ada017e7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上交所对沈鼓集团异常交易账户暂停交易，该股上市两日暴涨后风险提示。",
+    "impact": "negative",
+    "importance": 72,
+    "sectors": [],
+    "suggested_sector": "机械装备",
+    "stocks": [
+      {
+        "name": "沈鼓集团",
+        "code": "601091"
+      }
+    ],
+    "reason": "新股炒作遭监管出手，风险警示明显，短期利空该股及次新股情绪。",
+    "catalyst": "上交所暂停异常账户交易，抑制非理性炒作"
+  },
+  "2df4212ed18730926b41c402": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "文旅部发布文化产业发展十五五规划，明确七方面任务，2030年文化产业支柱地位更巩固。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "文化传媒",
+    "stocks": [],
+    "reason": "政策利好文化产业，但未点名个股，属主题性催化，需观察落地。",
+    "catalyst": "十五五文化产业规划发布，强化科技赋能与文旅融合。"
+  },
+  "42a4f9aca0282ee5bddf480c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上交所修订《董秘一本通》答疑董秘新规，明确任职资格与兼任限制适用，过渡期至2027年底。",
+    "impact": "neutral",
+    "importance": 35,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "属公司治理制度性规范，不直接改变行业盈利与资金流向，无明确受益标的。",
+    "catalyst": "董秘新规落地细则明确，推动上市公司治理完善与董秘专职化转型。"
+  },
+  "dad2734d78d946e3797a825c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "巴菲特卸任伯克希尔董事长，霍华德接任，阿贝尔任CEO，完成管理层交接",
+    "impact": "neutral",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美股公司治理事件，对A股无直接传导，仅情绪层面参考",
+    "catalyst": "巴菲特交班完成，伯克希尔治理结构落定"
+  },
+  "c68109d695fd2b071bc83cdc": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "科创综指周涨逾7%，地产股尾盘拉升万科A涨停，公积金新规2026年施行",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "房地产",
+      "半导体",
+      "AI算力",
+      "消费",
+      "新能源",
+      "出海链"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "万科A",
+        "code": "000002"
+      },
+      {
+        "name": "世联行",
+        "code": "002285"
+      },
+      {
+        "name": "绿地控股",
+        "code": "600606"
+      },
+      {
+        "name": "新城控股",
+        "code": "601155"
+      },
+      {
+        "name": "招商蛇口",
+        "code": "001979"
+      }
+    ],
+    "reason": "地产政策催化叠加科技资金大幅流入，指数反弹，交易机会明确",
+    "catalyst": "公积金条例大修拓宽提取、住建部十五五目标，地产尾盘涨停"
+  },
+  "384554c6178f29592ea0fc0a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "高盛闪辉预计人民币对美元缓慢升值，未来12个月到6.4，出口韧性源于制造业竞争力。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "出海链",
+      "新能源车",
+      "新能源",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "人民币升值预期与出口韧性利好出海链及新能源出口板块，但未点名个股。",
+    "catalyst": "人民币升破6.7，高盛看至6.4，出口竞争力支撑顺差"
+  },
+  "ab5ef64c77853991de6b1167": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "前8月证券交易印花税增长82%，税收收入增6.6%，财政支出偏弱待加速。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "印花税大增印证股市成交活跃，直接利好券商经纪业务，财政支出偏弱为隐忧。",
+    "catalyst": "股市成交金额增长带动印花税高增，资本市场活跃度提升。"
+  },
+  "02b9a1e49955df293381480a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宝莱特控股子公司宝威智存完成工商登记，注册资本2亿，公司出资1.5亿占75%，切入AI存储赛道。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宝莱特",
+        "code": "300246"
+      }
+    ],
+    "reason": "跨界AI存储打造第二增长极，属主题性利好，但短期业绩贡献有限。",
+    "catalyst": "合资落地切入AI存储硬件，叠加医疗器械主业科技属性。"
+  },
+  "415d641c5da3423d9575188e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "黄酒板块爆发，会稽山涨停创历史新高，月内涨近70%，高端化与白酒调整共振。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "黄酒",
+    "stocks": [
+      {
+        "name": "会稽山",
+        "code": "601579"
+      },
+      {
+        "name": "古越龙山",
+        "code": "600059"
+      },
+      {
+        "name": "金枫酒业",
+        "code": "600616"
+      }
+    ],
+    "reason": "黄酒独立行情叠加双节旺季，龙头业绩高增，但体量小、持续性存疑。",
+    "catalyst": "高端化升级+白酒存量调整+双节消费旺季"
+  },
+  "09d2d23402733aaf326f708c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "十部门印发促进房车消费措施，鼓励发展新能源房车，提升供给质量与安全标准。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "新能源车",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策利好房车及新能源车消费链，但未点名个股，属主题性催化。",
+    "catalyst": "十部门促房车消费，鼓励新能源房车发展"
+  },
+  "adabfb53778500eb1481ca73": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "钛能化学获评最佳出海全球化上市公司，海外销售占比超四成，新能源材料收入暴增",
+    "impact": "positive",
+    "importance": 45,
+    "sectors": [
+      "出海链",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "公司非A股明确简称，新闻未点名具体A股上市公司，仅行业主题相关",
+    "catalyst": "出海全球化获奖叠加磷酸铁业务放量，循环经济模式获认可"
+  },
+  "ddb5a8652b00d017ed3d877b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "主力资金一周加仓半导体、面板，华锡有色实控人拟变更为中国五矿",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "半导体"
+    ],
+    "suggested_sector": "面板",
+    "stocks": [
+      {
+        "name": "华锡有色",
+        "code": "600301"
+      },
+      {
+        "name": "京东方A",
+        "code": "000725"
+      },
+      {
+        "name": "华天科技",
+        "code": "002185"
+      },
+      {
+        "name": "中材科技",
+        "code": "002080"
+      },
+      {
+        "name": "天孚通信",
+        "code": "300394"
+      },
+      {
+        "name": "北方华创",
+        "code": "002371"
+      },
+      {
+        "name": "兴森科技",
+        "code": "002436"
+      },
+      {
+        "name": "惠科股份",
+        "code": ""
+      }
+    ],
+    "reason": "主力资金集中加仓半导体、面板，叠加华锡有色实控人变更，题材催化明确",
+    "catalyst": "主力资金调仓加仓半导体面板，面板厂集体调价，先进封装需求增长"
+  },
+  "4e1f870c270f2c7bcdced622": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "十部门联合发布《医药工业发展十五五规划》，创新药板块迎重磅利好，目标2030年创新药规模年均增速超20%。",
+    "impact": "positive",
+    "importance": 85,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华天科技",
+        "code": "002185"
+      },
+      {
+        "name": "长电科技",
+        "code": "600584"
+      },
+      {
+        "name": "兆易创新",
+        "code": "603986"
+      },
+      {
+        "name": "中材科技",
+        "code": "002080"
+      },
+      {
+        "name": "成都先导",
+        "code": "688222"
+      },
+      {
+        "name": "凯莱英",
+        "code": "002821"
+      },
+      {
+        "name": "博腾股份",
+        "code": "300363"
+      },
+      {
+        "name": "华纳药厂",
+        "code": "688799"
+      }
+    ],
+    "reason": "国家级产业规划落地，创新药政策催化明确，板块资金与机构关注度高，具备交易价值。",
+    "catalyst": "十部门联合发布医药工业十五五规划，创新药目标年均增速20%以上"
+  },
+  "9efae6fcd62f54bad1eab002": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "安森美发布涨价函，2026年10月起对广泛产品系列调价，因成本上涨及电源、工业、数据中心需求增长。",
+    "impact": "positive",
+    "importance": 65,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "海外功率半导体龙头连续涨价，印证行业景气回升，利好A股功率半导体及模拟芯片板块。",
+    "catalyst": "成本上涨叠加电源、工业、数据中心需求增长，行业涨价周期开启。"
+  },
+  "7071976639ce06dfb39f6c93": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国常会部署老龄工作、体育赛事、医疗康复护理扩容，审议中医药传统知识保护条例。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "医药生物",
+      "消费"
+    ],
+    "suggested_sector": "养老产业",
+    "stocks": [],
+    "reason": "政策利好养老、医疗康复及中医药，属主题性催化，无具体个股点名。",
+    "catalyst": "国常会部署老龄事业与医疗康复护理扩容工程"
+  },
+  "28f12693b2b876ed50c92418": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "华立股份与大运河水务签署战略合作协议，推进北京副中心水务绿色低碳转型。",
+    "impact": "positive",
+    "importance": 45,
+    "sectors": [],
+    "suggested_sector": "环保水务",
+    "stocks": [
+      {
+        "name": "华立股份",
+        "code": "603038"
+      }
+    ],
+    "reason": "战略合作利好但体量有限，属主题性催化，需观察落地进展。",
+    "catalyst": "签署战略合作，布局智慧水务与超滤膜技术应用。"
+  },
+  "52d49d103b684823e3e549e7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "先进封装概念走强，华天科技涨停封单7.17亿元，大摩预计2029年国内先进封装市场达千亿。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "半导体",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "华天科技",
+        "code": "002185"
+      },
+      {
+        "name": "新宏泽",
+        "code": "002836"
+      },
+      {
+        "name": "电科思仪",
+        "code": ""
+      },
+      {
+        "name": "华瓷股份",
+        "code": "001216"
+      },
+      {
+        "name": "锡华科技",
+        "code": ""
+      },
+      {
+        "name": "马矿股份",
+        "code": ""
+      }
+    ],
+    "reason": "先进封装受AI驱动，大摩看千亿市场，龙头华天科技封单超7亿，情绪强。",
+    "catalyst": "摩根士丹利研报看好先进封装长期增长，AI产业高速发展驱动。"
+  }
+}
