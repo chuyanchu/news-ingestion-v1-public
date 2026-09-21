@@ -1,0 +1,695 @@
+{
+  "4bdecfed9b72fcd58e1d8fc7": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "五芳斋上半年营收降7.37%但净利增2.85%，商超渠道收入增21.56%，山姆渠道销售破亿元。",
+    "impact": "positive",
+    "importance": 45,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "五芳斋",
+        "code": "603237"
+      }
+    ],
+    "reason": "消费结构性分化下公司减收增利，商超与山姆渠道高增长，属个股基本面利好。",
+    "catalyst": "精品商超渠道逆势增长，山姆渠道销售破亿元，毛利率提升至44.64%。"
+  },
+  "4a0dee88252c4e37cbc9fe88": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "主力资金净流入116.82亿元，医药生物、通信领涨，胜宏科技、新易盛、中际旭创获抢筹，尾盘14股净流入超亿元。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力",
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "胜宏科技",
+        "code": "300476"
+      },
+      {
+        "name": "新易盛",
+        "code": "300502"
+      },
+      {
+        "name": "中际旭创",
+        "code": "300308"
+      },
+      {
+        "name": "哈药股份",
+        "code": "600664"
+      },
+      {
+        "name": "百普赛斯",
+        "code": "301080"
+      },
+      {
+        "name": "精华制药",
+        "code": "002349"
+      },
+      {
+        "name": "瑞康医药",
+        "code": "002589"
+      },
+      {
+        "name": "百花医药",
+        "code": "600721"
+      }
+    ],
+    "reason": "主力资金大幅净流入，医药与CPO算力主线明确，龙头个股获资金抢筹，具备短线交易机会。",
+    "catalyst": "医药工业十五五规划定位生物医药为支柱产业，CPO产业化预期升温。"
+  },
+  "d388f125763feaeebbf98d1c": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "芝加哥联储主席古尔斯比警告通胀风险，称进一步加息是唯一出路；摩根士丹利预计标普500或跌7%。",
+    "impact": "negative",
+    "importance": 78,
+    "sectors": [
+      "券商",
+      "银行",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储加息预期升温叠加美股下行风险，压制全球风险偏好，利空A股及金融板块情绪。",
+    "catalyst": "美联储官员鹰派警告，加息预期增强，美股回调风险上升。"
+  },
+  "eac29ea22b0c1d3ac41db991": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宁德时代单日回购11亿元并拟注销，江波龙等多家A股公司密集公布回购计划或进展。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "新能源车",
+      "新能源"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "宁德时代",
+        "code": "300750"
+      },
+      {
+        "name": "江波龙",
+        "code": "301308"
+      },
+      {
+        "name": "怡合达",
+        "code": "301029"
+      },
+      {
+        "name": "趣睡科技",
+        "code": "301336"
+      }
+    ],
+    "reason": "龙头大额回购注销提振市场信心，回购潮利好相关板块情绪。",
+    "catalyst": "宁德时代11亿元回购拟注销，多家公司密集回购。"
+  },
+  "4a34d5dc0c1b4669d568a398": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "蚂蚁集团整合支付宝、数字支付、芝麻信用组建新支付宝事业群，加速智能体商业布局。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [],
+    "suggested_sector": "AI应用",
+    "stocks": [],
+    "reason": "蚂蚁组织调整利好AI智能体商业主题，但未点名A股上市公司，属主题性催化。",
+    "catalyst": "支付宝三大业务会师，加速智能体商业与AI钱包生态落地。"
+  },
+  "66c05886d3d317238153c877": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上交所对沈鼓集团上市初期大幅波动及异常交易采取自律监管措施，提示投资者审慎参与。",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "机械装备",
+    "stocks": [
+      {
+        "name": "沈鼓集团",
+        "code": ""
+      }
+    ],
+    "reason": "监管关注个股异常交易，属风险警示类新闻，对相关板块影响有限。",
+    "catalyst": "上市初期股价大幅波动引发交易所自律监管"
+  },
+  "c9bb87eb55e128201afc201b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "广东明珠因信披不及时收警示函，子公司尾矿库整改完成恢复排尾，但停产拖累三季度业绩。",
+    "impact": "negative",
+    "importance": 45,
+    "sectors": [],
+    "suggested_sector": "钢铁/铁矿石",
+    "stocks": [
+      {
+        "name": "广东明珠",
+        "code": "600382"
+      }
+    ],
+    "reason": "监管处罚叠加停产影响三季度利润，且2027年资源报批存不确定性，利空明确。",
+    "catalyst": "尾矿库整改完成恢复生产，但停产已造成业绩损失，监管警示函压制情绪。"
+  },
+  "748f5d644a2d5488f8bddecd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "宇树科技发布Dex5-S灵巧手，售价3.99万元起，22自由度，真手1:1尺寸，单手负载2kg。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "灵巧手技术升级利好机器人产业链，但未点名A股上市公司，属主题催化。",
+    "catalyst": "宇树发布高自由度灵巧手，推动人形机器人灵巧操作商业化。"
+  },
+  "21f07a48fc482285a959b2b9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "央行召开外资金融机构座谈会，强调适度宽松货币政策与金融高水平开放。",
+    "impact": "positive",
+    "importance": 65,
+    "sectors": [
+      "银行",
+      "券商",
+      "保险"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "政策定调宽松与对外开放，利好金融板块情绪，但无具体增量措施。",
+    "catalyst": "央行重申适度宽松货币政策，优化营商环境、扩大金融开放。"
+  },
+  "0e5236af34eea0a3baf36de8": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "上交所通报沈鼓集团上市初期股价大幅波动，存在异常交易行为，已采取自律监管措施并持续关注。",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "沈鼓集团",
+        "code": "601091"
+      }
+    ],
+    "reason": "监管关注个股异常交易，属个股风险事件，对板块整体影响有限。",
+    "catalyst": "新股上市初期炒作引发交易所自律监管，提示交易风险。"
+  },
+  "81b8e445cf5c43e5b43cffd2": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国有大行及头部股份行AI大模型规模化落地，深入信贷审批等核心业务，降本增效可量化。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "银行",
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "工商银行",
+        "code": "601398"
+      },
+      {
+        "name": "建设银行",
+        "code": "601939"
+      },
+      {
+        "name": "中国银行",
+        "code": "601988"
+      },
+      {
+        "name": "邮储银行",
+        "code": "601658"
+      },
+      {
+        "name": "中信银行",
+        "code": "601998"
+      },
+      {
+        "name": "招商银行",
+        "code": "600036"
+      },
+      {
+        "name": "农业银行",
+        "code": "601288"
+      },
+      {
+        "name": "交通银行",
+        "code": "601328"
+      }
+    ],
+    "reason": "银行AI应用从浅层走向核心业务，降本增效可量化，利好银行板块估值与AI算力需求。",
+    "catalyst": "AI大模型规模化落地核心业务，智能体成竞争焦点，效率提升可量化。"
+  },
+  "38b861a280b78ad1d5106817": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "9月21日盘后12家A股公司披露拟减持，燕京啤酒、天创时尚拟增持。",
+    "impact": "neutral",
+    "importance": 35,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "津膜科技",
+        "code": ""
+      },
+      {
+        "name": "美联新材",
+        "code": ""
+      },
+      {
+        "name": "捷强装备",
+        "code": ""
+      },
+      {
+        "name": "探路者",
+        "code": ""
+      },
+      {
+        "name": "广康生化",
+        "code": ""
+      },
+      {
+        "name": "安车检测",
+        "code": ""
+      },
+      {
+        "name": "奥精医疗",
+        "code": ""
+      },
+      {
+        "name": "科林电气",
+        "code": ""
+      }
+    ],
+    "reason": "常规增减持汇总，个股分散，整体影响有限，不构成交易池重点。",
+    "catalyst": "股东增减持计划披露，反映个股资金动向。"
+  },
+  "9e077ba2b098cdd5df7628cf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "阳光股份控股子公司拟不低于22.9亿元采购服务器及配套设备，超70%靠融资，用于智算业务。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "AI算力"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "阳光股份",
+        "code": "000608"
+      }
+    ],
+    "reason": "大额算力采购叠加股价大涨，题材催化强，但公司亏损且依赖融资，风险偏高。",
+    "catalyst": "22.9亿元服务器采购切入智算业务，资产规模大幅扩张。"
+  },
+  "ab307e2f50e2be561b4d1f2a": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "星帅尔拟8.4亿收购PCB刀具公司梵宇科技和湘鹰新材料，股票停牌。",
+    "impact": "positive",
+    "importance": 62,
+    "sectors": [],
+    "suggested_sector": "PCB刀具",
+    "stocks": [
+      {
+        "name": "星帅尔",
+        "code": "002860"
+      }
+    ],
+    "reason": "收购标的估值8.4亿并承诺三年净利超2亿，股价涨停后停牌，事件驱动明确。",
+    "catalyst": "收购PCB刀具资产并配套募资，业绩承诺增厚预期。"
+  },
+  "2b0cca6edb3290f59e84aa9e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "A股高开高走，地产股午后爆发，万科A两连板，医药生物获142亿主力净流入。",
+    "impact": "positive",
+    "importance": 78,
+    "sectors": [
+      "房地产",
+      "医药生物",
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "万科A",
+        "code": "000002"
+      },
+      {
+        "name": "中材科技",
+        "code": "002080"
+      },
+      {
+        "name": "胜宏科技",
+        "code": "300476"
+      },
+      {
+        "name": "广合科技",
+        "code": "001389"
+      },
+      {
+        "name": "华发股份",
+        "code": "600325"
+      },
+      {
+        "name": "金融街",
+        "code": "000402"
+      },
+      {
+        "name": "我爱我家",
+        "code": "000560"
+      },
+      {
+        "name": "豪尔赛",
+        "code": "002963"
+      }
+    ],
+    "reason": "地产链午后集体涨停，主力资金大幅流入医药地产，情绪与资金共振，具备短线交易价值。",
+    "catalyst": "地产政策预期升温叠加主力资金大幅净流入，万科A两连板带动板块爆发。"
+  },
+  "de62846d889c2fd90e33ecdf": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "重百集团受托运营观音桥未来国际商业裙楼，加速百货购物中心化转型。",
+    "impact": "positive",
+    "importance": 45,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "重百集团",
+        "code": "600729"
+      }
+    ],
+    "reason": "存量商业调改落地，区域零售龙头转型加速，但短期业绩贡献有限。",
+    "catalyst": "观音桥商圈多店协同布局，存量商业标准化复制提速。"
+  },
+  "6f0262451f296396e3e3d94b": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美国与丹麦及格陵兰达成新安全协议，格陵兰相关美股暴涨，Greenland Energy一度涨218%。",
+    "impact": "neutral",
+    "importance": 45,
+    "sectors": [],
+    "suggested_sector": "稀土",
+    "stocks": [],
+    "reason": "事件为美股格陵兰概念异动，A股无直接关联标的，仅稀土主题可间接联想。",
+    "catalyst": "美丹格陵兰安全协议引发资源与战略资产关注"
+  },
+  "add433a7a099d868c6e5dce0": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "国机集团举办2026年上市公司集体投资者交流活动，9家控股上市公司集中展示发展成果。",
+    "impact": "positive",
+    "importance": 35,
+    "sectors": [],
+    "suggested_sector": "央企改革",
+    "stocks": [
+      {
+        "name": "川仪股份",
+        "code": "603100"
+      },
+      {
+        "name": "国机重装",
+        "code": "601399"
+      },
+      {
+        "name": "一拖股份",
+        "code": "601038"
+      },
+      {
+        "name": "国机精工",
+        "code": "002046"
+      },
+      {
+        "name": "中国电研",
+        "code": "688128"
+      },
+      {
+        "name": "中工国际",
+        "code": "002051"
+      },
+      {
+        "name": "国机汽车",
+        "code": "600335"
+      },
+      {
+        "name": "苏美达",
+        "code": "600710"
+      }
+    ],
+    "reason": "央企投资者交流活动，属常规市值管理动作，缺乏实质业绩催化，交易价值有限。",
+    "catalyst": "央企市值管理与投资者关系活动，展示上市公司投资价值。"
+  },
+  "88c003a9f6bd4fe350036356": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "十部门印发医药工业十五五规划，叠加医保预立项制度，医药股全线爆发，CRO指数涨超5%。",
+    "impact": "positive",
+    "importance": 82,
+    "sectors": [
+      "医药生物"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "峆一药业",
+        "code": ""
+      },
+      {
+        "name": "华仁药业",
+        "code": ""
+      },
+      {
+        "name": "近岸蛋白",
+        "code": ""
+      },
+      {
+        "name": "华北制药",
+        "code": ""
+      },
+      {
+        "name": "新华制药",
+        "code": ""
+      },
+      {
+        "name": "精华制药",
+        "code": ""
+      },
+      {
+        "name": "海南海药",
+        "code": ""
+      },
+      {
+        "name": "神奇制药",
+        "code": ""
+      }
+    ],
+    "reason": "国家级产业规划+医保价格预立项双催化，板块集体涨停，情绪与政策共振，值得进入交易池。",
+    "catalyst": "医药工业十五五规划与医保预立项制度落地，创新药械及CXO受益。"
+  },
+  "b8e0d1120af1e2f5c602aac9": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "观想科技拟4.82亿现金收购辽晶电子60%股权，构成重大资产重组，股价大涨14.07%。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "半导体",
+      "军工"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "观想科技",
+        "code": "301213"
+      }
+    ],
+    "reason": "重大资产重组叠加军工半导体并购，标的业绩承诺明确，短期催化强。",
+    "catalyst": "现金收购军用半导体小巨人，业绩承诺增厚预期。"
+  },
+  "1ccf4ff8e6a05a4f5d30b007": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "ST椰岛因涉嫌信息披露违法违规被证监会立案调查，公司近年持续亏损。",
+    "impact": "negative",
+    "importance": 55,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "ST椰岛",
+        "code": "600238"
+      }
+    ],
+    "reason": "立案调查属重大负面，个股风险高，仅影响ST椰岛自身，板块带动有限。",
+    "catalyst": "证监会立案调查，信息披露违法违规风险暴露。"
+  },
+  "61bd04faf6576e3feeafe233": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "港交所刊发咨询文件，拟将分拆上市限制期由3年缩短至1年，并优化交易监管规定。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "港股上市制度优化提升市场竞争力与交易效率，利好券商及港股相关业务。",
+    "catalyst": "港股上市机制竞争力检讨第二阶段，分拆限制期缩短、交易门槛放宽。"
+  },
+  "034d3bdad718cf98c9316273": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美股三大股指高开，科技股普涨，美联储官员称若通胀源于需求过热或需更激进加息",
+    "impact": "positive",
+    "importance": 65,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美股科技股大涨提振A股AI算力、半导体情绪，但美联储偏鹰表态构成扰动",
+    "catalyst": "美股大型科技股普涨，Arm、英特尔等半导体股领涨"
+  },
+  "cb12ea38d0b6b84933846275": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "AMD股价创历史新高，市值首破1万亿美元，延续五日连涨。",
+    "impact": "positive",
+    "importance": 75,
+    "sectors": [
+      "AI算力",
+      "半导体"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "海外AI算力龙头市值里程碑，提振A股半导体与算力板块情绪。",
+    "catalyst": "AMD市值破万亿，AI算力需求预期升温。"
+  },
+  "cb543a2fb02ca30e7f86714e": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "保利联合下属公司续签42亿元爆破服务合同，服务期3年，利好未来业绩。",
+    "impact": "positive",
+    "importance": 55,
+    "sectors": [],
+    "suggested_sector": "民爆",
+    "stocks": [
+      {
+        "name": "保利联合",
+        "code": "002037"
+      }
+    ],
+    "reason": "大额合同续签直接增厚未来业绩，但民爆板块非当前主流热点。",
+    "catalyst": "42亿元矿山爆破服务合同续签，叠加民爆十五五规划推动行业整合。"
+  },
+  "ff5b725d5a9c3e6fc4973467": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "美联储古尔斯比警告通胀风险并称或需进一步加息，摩根士丹利预计标普500或跌7%。",
+    "impact": "negative",
+    "importance": 78,
+    "sectors": [
+      "券商"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "美联储加息警告叠加美股下行风险，压制全球风险偏好，间接利空A股券商等金融板块。",
+    "catalyst": "美联储官员鹰派警告，加息预期升温，美股回调风险加剧。"
+  },
+  "27bfe9cd46466c98e46f1702": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "厦门钨业就洛阳豫鹭停产向洛阳钼业提起仲裁，涉案1.16亿元，洛阳钼业称积极应诉。",
+    "impact": "negative",
+    "importance": 62,
+    "sectors": [],
+    "suggested_sector": "钨钼有色",
+    "stocks": [
+      {
+        "name": "厦门钨业",
+        "code": "600549"
+      },
+      {
+        "name": "洛阳钼业",
+        "code": "603993"
+      }
+    ],
+    "reason": "两家有色龙头合资纠纷停产仲裁，影响钨钼供应预期，但金额占比小，事件驱动为主。",
+    "catalyst": "合资尾矿供应中断致停产，仲裁索赔1.16亿元"
+  },
+  "08576e637e95baa40b835980": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "微博博主“理记”爆料西贝将倒闭，直播回应称不为流量，事后主动退网。",
+    "impact": "neutral",
+    "importance": 15,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "西贝为非上市餐饮企业，无直接A股标的，仅情绪扰动消费板块。",
+    "catalyst": "西贝倒闭传闻引发餐饮消费关注，但无实质交易影响。"
+  },
+  "84deedc576bc3d9ee3a59a77": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "西贝持续关店收缩，门店较高峰减少近四成，缓发工资并调整薪酬，累计亏损预计超6亿。",
+    "impact": "negative",
+    "importance": 45,
+    "sectors": [
+      "消费"
+    ],
+    "suggested_sector": "",
+    "stocks": [],
+    "reason": "西贝为非上市餐饮企业，事件反映餐饮消费疲软，但无直接A股标的，仅情绪面影响消费板块。",
+    "catalyst": "餐饮龙头大幅收缩，印证线下餐饮消费需求走弱。"
+  },
+  "639f3fc5e325cd71d44b22fd": {
+    "enabled": true,
+    "provider": "deepseek",
+    "summary": "机器人触觉感知独角兽帕西尼完成辅导备案，拟冲刺A股IPO，累计融资超40亿元，比亚迪、三星等产业资本押注。",
+    "impact": "positive",
+    "importance": 72,
+    "sectors": [
+      "机器人"
+    ],
+    "suggested_sector": "",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "code": "002594"
+      }
+    ],
+    "reason": "具身智能触觉感知头部企业启动IPO，产业资本密集，提振机器人板块情绪。",
+    "catalyst": "触觉感知第一股冲刺A股，比亚迪三星等产业资本加持"
+  }
+}
