@@ -1,1 +1,7 @@
-{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4215129.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-10-14T00:13:00.085158+08:00"}
+{"source": "新浪财经", "source_id": "sina_finance", "url": "https://finance.sina.com.cn/roll/2026-10-14/doc-inivezmk4514988.shtml", "error": "The read operation timed out", "crawled_at": "2026-10-14T21:52:51.055964+08:00"}
+{"source": "新浪财经", "source_id": "sina_finance", "url": "https://finance.sina.com.cn/roll/2026-10-14/doc-inivezmn1286835.shtml", "error": "The read operation timed out", "crawled_at": "2026-10-14T21:52:51.055964+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4218854.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-10-14T21:57:31.110668+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4218835.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-10-14T21:57:31.110668+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4218817.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-10-14T21:57:31.110668+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4217668.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-10-14T21:57:31.110668+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/detail/4217554.html", "error": "<urlopen error [Errno 104] Connection reset by peer>", "crawled_at": "2026-10-14T21:57:31.110668+08:00"}
