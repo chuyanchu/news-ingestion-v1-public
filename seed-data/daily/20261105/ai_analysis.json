@@ -1,0 +1,30 @@
+{
+  "6db4534fce8e33e4a8217fea": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  },
+  "f0e957ba9898f3c1a8f5d3c9": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  },
+  "7cc119235f1bd6e38ee67e44": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  },
+  "a69ac73d43b8814cd3849a91": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  },
+  "2dbf5a0d668153c6986911eb": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  },
+  "009e80ae1135c275d4c6e040": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  },
+  "baac975fac4c7b85bcdfd746": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  }
+}
