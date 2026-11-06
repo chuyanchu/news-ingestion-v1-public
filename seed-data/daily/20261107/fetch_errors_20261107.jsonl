@@ -1,0 +1,2 @@
+{"source": "新浪财经", "source_id": "sina_finance", "url": "https://finance.sina.com.cn/stock/estate/integration/2026-11-06/doc-inixvmns5278369.shtml", "error": "HTTP Error 404: Not Found", "crawled_at": "2026-11-07T00:02:40.791868+08:00"}
+{"source": "证券时报", "source_id": "stcn", "url": "https://www.stcn.com/article/index.html", "error": "<urlopen error _ssl.c:994: The handshake operation timed out>", "crawled_at": "2026-11-07T00:07:10.313075+08:00"}

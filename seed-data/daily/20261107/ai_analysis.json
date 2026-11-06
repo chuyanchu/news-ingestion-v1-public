@@ -1,0 +1,10 @@
+{
+  "dd565c0966530e579c00d692": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  },
+  "c1143c048803f50b39a8d2da": {
+    "enabled": false,
+    "error": "HTTP Error 402: Payment Required"
+  }
+}
